@@ -1,0 +1,319 @@
+body {
+    background: #F9F9F9;
+}
+.clearfix::after,.clearfix::before {
+    content: "";
+    display: table;
+    clear: both;
+}
+.rdhHeader.text-center {
+    margin-top: 3rem;
+}
+div#register-page {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3rem;
+    padding: 2rem;
+    /* padding: 2rem;
+    border-image: linear-gradient(#3b97ca, #fa319e, #4acac9, #f0c23a) 30;
+    border-width: 2px;
+    border-style: solid; */
+    background: #fff;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+div#basic-details-section .bp-heading
+,.bp-heading,.section-headings
+,.profile.edit .tabscontainer.editProfileTabs h2.section-headings, .social-info-section .section-headings
+{
+    background: none !important;
+    font-size: 20px;
+    font-weight: 700;
+    color: #3b97ca;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.register-page .signup-form .description.indicator-hint.edditedCustom{
+    margin: 0; 
+    padding: 0;
+    border: 0;
+    margin-top: -20px;
+}
+.field_last-name, .field_birthday, .field_professional-information-last-name, .field_social-media-info-last-name, .editfield.account-detail-info-email, .editfield.account-detail-info-confirm-pass 
+,.field_contact-info-first-name, .field_professional-information-first-name, .field_social-media-info-first-name, .editfield.account-detail-info-username, .editfield.account-detail-info-password
+{
+    float: none;
+    width: 100%;
+}
+#wrapper .layout-wrap  label,#wrapper .layout-wrap  legend {
+    font-size: 12px;
+    font-weight: 700;
+    /* color: #1c2437; */
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+}
+
+.layout-wrap input[type="text"],
+.layout-wrap  input[type="password"],
+.layout-wrap  input[type="date"],
+.layout-wrap  input[type="datetime"],
+.layout-wrap  input[type="email"],
+.layout-wrap  input[type="number"],
+.layout-wrap  input[type="search"],
+.layout-wrap  input[type="tel"],
+.layout-wrap  input[type="time"],
+.layout-wrap  input[type="url"],
+.layout-wrap  textarea,
+.layout-wrap  select
+{
+    font-family: 'Montserrat';
+    display: block;
+    width: 100%;
+    font-weight: 400;
+    line-height: 1.5;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    height: 60px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    outline: none;
+    background: #ffffff;
+    padding: 0 20px;
+    font-size: 15px;
+    color: #546274;
+}.flex-row {
+    display: flex;    margin-left: -15px ;
+    margin-right: -15px ;
+}
+.flex-row  >div{ padding-left: 15px; padding-right: 15px;}
+.toggle-password{   
+    margin-top: -5px;    right: 10px;
+}
+.toggle-password{
+    top: 26px;
+    font-size: 16px;
+}
+.buddypress-wrap .register-page .layout-wrap .register-section.default-profile, .contact-info-section, .professional-info-section, .social-info-section, .my-publication-section{
+    border: 0px solid #d7d7d7;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.split-intp-four .editfield.degree_title{
+    width: 25%;
+}
+.editfield{
+    position: relative;
+}
+.Ntooltip {
+    position: absolute;
+    bottom: 5px;
+}
+#basic-details-section .Ntooltip {
+    bottom: -24px;
+}
+#wrapper .layout-wrap .Ntooltip label, #wrapper .layout-wrap .Ntooltip label{
+     font-size: 10px;
+     color: red;
+     background: #fff;
+}
+.label-tag {
+    min-width: 25%;
+    margin-top: 20px;
+}
+div#register-page select{
+
+    background: #fff url(/wp-content/themes/revolution/assets/img/select_arrow.png) calc(100% - 12px) 27px no-repeat;
+}
+
+.split-intp-four {
+    margin-bottom: 20px;
+    border-bottom: 1px dashed #e6e6e6;
+    padding-bottom: 1rem;
+}
+#wrapper .layout-wrap .options-hours-wrap label{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 10px;
+    color: #3b97ca;
+}
+.contactInfo-container,.contact-info-section {
+    margin-bottom: 0;
+    margin-top: 3rem;
+}
+
+.layout-wrap .social-info-section input[type="text"],
+ .layout-wrap .social-info-section  input[type="password"],
+  .layout-wrap .social-info-section  input[type="date"],
+   .layout-wrap .social-info-section  input[type="datetime"],
+    .layout-wrap .social-info-section  input[type="email"],
+     .layout-wrap .social-info-section input[type="number"],
+      .layout-wrap .social-info-section  input[type="search"],
+       .layout-wrap .social-info-section  input[type="tel"],
+        .layout-wrap .social-info-section  input[type="time"],
+         .layout-wrap .social-info-section  input[type="url"],
+          .layout-wrap .social-info-section  textarea, .layout-wrap .social-info-section  select{
+            font-size: 14px;
+          }
+          .social-info-section .field_linkedin fieldset legend,
+          .social-info-section .field_instagram fieldset legend,
+          .social-info-section .field_youtube fieldset legend,
+          .social-info-section .field_tiktok fieldset legend,
+          .social-info-section .field_twitter fieldset legend,
+          .social-info-section .field_facebook fieldset legend,
+          .social-info-section .field_blog fieldset legend{
+            top: 16px;
+            
+          }          
+          .social-info-section fieldset .socialHandlerText{
+            padding-left: 40px;
+            
+          }      
+          .field_tiktok legend:before{
+            width: 24px;
+            height: 24px;
+          }
+          .social-info-section   .field_linkedin
+          ,.social-info-section  .field_youtube,.field_twitter
+          ,.social-info-section .field_blog
+          { 
+            padding-right: 7px;
+          } 
+          .social-info-section  .field_instagram
+          ,.social-info-section  .field_tiktok,.field_facebook
+          {
+            padding-left: 7px;
+          }
+          .social-info-section .field_instagram, .social-info-section .field_tiktok, .field_facebook{
+            padding-left: 0;
+          }          
+          h1.headingRegisration {
+            text-transform: uppercase;
+            font-size: 42px;
+            margin-bottom: 2rem;
+
+        }
+
+        .field_linkedin, .field_instagram, .field_youtube, .field_tiktok, .field_twitter, .field_facebook, .field_blog, .field_states-select-all-that-apply, .field_how-many-years-have-you-been-a-practicing-hygienist, .field_do-you-practice-in-office, .field_do-you-attend-professional-conferences, .field_please-check-any-of-the-boxes-that-apply-to-you {
+            width: 100%;
+        }        
+        .social-info-section .field_linkedin, .social-info-section .field_youtube, .field_twitter, .social-info-section .field_blog {
+            padding-right: 0px;
+        }
+        input.socialHandlerText {
+            max-width: 200px;
+        }
+        #wrapper .layout-wrap .social-info-section legend{
+            font-size: 28px;
+            height: 37px;
+            line-height: 1;
+        
+        }  
+        
+
+        .field_linkedin fieldset legend:before{
+            color: #0A66C2 !important;
+        }
+         .field_instagram fieldset legend:before{
+            color: #F56040 !important;
+         }
+          .field_youtube fieldset legend:before{
+            color: #FF0000 !important;
+          }
+            .field_twitter fieldset legend:before{
+                color: #1DA1F2 !important;
+            }
+             .field_facebook fieldset legend:before{
+                color: #4267B2 !important;
+             }
+              .field_blog fieldset legend:before{
+                color: #0A66C2 !important;
+              }
+              .social-info-section  .editfield.field_blog input{
+                padding-left: 40px;
+              }
+              
+
+    .register-page .button-submitt {
+        float: left;
+        width: 100%;
+    }            
+    .register-page .button-submitt input{
+        font-size: 20px;
+        background-color: #1fb6e4;
+        border-color: #1fb6e4;
+        border-radius: 5px;
+        text-transform: uppercase;
+        width: 100%;
+        padding: 8px 10px;
+        text-align: center;
+        letter-spacing: 0;
+        font-weight: 600;
+
+    }       
+
+    .register-page .button-submitt input:hover {
+        box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #4acac978 0 -3px 0 inset;
+        transform: translateY(-0px);
+    }    
+
+    .social-info-section {
+        margin-bottom: 0;
+    }    
+    .error {
+        border-color: red !important;
+    }    
+
+    @media (max-width: 767px){
+    .flex-row {
+        flex-wrap: wrap;
+    }
+    #register-page .editfield.degree_title {
+
+        width: 100%;
+    }
+    .split-intp-four .editfield.degree_title {
+        width: 35%;
+    }
+    h1.headingRegisration {
+        margin-bottom: 1rem;
+        font-size: 28px;
+    }
+
+    .rdhHeader.text-center {
+        margin-top: 0rem;
+    }
+    #wrapper .layout-wrap label, #wrapper .layout-wrap legend
+    ,div#basic-details-section .bp-heading, .bp-heading, .section-headings, .profile.edit .tabscontainer.editProfileTabs h2.section-headings, .social-info-section .section-headings
+    {
+        text-align: left;
+    }
+    div#register-page select{ margin-bottom: 25px;}
+
+
+    #register-page .editfield.degree_title.hours-operation, #register-page .editfield.degree_title.hours-operation-closed {
+        width: 38%;
+        padding-right: 0;
+    }
+    .label-tag {
+        min-width: 90px;
+        margin-top: 0px;
+        max-width: 90px;
+    }
+    div#register-page{
+        padding: 1.5rem;
+        background: none;  
+    }
+
+}    
+
+
+@media (max-width: 400px){
+    #register-page .editfield.degree_title.hours-operation, #register-page .editfield.degree_title.hours-operation-closed {
+        width: 33%;
+    } 
+    input.socialHandlerText {
+        max-width: 170px;
+    }
+}

@@ -1,0 +1,88 @@
+/*
+custom css for support system
+*/
+
+body{
+      margin-top: 76px !important;
+}
+.view-detail-panel .avadar-icon{
+    padding-left:5px;
+}
+.close_ticket{
+    padding: 6px 10px !important;
+    font-weight: 600;
+}
+body .detail-page-support .back-btn a, body .colr-orange, body .body-cnt-box h5 span, h2.support-heading{
+    color: #fbac16 !important;
+}
+.ticket-panel .nav-tabs.nav-justified>.active>a, .ticket-panel .nav-tabs.nav-justified>.active>a:hover, .ticket-panel .nav-tabs.nav-justified>.active>a:focus{
+    border-bottom: 1px solid #e1e1e1 !important;
+    background: #fff !important;
+    color: #333;
+
+}
+.answerd-righpanal input[type="submit"]{
+   background: #159da1  !important;
+}
+.answerd-righpanal input:hover[type="submit"]{
+   background: #eee  !important;
+   color: #353535!important;
+}
+.detail-page-support .back-btn a{
+        border: 1px solid #e1e1e1 !important;
+}
+.ticket-panel .nav-tabs.nav-justified>li>a:hover {
+    border-bottom: 1px solid #e1e1e1 !important;
+    background: #fff !important;
+}
+.ticket-panel .nav-tabs.nav-justified>li>a {
+    border-bottom: 1px solid #e1e1e1 !important;
+
+}
+body .cant-find-answer .btn-default {
+    color: #fcfcfc;
+    background-color: #fbac16 !important;
+    border-color: #fbac16 !important;
+}
+body .ticket-box{
+    border: 1px solid #fbac16 !important;
+}
+body .ticket-subject{
+        font-weight: 600 !important;
+}
+body .detail-page-support .body-cnt-box p {
+
+    color: #000;
+}
+body .ticket-box.view-detail-panel{
+    border:none !important;
+
+
+}
+body div.date-show {
+    width: 150px;
+    float: left;
+    margin-top: 3px !important;
+    font-size: 12px !important;
+    color: #b5b5b5 !important;
+    margin-left: 10px;
+
+}
+.subject-title{
+    clear: both;
+    display: block;
+}
+.ticket-panel  .nav-tabs.nav-justified>li>a{
+  margin-left: 0px;
+}
+.ticket-panel  .nav-tabs.nav-justified>li>a:hover{
+      color: #333;
+}
+
+.answerd-righpanal input[type="submit"]{
+      min-width: 139px;
+}
+.body-cnt-box .ticket-subject{      font-weight: normal!important; }
+
+.cant-find-answer.col-md-4.col-md-offset-4 #file-ticket1{ border-radius: 3px !important;}
+.site-inner{    margin-top: 12px;}

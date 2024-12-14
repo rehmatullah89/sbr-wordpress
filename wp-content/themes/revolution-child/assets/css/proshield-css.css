@@ -1,0 +1,1331 @@
+.row{
+  display:-ms-flexbox;
+    display:flex;
+    -ms-flex-wrap:wrap;
+    flex-wrap:wrap;
+    /* margin-right:-15px;margin-left:-15px; */
+}
+.section-top-banner{
+    background: #002244;
+}
+.block{ display: block;}
+.font-bebas{
+    font-family: 'Bebas Neue', sans-serif;
+}
+.mb-0{ margin-bottom: 0;}
+.d-flex{display: flex;flex-wrap: wrap;}
+.col-sm-5 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 41.666667%;
+    flex: 0 0 41.666667%;
+    max-width: 41.666667%;
+  }
+  .col-sm-6 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+ .justify-content-between {
+    justify-content: space-between;
+}
+.justify-content-center{ justify-content: center;}
+.bg-graphic{
+  background-size: cover;
+  height: 100%;
+  width: 864px;
+  position: absolute;
+  top: 0;
+  background-repeat: no-repeat;
+  max-width: 724px;
+  left: -107px;
+}
+.content-adht{
+  padding-top: 100px;padding-bottom: 50px;
+}
+.tm-small-symbal {
+  font-size: 20px;
+  position: absolute;
+  top: 0;
+  line-height: 23px;
+  font-weight: 400;
+  font-family: "Montserrat";
+}
+
+.content-adht h1{
+    font-size: 90px;
+    color: #fff;
+    line-height: 75px;
+    position: relative;
+}
+.section-top-banner h2{
+  font-weight: bold;
+  font-size: 50px;
+  color: #fff;
+  line-height: 52px;
+  margin-top: 55px;
+}
+.section-top-banner p{
+  font-weight: bold;
+  font-size: 16px;
+  color: #fff;
+}
+
+
+.section-logoesgreen h3{
+  font-family: "Montserrat"; 
+  text-align: center;
+  color: #e2e2e2;
+  font-size: 46px;
+  /* font-style: italic; */
+  font-weight: 700;
+
+ }
+
+.weight-medium{ font-weight: 400 !important;}
+.section-logoesgreen {
+    background: #69be28;
+    padding-top: 2rem;
+    padding-bottom: 2rem;    
+}
+
+
+.section-footbal-combat.section-row-generic,.section-ice-hockey-combat
+,.section-girl-lifting-weight
+{
+    background: #002244;
+    background-repeat: no-repeat;
+    background-position: left center;
+    min-height: 750px;
+}
+
+.section-ice-hockey-combat{
+  background: #5f6c79;
+  background-repeat: no-repeat;
+  background-position: right center;  
+}
+
+.h-100{ height:100%;}
+.progress {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 16px;
+    overflow: hidden;
+    font-size: .75rem;
+    background-color: #e9ecef;
+
+  }
+  .progress-bar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    background-color: #007bff;
+    transition: width .6s ease;
+  }
+  .progress-div{ width:220px}
+  .bars-status-wrapper {
+    max-width: 450px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .border-top-solid{
+    border-top: 1px solid #c3c5c9;
+  }
+  .border-bottom-solid{
+    border-bottom: 1px solid #c3c5c9;
+  }
+  .bar-status{ padding-top: 10px; padding-bottom: 10px;width: 90%;gap: 15px;}
+
+  .green-strip .progress-bar{
+    background-color: #69be28;
+  }
+  .yellow-strip .progress-bar{
+    background-color: #f5d060;
+  }
+  .red-strip .progress-bar{
+    background-color: #ff0000;
+  }
+
+
+  .visual-graphic img {
+    max-width: 767px;
+    margin-left: -2%;
+  }
+.content-row h4{
+    font-size: 42px;
+    color: #ffffff;
+    margin-bottom: 10px;
+    line-height: 1;
+
+}
+.content-row p{
+    font-size: 14px;
+    color: #ffffff;
+    margin-top: 0px;
+}
+
+.btn-primary-teal{
+    font-size: 20px;
+    letter-spacing: 0;
+    color: #ffffff; 
+    background: #69be28;
+    padding: 9px 9px;
+    border-color:#69be28;
+
+}
+.bar-status span{
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 16px;
+  min-width: 133px;
+  text-align: right;
+}
+.width-max-80{
+  max-width: 80%;
+}
+.ml-auto-md{ margin-left: auto;}
+.mr-auto-md{margin-right: auto;}
+
+.flex-shrink{
+  flex-grow: 1;
+  flex-shrink: 1;
+  /* flex-basis: 100px; */
+}
+
+.sport-texta {
+  color: #fff;
+  font-size: 15px;
+}
+.modes-section {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 450px;
+  margin-top: 20px;
+
+}
+.section-girl-lifting-weight .modes-section {
+  max-width: 150px;
+}
+
+/* product styles */
+.selectcolorBox a.colo-selector{ display: inline-flex; width: 42px; height:42px; border: 1px solid #c5c6c9; padding: 2px;align-content: center;
+  justify-content: center;    flex-wrap: wrap;color: #000;    position: relative; }
+.selectcolorBox a.colo-selector span{ font-size: 10px;text-transform: uppercase; }
+#clear{ background-color: #ffffff;}
+.white-clr{ background-color: #ffffff;}
+.red-clr{ background-color: #ff0000;}
+.green-clr{background-color: #69be28;}
+.blue-clr{background-color: #0000ff;}
+.yellow-clr{background-color: #ecd803;}
+.orange-clr{background-color: #f0852d;}
+.purple-clr{background-color: #562270;}
+.black-clr{background-color: #000000;}
+.pink-clr{background-color: #ffc0cb;}
+.selectcolorBox a.colo-selector.selected{ border:4px solid #002244;}
+.selectcolorBox .d-flex{ gap:8px}
+.section-product{ padding-top: 75px;padding-bottom: 75px;}
+.section-product h4{ color:#002244; font-size:38px;}
+.max-width810{ max-width: 800px; margin-left: auto; margin-right: auto;}
+.section-product p{ color:#565759; font-size:20px;}
+.product-proshield .selectPackageBox {
+  background: #5f6c79;
+  display: none;
+  z-index: 123;
+  bottom: 136px;
+  width: 90%;
+  right: 0;
+  margin-right: auto;
+  left: inherit;
+}
+.product-proshield .openPackage .selectPackageBox  {
+  display: block;
+}
+
+.product-proshield .selectPackageBox:after{
+  /* content: "";
+  background: #5f6c79;
+  width: 190px;
+  height: 15px;
+  position: absolute;
+  bottom: -12px;
+  right: 0; */
+}
+.wrapper.flex-wrapper .form-group-radio-custom{
+  -ms-flex: 0 0 49%;
+flex: 0 0 49%;
+max-width: 49%;
+}
+.product-proshield .wrapper.flex-wrapper{
+  gap: 9px;
+}
+
+.product-selection-box{ position: relative;}
+
+.product-proshield .product-selection-box-info {
+  position: absolute;
+  top: -40px;
+  color: #73c236;
+  left: 0;
+  right: 0;
+  font-size: .9em;
+  font-size: 13px;
+  font-weight: 400;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.product-proshield  .product-selection-title {font-size: 30px;font-weight: 300; margin-top: -84px;}
+.product-proshield .description-product ul{ list-style: none;}
+.product-proshield .description-product ul li {
+  border-bottom: 1px solid #c3c5c9;
+  padding-bottom: 7px;
+  padding-top: 7px;
+  font-size: 14px;
+}
+.product-proshield .description-product  .progress-div {
+  max-width: 84px;
+}
+.product-proshield .description-product  .bar-status span {
+  color: #565759;
+  font-weight: bold;
+  font-size: 14px;
+  min-width: inherit;
+  text-align: left;
+}
+.product-proshield  .text-farward-bar {
+  font-size: 10px;
+}
+.product-proshield .description-product  .bars-status-wrapper{
+  justify-content: start;
+}
+.product-proshield .description-product  .bars-status-wrapper .bar-status{
+  gap: 8px;
+  padding-top: 0px;
+padding-bottom: 0px;
+}
+.product-proshield .description-product .info-des-jayy {
+  font-weight: 600;
+}
+.product-proshield .product-selection-dentist-price-note p{ font-size: 13px;}
+.product-proshield h4.default{
+  font-size:40px;
+  color:#002244;
+  font-weight:300;
+
+}
+.product-proshield p.default{
+  font-size:20px;
+  color:#565759;
+
+}
+.product-proshield .section-product .selectPackageWrapper  h4{
+  font-size:20px;
+  color:#fff;
+  font-weight:500;
+  margin-bottom: 0;
+  position: relative;
+}
+.product-proshield .section-product h4 .iconCloseBox{
+  position: absolute;
+  right: -10px;
+  top: -19px;
+  color: #fff;
+  font-size: 24px;
+}
+
+.product-proshield .section-product .selectPackageWrapper  p{
+  font-size:12px;
+  color:#fff;  
+}
+.product-proshield  .number-id-field{
+  align-items: center;
+  margin-top: 20px;
+  padding-left: 11px;
+  padding-right: 11px;  
+}
+.product-proshield  .number-id-field span{
+  font-size:16px;
+  color:#fff; 
+  font-weight: bold; 
+}
+
+.product-proshield  .number-id-field .number-letter{
+  max-width: 90px;
+  margin-bottom: 0;
+  padding: 4px 16px;
+  max-height: 42px;
+  text-align: center;
+  border: 2px solid #c5c6c9;
+  font-family: "Montserrat";
+  color: #000;
+
+}
+.product-proshield .priceparentBx {
+  font-size: 30px;
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 1;
+}
+.product-proshield  .dollerSign {
+    font-size: 60%;
+}
+.product-proshield .targeted_avr{  color: #fff;} 
+
+.product-proshield .selectPackageBox .addToCartBottom button
+,.product-proshield  button.add_to_cart_button
+{ margin-top: 0;
+  letter-spacing: 0;
+  font-size: 20px;
+  font-weight: 300;
+  background-color: #002244;
+  border-color: #002244;
+}
+.product-proshield .selectPackageBox .addToCartBottom button:hover
+,.product-proshield  button.add_to_cart_button:hover{
+  background-color: #595858;
+  border-color: #595858;
+}
+.product-proshield .packageFooter .normalyAmount{
+  margin-bottom: 8px;
+}
+.product-proshield .wrapper.flex-wrapper{
+  margin-bottom: 25px;
+}
+.product-proshield  .form-group-radio-custom [type="radio"]:checked + label{
+  background: #5f6c79;
+  border-color: #fff !important;
+}
+.product-proshield  .form-group-radio-custom [type="radio"]:checked + label .mmAmount
+,.product-proshield  .form-group-radio-custom [type="radio"]:checked + label .mmpopular
+{
+  color: #fff;
+}
+.product-proshield  .form-group-radio-custom [type="radio"]:checked + label::before,.product-proshield  .form-group-radio-custom [type="radio"]:not(:checked) + label::before {
+
+    width: 20px;
+  height: 20px;
+}
+.product-proshield .form-group-radio-custom [type="radio"]:checked + label::after, .form-group-radio-custom [type="radio"]:not(:checked) + label::after {
+  background: #69be28;
+  left: 20px;
+  /* top: 50%;
+transform: translateY(-50%); */
+top: 21px;
+}
+.product-proshield .form-group-radio-custom [type="radio"]:checked + label::before {
+  border-color: #bdc1c4;
+}
+.product-proshield  .form-group-radio-custom [type="radio"]:checked + label::before,.product-proshield  .form-group-radio-custom [type="radio"]:checked + label::before {
+  background: #5f6c79;
+}
+.product-proshield .disabled-main-checkout .box-checkout{
+  background: #e0e3e6;
+  pointer-events: none;
+  border-color:#e0e3e6;
+}
+
+.product-proshield .product-box .product-selection-dentist-price-note p{
+  font-size:13px;
+}
+.product-proshield .product-box .info-des-jayy {
+  font-weight: 600;
+}
+.product-proshield .product-box .title-brlow-image {
+  font-weight: 600;
+}
+.product-proshield .page-row{ display: flex;flex-wrap: wrap;  gap:100px;}
+.product-proshield  .process-box{
+  /* -webkit-box-flex: 0;
+  -ms-flex: 0 0 33.333333%;
+  flex: 0 0 33.333333%;
+  max-width: 33.333333%; */
+  max-width: 358px;
+
+}
+.bg-light-green{
+  background: #f1f9ec;
+}
+
+.page-col-6{
+ -webkit-box-flex: 0;
+  -ms-flex: 0 0 50%;
+  flex: 0 0 50%;
+  max-width: 50%;
+  padding: 1.5rem;
+}
+.page-col-8{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  -ms-flex: 0 0 50%;
+  flex: 0 0 50%;
+  max-width: 50%;  
+}
+.product-proshield  .the-process-title{
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+.product-proshield .process-media{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 250px;
+}
+.product-proshield .the-proshield-process{padding-top: 3rem; padding-bottom: 3rem; }
+.product-proshield .the-proshield-process h4{margin-bottom: 65px; }
+.product-proshield .the-process-circle{
+  margin-top: 30px;
+}
+.product-proshield  .ht-txt {
+  min-width: 101px;
+}
+.sports-guard-package{ border-top: 1px solid #eee; padding:3rem 0; margin: 2rem 0 0 0;}
+.product-proshield  .graphic{ max-width: 160px;}
+.product-proshield  .tw-scnt {
+  max-width: 68%;padding-left: 30px;
+}
+.tw-scnt h5{margin-bottom: 4px; font-size: 16px; line-height: 16px;}
+.tw-scnt p{font-size: 16px; line-height: 22px;max-width: 80%; margin: 0;}
+
+.text-green{
+  color: #69be28;
+}
+.row-section-pro > .d-flex{ position: relative;}
+.row-section-pro > .d-flex.border-bottom-solid:before{content: "";}
+.row-section-pro > .d-flex.border-bottom-solid::before {
+  content: "";
+  height: 100%;
+  width: 1px;
+  position: absolute;
+  left: 50%;
+  top: 0;
+  background: #c3c5c9;
+}
+.sports-guard-package .graphic-media {
+  margin-top: 4rem;
+  margin-bottom: 4rem;  
+}
+.product-proshield .faq-section .textwidget h4{
+  color:#fff;
+}
+.product-proshield .faq-section .textwidget h2{
+  color:#69be28;
+  font-size: 38px;
+}
+.product-proshield a.ewd-ufaq-post-margin h4 {
+  position: relative;
+  top: 3px;
+  font-size: 22px;
+  margin: 0 !important;
+  color:#fff;
+}
+.product-proshield  .ewd-ufaq-faq-title-text h4{}
+.product-proshield  .ewd-ufaq-faq-post p{}
+.product-proshield .ewd-ufaq-faq-div {
+  border-bottom: 1px solid #c3c5c9;
+  margin: 8px 0;
+  padding: 10px 0;
+    padding-top: 10px;
+  clear: both;
+  padding-top: 0;
+}
+.product-proshield .ewd-ufaq-faq-body {
+  padding: 20px 24px;
+    padding-left: 24px;
+  padding-left: 45px;
+}
+.product-proshield .ewd-ufaq-post-margin.ewd-ufaq-faq-post p {
+  line-height: 26px;
+  margin-bottom: 0;
+  color:#fff;
+}
+
+.product-proshield  .product-night-guards .ewd-ufaq-permalink {
+  display: none;
+}
+.product-proshield .ewd-ufaq-post-margin-symbol span,
+.product-proshield a.ewd-ufaq-post-margin:hover h4
+,.product-proshield .teal
+,.product-proshield .faq-section .textwidget h2
+{
+  color: #69be28 !important;
+}
+.product-proshield .faq-section .wpb_column.columns.medium-12.thb-dark-column.small-12 {
+  max-width: 760px;
+}
+.product-proshield a.ewd-ufaq-post-margin h4{
+  top: 0px;
+  font-size: 20px;
+}
+.ewd-ufaq-permalink {
+  display: none;
+}
+#page-end-contnet {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.btn-primary-transparent-teal{
+  color: #fff;
+  letter-spacing: 0;
+  border-color: #fff;
+}
+
+.see-pricing-btn .btn {
+  min-width:288px;
+}
+.row-section-pro {
+  margin-bottom: 80px;
+}
+.interested-team-discount-sec a{
+  color: #fff;
+  border-color: #fff;
+}
+/* 1. Ensure this sits above everything when visible */
+.modal {
+  position: absolute;
+  z-index: 10000; /* 1 */
+  top: 0;
+  left: 0;
+  visibility: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+.modal.is-visible {
+  visibility: visible;
+}
+
+.modal-overlay {
+position: fixed;
+z-index: 10;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background: hsla(0, 0%, 0%, 0.5);
+visibility: hidden;
+opacity: 0;
+transition: visibility 0s linear 0.3s, opacity 0.3s;
+}
+
+.modal.is-visible .modal-overlay {
+opacity: 1;
+visibility: visible;
+transition-delay: 0s;
+}
+
+.modal-wrapper {
+position: fixed;
+z-index: 9999;
+top: 6em;
+left: 50%;
+width: 32em;
+margin-left: -16em;
+background-color: #fff;
+box-shadow: 0 0 1.5em hsla(0, 0%, 0%, 0.35);
+border-style: solid;
+border-width: 6px;
+border-radius: 0px;
+border-color: #69be28;
+}
+
+.modal-transition {
+transition: all 0.3s 0.12s;
+transform: translateY(-10%);
+opacity: 0;
+}
+
+.modal.is-visible .modal-transition {
+transform: translateY(0);
+opacity: 1;
+}
+
+.modal-header,
+.modal-content {
+padding: 1em;
+text-align: left;
+
+}
+.modal-content p {
+  font-size: 14px;
+  list-style: 20px;
+}
+.modal-header {
+position: relative;
+background-color: #fff;
+box-shadow: 0 1px 2px hsla(0, 0%, 0%, 0.06);
+border-bottom: 1px solid #e8e8e8;
+}
+
+.modal-close {
+position: absolute;
+top: 0;
+right: 0;
+padding: 1em;
+color: #aaa;
+background: none;
+border: 0;
+}
+
+.modal-close:hover {
+color: #777;
+}
+
+.modal-heading {
+font-size: 1.125em;
+margin: 0;
+font-size: 16px;
+font-weight: 600;
+}
+
+.modal-content > *:first-child {
+margin-top: 0;
+}
+
+.modal-content > *:last-child {
+margin-bottom: 0;
+}
+.section-logoesgreen .logos-item-third{ gap:20px;}
+.openColorPop{
+  position: relative;
+}
+.description-product span b, .description-product b {
+  display: inline-block;
+  padding-right: 4px;
+}
+.openColorPop:before{
+  content: "";
+  background: #5f6c79;
+  width: 99%;
+  height: 15px;
+  position: absolute;
+  top: -13px;
+  right: 1px;
+  z-index: 98;
+  opacity: 0;
+}
+.selectPackageWrapper.openPackage .openColorPop:before{ opacity: 1;}
+.no-wrap{flex-wrap: nowrap;}
+.visual-graphic {
+  margin-bottom: 3rem;
+}
+
+.interested-team-discount-sec.section-logoesgreen h3 {
+  font-size: 34px;
+}
+.btn-primary-teal.btn-blue-clr{
+  background-color: #002244;
+  border-color: #002244;
+}
+.btn-primary-teal.btn-blue-clr:hover{
+  background-color: #595858;
+  border-color: #595858;
+}td.bdy-txt {
+  text-transform: uppercase;
+}
+.stars {
+  margin-right: 5px;
+}
+
+ .product-proshield  .colo-selector  span.toltip {
+    background: none repeat scroll 0 0 #222;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 1.5em;
+    padding: 11px 12px;
+    width: 90px;
+    top: -6em;
+    left: 0;
+    margin-left: 0;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    position: absolute;
+    text-align: center;
+    z-index: 2;
+    text-transform: none;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease-in-out;
+    left: -2em;
+    display: none;
+  }
+.product-proshield  .colo-selector:hover span {
+      opacity: 1;
+      filter: alpha(opacity=100);
+      top: -5em;
+      left: -2em;
+      z-index: 99;
+      -webkit-transition: all 0.2s ease;
+      -moz-transition: all 0.2s ease;
+      -o-transition: all 0.2s ease;
+      transition: all 0.2s ease;
+      display: block;
+    }
+    
+  
+    .product-proshield .colo-selector  span.toltip:after {
+      border-color: #222 rgba(0, 0, 0, 0);
+      border-style: solid;
+      border-width: 10px 10px 0;
+      bottom: -10px;
+      content: "";
+      display: block;
+      left: 31px;
+      position: absolute;
+      width: 0;
+    }
+
+    .selectPackageBox span.product-selection-price-text del bdi
+    ,.selectPackageBox span.product-selection-price-text  bdi
+    ,.selectPackageBox span.product-selection-price-text ins span.woocommerce-Price-currencySymbol
+    {
+      color: #fff;
+    }
+    .selectPackageBox span.product-selection-price-text del:before{
+      background: #00224482;
+    }
+
+
+@media (min-width: 1200px){
+  .row-section-pro{
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .container{margin-left: auto; margin-right: auto;}
+}
+
+
+@media (min-width: 2400px){
+  .content-row h4{
+    /* color: orange; */
+  }
+
+  .section-footbal-combat.section-row-generic,.section-girl-lifting-weight{
+   background-position-x: 18%;
+  }
+
+  .section-ice-hockey-combat{
+    background-position-x: 60%;
+  }
+
+
+}
+@media (min-width: 2800px){
+  .content-row h4{
+    /* color: black; */
+  }
+  .section-footbal-combat.section-row-generic,.section-girl-lifting-weight{
+    background-position-x: 24%;
+   }
+
+   .section-ice-hockey-combat{
+    background-position-x: 60%;
+  }
+
+}
+
+
+
+@media only screen and (max-width: 1500px) {
+  .section-logoesgreen h3{
+    /* color: red; */
+  }
+  .section-logoesgreen h3{
+    font-size: 36px;
+  }
+  .content-row h4{
+    font-size: 35px;
+  }
+  .visual-graphic img{
+    max-width: 100%;
+  }
+
+  .section-top-banner h2 {
+    font-size: 36px;
+    line-height: 38px;
+  }
+
+  .product-proshield .page-row{
+    gap: 30px;
+  }
+
+  .product-proshield .product-selection-title{
+    font-size: 22px;
+  }
+  .product-proshield .description-product .bars-status-wrapper .bar-status {
+    gap: 4px;
+  }
+  .product-proshield .description-product .progress-div {
+    max-width: 60px;
+  }
+  .product-proshield .text-farward-bar {
+    font-size: 9px;
+  }
+  .product-proshield .description-product .bar-status span{
+    font-size: 12px;
+  }
+  .product-proshield .description-product .bar-status{
+    width: 100%;
+  }
+  .product-proshield .description-product ul li{
+    font-size: 12px;
+  }
+  .form-group-radio-custom label span.mmAmount {
+    font-size: 12px;
+  }
+  .product-proshield .tw-scnt {
+    max-width: 60%;
+    padding-left: 25px;
+  }
+  .tw-scnt p{max-width: 100%;}
+  .product-proshield .selectPackageBox::after {
+    /* width: 148px;
+    height: 20px;
+    bottom: -16px; */
+  }
+  .product-proshield .selectPackageBox{
+    width: 100%;
+    right: -1px;
+  }
+  .product-proshield .selectPackageBox::after{
+    /* width: 149px; */
+  }
+  .title-brlow-image {
+    font-size: 14px;
+  }
+
+
+
+}
+
+
+@media only screen and (max-width: 1200px) {
+  .section-logoesgreen h3{
+    /* color: black; */
+  }
+
+  .section-top-banner h2 {
+    font-size: 30px;
+    line-height: 32px;
+  }
+  .bg-graphic {
+
+    width: 527px;
+    max-width: 537px;
+    left: -112px;
+  }
+  .section-logoesgreen h3 {
+    font-size: 30px;
+  }
+
+ .section-logoesgree .justify-content-between {
+    justify-content: space-evenly;
+  }
+  .content-row h4 {
+    font-size: 28px;
+  }
+  .section-footbal-combat.section-row-generic, .section-ice-hockey-combat, .section-girl-lifting-weight{
+    min-height: 600px;
+  }
+
+  .section-ice-hockey-combat{   background-position-x: 20%;}
+  .section-footbal-combat {
+    background-position-x: right !important;
+  }
+  .section-girl-lifting-weight{
+    background-position-x: 80%;
+  }
+  .section-logoesgreen .logos-item-third{
+    flex-wrap: inherit;
+  }
+  .section-girl-lifting-weigh{
+    flex-wrap: inherit;
+  }
+  .product-proshield .description-product ul li {
+    font-size: 11px;
+  }
+  .product-proshield .description-product .bar-status span {
+    font-size: 10px;
+  }
+  .product-proshield .description-product  .info-des-jayy{
+    font-size: 14px;
+  }
+  .lifetime-reorder-head {
+    font-size: 13px;
+  }
+  .product-proshield .product-box .title-brlow-image{
+    font-size: 12px;
+  }
+  .product-proshield .description-product .progress-div {
+    max-width: 30px;
+  }
+  .product-proshield h4.default {
+    font-size: 32px;
+  }
+
+  .product-proshield p.default {
+      font-size: 16px;
+  }
+  .product-proshield .product-selection-title{
+    font-size: 18px;
+    margin-top: -74px;
+  }
+  .product-proshield .product-box .info-des-jayy {
+    font-size: 14px;
+  }
+  .product-selection-box {
+    padding: 30px 15px;
+  }
+
+  #cart-section .col-md-4{
+    -ms-flex: 0 0 75%;
+flex: 0 0 75%;
+max-width: 75%;
+  }
+
+  .product-proshield .description-product ul li
+  ,.product-proshield .description-product .bar-status span
+  {
+    font-size: 14px;
+  }
+
+  .product-proshield .description-product .progress-div {
+    max-width: 120px;
+  }
+  .product-proshield .text-farward-bar {
+    font-size: 11px;
+  }
+
+  .description-product {
+    max-width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .form-group-radio-custom label span.mmAmount {
+    font-size: 14px;
+  }
+  .product-proshield .page-row {
+    gap: 15px;
+  }
+  .product-proshield .process-box {
+    max-width: 290px;
+  }
+  .the-process-content-text{
+    min-height: 80px;
+  }
+  .table-cnt td.bdy-txt {
+    font-size: 13px;
+    text-transform: uppercase;
+  }  
+  .page-col-6{
+    padding: 1.5rem;
+  }
+  .product-proshield .tw-scnt {
+    max-width: 60%;
+    padding-left: 21px;
+  }
+  .tw-scnt p {
+    font-size: 12px;
+    line-height: 16px;
+    max-width: 100%;
+  }  
+
+  .row-section-pro {
+    max-width: 100%;
+  }  
+
+}
+
+@media only screen and (max-width: 991px) {
+  .section-logoesgreen h3{
+    /* color: orange; */
+  }
+  .container {
+    margin: 0 auto;
+  }
+  .section-logoesgreen h3 {
+    font-size: 24px;
+  }
+  .section-top-banner h2 {
+    font-size: 21px;
+    line-height: 24px;
+    margin-top: 22px;
+  }
+
+  .bg-graphic {
+    width: 451px;
+    left: -136px;
+  }  
+
+  .content-adht {
+    padding-top: 47px;
+    padding-bottom: 33px;
+  }  
+  .content-adht h1 {
+    font-size: 62px;
+    line-height: 44px;
+  }
+  .tm-small-symbal {
+    font-size: 12px;
+    line-height: 12px;
+    font-weight: 600;
+  }
+  .btn-primary-teal {
+    font-size: 18px;
+  }
+  .bar-status {
+    width: 100%;
+    gap: 8px;
+  }
+  .progress-div {
+    width: 160px;
+  }
+  .bar-status span {
+    font-size: 16px;
+    min-width: 122px;
+  }
+
+  .section-ice-hockey-combat {
+    background-position-x: 54%;
+  }
+
+  .product-proshield .process-box {
+    max-width: 220px;
+  }  
+  .the-process-content-text {
+    min-height: 120px;
+  }
+
+  .product-proshield .tw-scnt {
+    max-width: 48%;
+    padding-left: 21px;
+  }  
+  .product-proshield .faq-section .textwidget h2 {
+    font-size: 31px;
+  }  
+  .product-proshield a.ewd-ufaq-post-margin h4 {
+        font-size: 18px;
+  }
+  .product-proshield .selectPackageBox {
+    right: 1px;
+  }
+
+}
+@media only screen and (max-width: 768px) {
+
+  span.product-selection-price-text del:before, .body-plaque-highlighter span.product-selection-price-text del:before, .product-electric-toothbrush span.product-selection-price-text del:before {
+    width: 77px;
+}
+
+  
+  .header.fixed{
+    z-index: 9999;
+  }
+  .col-sm-5.adjust-mobile-layout {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;  
+    opacity: 0.3;  
+  }
+  .bg-graphic {
+    width: 360px;
+    left: 0px;
+    background-size: contain;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .col-sm-6 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    position: relative;
+    z-index: 8879;    
+  }
+  .content-adht{
+    text-align: left; 
+  }
+  .section-top-banner {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .section-top-banner p {
+    font-size: 12px;
+  }
+
+  .buttons-action {
+    padding-top: 145px;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .section-logoesgreen .logos-item-third {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .section-logoesgreen .logos-item-third span {
+    max-width: 140px;
+  }
+  .width-max-80 {
+    max-width: 100%;
+  }
+
+  .section-footbal-combat.section-row-generic, .section-ice-hockey-combat, .section-girl-lifting-weight{
+    background-blend-mode: multiply;
+    padding-top: 50px;
+    padding-bottom: 50px;    
+    background-size: cover;
+  }
+  .product-proshield .section-footbal-combat {
+    background-position-x: 37% !important;
+    background-color: #0022449e;
+  }
+ .product-proshield .section-ice-hockey-combat {
+  background-position-x: 71%;
+    background-color: #5f6c79;
+  }
+  
+  .section-girl-lifting-weight{
+    background-color: #00224470;
+    background-position-x: 40%;
+  }
+  .product-proshield h4.default {
+    font-size: 24px;
+  }
+  #cart-section .col-md-4 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .product-proshield .description-product .progress-div {
+    max-width: 46px;
+  }.product-proshield .process-box {
+    max-width: 350px;
+  }
+  .page-col-6,.page-col-8 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding: 1rem;
+    border-bottom: 1px solid #c3c5c9;
+  }
+  .product-proshield .graphic {
+    max-width: 80px;
+  }
+  .product-proshield .tw-scnt {
+    max-width: 70%;
+    padding-left: 15px;
+  }
+
+  .row-section-pro > .d-flex.border-bottom-solid::before {
+    display: none;
+  }
+  .product-proshield .selectPackageBox{
+    right: -1px;
+  }
+  .openColorPop::before{
+    width: 99%;
+  }
+
+  .action-btn.hidden-desktop {
+    margin-top: 2rem;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+  .modal-wrapper{
+    width: 24em;
+    margin-left: -12em;
+  }
+
+  .order-1-m{order: 1;}
+  .order-2-m{order: 2;}
+  .order-3-m{order: 3;}
+  .content-description-sbr {
+    padding: 1rem 15px;
+  }
+  .sport-texta {
+    font-size: 14px;
+  }
+
+  .section-product {
+    padding-top: 40px;
+    padding-bottom: 42px;
+  }
+
+  .interested-team-discount-sec.section-logoesgreen h3 {
+    font-size: 18px;
+    padding-left: 15px;
+padding-right: 15px;
+  }
+
+  .product-proshield .the-proshield-process {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 1rem;
+  }
+  .sports-guard-package {
+    padding: 2rem 1rem;
+  }
+  .product-proshield .ewd-ufaq-post-margin.ewd-ufaq-faq-post p{
+    text-align: left;
+  }
+  #cart-section{
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  #mobile-menu.style2 {
+    z-index: 9999;
+  }
+  .product-proshield .number-id-field{
+    padding-left: 0px;
+    padding-right: 0;
+  }
+
+
+}
+@media only screen and (max-width: 360px) {
+  .form-group-radio-custom label span.mmAmount {
+    font-size: 12px;
+  }
+}
+  @media (max-width: 767px){
+    .header{
+      z-index: 9999;
+    }
+    .header-spacer {
+      height: 0px!important;
+    }
+    body {
+      padding-top: 45px;
+  }
+
+  }

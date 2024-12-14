@@ -1,0 +1,324 @@
+.sportGuardsProuductWrapper .description-product ul{list-style:none}
+.sportGuardsProuductWrapper .description-product ul li{border-bottom:1px solid #c3c5c9;padding-bottom:5px;padding-top:5px;font-size:13px}
+.sportGuardsProuductWrapper .d-flex{display:flex;flex-wrap:wrap}
+.sportGuardsProuductWrapper .align-items-center{-webkit-box-align:center;-ms-flex-align:center;align-items:center}
+.sportGuardsProuductWrapper .description-product span b,.sportGuardsProuductWrapper .description-product b{display:inline-block;padding-right:4px}
+.sportGuardsProuductWrapper .progress{display:-webkit-box;display:-ms-flexbox;display:flex;height:16px;overflow:hidden;font-size:.75rem;background-color:#e9ecef}
+.sportGuardsProuductWrapper .progress-bar{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;color:#fff;text-align:center;background-color:#007bff;transition:width .6s ease}
+.sportGuardsProuductWrapper .progress-div{width:220px}
+.sportGuardsProuductWrapper .bars-status-wrapper{max-width:450px;display:flex;flex-wrap:wrap;margin-left:auto;margin-right:auto}
+.sportGuardsProuductWrapper .border-top-solid{border-top:1px solid #c3c5c9}
+.sportGuardsProuductWrapper .border-bottom-solid{border-bottom:1px solid #c3c5c9}
+.sportGuardsProuductWrapper .bar-status{padding-top:0;padding-bottom:0;gap:11px}
+.sportGuardsProuductWrapper .green-strip .progress-bar{background-color:#69be28}
+.sportGuardsProuductWrapper .yellow-strip .progress-bar{background-color:#f5d060}
+.sportGuardsProuductWrapper .red-strip .progress-bar{background-color:red}
+.sportGuardsProuductWrapper .progress-div{width:90px}
+.page-template .sportGuardsProuductWrapper .subscription-product-content ul{padding:5px 0 0 11px;margin-bottom:5px}
+.sportGuardsProuductWrapper .subscription-product{width:35%}
+.sportGuardsProuductWrapper .wrapper.flex-wrapper{gap:9px;margin-bottom:15px;margin-top:15px}
+#wrapper .sportGuardsProuductWrapper .form-group-radio-custom label{width:100%;border:1px solid #c3c3c3;padding:10px 15px;text-align:center;line-height:1;margin:0;display:block;}
+#wrapper .sportGuardsProuductWrapper .form-group-radio-custom [type="radio"]:checked,#wrapper .sportGuardsProuductWrapper .form-group-radio-custom [type="radio"]:not(:checked){position:absolute;left:-9999px}
+.sportGuardsProuductWrapper .form-group-radio-custom label span.mmAmount{font-size:14px}
+.sportGuardsProuductWrapper .addToCartSportGuard{margin-bottom:15px}
+#wrapper .sportGuardsProuductWrapper .selectPackageBox{background:#5f6c79;z-index:123;bottom:107px;width:100%;right:1px;margin-right:auto;left:inherit;max-width:91%;border:1px solid #5f6c79;display:none;    border-radius: 8px 8px 0 0;}
+#wrapper .sportGuardsProuductWrapper .openPackage .selectPackageBox{display:block}
+.sportGuardsProuductWrapper .selectPackageBox .addToCartBottom button,.sportGuardsProuductWrapper button.add_to_cart_button{margin-top:0;letter-spacing:0;font-size:20px;font-weight:300;background-color:#024;border-color:#024}
+.sportGuardsProuductWrapper .selectPackageBox .addToCartBottom button:hover,.sportGuardsProuductWrapper button.add_to_cart_button:hover{background-color:#595858;border-color:#595858}
+.selectPackageBox span.product-selection-price-text del bdi,.sportGuardsProuductWrapper .selectPackageBox span.product-selection-price-text bdi,.sportGuardsProuductWrapper .selectPackageBox span.product-selection-price-text ins span.woocommerce-Price-currencySymbol{color:#fff}
+.sportGuardsProuductWrapper .selectPackageBox span.product-selection-price-text del:before{background:#00224482}
+.sportGuardsProuductWrapper .selectcolorBox .d-flex{gap:8px}
+#product-list .sportGuardsProuductWrapper .selectcolorBox a.colo-selector{display:inline-flex;width:42px;height:42px;border:1px solid #c5c6c9;padding:2px;align-content:center;justify-content:center;flex-wrap:wrap;color:#000;position:relative;max-width:42px;min-width:42px}
+.sportGuardsProuductWrapper .selectcolorBox a.colo-selector span{font-size:10px;text-transform:uppercase}
+.sportGuardsProuductWrapper #clear{background-color:#fff}
+.sportGuardsProuductWrapper .white-clr{background-color:#fff}
+.sportGuardsProuductWrapper .red-clr{background-color:red}
+.sportGuardsProuductWrapper .green-clr{background-color:#69be28}
+.sportGuardsProuductWrapper .blue-clr{background-color:#00f}
+.sportGuardsProuductWrapper .yellow-clr{background-color:#ecd803}
+.sportGuardsProuductWrapper .orange-clr{background-color:#f0852d}
+.sportGuardsProuductWrapper .purple-clr{background-color:#562270}
+.sportGuardsProuductWrapper .black-clr{background-color:#000}
+.sportGuardsProuductWrapper .pink-clr{background-color:#ffc0cb}
+.sportGuardsProuductWrapper .selectcolorBox a.colo-selector.selected{border:4px solid #024}
+.sportGuardsProuductWrapper .selectcolorBox .d-flex{gap:8px}
+.sportGuardsProuductWrapper .section-product{padding-top:75px;padding-bottom:75px}
+.sportGuardsProuductWrapper .section-product h4{color:#024;font-size:38px}
+.sportGuardsProuductWrapper .section-product p{color:#565759;font-size:20px}
+.sportGuardsProuductWrapper .number-id-field{align-items:center;margin-top:20px;padding-left:11px;padding-right:11px}
+#product-list .sportGuardsProuductWrapper .selectcolorBox a.colo-selector.selected{border:4px solid #024}
+.sportGuardsProuductWrapper .justify-content-between{justify-content:space-between}
+.sportGuardsProuductWrapper .number-id-field span{font-size:16px;color:#fff;font-weight:700}
+.sportGuardsProuductWrapper .number-id-field .number-letter{max-width:90px;margin-bottom:0;padding:4px 16px;max-height:42px;text-align:center;border:2px solid #c5c6c9;font-family:"Montserrat";color:#000}
+.sportGuardsProuductWrapper .selectPackageWrapper h4{font-size:20px;color:#fff;font-weight:500;margin-bottom:0;position:relative}
+.sportGuardsProuductWrapper h4 .iconCloseBox{position:absolute;right:-10px;top:-19px;color:#fff;font-size:24px}
+ .sportGuardsProuductWrapper .selectPackageWrapper p{font-size:12px;}
+ #newsalePage #product-list:not(.grid-changed)  .sportGuardsProuductWrapper .selectPackageWrapper p{color:#fff}
+.sportGuardsProuductWrapper .subscription-product-content-body .form-group-radio-custom [type="radio"]:checked+label{background:#5f6c79;border-color:#fff!important}
+.sportGuardsProuductWrapper .subscription-product-content-body .form-group-radio-custom [type="radio"]:checked+label .mmAmount,.sportGuardsProuductWrapper .subscription-product-content-body .form-group-radio-custom [type="radio"]:checked+label .mmpopular{color:#fff}
+.sportGuardsProuductWrapper .subscription-product-content-body .form-group-radio-custom [type="radio"]:checked+label::before,.sportGuardsProuductWrapper .subscription-product-content-body .form-group-radio-custom [type="radio"]:not(:checked)+label::before{width:20px;height:20px}
+.sportGuardsProuductWrapper .subscription-product-content-body .form-group-radio-custom [type="radio"]:checked+label::before{border-color:#bdc1c4}
+.sportGuardsProuductWrapper .subscription-product-content-body .form-group-radio-custom [type="radio"]:checked+label::before,.sportGuardsProuductWrapper .subscription-product-content-body .form-group-radio-custom [type="radio"]:checked+label::before{background:#5f6c79}
+.sportGuardsProuductWrapper .subscription-product-content-body .form-group-radio-custom [type="radio"]:checked+label::after,.form-group-radio-custom [type="radio"]:not(:checked)+label::after{background:#69be28;left:14px;top:22px}
+.sportGuardsProuductWrapper .colo-selector span.toltip{background:none repeat scroll 0 0 #222;color:#fff;font-size:12px;font-weight:400;line-height:1.5em;padding:11px 12px;width:90px;top:-6em;left:0;margin-left:0;opacity:0;filter:alpha(opacity=0);position:absolute;text-align:center;z-index:2;text-transform:none;-webkit-transition:all .3s ease;-moz-transition:all .3s ease-in-out;-o-transition:all .3s ease;transition:all .3s ease-in-out;left:-2em;display:none}
+.sportGuardsProuductWrapper .colo-selector:hover span{opacity:1;filter:alpha(opacity=100);top:-5em;left:-2em;z-index:99;-webkit-transition:all .2s ease;-moz-transition:all .2s ease;-o-transition:all .2s ease;transition:all .2s ease;display:block}
+.sportGuardsProuductWrapper .colo-selector span.toltip:after{border-color:#222 rgba(0,0,0,0);border-style:solid;border-width:10px 10px 0;bottom:-10px;content:"";display:block;left:31px;position:absolute;width:0}
+.sportGuardsProuductWrapper .priceparentBx{font-size:30px;color:#fff;font-weight:600;letter-spacing:0;line-height:1}
+.sportGuardsProuductWrapper .targeted_avr{color:#fff}
+#newsalePage .teethWhieteingSystemWrapper .sportGuardsProuductWrapper .disabled-main-checkout .box-checkout{background:#e0e3e6;pointer-events:none;border-color:#e0e3e6}
+#wrapper .sportGuardsProuductWrapper.subscription-product-detail .caripro-content p:after{
+    bottom: -10px;
+    top: initial;
+}
+
+
+#wrapper .sportGuardsProuductWrapper .flex-direction-column{
+    flex-direction: column;
+}
+#wrapper .sportGuardsProuductWrapper .flex-direction-column .header-content{
+    margin-top: 10px;
+}
+
+
+
+/* handling mouth guard desktop for searh filter only  */
+#wrapper #product-list.grid-changed .sportGuardsProuductWrapper .selectPackageBox .selectPackageBox{
+    /* border: 20px solid  blue !important; */
+    display: none;
+    background:#5f6c79;z-index:123;border-radius: 8px 8px 0 0;
+    right: 11px;    margin-bottom: 14px;
+}
+
+#wrapper #product-list.grid-changed .sportGuardsProuductWrapper  .openPackage .selectPackageBox{
+    max-width: 450px;
+    width: 100%;    bottom: 40px;
+
+
+}
+#wrapper #product-list.grid-changed .sportGuardsProuductWrapper .wrapper.flex-wrapper{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#wrapper #product-list.grid-changed .sportGuardsProuductWrapper  .wrapper.flex-wrapper .form-group-radio-custom [type="radio"]:checked + label:before, #wrapper #product-list.grid-changed .sportGuardsProuductWrapper  .wrapper.flex-wrapper .form-group-radio-custom [type="radio"]:not(:checked) + label:before{
+    margin-top: -2px;   
+}
+
+#wrapper #product-list.grid-changed .sportGuardsProuductWrapper .caripro-content img {
+    margin-top: 0;
+}
+#wrapper #product-list.grid-changed .sportGuardsProuductWrapper .mouthGuardsInnerWrapperOpen   .selectPackageBox{
+    display: block;
+}
+#wrapper #product-list.grid-changed .sportGuardsProuductWrapper  .subscription-product-popup .packageheader{
+    position: static;
+}
+ .notCloseInnerSelectPackage{
+    /* border: 10px solid red !important; */
+}
+.removeInnerWrapper{
+    /* border: 10px solid red !important; */
+}
+
+#wrapper #product-list.grid-changed .sportGuardsProuductWrapper .subscription-product-content-body .form-group-radio-custom [type="radio"]:checked+label::after,
+#wrapper #product-list.grid-changed .form-group-radio-custom [type="radio"]:not(:checked)+label::after{
+    left: 12px;
+    top: 23px;  
+}
+#wrapper #product-list.grid-changed .sportGuardsProuductWrapper .bars-status-wrapper{
+    margin-left: 0; 
+}
+#wrapper #product-list.grid-changed .description-product li:first-child{ display: none;}
+.description-product .text-farward-bar {
+    font-size: 12px;
+}
+
+
+#wrapper #product-list.grid-changed .sportGuardsProuductWrapper  .innershortpop {
+    border: 1px solid #c5c6c9;
+    border-radius: 10px;
+}
+#wrapper #product-list.grid-changed .sportGuardsProuductWrapper   .subscription-product-popup .subscription-product-header{
+    border-bottom: 0px solid #fff;  
+}
+#wrapper #product-list.grid-changed .sportGuardsProuductWrapper .openPackage-quantity .packageQuantityBox, #wrapper #product-list.grid-changed .sportGuardsProuductWrapper .openPackage .selectPackageBox{
+    border-left: 0px solid #f7f7f7;
+}
+#wrapper #product-list.grid-changed  .sportGuardsProuductWrapper .selectPackageBox{
+    border: 0px;
+}
+#wrapper #product-list.grid-changed  .sportGuardsProuductWrapper .selectPackageWrapper p {
+    font-size: 14px;
+}
+#wrapper #product-list.grid-changed   .sportGuardsProuductWrapper .addToCartSportGuard {
+    margin-bottom: 0;
+    padding-bottom: 15px;
+}
+#wrapper #product-list.grid-changed .sportGuardsProuductWrapper .selectPackageBox .selectPackageBox{
+    padding: 15px;      width: 428px;
+    bottom: 106px;
+
+}
+#wrapper #product-list.grid-changed .sportGuardsProuductWrapper .selectcolorBox a.colo-selector{
+    width: 38px;
+    height: 38px;
+    max-width: 38px;
+    min-width: 38px;
+}
+#wrapper #product-list.grid-changed .sportGuardsProuductWrapper .number-id-field {
+    margin-top: 12px;
+}
+#newsalePage #product-list:not(.grid-changed) .sportGuardsProuductWrapper .selectPackageWrapper p{
+    margin-bottom: 10px;
+}
+#wrapper #product-list.grid-changed .sportGuardsProuductWrapper  .packageheader a.iconCloseBox{
+    color: #fff;
+}
+
+#wrapper #product-list.grid-changed .sportGuardsProuductWrapper .selectPackageWrapper .packageheader  p{
+    color: #fff;
+}
+#wrapper #product-list.grid-changed .sportGuardsProuductWrapper .product-selection-price-dollar-symbol
+,#product-list.grid-changed .medium-12 .caripro-content-splitter .product-selection-price-dollar-symbol
+{
+    font-size: 14px;
+}
+
+#wrapper #product-list.grid-changed .sportGuardsProuductWrapper  .caripro-content-splitter
+,#product-list.grid-changed .caripro-content-splitter
+{
+    align-items: center;
+}
+#wrapper #product-list .sportGuardsProuductWrapper  .subscription-product-header {
+    border-radius: 0px;
+}
+
+#wrapper #product-list .sportGuardsProuductWrapper .subscription-product-box.one-time-offer.enemalArmourSaleLanderpageTop.contacct-sporpt-customized-wrapperP {
+    border-bottom: 1px solid #eee;
+    border-top: 1px solid #eee;
+}
+
+#wrapper #product-list .sportGuardsProuductWrapper .subscription-product-box.subscribe-save .subscription-product-header{
+    border-radius: 12px 12px 0 0;
+}
+
+#wrapper #product-list .sportGuardsProuductWrapper  .subscription-product-inner-wrapper .subscription-product-box:nth-child(3) .subscription-product-header{
+    border-radius: 0px 0px 12px 12px;
+}
+
+@media only screen and (max-width: 1500px) {
+.sportGuardsProuductWrapper .selectPackageBox{width:100%;right:-1px}
+.title-brlow-image{font-size:14px}
+#wrapper .sportGuardsProuductWrapper .selectPackageBox{
+    bottom: 101px;
+}
+
+#product-list.grid-changed .sportGuardsProuductWrapper .caripro-product-outer h1{
+    text-align: left;
+    align-items: flex-start;
+    max-height: 35px;
+    display: flex;
+    min-height: 35px;
+}
+#wrapper #product-list.grid-changed .sportGuardsProuductWrapper .selectPackageBox .selectPackageBox {
+    bottom: 102px;
+}
+
+
+}
+
+@media only screen and (max-width: 1199px) {
+
+    .sportGuardsProuductWrapper .subscription-product {
+        width: 54%;
+    }
+
+    .subscription-product-detail .caripro-content {
+        width: 42%;
+    }
+
+
+}
+
+@media only screen and (max-width: 991px) {
+.sportGuardsProuductWrapper .selectPackageBox{right:1px}
+
+.subscription-product-detail .caripro-content {
+    width: 54%;
+}    #wrapper .sportGuardsProuductWrapper .selectPackageBox {
+    bottom: 97px;
+    }
+
+    #product-list.grid-changed .caripro-product-outer h1{
+        max-height: 39px;   
+    }
+    #wrapper #product-list.grid-changed .sportGuardsProuductWrapper .selectPackageBox .selectPackageBox{
+        width: 97%;  
+    }
+    #wrapper #product-list.grid-changed .sportGuardsProuductWrapper .selectPackageBox .selectPackageBox {
+        bottom: 98px;
+    }
+    #wrapper #product-list .subscription-product-popup .subscription-product-content ul li {
+        font-size: 12px;
+    }
+    #wrapper #product-list .description-product .text-farward-bar {
+        font-size: 10px;
+    }
+    #wrapper #product-list .sportGuardsProuductWrapper .form-group-radio-custom label span.mmAmount {
+        font-size: 12px;
+    }
+
+    #wrapper #product-list.grid-changed .sportGuardsProuductWrapper .selectPackageWrapper p {
+        font-size: 12px;
+    }
+
+}
+@media only screen and (max-width: 768px) {
+.sportGuardsProuductWrapper .selectPackageBox{right:-1px}
+
+#wrapper #product-list .description-product .text-farward-bar{
+    display: none;
+}
+#wrapper .sportGuardsProuductWrapper .selectPackageBox{
+    max-width: 100%; 
+}
+
+.sportGuardsProuductWrapper.subscription-product-detail .caripro-content img{
+    max-width: 215px;
+
+}
+.sportGuardsProuductWrapper .caripro-content-splitter > .align-items-center{
+    flex-direction: column;
+}
+
+#wrapper #product-list.grid-changed .sportGuardsProuductWrapper .openPackage .selectPackageBox{
+    bottom: 1px; 
+}
+
+#wrapper #product-list.grid-changed .sportGuardsProuductWrapper .selectPackageBox .selectPackageBox{
+    bottom: 99px;    right: 0px;
+}
+.sportGuardsProuductWrapper .bars-status-wrapper,.sportGuardsProuductWrapper .align-items-center{
+    justify-content: center;
+}
+#wrapper #product-list.grid-changed .sportGuardsProuductWrapper .addToCartSportGuard {
+    margin-bottom: 0;
+    padding-bottom: 15px;
+}
+}
+
+@media only screen and (max-width: 400px) {
+    #wrapper #product-list .sportGuardsProuductWrapper .form-group-radio-custom label span.mmAmount {
+        font-size: 10px;
+    }
+    #wrapper #product-list .sportGuardsProuductWrapper  .form-group-radio-custom label span.mmpopular {
+        font-size: 10px;
+    }
+    .sportGuardsProuductWrapper .subscription-product-content-body .form-group-radio-custom [type="radio"]:checked+label::after, .form-group-radio-custom [type="radio"]:not(:checked)+label::after {
+
+        left: 14px;
+        top: 20px;
+    }
+
+
+}

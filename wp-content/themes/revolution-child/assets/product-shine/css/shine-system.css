@@ -1,0 +1,3514 @@
+/* common classes */
+.row-flex {
+  display: flex;
+}
+.justify-content-center {
+  justify-content: center;
+}
+.justify-content-between{
+  justify-content: space-between;
+}
+.align-items-center {
+  align-items: center;
+}
+.align-items-end{
+  align-items: end;
+}
+.direction-column {
+  flex-direction: column;
+}
+input.zipNameGet.whiteBackground {
+  background: none !important;
+}
+
+.uppercase{ text-transform: uppercase;}
+.weight-400{font-weight: 400;}
+.weight-500{font-weight: 500;}
+.weight-600{font-weight: 600;}
+.weight-700{font-weight: 700;}
+
+/* section-top-banner */
+.section-top-banner,.shine-banner-wrap{ position: relative;}
+.section-top-banner {
+  padding-top: 125px;
+  /* padding-bottom: 230px; */
+  padding-bottom: 171px;
+}
+.shine-banner-wrap:before {
+  content: '';
+  background-image: url(../images/graphic-circle.jpg);
+  position: absolute;
+  left: -299px;
+  right: 0;
+  width: 882px;
+  height: 865px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left;
+  top: -300px;
+}
+.section-top-banner:after{
+  content: '';
+  background-image: url(../images/ellipse-circle.webp);
+  position: absolute;
+  left: -89px;
+  width: 320px;
+  height: 313px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left;
+  top: -140px;
+}
+
+.circle-banner-home {
+  position: relative;
+  max-width: 490px;
+  left: -90px;
+}
+.enhanced-width {
+  color: #2d2e2f;
+  font-size: 10.77px;
+  text-align: center;
+  margin-bottom: 13px;
+  line-height: 1;
+
+}
+.aetna-logo-wrap {
+  position: relative;
+  /* display: flex;
+  flex-wrap: wrap; */
+  max-width: 150px;
+  /* justify-content: center; */
+}
+.hfa-fsa {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 100px;
+  flex-wrap: wrap;
+  column-gap: 2px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 14px;
+  margin-bottom: 8px;
+}
+.sectionLft {
+  max-width: 780px;
+  width: 100%;
+}
+.sectionRgt {
+  max-width: 494px;
+  width: 100%;
+}
+.sectionRgt h1 {
+  font-size: 72px;
+  color: #2d2e2f;
+  font-weight: 700;
+  line-height: 0.9;
+  margin-bottom: 30px;
+}
+.sectionRgt .subheadinhg {
+  font-size: 24px;
+  color: #2d2e2f;
+}
+.sectionRgt p {
+  color: #2d2e2f;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 40px;
+}
+.shine-underline{position: relative; }
+.button-wrap {
+    margin-bottom: 15px;
+}
+:root {
+  --underline-intrinsic-width: 8;
+  --underline-width: 12;
+  --underline-color: #f0c23a;
+  --underline-cap-width: 4px;
+  --underline-offset-y: -2px;
+  --underline-padding-x: 0.12em;
+  --cap-image-left: url(../images/icons/underline-left.svg);
+  --cap-image-right: url(../images/icons/underline-right.svg);
+}
+  
+.underline {
+  display: inline;
+  --underline-width-scale: calc(var(--underline-width) / var(--underline-intrinsic-width));
+  padding: 0 calc(var(--underline-padding-x) + calc(var(--underline-cap-width) * var(--underline-width-scale)));
+  padding-left: 0;
+  box-decoration-break: clone;
+  background-repeat: no-repeat;
+  /* color: #1221ff; */
+  background-image:
+    linear-gradient(180deg, var(--underline-color), var(--underline-color)),
+    var(--cap-image-left),
+    var(--cap-image-right);
+  background-position-x:
+    calc(var(--underline-cap-width) * var(--underline-width-scale)),
+    0,
+    100%;
+  background-position-y: calc(100% - var(--underline-offset-y) * -1);
+  background-size:
+    calc(100% - calc(var(--underline-cap-width) * var(--underline-width-scale) * 2)) calc(var(--underline-width) * 1px),
+    auto calc(var(--underline-width) * 1px),
+    auto calc(var(--underline-width) * 1px);
+}
+
+.underline--2 {
+  --underline-width: 6;
+  --underline-offset-y: -2px;
+}
+.underline--3 {
+  --underline-width: 6;
+  --underline-offset-y: -9px;
+}
+
+a.btn-yellow,.how-work-link a,.popupContentWrapper .shine-price-display .button-wrap .btn-primary {
+    background: #f0c23a;
+    display: inline-flex;
+    max-width: 325px;
+    width: 100%;
+    padding: 10px 0;
+    font-size: 20px;
+    color: #2d2e2f;
+    font-weight: 300;
+    justify-content: center;
+    border-radius: 8px;
+    border: 0;
+    letter-spacing: 0;
+}
+
+.how-work-link a{
+  background:none;
+}
+
+.shine-banner-wrap .aetna-logo-wrap{
+  position: absolute;
+  right: 210px;
+  margin-top: -37px;
+}
+
+
+/* section-our-members section 2 */
+.section-our-members .logo:not(.cnt-logo) img{ max-height: 38px;}
+.section-our-members .logo.cnt-logo img{ max-height: 67px;}
+.customer-brand-slide {
+  opacity: 0;
+}
+.customer-brand-slide.slick-initialized {
+  opacity: 1;
+}
+.section-our-members {
+  padding: 35px 0;
+  background: #2d2e2f;
+  position: relative;
+  z-index: 1;
+  max-height: 110px;
+  overflow: hidden;
+}
+
+
+.eligible-text {
+  color: #2d2e2f;
+  font-size: 10.77px;
+}
+img.img-fluid {
+  max-width: 100%;
+}
+.hfa-fsa img {
+  max-width: 48%;
+}
+
+
+.section-our-members .row-flex {
+  column-gap: 40px;
+}
+
+
+
+section.section-common-saving-shine {
+  background: #ecf5f9;
+  padding-top: 140px;
+  text-align: center;
+  background-image: url(https://www.smilebrilliant.com/wp-content/themes/revolution-child/assets/images/products/skin-care/ellipse-circle.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-position: center -785px;
+  overflow: hidden;
+  border-top: 2px solid #fff;
+}
+.weight-800{ font-weight: 800;}
+.column-gatter-30{ column-gap: 30px;}
+.our-partners{ padding: 30px 0;}
+.our-partners .logo-partner{  display: flex;
+  align-items: center;
+  justify-content: center;}
+
+.our-partners .logo-partner img{ max-height: 38px;}
+.our-partners .publix-logo img,.our-partners .cvs-logo img{max-height: 50px;}
+.our-partners .kroger-logo img{max-height: 56px;}
+.our-partners .publix-logo img{max-height: 68px;}
+.our-partners .rite-aid-logo img{max-height: 44px;}
+
+.our-partners .health img{max-height: 40px;}
+.our-partners .rite-aid-logo img{max-height: 44px;}
+.our-partners .rite-aid-logo img{max-height: 44px;}
+.our-partners .rite-aid-logo img{max-height: 44px;}
+.our-partners .rite-aid-logo img{max-height: 44px;}
+.our-partners .rite-aid-logo img{max-height: 44px;}
+.our-partners .rite-aid-logo img{max-height: 44px;}
+
+.partnersSlide .slick-track {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sbr-round-logo {
+  max-width: 101px;
+}
+.card-saving-perks .sbr-round-logo{
+  max-width: 77px;
+}
+
+.hidden-all{ display: none;}
+ .slick-slide {
+  margin: 0 10px;
+}
+
+
+.slick-list {
+  margin: 0 -10px;
+}
+
+
+
+/* section section wellness savings program section 3 */
+.section-wellness-saving-program {
+  padding-top: 75px;
+  padding-bottom: 75px;
+  position: relative;
+    z-index: 2;
+}
+.whats-shine {
+  font-size: 24px;
+  color: #2d2e2f;
+  font-weight: 400;
+  margin-bottom: 65px;
+}
+
+.section-wellness-saving-program h2{ color: #2d2e2f; font-size: 48px;    line-height: 1.1; }
+.wellness-content-section{ width: 100%; max-width: 700px;}
+.wellness-content-section-aside{     width: 100%;
+  max-width: 700px;
+  /* display: flex; */
+  flex-wrap: wrap;
+  /* justify-content: flex-end; */
+}
+.happy-family-pciture {
+  margin-top: -276px;
+  max-width: 680px;
+  margin-bottom: 60px;
+}
+.help-vision-text {
+  font-size: 36px;
+  color: #2d2e2f;
+  font-weight: 300;
+  max-width: 445px;
+}
+.wellness-content-section p{
+  color: #2d2e2f;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+.smile-graphic-below{ position: relative;}
+.smile-graphic-below:before {
+  content: '';
+  background-image: url(../images/smile.png);
+  width: 78px;
+  height: 41px;
+  display: block;
+  background-repeat: no-repeat;
+  position: absolute;
+  right: 0;
+  left: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 12px;
+}
+
+button.btn.search-submit {
+  padding: 0;
+  max-width: 30px;
+  height: auto;
+  line-height: 1;
+  min-height: 0;
+  max-height: 30px;
+  border: 0;
+}
+button.btn.search-submit {
+  background: none;
+}
+.find-participating-dentist {
+  width: 100%;
+}
+.find-participating-dentist .find-row.row-flex.align-items-center {
+  line-height: 1;
+  /* height: 40px; */
+}
+.find-participating-dentist input[type="search"]
+,.find-participating-dentist input[type="text"]
+{
+    border: 0;
+    padding: 0;
+    margin: 0;
+    width: 100%;min-width: 272px;
+    color: #2d2e2f;
+    font-family: "Montserrat";
+    font-size: 18px;
+    font-weight: 600;
+    background: none;
+    padding-left: 6px;
+    height: auto;
+    cursor: pointer;
+}
+
+.find-participating-dentist input::placeholder {
+  color: #2d2e2f;
+}
+
+.section-wellness-saving-program .button-wrap{
+    max-width: 300px;
+}
+.section-wellness-saving-program .find-participating-dentist input::placeholder{
+ font-weight:600;
+}
+
+
+/* section Common savings with shine (section 3) */
+.section-common-saving-shine h3 {
+  font-size: 48px;
+  color: #2d2e2f;
+  font-weight: 800;
+}
+
+.headingSubHead {
+  font-size: 24px;
+  color: #2d2e2f;    margin-bottom: 72px;
+}
+.shine-card-inner{
+  border: 1px solid #bdc3c9;
+  border-radius: 10px;
+  background: #fff;
+  width: 100%;
+  /* max-width: 295px; */
+}
+.shine-card-header{
+  line-height: 1.2;
+  font-size: 20px;
+  color: #2d2e2f;
+  font-weight: 700;
+  text-align: center;
+  padding:20px;
+  min-height: 117px;
+}
+.shine-offers-wrapper {
+  margin-bottom: 70px;
+  column-gap: 35px;
+  justify-content: center;
+}
+.table-brdr-top {
+  justify-content: center;
+  width: 100%;
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  border-top: 1px solid #bdc3c9;
+  padding-top: 10px;
+  position: relative;
+}
+.table-brdr-top::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 1px;
+  background-color:#bdc3c9;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+.shine-col-6 {
+  width: 100%;
+  max-width: 50%;
+}
+
+.avg-price {
+  font-size: 12px;
+  letter-spacing:0em;
+  font-weight: 500;
+}
+.price-tag {
+  font-family: "Montserrat";
+  color: #2d2e2f;
+  font-size: 28px;
+  line-height: 1;
+  min-height: 35px;
+  display: flex;
+  align-items: center;    justify-content: center;
+}
+.sec-avg-full-price .price-tag{
+  font-size: 19px;
+}
+.shine-card-body {
+  padding-bottom: 30px;
+}
+.shine-card-footer {
+    align-items: center;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 0px 0px 8px 8px;
+}
+
+.shine-card-footer span.shine-text {
+  color: #fff;
+  font-size: 14px;
+  line-height: 1;
+  display: block;
+}
+.shine-card-footer .shine-smile-symbal {
+  max-width: 35px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1;
+}
+.shine-card-footer .yellow-check {
+  max-width: 34px;
+  width: 100%;
+  padding-left: 5px;
+}
+.shine-card-footer  .yellow-check img {
+  max-width: 30px;
+  width: 100%;
+}
+.shine-smile-logo{
+   position: relative;    padding-right: 5px;margin-top: -2px;
+}
+.shine-card-footer .shine-smile-logo:before{
+  position: absolute;
+  content: "";
+  width: 48px;
+  height: 20px;
+  top: -24px;
+  left: -6px;
+  background-image: url(../images/shine-top-curve.jpg)
+}
+.price-label-off-tag {
+  font-size: 16px;
+  font-weight: 500;position: relative;
+  top: 2px;
+}
+span.text-white {
+  color: #fff;
+}span.black-white {
+  color: #2d2e2f;
+}
+span.currency-indicator {
+  font-size: 70%;
+}
+.section-displaimer {
+  margin-top: 25px;
+}
+.section-displaimer p,.section-displaimer a {
+  font-size: 12px;
+}
+span.textdes {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.disclaimermodal p {
+  margin: 0;
+  font-size: 14px;
+  font-style: italic;
+  text-align: center;
+  font-weight: 500;
+}
+
+/* section Register online (section 4) */
+.section-register-instantly-with-shine {
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+.section-register-lft{
+  width: 100%;
+  max-width: 727px;
+}
+.section-register-rgt{
+  width: 100%;
+  max-width: 670px;
+}
+.section-register-rgt h4 {
+  font-size: 72px;
+  font-weight: 700;
+  color: #0eb4ba;
+  line-height: 1;
+  margin: 0;
+}
+
+.section-register-rgt h5 {
+  font-size: 48px;
+  font-weight: 700;
+  color: #2d2e2f;
+  line-height: 1;
+  margin: 0;
+  margin-bottom: 25px;
+  margin-top: 3px;
+}
+
+
+.where-can-i-use-it-text {
+  margin-left: -80px;
+  font-family: "Montserrat";
+  font-size: 24px;
+  color: #2d2e2f;
+  font-weight: 400;
+  margin-bottom: 60px;
+}
+
+ul.accordion-list {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: auto;
+  /* padding: 20px; */
+  margin: 0;
+  list-style: none;
+  /* background-color: #f9f9fa; */
+}
+.answer-content {
+  padding-top: 1.1rem;
+  padding-left: 50px;
+}
+ul.accordion-list li {
+  position: relative;
+  padding-bottom: 18px;
+  margin-bottom: 18px;
+  border-bottom: 1px solid #c8c6c6;
+  cursor: pointer;
+}
+ul.accordion-list li h3 {
+  font-weight: 700;
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding: 0 0 0 0;
+  margin: 0;
+  cursor: pointer;
+  flex-wrap: nowrap;
+}
+ul.accordion-list li div.answer p
+,.section-shine-faqs .accordion-two-content
+
+{
+  position: relative;
+  display: block;
+  font-weight: 400;
+  padding: 10px 0 0 0;
+  cursor: pointer;
+  font-size: 16px;
+  color: #2d2e2f;
+  margin: 0;
+}
+.d-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+span.digits-number {
+  min-width: 50px;
+  line-height: 1;
+}
+span.digits-number img {
+  width: 27px;
+  height: 27px;
+}
+.text--k {
+  font-family: "Montserrat";
+  font-size: 24px;
+  color: #2d2e2f;
+  line-height: 1.1;
+  font-weight: 700;
+  padding-right: 4rem;
+}
+.small-text {
+  color: #969696;
+  font-size: 14px;
+  margin-top: 5px;
+  font-weight: normal;
+}
+ul.accordion-list li h3:after {
+  content: "";
+  position: absolute;
+  right: 10px;
+  top: 0;
+  color: #fcc110;
+  transition: all 0.3s ease-in-out;
+  background-image: url(../images/icons/chevron-down-icon.svg);
+  width: 30px;
+  height: 30px;
+  background-repeat: no-repeat;
+  background-position: center;
+  top: 50%;
+  margin-top: -15px;
+}
+ul.accordion-list li.active h3:after {
+  transform: rotate(180deg);
+}
+.faqs-section-sec {
+  margin-bottom: 60px;
+}
+.find-provider-text{ font-size: 24px; color: #f0c23a; font-weight: normal; margin-top: 60px; margin-bottom: 20px;}
+.section-register-instantly-with-shine .find-participating-dentist{
+    max-width: 325px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-register-instantly-with-shine .find-participating-dentist input[type="search"],.section-register-instantly-with-shine .find-participating-dentist input[type="text"]{
+  max-width: 180px;
+    min-width: 180px;
+}
+
+/* section-savings-plan */
+.section-savings-plan h6,.dental-savings-subheading .shine-underline {
+  text-align: center;
+  font-size: 48px;
+  color: #2d2e2f;
+  font-weight: 800;
+  padding-top: 100px;
+  line-height: 1;
+  margin-bottom:0 ;
+}
+.section-savings-plan  .dental-savings-subheading .shine-underline{
+  font-size: 32px;
+  padding-top: 0px;
+}
+.dental-savings-subheading {
+  text-align: center;
+}
+.section-savings-plan .section-description {
+  text-align: center;
+  margin-top: 55px;
+  margin-bottom: 95px;
+}
+.section-savings-plan .section-description  p{
+  font-size: 24px;
+  color: #2d2e2f;
+
+}
+.savings-card-wrapper {
+  
+  border: 1px solid #c6c7ca;
+  border-radius: 6px;
+  border-radius: 10px;
+  width: 100%;
+}
+.savings-plans-wrapper{
+  column-gap: 32px;
+  align-items: center;
+}
+.section-savings-plan .shine-smile-logo.rounded-shine-smile{
+  /* width: 126px;
+  height: 92px; */
+  /* background-color: #4acac9;
+  border-radius: 0px 0px 200px 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-right: 0;
+  margin-top: 0px; */
+  padding-right: 0;
+  margin-top: 0px;
+}
+.section-savings-plan .shine-smile-logo.rounded-shine-smile .shine-text{
+  display: inline-flex;
+  max-width: 68px;
+}
+.section-savings-plan .shine-smile-logo.rounded-shine-smile .shine-smile-symbal {
+  max-width: 65px;
+}
+.section-savings-plan .saving-card-header,.saving-card-header {
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  height: 65px;
+  column-gap: 12px;
+  border-radius: 5px 5px 0 0px;
+  border-radius: 9px 7px 0 0px;
+  position: relative;
+  /* justify-content: space-evenly; */
+}
+
+.card-saving-best-value .saving-card-header:before{
+  content: "BEST VALUE";
+  position: absolute;
+  top: -8px;
+  left: 0;
+  width: 104px;
+  height: 20px;
+  background-color: #f0c23a;
+  color: #002244;
+  font-size: 11px;
+  font-family: "Montserrat";
+  font-weight: 500;
+  text-align: center;
+  line-height: 1;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  right: 0;
+  z-index: 12;
+}
+
+.section-savings-plan .shine-text-wrap,.shine-text-wrap{
+  display: flex;
+  align-items: center;
+  column-gap: 7px;
+  font-size: 24px;
+  font-weight: 400;  font-family: "Montserrat";
+}
+.section-savings-plan .card-saving-one .saving-card-header{
+  column-gap: 30px;
+}
+
+.savings-plans-wrapper .savings-card-wrapper:nth-child(1) .shine-text-wrap{
+  color: #002244;
+}
+.savings-plans-wrapper .savings-card-wrapper:nth-child(2) .shine-text-wrap{
+  color: #fff;
+  font-weight:700;;
+}
+.savings-plans-wrapper .savings-card-wrapper:nth-child(3) .shine-text-wrap{
+  color: #4597cb;
+}
+
+.saving-price-wrapper {
+  padding-top: 18px;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 15px;
+  font-size: 25px;
+  color: #565759;
+  font-family: "Montserrat";
+  font-weight: 400;
+  align-items: baseline;
+}
+.card-saving-best-value .saving-price-wrapper{
+  /* font-size: 34px; */
+  line-height: 1;
+}
+
+
+
+span.charges-yearly {
+  font-size: 17px;
+  padding-left: 6px;
+}
+.card-saving-best-value span.charges-yearly {
+  /* font-size: 22px; */
+}
+
+.section-savings-plan .sbr-logo-with-option {
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.card-saving-best-value .sbr-logo-with-option{
+  margin-top: 30px;
+  margin-bottom: 35px;
+}
+
+.section-savings-plan .enhanced-width{    text-align: left;     margin-bottom: 7px;}
+.section-savings-plan .saving-shine-content .eligible-text {
+  display: none;
+}
+.plus-indicator {
+  min-width: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 36px;
+  line-height: 1;
+  color: #f0c23a;
+  font-family: "Montserrat";
+  font-weight: 700;
+} 
+.section-savings-plan .aetna-logo-wrap{
+  max-width: 100px;
+}
+.saving-shine-content {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 30px;
+  border-radius: 0px 0px 10px 10px;
+}
+.tags-options {
+  column-gap: 9px;
+  justify-content: center; 
+  flex-wrap: wrap;
+}
+span.sbr-tag-default {
+  font-size: 10px;
+  color: #fff;
+  font-weight: 600;
+  font-family: "Montserrat";
+  display: inline-flex;
+  padding: 4px 12px;
+  border-radius: 7px;
+  min-width: 78px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5px;
+}
+span.sbr-tag-default.sbr-vision {
+  color: #002244;
+}
+span.disable-tag{
+  color: #c5c3c3;
+}
+.shine-product-description {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  max-width: 340px;
+  margin-left: auto;
+  margin-right: auto; 
+  min-height: 88px; 
+}
+.card-saving-best-value .shine-product-description{
+  margin-top: 36px;
+  margin-top: 40px;
+  min-height: 100px;
+}
+.shine-product-description ul{ list-style: none;}
+.shine-product-description ul li {
+  color: #555759;
+  font-size: 12px;
+  line-height: 1.4;
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-bottom: 3px;
+  font-weight: 500;
+}
+.shine-product-description ul li::before {
+  content: "";
+  width: 4px;
+  height: 4px;
+  background-color: #555759;
+  border-radius: 5px;
+  display: inline-flex;
+  margin-right: 5px;
+  border-radius: 5px;
+}
+.member-text {
+  font-family: "Montserrat";
+  color: #3c97cb;
+  font-size: 14px;line-height: 1;
+}
+.perks-text{  font-family: "Montserrat"; font-weight: 700; color: #002244; font-size: 32px;line-height: 1;}
+.perks-option {
+  padding-left: 12px;
+}
+.dropdown-selection,.section-savings-plan .add-to-cart-btn {
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.select-option select {
+  border-radius: 15px;
+  margin-bottom: 10px;
+  line-height: 20px;
+  height: 35px ;
+  background: #f1f2f2 url(https://www.smilebrilliant.com/wp-content/themes/revolution-child/assets/images/products/new-dental-probiotic/select_arrow.png) calc(100% - 9px) 15px no-repeat;
+  background-size: 9px 5px;
+  border-color: #c5c6c9;
+  box-shadow: 0px 13px 10px -16px #111;
+}
+.select-option {
+  margin-bottom: 10px;
+}
+
+.section-savings-plan .add-to-cart-btn button{
+    display: block;
+    width: 100%;
+    background-color: #f0c23a;
+    border-color: #f0c23a;
+    border-radius: 12px;
+    letter-spacing: 0;
+    font-size: 20px;
+    color: #2d2e2f;
+}
+.section-savings-plan .add-to-cart-btn button:hover{
+  color: #fff;
+  background-color: #595858;
+    border-color: #595858;
+}
+
+.section-savings-plan .card-saving-best-value .saving-shine-content{
+  background:url(../images/repeater-gradient.jpg) ;
+  background-repeat: repeat-x;
+    background-position: bottom;
+}
+.section-savings-plan .card-saving-best-value{
+  position: relative;
+}
+
+.section-savings-plan{
+  background:url(../images/bg-bkg.jpg) ;
+  background-position: top center;
+  background-repeat: repeat-x;
+  overflow: hidden;
+  
+
+}
+
+.section-savings-plan .container{
+  position: relative;
+}
+
+.section-savings-plan .containerRowDental:before {
+  content: "";
+  position: absolute;
+  background-image: url(https://www.smilebrilliant.com/wp-content/themes/revolution-child/assets/images/products/skin-care/ellipse-circle.webp);
+  max-width: 390px;
+  top: -206px;
+  left: -79px;
+  width: 100%;
+  height: 390px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/* section-shine-faqs */
+section.section.section-shine-faqs {
+  padding-top: 140px;
+}
+
+.section-tp-title{
+  font-family: "Montserrat";
+  font-size: 24px;
+  color: #2d2e2f;
+  font-weight: 500;
+  margin-bottom: 60px;
+}
+
+h6.sec-title-lrge{
+  font-family: "Montserrat";
+  font-size: 48px;
+  color: #2d2e2f;
+  font-weight: 700;
+  text-transform: inherit;
+  margin-bottom: 40px;
+
+}
+.sec-detail-info{
+  font-family: "Montserrat";
+  font-size: 36px;
+  color: #2d2e2f;
+  font-weight: 400;
+  padding-left: 150px;
+}
+.faq-text-lrg{
+  font-family: "Montserrat";
+  font-size: 48px;
+  color: #4acac9;
+  font-weight: 700;
+  min-width: 140px;
+}
+.tabs-group-container a{
+  font-family: "Montserrat";
+  font-size: 16px;
+  color: #2d2e2f;
+  font-weight: 500;
+  width: 100%;
+  max-width: 320px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #c5c6c9;
+  border-radius: 8px 8px 0 0;
+  margin-left:14px;
+  border-bottom: 1px solid  transparent;
+  padding-top: 4px;
+  column-gap: 3px;
+
+}
+.tabs-group-container a.activeTab{
+  background-color: #2d2e2f;
+  color: #fff;
+}
+.tabs-group-container {
+  max-height: 63px;
+}
+.down-arrow {
+  margin-top: 16px;
+  margin-bottom: 84px;
+}
+.faq-tabs-container {
+  background: #ecf5f9;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  border-top: 6px solid #2d2e2f;
+}
+a.tabs-button.btn-fist-a-dentist {
+  column-gap: 4px;
+}
+/* partnership-banner-bottom */
+section.partnership-banner-bottom {
+  overflow: hidden;
+}
+
+section.partnership-banner-bottom {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  background: #2d2e2f;
+  position: relative;
+}
+section.partnership-banner-bottom:before {
+  content: '';
+  background-image: url(../images/curve-graphic-page-footer.png);
+  width: 100%;
+  height: 107%;
+  display: block;
+  position: absolute;
+  left: -200px;
+  background-repeat: no-repeat;
+  top: 0;
+  background-size: contain;
+}
+h5.section-heading-partner {
+  font-size: 36px;
+  font-weight: 800;
+}
+.partnership-banner-bottom p, .partnership-banner-bottom h5, .powerd-by-text, .our-people-promise {
+  position: relative;
+  z-index: 999;
+}
+.partnership-banner-bottom p.heading-bottom-text {
+  font-size: 34px;
+  font-weight: 600;
+  line-height: 38px;
+  margin-top: -18px;
+  font-family: 'montserrat';
+}
+section.partnership-banner-bottom .text-white {
+  color: #fff;
+  font-family: 'montserrat';
+}
+.content-section p {
+  font-size: 15px;
+}
+.powerd-by-text {
+  padding-top: 10px;
+}
+.partnership-banner-bottom .powerd-by-text span {
+  font-size: 24px;
+  color: #fff;
+  font-weight: 300;
+}
+.family-img {
+  position: absolute;
+  bottom: -120px;
+  z-index: 0;
+  left: -105px;
+}
+
+.action-btn button {
+  background: #2d2e2f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-color: #2d2e2f;
+  border-radius: 10px;
+  letter-spacing: 0;
+}
+.our-people-promise button {
+  background: #4acac9;
+  color: #fff;
+}
+.poweredby-section {
+  display: flex;
+  justify-content: space-between;
+}
+.gurantee-logo {
+  position: relative;
+}
+.partnership-banner-bottom .content-section{
+  max-width: 610px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.image-circle {
+  max-width: 490px;
+}
+.plan-insurance-displainer{
+  padding-top: 20px;
+}
+.plan-insurance-displainer p {
+  font-size: 12px;
+}
+.plan-insurance-displainer p strong {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+
+/* Basic Modal Styling */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1234;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.7);
+  animation: fadeIn 0.5s;
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 0% auto;
+  padding: 45px;
+  border: 1px solid #888;
+  width: 100%;
+  max-width: 80%;
+  animation: slideUp 0.5s;
+  position: relative;
+  border: 4px solid #2d2e2f;
+  border-radius: 10px;
+}
+
+.modal .close {
+  color: #000000;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  display: inline-flex;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #000;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  border-radius: 30px;
+  position: absolute;
+  right: 14px;
+  top: 14px;
+}
+
+.modal  .close:hover,
+.modal  .close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Tab Styling */
+.tabs {
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+
+.popuptabs-wrapper  .tabs-left-row{
+  display: flex;
+  flex-wrap: wrap;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: inherit;
+  transition: 0.3s;
+  column-gap: 12px;
+  border-bottom: 1px solid #c8c6c6;
+  overflow: initial;
+}
+.popuptabs-wrapper .tabs-left-row button {
+  max-width: 26%;
+  width: 100%;
+  background: #eeeeee;
+  cursor: pointer;
+  border-radius: 8px 8px 0 0;
+}
+.tabs button:hover {
+  background-color: #ddd;
+}
+
+.tabs button.active {
+  background-color: #ccc;
+}
+
+.tabcontent {
+  display: none;
+  /* padding: 6px 12px; */
+  border-top: none;
+  /* animation: fadeTab 0.5s; */
+}
+
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideUp {
+  from { transform: translateY(100px); }
+  to { transform: translateY(0); }
+}
+
+@keyframes fadeTab {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+
+
+.popup-heading {
+  font-size: 52px;
+  color: #2d2e2f;
+  font-weight: 800;
+}
+h4.popup-sub-heading {
+  font-size: 29px;
+  color: #2d2e2f;
+}
+.popuptabs-wrapper {
+  margin-top: 60px;
+}
+
+/* modal popup accordion */
+
+
+#wrapper .popupContentWrapper .accordion {
+
+  border-radius: 5px;
+}
+
+#wrapper .popupContentWrapper .accordion-item {
+  border: 3px solid;
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
+
+#wrapper .popupContentWrapper  .accordion-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  padding-left: 55px;
+  background-color: #f9f9f9;
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  /* border-radius: 10px; */
+}
+
+#wrapper .popupContentWrapper  .accordion-header h3 {
+  margin: 0;
+  font-size: 36px;
+  font-weight: bold;
+  color: #ffffff;
+  line-height: 1;
+}
+#wrapper .popupContentWrapper  .clickedDisable .accordion-header h3{
+  color: #c5c3c3;
+}
+
+#wrapper .popupContentWrapper  .accordion-content {
+  border-radius: 12px;
+  display: none;
+  padding: 15px;
+  background-color: #fff;
+}
+
+#wrapper .popupContentWrapper .arrow {
+  transition: transform 0.3s ease;
+}
+#wrapper .popupContentWrapper span.arrow img {
+  transition: transform 0.3s ease;
+  width: 45px;
+  height: 45px;
+}
+
+#wrapper .popupContentWrapper  .arrow.up {
+  transform: rotate(180deg);
+}
+
+#wrapper .popupContentWrapper .accordion-header span.arrow {
+  position: absolute;
+  right: 12px;
+}
+
+#wrapper .popupContentWrapper .pop-accordion-wrapper {
+  margin-top: 75px;
+}
+
+#wrapper .popupContentWrapper .table-container-pricing {
+    width: 98%;
+    margin: 0px auto;
+
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+#wrapper .popupContentWrapper .table-container-pricing table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#wrapper .popupContentWrapper .table-container-pricing thead {
+    background-color: #f9f9f9;
+    border: 0;
+    border-bottom: 1px solid #c8c6c6;
+}
+#wrapper .popupContentWrapper .table-container-pricing tbody{ border: 0;}
+
+#wrapper .popupContentWrapper .table-container-pricing th,#wrapper .popupContentWrapper .table-container-pricing td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #c8c6c6;
+    background: #fff;
+}
+#wrapper .popupContentWrapper .table-container-pricing td{
+  font-size: 16px;
+  padding: 15px 10px;
+}
+
+#wrapper .popupContentWrapper .table-container-pricing th {
+    font-weight: bold;padding-top: 0;
+    font-family: 'montserrat';
+}
+
+#wrapper .popupContentWrapper .table-container-pricing tbody tr:last-child td {
+    border-bottom: none;
+}
+
+#wrapper .popupContentWrapper .sbr-discount-acc  .table-container-pricing .save {
+    color: #00bcd4;
+}
+#wrapper .popupContentWrapper .dental-office-discount  .table-container-pricing .save {
+  color: #00bbb4; 
+}
+
+#wrapper .popupContentWrapper .vision-center-discount  .table-container-pricing .save {
+    color: #F5E1AB;
+}
+#wrapper .popupContentWrapper .pharmacy-rx-center-discount  .table-container-pricing .save {
+  color: #002745; 
+}
+
+#wrapper .popupContentWrapper  .table-container-pricing .note {
+    font-weight: bold;
+    text-align: left;
+    font-size: 12px;
+    color: #000;
+}
+#wrapper .popupContentWrapper  .table-container-pricing .text-center-mbt{ text-align: center;}
+
+.clickedDisable{
+  pointer-events:none
+}
+
+
+
+ul.list-style-table li {
+  margin-bottom: 7px;
+}
+.list-style-table li,p.discla-sml-tct{
+  color: #000;
+  text-align: left;
+  font-size: 12px;
+  font-weight: 500;
+}
+#wrapper .popupContentWrapper .table-container-pricing  .ada-code-th,#wrapper .popupContentWrapper .table-container-pricing  .ada-code-td {
+  min-width: 164px;
+  padding-right: 40px;
+}
+.content-info-table {
+  margin-left: 42px;
+}
+ul.list-style-table {
+  list-style: none;
+}
+
+.tablink .shine-smile-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 50px;
+  width: 100%;
+  height: 50px;
+  border-radius: 60px;
+  background: #4acac9;
+  padding: 0;
+  margin: 0;
+}
+.popupContentWrapper .saving-card-header{ align-items: center;}
+.logo-wrap-pop {
+  max-width: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.shine-denta-tab-head.active
+,.shine-denta-tab-head.tablink.active .saving-card-header
+{
+  background: #4acac9 !important;
+}
+
+.shine-perks-tab-head.tablink .shine-smile-logo
+,.shine-perks-tab-head.tablink.active
+,.shine-perks-tab-head.tablink.active .saving-card-header
+{
+  background: #3c97cb !important;
+}
+
+
+.shine-denta-complete-head.tablink .shine-smile-logo
+,.shine-denta-complete-head.tablink.active
+{
+  background: #002244;
+}
+
+.shine-denta-complete-head,a.btnShineComplete{
+  position: relative;
+}
+.shine-denta-complete-head:before,a.btnShineComplete:before{
+  content: "MOST POPULAR";
+  position: absolute;
+  top: -8px;
+  left: 0;
+  width: 104px;
+  height: 20px;
+  background-color: #f0c23a;
+  color: #002244;
+  font-size: 11px;
+  font-family: "Montserrat";
+  font-weight: 500;
+  text-align: center;
+  line-height: 1;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  right: 0;
+  z-index: 12;
+}
+
+.shine-denta-tab-head .shine-text-wrap{
+  color: #4acac9;
+}
+.shine-denta-complete-head .shine-text-wrap{
+  color: #002244;
+}
+.shine-perks-tab-head .shine-text-wrap{
+  color: #3c97cb;
+}
+
+
+.shine-denta-complete-head.tablink.active .shine-text-wrap
+,.shine-denta-tab-head.tablink.active .shine-text-wrap
+,.shine-perks-tab-head.tablink.active .shine-text-wrap
+{
+  color: #fff;
+}
+
+
+
+
+.modal .saving-card-header,.modal .saving-card-header{
+  border-radius: 10px 10px 0 0px;
+}
+
+.shineCompleteWrapperParent .shine-dental-description-paragraph {
+  max-width: 660px;
+  width: 100%;
+}
+.shineCompleteWrapperParent .shine-dental-description-paragraph p{
+  font-size: 16px;
+  color: #000000;
+  font-weight: 400;
+  line-height: 1.3;
+  margin-bottom: 0;
+}
+.shine-dental-description {
+  max-width: 88%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 56px;
+  width: 100%;
+}
+.shine-dental-description-price-section {
+  width: 100%;
+  max-width: 280px;
+
+}
+
+
+.shine-price-display .saving-price-wrapper{
+  justify-content: center;
+  padding-right: 0px;
+  padding-top: 0;
+}
+.shine-price-display .button-wrap {
+  margin-bottom: 0px;
+}
+.overflowHiddenByJs{ overflow: hidden;}
+
+.shine-text-wrap {
+  display: inline;
+}
+
+.section-savings-plan .add-to-cart-btn button:disabled,.section-savings-plan .add-to-cart-btn.disableButton{
+  background-color: #cccccc !important;
+  color: #666666!important;
+  pointer-events:none;
+  border-color: #cccccc;    opacity: 0.4;
+}
+.shine-product-description{ position: relative;}
+.combinationNotAvailable{
+  position: absolute;
+  font-size: 12px;
+  text-align: center;
+  bottom: -21px;
+  color: red;
+  text-transform: uppercase;
+  font-family: "Montserrat";
+  font-weight: 600;
+  letter-spacing: -0.02em; 
+  left: 0;
+}
+.sbr-discount-acc .ada-code-th
+,.sbr-discount-acc .ada-code-td
+{
+  display: none;
+}
+
+
+.location-search {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 10px;
+}
+input, select, button {
+  flex: 1 1 100%;
+}
+.search-flex { 
+  display: flex; 
+  flex-wrap: wrap; 
+  width: 100%; 
+  margin-left: -7px; 
+  margin-right: -7px; 
+}
+.search-flex > div { 
+  padding-left: 7px; 
+  padding-right: 7px;
+  width: 100%;
+  max-width: 50%;
+}
+.location-search input[type="text"], .location-search select {
+  margin: 0;
+  padding: 0.375rem 2.25rem 0.375rem 0.75rem;
+  -moz-padding-start: calc(0.75rem - 3px);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: right 0.75rem center;
+  background-size: 16px 12px;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+  transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin-bottom: 0px;    
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+  min-height: 58px;
+  box-shadow: none;
+}
+.custom-checkbox{ font-family: "Montserrat", sans-serif;    cursor: pointer;            font-size: 14px;
+font-weight: 400;
+line-height: 1.5;}
+
+.location-search select {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/%3E%3C/svg%3E");
+}
+.buttons-group-set button{
+  padding: 10.5px 0;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  color: #2d2e2f;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: montserrat;
+  display: inline-block;
+  text-align: center;
+  font-weight: 300;
+  width: 48%;
+  background-color: #f0c23a;
+  line-height: 1;
+  text-transform: uppercase;
+  border: 0px;
+  height: 56px;
+  cursor: pointer;
+}
+.buttons-group-set button.reset-button{
+  background:#d2d2d2;
+}
+.search-flex.buttons-group-set{
+  justify-content: space-between;
+}
+h6.find-location-heading {
+  font-size: 31px;
+  color: #2d2e2f;
+  font-weight: 700;
+  line-height: 0.9;
+  margin-bottom: 30px;
+  font-family: "Montserrat";
+  margin-bottom: 5px;
+  padding-left: 10px;
+  text-transform: capitalize;
+}
+.dental-location-search-wrapper {
+  /* max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #fff;
+  padding: 1rem; */
+}
+.search-flex.optionOne .input-group {
+  width: 71%;
+  max-width: 71%;
+}
+.search-flex.buttons-group-set {
+  justify-content: space-between;
+  max-width: 30%;
+}
+
+.popupContentWrapper .shine-dental-description-price-section{max-width: 400px;}
+.popupContentWrapper  .dropdown-selection{display: flex;width:100%;column-gap: 15px;max-width: 330px;}
+.popupContentWrapper  .shine-price-display .button-wrap{text-align: center;}
+.popupContentWrapper .dropdown-selection .form-group{ width: 100%; max-width: 48%;}
+
+#wrapper .savings-plans-wrapper label
+,#wrapper  .popupContentWrapper  label
+{ font-size: 12px;}
+
+.partnersSlide { opacity: 0;}
+.partnersSlide.slick-initialized { opacity: 1;}
+
+
+.faq-tabs-container .text--k {
+  font-family: 'Open Sans', 'BlinkMacSystemFont', -apple-system, 'Roboto', 'Lucida Sans';
+  font-size: 24px;
+  color: #2d2e2f;
+  line-height: 1.1;
+  font-weight: 500;
+}
+
+.faq-tabs-container ul.accordion-list li{
+  padding-left: 50px;
+}
+.faq-tabs-container  .ewd-ufaq-faq-title.ewd-ufaq-faq-toggle
+,.faq-tabs-container .ewd-ufaq-faq-custom-fields,.faq-tabs-container .ewd-ufaq-permalink
+{
+  display: none;
+}
+.faq-tabs-container  .ewd-ufaq-faq-body {
+  padding: 0;
+  padding-left: 0;
+}
+.faq-tabs-container  .answer-content {
+  padding-top: 0;
+  padding-left: 0px;
+}
+.faq-tabs-container .ewd-ufaq-faq-div{
+  margin: 0;
+  padding: 0;
+}
+
+.find-a-dentist-location-pop .search-flex.optionOne .input-group{
+  width: 100%;
+    max-width: 50%;
+}
+
+#modal2 .modal-content{ max-width: 800px;}
+.find-a-dentist-location-pop .search-flex.buttons-group-set {
+  max-width: 50%;
+}
+.member-off-parent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  color: #fff;
+  text-transform: none;
+  font-style: italic;
+  font-weight: 500;
+}
+.page-template-shine-main-lander-temp .disabled,.page-template-shine-main-lander-temp input:disabled{
+  color: #AAA;
+  background: #e4e4e4;
+  pointer-events: none;
+  cursor: not-allowed;
+  border-color: #e4e4e4;
+}
+
+.page-template-shine-main-lander-temp .whiteBackground.disabled{
+  background: #ffffff !important;
+  border-color: #ffffff !important;
+  cursor: pointer;
+  pointer-events: none;
+}
+
+
+
+.cursor_pointer {
+  cursor: pointer;
+}
+.custom-checkbox{ font-family: "Montserrat", sans-serif;    cursor: pointer;            font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;}
+  
+  
+  .custom-checkbox input[type="radio"] {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+  .custom-checkbox .checkmark {
+    position: relative;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border:1px solid #dadce0;
+    background-color: #fff;
+    border-radius: 4px;
+    margin-right: 5px;
+    vertical-align: middle;
+    border-radius: 20px;
+  }
+  .custom-checkbox input[type="radio"]:checked + .checkMarkWrapper .checkmark {
+    background-color: #f0c23a;
+    border: 1px solid #f0c23a;
+  }
+  .custom-checkbox .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  .wrapperGpsInner {
+    display: flex;
+    align-items: center;
+  }
+  .wrapperGPS .userLocationWrapper{
+    padding: .375rem .8rem .375rem .55rem;
+    min-height: 44px;
+}
+  .checkMarkWrapper {
+    min-width: 36px;
+}
+  .custom-checkbox input[type="radio"]:checked  + .checkMarkWrapper .checkmark:after {
+    display: block;
+  }
+  .custom-checkbox .checkmark:after {
+    left: 7px;
+    top: 3px;
+    width: 6px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+  }
+
+
+  #wrapper .radiobuttonSec label .userLocationWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border: 1px solid #ccc;
+    border-radius: .25rem;
+    width: 100%;
+    height: 58px;
+
+}
+.buttons-group-set button.reset-button{
+  background:#d2d2d2;
+}
+
+
+.buttons-group-set button.reset-button{
+  background:#d2d2d2;
+}
+.search-flex.optionThree button {
+  width: 100%;
+}
+.section-common-saving-shine .slick-dots{
+  bottom: -40px
+}
+.section-common-saving-shine .slick-dots li{
+  margin: 0 2px;
+}
+.section-common-saving-shine .slick-dots li button{
+  padding: 0;
+}
+.section-common-saving-shine .slick-dots li button:before{
+  font-size: 16px;
+}
+.mobile-slider-activate{opacity: 0;}
+.mobile-slider-activate.slick-initialized{opacity: 1;}
+
+
+
+/* mobile tabs accordions */
+.accordion-mobile {
+
+}
+
+.accordion-mobile-item {
+  border-bottom: 1px solid #ccc;
+}
+
+.accordion-mobile-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  /* background-color: #f9f9f9; */
+  padding-left: 0;
+  cursor: pointer;
+  padding-right: 0;
+}
+
+.accordion-mobile-code {
+  width: 100px;
+  text-align: left;
+}
+
+.accordion-mobile-procedure {
+  flex: 1;
+  text-align: left;    padding-left: 10px;
+}
+
+.accordion-mobile-toggle {
+  background-image:url(../images/icons/down-arrow-dental-office.svg);
+  transform: rotate(0deg);
+  transition: transform 0.3s ease;
+  width: 20px;
+  height: 20px;
+}
+
+.accordion-mobile-body {
+  display: none;
+  padding: 15px;
+  background-color: #fff;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+
+.accordion-mobile-header.active .accordion-mobile-toggle {
+  transform: rotate(-180deg);
+}
+
+.ada-code-wrap,.procedres-wrap{
+    padding: 10px;
+    text-align: left;
+
+    background: #fff;
+    font-weight: bold;
+    padding-top: 0;
+    font-family: 'montserrat';    text-align: center;    color: #0a0a0a;
+
+}
+.ada-code-wrap{     
+  padding-left: 0px;
+  width: 100px;
+  padding-right: 0;
+  text-align: left;
+}
+
+.headerContainerRow {
+    border-bottom: 1px solid #c8c6c6;
+    display: flex;
+    position: sticky;
+    top: 0;
+    z-index: 789;
+    width: 100%;
+    background: #ffffff;
+
+}
+.itemParentFlex{ display: flex;     column-gap: 10px;}
+.typehed{
+  padding: 10px;
+  font-weight: bold;
+  padding-top: 0;
+  font-family: 'montserrat';
+  text-align: center;        font-size: 12px;     color: #000;  
+}
+
+
+.typetxt{
+  font-size: 12px;     color: #000;  
+  text-align: center; 
+}
+
+.generalText {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  color: #b1b0b0;
+  text-transform: none;
+  letter-spacing: -.02em;
+  margin-bottom: 5px;
+}
+.generalText strong {
+  color: #222;
+  font-size: 14px;
+}
+
+.page-template-shine-main-lander-temp .find-a-dentist-location-pop .rowDivWrapper{
+  display: flex;
+  width: 100%;    justify-content: space-between;
+
+}
+.page-template-shine-main-lander-temp .find-a-dentist-location-pop .rowDivWrapper > div {
+  flex: 1;
+}
+.page-template-shine-main-lander-temp .find-a-dentist-location-pop .rowDivWrapper > div:only-child {
+  flex: 0 0 100%;
+}    
+
+.page-template-shine-main-lander-temp .find-a-dentist-location-pop .rowDivWrapper .select-option{
+  max-width:100%;
+}
+.wrapperTo {
+  display: flex;
+  align-items: center;
+}
+
+.hideDivMiles #miles{ display: none;}
+.hideDivMiles #allCat{
+  flex: 0 0 100%;
+}
+
+
+.page-template-shine-main-lander-temp #wrapper .custom-checkbox input[type="radio"]:checked + .checkMarkWrapper + .userLocationWrapper{
+  border: 1px solid #f0c23a;
+}
+
+.section-register-rgt .zipNameGet::placeholder {
+  font-weight: 600 !important;
+}
+
+.modal-content button.search-button.btn-four:disabled {
+  
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.generaResults-checked #zipNameGet{ 
+  border-color: #f0c23a;
+
+
+}
+.page-template-shine-main-lander-temp  .addIconforBlance{ position: relative;
+  padding-left: 44px;
+}
+
+.page-template-shine-main-lander-temp  .iconForBalnced{
+  position: absolute;
+  background-image: url(../images/icons/dropdownCat.svg);
+  width: 30px;
+  height: 30px;
+  background-size: cover;
+  left: 0;
+  top: 18px;
+  background-position: center;
+}
+
+.fullMobileVersion .input-group{ order: 2;}
+.fullMobileVersion .optionLocation{ order: 1;}
+.loaderValuesLoader:before{
+  content: "";
+}
+#searchButton{ position: relative;}
+.loaderValuesLoader #searchButton::after{content:"";position:absolute;top:0;left:0;width:100%;background:#f7f7f79c;z-index:9;height:100%}
+.loaderValuesLoader #searchButton:before{content:"";border:10px solid #f3f3f3;border-top-color:#f3f3f3;border-top-style:solid;border-top-width:10px;border-radius:50%;border-top:10px solid #3498db;width:40px;height:40px;-webkit-animation:spin 2s linear infinite;animation:spin 2s linear infinite;position:absolute;z-index:99;top:0;left:0;right:0;margin-left:auto;margin-right:auto}
+@-webkit-keyframes spin {
+0%{-webkit-transform:rotate(0deg)}
+100%{-webkit-transform:rotate(360deg)}
+}
+@keyframes spin {
+0%{transform:rotate(0deg)}
+100%{transform:rotate(360deg)}
+}
+
+.loaderValuesLoader .wrapperGPS
+,.loaderValuesLoader #searchButton
+{
+  pointer-events: none !important;
+}
+
+.youcanotPurchasePop .modal-content{
+  max-width: 700px;
+  border: 4px solid #888;
+}
+.youcanotPurchasePop .modal-content h1{
+
+  font-size: 30px;
+  line-height: 1.4;
+  font-weight: normal;
+  text-align: center;
+  /* color: #4597cb; */
+  margin: 0;
+  text-transform: uppercase;
+}
+.youcanotPurchasePop .modal-content h1 strong {
+  font-weight: bold;
+  color: #f0c23a;
+}
+.section-common-saving-shine .slick-prev,.section-common-saving-shine  .slick-next{
+  z-index: 1;
+}
+.section-common-saving-shine .slick-prev:before,.section-common-saving-shine .slick-next:before{
+  font-size: 35px;
+  opacity: 1;
+  color: #f0c23a;
+}
+.section-common-saving-shine button .slick-arrow.slick-disabled{
+  opacity: 0.5;
+}
+
+html body.page-template-geha-template .subMenuDropdown a.txtClr1 {
+  color: #fa319e;
+}
+html body.page-template-geha-template .subMenuDropdown a.txtClr2 {
+  color: #3c98cc;
+}
+html body.page-template-geha-template .subMenuDropdown a.txtClr3 {
+  color: #25d4cd;
+}
+html body.page-template-geha-template  #wrapper ul.subMenuDropdown .skin-careProductNav label{
+  color: #f0c23b;
+}
+
+div#modal3 {
+  z-index: 12341;
+}
+
+
+@media (min-width: 768px) {
+  .dental-access img {
+    min-width: 124px;
+
+}
+.section-top-banner .dental-access img {
+  min-width: 156px;
+  max-width: 156px;
+} 
+  .aetna-logo-wrap {
+      min-width: 112px;
+  }
+  .shine-offers-wrapper  .slick-next{
+    right: -10px;
+  }
+  .forMobileBtn {
+    display: none;
+}
+  .page-template-shine-main-lander-temp .find-a-dentist-location-pop .rowDivWrapper > div:not(:only-child) {
+    flex: 0 0 50%;
+  }
+
+  span.dotsSelection {
+    padding-right: 4px;
+    position: relative;
+    top: -2px;
+}
+.saving-shine-content .saving-price-wrapper {
+      min-height: 53px;
+  }
+  .section-savings-plan .card-saving-best-value{
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    top: -14px;
+  }
+
+  .mobile_image,.hidden-desktop-standard{ display: none;}
+  .col-sm-6 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 50%;
+      flex: 0 0 50%;
+      max-width: 50%;
+      display: flex;
+      align-items: center;
+  }
+  .priceHeaderMobile{ display: none;}
+
+
+
+}
+
+
+
+@media (min-width: 2000px) and (max-width: 2299px) {
+  .section-top-banner{zoom: 1.14;}
+  .sectionRgt h1 {
+    /* color: purple; */
+  }
+
+  section.partnership-banner-bottom:before{
+
+    height: 122%;
+    background-size: contain;
+  }
+  section.partnership-banner-bottom{
+    overflow: hidden;
+  }
+
+}
+
+@media (min-width: 2400px) and (max-width: 2550px) {
+  .section-top-banner{zoom: 1.24;}
+  .sectionRgt h1 {
+    /* color: green; */
+  }
+
+
+  section.partnership-banner-bottom:before{
+    width: 100%;
+    height: 137%;
+    background-size: contain;
+  }
+  section.partnership-banner-bottom{
+    overflow: hidden;
+  }
+
+}
+
+@media (min-width: 2551px) and (max-width: 2899px) {
+  .section-top-banner{zoom: 1.44;}
+  .sectionRgt h1 {
+    /* color: orange; */
+  }
+
+  section.partnership-banner-bottom:before{
+    width: 100%;
+    height: 148%;
+    background-size: contain;
+  }
+
+}
+
+@media (min-width: 2900px) and (max-width: 36500px) {
+
+  .section-top-banner{zoom: 1.84;}
+  .sectionRgt h1 {
+    /* color: red; */
+  }
+
+}
+
+
+/* media query */
+
+
+
+@media only screen and (max-width: 1700px) {
+  .sectionRgt p {
+    /* color: red; */
+  }
+  .section-top-banner:after{
+    left: -175px;
+    top: -177px;
+  }
+
+  section.partnership-banner-bottom:before {
+    left: -322px;
+  }
+  .shine-text-wrap {
+    display: inline-block;
+  }
+  .section-savings-plan .shine-text-wrap, .shine-text-wrap{
+    font-size: 20px; 
+  }
+
+
+}
+
+
+@media only screen and (max-width: 1500px) {
+
+  .sectionRgt p {
+    /* color: blue; */
+  }
+  .shine-banner-wrap:before{
+    width: 925px;
+    height: 920px;
+  }
+
+  .circle-banner-home {
+    max-width: 463px;
+    left: 62px;
+}
+  .shine-banner-wrap .aetna-logo-wrap{
+    right: 71px;
+    margin-top: 42px;
+  }
+
+
+  .section-wellness-saving-program h2{
+    font-size: 39px;
+  }
+
+  .section-register-rgt h4{
+    font-size: 64px;
+  }
+
+
+  .image-circle {
+    max-width: 400px;
+}
+  h5.section-heading-partner {
+    font-size: 32px;
+  }
+
+  section.partnership-banner-bottom:before {
+    left: -340px;
+  }
+
+
+  .popuptabs-wrapper .tabs-left-row button {
+    max-width: 32%;
+  }
+  .shine-text-wrap {
+    display: inline-block;
+  }
+.section-savings-plan .shine-text-wrap, .shine-text-wrap{
+  font-size: 20px; 
+}
+#wrapper .popupContentWrapper .accordion-header h3{
+  font-size: 28px;
+}
+
+}
+
+@media only screen and (max-width: 1350px) {
+  section.partnership-banner-bottom:before {
+    left: -425px;
+}
+
+}
+
+
+
+
+@media only screen and (max-width: 1200px) {
+  .container{ width: 100%; max-width: 95%; margin-left: auto;margin-right: auto;}
+
+  .shine-banner-wrap:before {
+    width: 709px;
+      height: 664px;
+  }
+
+  .sectionRgt p {
+    /* color: green; */
+  }
+  .circle-banner-home {
+    max-width: 230px;
+    left: 94px;
+}
+.sectionRgt h1 {
+  font-size: 62px;
+}
+.section-top-banner {
+  padding-top: 50px;
+  padding-bottom: 124px;
+}
+.shine-banner-wrap .aetna-logo-wrap {
+  right: 50px;
+  margin-top: 36px;
+}
+
+.section-wellness-saving-program h2 {
+  font-size: 30px;
+}
+.help-vision-text {
+  font-size: 32px;
+
+}
+
+
+.shine-offers-wrapper {
+  column-gap: 16px;
+}
+
+
+.section-register-rgt h4 {
+  font-size: 50px;
+}
+.section-register-rgt h5 {
+  font-size: 38px;
+}
+
+.section-savings-plan .containerRowDental:before{
+  left: -235px;
+}
+
+  .avg-price {
+    font-size: 10px;
+  }
+  .price-label-off-tag {
+    font-size: 12px;
+  }
+  .shine-card-header{
+    font-size: 16px;
+  }
+
+  .savings-plans-wrapper {
+    column-gap: 15px;
+ 
+  }
+  .savings-card-wrapper{
+    max-width: 31.333%;
+  }
+  .section-savings-plan .shine-text-wrap, .shine-text-wrap{
+    font-size: 18px;
+  }
+  .tags-options {
+    column-gap: 5px;
+  }
+  span.sbr-tag-default{
+    margin-bottom: 5px;
+  }
+
+}
+
+
+@media only screen and (min-width: 992px) {
+  .hidden-desktop{ display: none;}
+}
+
+
+@media only screen and (max-width: 991px) {
+  .hidden-mobile{ display: none;}
+  .section-top-banner .row-flex,.section-register-instantly-with-shine .row-flex{
+    flex-wrap: wrap;
+  }
+  .sectionLft{ max-width: 100%;}
+  .shine-banner-wrap:before {
+      width: 630px;
+      height: 610px;
+      margin-left: auto;
+      margin-right: auto;
+      left: 0;
+      right: 0;
+  }
+  .help-vision-text {
+    font-size: 24px;
+}
+.section-wellness-saving-program h2,.help-vision-text {
+  font-size: 22px;
+  text-align: left;
+}
+.whats-shine {
+  font-size: 18px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+  .circle-banner-home{
+    left: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .section-top-banner .aetna-logo-wrap{
+    display: none;
+  }
+  .sectionRgt{
+    position: relative;
+    max-width: 80%;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    text-align: center;
+  }
+  .section-register-lft {
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+  .section-register-lft .where-can-i-use-it-text,.where-can-i-use-it-text {
+    text-align: left;
+    margin-left: 0;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  .section-register-rgt h4,.section-register-rgt h5,.find-provider-text{
+    text-align: left;
+  }
+
+  .cancel-as-want {
+    text-align: left;
+    padding-left: 20px;
+}
+
+  span.digits-number{
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .section-register-instantly-with-shine .find-participating-dentist{
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .section-savings-plan .containerRowDental:before {
+    left: -150px;
+    top: -294px;
+  }
+
+  section.section.section-shine-faqs {
+    text-align: left;
+}
+
+.sec-detail-info{
+  font-size: 26px;
+  padding-left: 0px;
+}
+
+section.partnership-banner-bottom:before {
+  left: -453px;
+}
+h5.section-heading-partner {
+  font-size: 20px;
+  text-align: left;
+}
+.content-section p {
+
+  font-size: 14px;
+}
+.card-saving-best-value .sbr-logo-with-option {
+  margin-top: 17px;
+  margin-bottom: 20px;
+}
+.shine-product-description ul li{
+      font-size: 11px;
+      text-align: left;
+}    
+.saving-price-wrapper{
+  font-size: 20px;
+}
+.card-saving-best-value .saving-price-wrapper{
+  font-size: 26px;
+}
+
+.section-savings-plan .aetna-logo-wrap {
+  max-width: 75px;
+}
+.product-graphic {
+  max-width: 26px;
+}
+.product-graphic img {
+  max-width: 100% !important;
+}
+
+.modal-content{
+  max-width: 98%;
+}
+.modal-content{
+  padding: 20px;
+}
+.popuptabs-wrapper .tabs-left-row button {
+  max-width: 32%;
+}
+#wrapper .popupContentWrapper .accordion-header h3 {
+  font-size: 24px;
+}
+#wrapper .popupContentWrapper .accordion-header span.arrow{
+  top: 9px;
+}
+.popup-heading {
+  font-size: 32px;
+}
+h4.popup-sub-heading {
+  font-size: 22px;
+
+}
+#wrapper .popupContentWrapper .table-container-pricing .ada-code-th, #wrapper .popupContentWrapper .table-container-pricing .ada-code-td {
+  min-width: 82px;
+  padding-right: 17px;
+}
+#wrapper .popupContentWrapper .table-container-pricing th{
+  font-size: 12px;
+}
+.content-info-table {
+  margin-left: 0px;
+}
+#wrapper .popupContentWrapper .table-container-pricing td {
+  font-size: 14px;
+}
+.shine-dental-description {
+  max-width: 100%;
+}
+.wellness-content-section p{
+  margin-bottom: 37px;
+}
+.section-common-saving-shine h3 {
+  font-size: 36px;
+}
+.headingSubHead {
+  font-size: 18px;
+  margin-bottom: 47px;
+}
+.shine-card-header {
+  font-size: 14px;
+}
+.section-register-rgt{
+  max-width: 100%;
+}
+}
+
+@media only screen and (max-width: 767px) {
+  .dental-access img {
+    min-width: 104px;
+
+}
+  .youcanotPurchasePop .modal-body {
+    padding-top: 19px;
+}
+  .shine-offers-wrapper .slick-prev {
+    left: 0px;
+  }
+  .shine-offers-wrapper  .slick-next {
+    right: 15px;
+  }
+  .page-template-shine-main-lander-temp .addIconforBlance {
+    padding-left: 36px;
+  }
+  .search-flex.fullMobileVersion{
+    flex-direction: column;
+  }
+
+  .search-flex.fullMobileVersion > div{
+    margin-bottom: 13px;
+    max-width: 100%;
+  }
+  
+
+  .location-search input[type="text"], .location-search select{
+    padding: 0.375rem .25rem 0.375rem 0.6rem;
+  }
+  /* .hiddenSmallRes{ display: none;} */
+  .woocommerce-message, .woocommerce-error, .woocommerce-info:not(.cart-empty){
+    bottom: 60px;
+    animation-duration: 2.5s, 2.5s;
+    animation-delay: 0.5s, 10s;
+  }
+  .hiddenMobile{ display: none !important;}
+  .wrapperContainerMobile {
+    margin-bottom: 3rem;
+  }
+
+  .section-our-members {
+    padding: 24px 0;
+  }
+  .section-top-banner:after {
+    left: -119px;
+    top: -199px;
+    width: 250px;
+    height: 250px;
+    background-size: contain;
+  }
+  .shine-banner-wrap:before {
+    width: 1200px;
+    height: 482px;
+    margin-left: auto;
+    margin-right: auto;
+    right: 0;
+    background-size: contain;
+    background-position: 56px;
+    top: -115px;
+    left: -134px;
+  }
+
+  .circle-banner-home {
+    left: 0;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 222px;
+  }
+.sectionRgt{
+  margin-top: 50px;
+}
+.sectionRgt h1 {
+  font-size: 38px;
+}
+  .sectionRgt{
+    max-width: 100%;
+  }
+  
+  .sectionRgt .subheadinhg {
+    font-size: 16px;
+    font-weight: 500;
+}
+a.btn-yellow, .how-work-link a{
+  font-weight: 400;
+}
+
+.wellness-content-section-aside {
+  position: absolute;
+  max-width: 272px;
+  right: -54px;
+  margin-bottom: 0px;
+}
+.happy-family-pciture {
+  margin-top: -168px;
+  max-width: 680px;
+
+}
+.hidden-mobile-standard {
+  display: none;
+}
+.section-top-banner {
+  padding-bottom: 35px;
+}
+.section-wellness-saving-program {
+  padding-top: 34px;
+  padding-bottom: 35px;
+}
+.desktop_image{ display: none;}
+.whats-shine {
+  font-size: 14px;
+  font-weight: 500;
+}
+.section-wellness-saving-program h2 {
+  font-size: 30px;
+  margin-top: 33px;
+}
+.help-vision-text{
+  font-size: 22px;
+  line-height: 1.2;
+  font-weight: 400;
+}
+
+.smile-graphic-below:before {
+  width: 46px;
+  height: 22px;
+  margin-top: 10px;
+  background-size: contain;
+}
+.floting-geha-button {
+  display: none;
+}
+.container{
+  max-width: 92%;
+}
+.italic-mobile{
+   font-style: italic;
+}
+.wellness-content-section{
+  text-align: left;
+}
+.section-wellness-saving-program .button-wrap{
+  margin-left: auto;
+    margin-right: auto;
+}
+  .find-participating-dentist input[type="search"], .find-participating-dentist input[type="text"]{
+    font-size: 18px;text-transform: capitalize;
+  }
+
+  section.section-common-saving-shine{
+    padding-top: 50px;
+    background-position: center -850px;
+  }
+  .section-common-saving-shine h3 {
+    font-size: 27px;
+  }
+  .section-common-saving-shine h3 .styleOne-1{
+    display: block;
+    font-size: 18px;
+}
+.headingSubHead {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+.shine-card-header { font-size: 18px;}
+.section-register-rgt h4 {
+  font-size: 36px;
+  font-style: italic;
+}
+.section-register-rgt h5 {
+  font-size: 26px;
+}
+.find-provider-text {
+  font-size: 18px;
+}
+span.digits-number {
+  min-width: 20px;
+}
+.text--k {
+  font-size: 14px;
+  text-align: left;
+  padding-right: 0rem;
+  padding-left: 10px;
+}
+ul.accordion-list li h3:after{
+  right: 0px;
+  opacity: 0;
+}
+.small-text {
+  font-size: 11px;    margin-top: 0px;
+}
+span.digits-number img {
+  width: 20px;
+  height: 20px;
+}
+section.section.section-top-banner{
+  padding-top: 10px;
+}
+.answer-content {
+  padding-top: 1rem;
+  padding-left: 0px;
+  text-align: left;
+}
+ul.accordion-list li div.answer p
+,.section-shine-faqs .accordion-two-content
+{
+  font-size: 14px;
+}
+.section-savings-plan h6{
+  padding-top: 72px;
+  font-size: 27px;
+}
+.section-savings-plan .dental-savings-subheading .shine-underline {
+  font-size: 20px;
+
+}
+.section-savings-plan .section-description p {
+  font-size: 14px;
+}
+
+.savings-plans-wrapper {
+  column-gap: 0px;
+  flex-wrap: wrap;
+}
+.savings-card-wrapper {
+  max-width: 100%;
+}
+.section-savings-plan .card-saving-best-value{
+  order: 1;
+}
+.section-savings-plan  .card-saving-one{
+  order: 2;
+}
+.section-savings-plan  .card-saving-perks{ order: 3;}
+
+
+section.section.section-shine-faqs {
+  padding-top: 50px;
+}
+.section-tp-title{
+  font-size: 12px;
+  margin-bottom: 30px;
+}
+h6.sec-title-lrge{
+  line-height: 1;
+  font-size: 27px;
+}
+.mobile-sprate-style{
+  font-size: 34px;
+  font-style: italic;
+}
+.sec-detail-info {
+  font-size: 17px;        font-weight: 500;
+
+}
+.down-arrow {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.down-arrow img{
+  max-width: 40px !important; 
+}
+
+.faq-text-lrg {
+  font-size: 18px;
+  min-width: 55px;
+}
+.faq-text-lrg{
+  display: none;
+}
+.tabs-group-container a {
+  padding-top: 5px;
+  display: block;
+  margin-left: 5px;
+  text-align: center;
+  font-size: 12px;
+  line-height: 1.2;
+  padding-bottom: 5px;
+  min-height: 42px;
+}
+a.tabs-button.btn-fist-a-dentist {
+  padding-top: 12px;
+}
+  .tabs-group-container{
+    align-items: center;   
+  }
+  .tabs-group-container span.style-mobile-2 {
+    display: block;
+    font-size: 14px;font-weight: 600;
+  }
+  .shine-offers-wrapper{    margin-bottom: 39px;}
+  .section-register-lft{        max-width: 100%;}
+  .section-register-rgt {
+    margin-top: 40px;
+  }
+  .cancel-as-want {
+    padding-left: 10px;
+  }
+
+  .find-provider-text{
+    margin-bottom: 40px;
+    margin-top: 40px;
+  }
+  .section-savings-plan .containerRowDental:before {
+    left: -56px;
+    top: -114px;
+    height: 180px;
+  }
+  .sbr-round-logo {
+    max-width: 74px;
+  }
+
+  .product-graphic {
+    max-width: 60px;
+  }
+
+  span.sbr-tag-default {
+    font-size: 9px;
+    padding: 4px 5px;
+    min-width: 60px;
+  }
+
+    .section-savings-plan .shine-text-wrap, .shine-text-wrap {
+        font-size: 16px;
+    }
+
+   .saving-card-header:after{
+      content: "";
+      width: 16px;
+      height: 16px;
+      min-width:16px;
+      min-height: 16px;
+      border-radius: 16px;
+      border: 1px solid #c5c6c9;
+      position: absolute;
+      top: 10px;
+      background-color: #fff;
+    }
+    .saving-card-header:after{
+      /* content: "";
+      width: 12px;
+      height: 12px;
+      min-width: 12px;
+      min-height: 12px;
+      position: absolute;
+      left: 22px;.
+
+      top: 12px;
+      border-radius: 12px; */
+    }
+    
+    .sec-detail-info.active-pricing-card  .saving-card-header:after{
+      background: #002244;
+      border-color: #fff;
+    }   
+    .card-saving-best-value .priceHeaderMobile .saving-price-wrapper{ color: #fff;}
+    .card-saving-one.active-pricing-card  .saving-card-header:after{
+      background: #4ACAC9;
+      border-color: #fff;
+    }    
+    .card-saving-best-value.active-pricing-card  .saving-card-header:after{
+      background: #002244;
+      border-color: #d9dadb;
+    } 
+
+    .card-saving-perks.active-pricing-card  .saving-card-header:after{
+      background: #4597cb;
+      border-color: #fff;
+    }
+
+    .shine-smile-logo.rounded-shine-smile {
+      max-width: 91px;
+      margin-left: 25px;
+    }
+
+    .saving-shine-content{ display: none; } 
+    .section-savings-plan .card-saving-best-value,.section-savings-plan .card-saving-one{
+      top: 0;
+      border-bottom: 0;
+    }
+    .section-savings-plan .card-saving-best-value .saving-shine-content{ display: block;}
+    .section-savings-plan .saving-card-header, .saving-card-header
+    ,.savings-card-wrapper
+    {    border-radius: 0px;}
+
+    .card-saving-best-value .saving-price-wrapper {
+      font-size: 25px;
+  }
+
+  .section-savings-plan .enhanced-width {
+    margin-bottom: 2px;
+    font-weight: 600;
+}
+
+  .priceHeaderMobile {
+    position: absolute;
+    right: -7px;
+    top: -16px;
+  }
+  .savings-plans-wrapper .priceHeaderMobile .saving-price-wrapper {
+    font-size: 14.55px;
+    font-weight: 500;
+  }
+  .savings-plans-wrapper .priceHeaderMobile span.charges-yearly {
+    font-size: 70%;
+  }
+  .active-pricing-card .priceHeaderMobile{ opacity: 0;}
+  #wrapper .popupContentWrapper .table-container-pricing{
+    -webkit-overflow-scrolling: touch;
+    overflow-x: scroll;
+  }
+  #wrapper .popupContentWrapper .table-container-pricing table {
+    width: 900px;
+    border-collapse: collapse;
+}
+#wrapper .popupContentWrapper .accordion-header{
+  padding: 15px;
+}
+#wrapper .popupContentWrapper .accordion-header h3 {
+  font-size: 16px;        text-align: left;
+}
+
+  #wrapper .popupContentWrapper .accordion-header span.arrow {
+    top: 1px;
+    max-width: 18px;
+  }
+  #wrapper .popupContentWrapper .accordion-header span.arrow img {
+    max-width: 100% !important;
+  }
+  .modal-content {
+    padding: 12px;
+  }
+
+  .popuptabs-wrapper .tabs-left-row button {
+    max-width: 100%;
+  }
+
+  .shineCompleteWrapperParent .shine-dental-description-paragraph {
+    max-width: 100%;
+    width: 100%;
+  }
+  .shine-dental-description-inner {
+    flex-direction: column;
+  }
+  
+  #wrapper .popupContentWrapper .pop-accordion-wrapper {
+    margin-top: 19px;
+}
+h4.popup-sub-heading {
+  font-size: 16px;
+}
+.popup-heading {
+  font-size: 20px;
+  margin-top: 17px;
+}
+.modal .close{
+  right: 4px;
+  top: 4px;
+}
+
+.popuptabs-wrapper {
+  margin-top: 20px;
+  border: 2px solid #c6c7ca;
+  border-radius: 10px;
+  padding-bottom: 0rem;
+}
+
+.popuptabs-wrapper .saving-card-header:after{ opacity: 0; position: static;}
+.popuptabs-wrapper .shine-smile-logo.rounded-shine-smile {
+  /* max-width: 52px; */
+  margin-left: 0px;
+}
+
+
+.popuptabs-wrapper .tablink[data-tab="shineCompleteTab"]{ order: 1;}
+.popuptabs-wrapper .tablink[data-tab="shineDentalTab"]{ order: 2; border-radius: 0;
+  border-top: 1px solid #c8c6c6;
+  border-bottom: 1px solid #c8c6c6;
+
+}
+.popuptabs-wrapper .tablink[data-tab="ShinememberPerksTab"]{ order: 3; border-radius: 0;}
+.modal{
+  z-index: 123451;
+}
+#wrapper .popupContentWrapper .accordion-item{
+  border-radius: 8px;
+  margin-bottom: 5px;
+}
+.shineCompleteWrapperParent .shine-dental-description-paragraph p {
+  font-size: 14px;
+}
+.shine-dental-description{
+  margin-top: 21px;
+}
+.tabcontent{
+  padding: 0 0.5rem;
+}
+.activeTabNav{ border: 4px solid transparent;}
+.popuptabs-wrapper.data-tab-shineCompleteTab{
+  /* border-color:#002244; */
+}
+.popuptabs-wrapper.data-tab-shineDentalTab{
+  border-color:#4acac9;
+}
+.popuptabs-wrapper.data-tab-ShinememberPerksTab{
+  border-color:#3c97cb;
+}
+
+  #wrapper .popupContentWrapper .table-container-pricing td{
+    max-width: 190px;
+  }
+  .sectionRgt p.home-section-description-text{
+    line-height: 1.3;
+    margin-bottom: 30px;
+    max-width: 84%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 14px;
+
+  }
+
+  .slick-slide {
+    margin: 0 8px;
+  }
+  
+  
+  .slick-list {
+    margin: 0 -8px;
+  }
+
+
+  section.partnership-banner-bottom:before {
+    transform: rotate(45deg);
+    width: 100%;
+    height: 90%;
+    top: -33%;
+    background-size: cover;
+    left: -277px;
+}
+.partnership-banner-bottom .image-circle {
+  position: relative;
+  left: 0px;
+  top: -40px;
+}
+
+
+.partnership-banner-bottom .image-circle img {
+  max-width: 65%;
+}
+
+
+section.partnership-banner-bottom .row-flex {
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+h5.section-heading-partner {
+  font-size: 22px;
+  text-align: center;
+}
+section.partnership-banner-bottom .text-white {
+  font-size: 14px;
+  text-align: center;
+}
+
+.partnership-banner-bottom .our-people-promise {
+  margin-top: 50px;
+}
+
+.gurantee-logo {
+  margin-top: 10px;
+}
+
+.poweredby-section{
+  justify-content: center;
+}
+
+.section-savings-plan .section-description {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.card-saving-best-value .shine-product-description{
+  margin-top: 20px;
+}
+.select-option {
+  margin-bottom: 4px;
+}
+
+.section-register-instantly-with-shine {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.faqs-section-sec {
+  margin-bottom: 40px;
+}
+.by-upToText{
+  margin-left: -14px;
+  padding-left: 14px;
+}
+
+.section-wellness-saving-program .button-wrap {
+  margin-bottom: 22px;
+}
+
+.section-common-saving-shine .container{
+  max-width: 96%;
+}
+
+.shine-card-footer .shine-smile-logo:before{
+  top: -25px;
+  /* left: -7px; */
+}
+.shine-offers-wrapper {
+  column-gap: 0px;
+}
+  /* .shine-offers-wrapper .slick-list {
+    margin:0px;
+  }
+  .shine-offers-wrapper .slick-slide {
+    margin: 0;
+} */
+.section-displaimer p {
+  line-height: 1.2;
+}
+.section-savings-plan .add-to-cart-btn button{
+  font-weight: 400;
+}
+
+.shine-offers-wrapper.row-flex{ display: block;}
+.our-partners{padding: 10px 0;}
+
+.section-savings-plan .card-saving-best-value .saving-card-header,.card-saving-best-value{
+  border-radius: 10px 10px 0 0;
+}
+.card-saving-perks .saving-card-header,.card-saving-perks{
+  border-radius: 0px 0px 10px 10px;
+}
+.active-pricing-card.card-saving-perks .saving-card-header{
+  border-radius: 0px;
+}
+span.charges-yearly,.card-saving-best-value span.charges-yearly {
+  font-size: 70%;
+}
+
+h6.find-location-heading {
+  text-align: left;
+  font-size: 21px;
+  margin-top: 10px;
+  padding-left: 7px;
+}
+.tabs-group-container a{
+  padding-bottom: 1px;
+}
+
+.location-search{
+  padding: 10px 0;
+}
+
+.popupContentWrapper .shine-dental-description-price-section {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.modal-content{
+  /* top: 2% !important; */
+}
+
+.faq-tabs-container ul.accordion-list li {
+  padding-left: 0px;
+}
+
+.faq-tabs-container .text--k{
+  font-size: 16px;
+  padding-left: 0px;
+  line-height: 1.3;
+}
+ul.accordion-list li {
+  position: relative;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+.faq-tabs-container {
+  padding-top: 30px;
+}
+.find-a-dentist-location-pop .search-flex {
+  /* flex-direction: column; */
+}
+.find-a-dentist-location-pop .search-flex.optionOne .input-group,.find-a-dentist-location-pop .search-flex > div {
+  /* max-width: 100%; */
+}
+.generalText{
+  text-align: left;
+  font-size: 12px;
+}
+.generalText strong {
+  /* font-size: 12px; */
+}
+.hiddeMobile{ display: none;}
+.find-a-dentist-location-pop .search-flex.buttons-group-set {
+  max-width: 100%;
+}
+.find-a-dentist-location-pop .search-flex.buttons-group-set {
+  max-width: 100%;
+  margin-top: 10px;
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.find-a-dentist-location-pop .buttons-group-set button{
+  width: 100%;
+}
+.find-a-dentist-location-pop .search-flex.optionOne .input-group{
+  margin-top: 10px;
+}
+
+.find-a-dentist-location-pop  .location-search{
+  justify-content: center;
+}
+  .faqs-tabs-container .btn-fist-a-dentist {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .faqs-tabs-container .btn-fist-a-dentist img {
+    position: relative;
+    left: 10px;
+  }
+  section.partnership-banner-bottom .content-section {
+    padding-top: 2rem;
+  }
+
+  section.partnership-banner-bottom h5.section-heading-partner {
+    font-size: 24px;
+  }
+
+  .section-common-saving-shine .slick-dots {
+    bottom: -30px;
+  }
+
+  .section-common-saving-shine .slick-dots li button:before {
+
+    font-size: 14px;
+
+  }
+  .section-common-saving-shine .slick-dots li {
+    margin: 0 2px;
+  }
+
+  .section-shine-faqs span.mobile-sprate-style{
+    margin-bottom: 1rem;
+    display: block;
+  }
+  .underline--3 {
+    --underline-offset-y: -5px;
+  }
+  .checkMarkWrapper {
+    min-width: 28px;
+}
+  span.textShowed {
+    font-size: 14px;
+    padding-left: 8px;
+  }
+
+  .faqs-tabs-container .btn-fist-a-dentist img{
+    left: 0px;
+  }
+  .buttons-group-set button{
+    height: 46px;
+  }
+
+
+ /* for mobile only  */
+.forMobileBtn{
+  position: relative;
+  cursor: pointer;
+  max-width: 100%;    border-radius: 8px 8px 0 0;
+}
+.forMobileBtn > a{
+
+    display: flex;
+    align-items: center;
+    /* border-radius: 10px 10px 0 0px; */
+    
+}
+.forMobileBtn a.btnShineDental{
+  border-radius: 8px 8px 0 0;
+}
+
+.forMobileBtn .saving-card-header{ width: 100%;}
+
+.tabcontent {
+  display: block;
+}
+.formobileWrapper {
+  display: none;
+}
+
+.forMobileBtn > a {
+  /* display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 50px;
+  width: 100%;
+  height: 50px;
+  border-radius: 60px;
+  background: #4acac9;
+  padding: 0;
+  margin: 0;
+  position: relative; */
+  background: #eeeeee;
+}
+.forMobileBtn > a .shine-text-wrap {
+  display: inline-block;
+  font-size: 16px;
+  color: #fff;
+}
+.forMobileBtn .btnShineComplete  .shine-text-wrap {
+  font-weight: 700;
+
+}
+
+.forMobileBtn .btnShineDental  .shine-text-wrap {
+  color: #002244;
+}
+.forMobileBtn .btnShineperks .shine-text-wrap{
+  color: #4597cb;
+}
+
+
+
+a.btnShineComplete {
+  background: #4acac9;
+}
+a.btnShineDental {
+  background: #eeeeee ;
+}
+a.btnShineperks{
+  background: #eeeeee;
+  border-radius: 0px 0px 6px 6px;
+}
+.popuptabs-wrapper.data-tab-shineCompleteTab .tabcontent {
+  padding: 0rem;
+}
+
+.tablink.forMobileBtn .shine-smile-logo{
+  background: none;
+}
+.tabsDesktopOnly{         display: none !important;}
+.popupContentWrapper .tabcontent{
+  padding: 0rem;
+  border-bottom: 2px solid #c6c7ca;
+}
+.popupContentWrapper .activeTabNav {
+  border: 0px solid transparent;
+}
+.formobileWrapper {
+  padding: 15px;
+}
+.modal-content .logo-wrap-pop {
+  max-width: 100%;
+
+  }
+
+  #modal1 .popupContentWrapper {
+    padding-bottom: 3rem;
+  }
+  /* .shineDentalWrap .popuptabs-wrapper{
+    border-color:#4acac9;
+  }
+  .shineCompletelWrap .popuptabs-wrapper{
+    border-color:#002244;
+  }
+  .shinePerksWrap .popuptabs-wrapper{
+    border-color:#4597cb;
+  } */
+
+.overflowHiddenByJs iframe#launcher {
+  display: none;
+}
+.popuptabs-wrapper .shine-dental-description {
+  margin-top: 0px;
+}
+#wrapper .popupContentWrapper .pop-accordion-wrapper {
+  margin-top: 0px;
+}
+.youcanotPurchasePop .modal-content h1{
+  font-size: 18px;
+  line-height: 1.3;
+  margin-top: 1.6rem;
+  margin-bottom: 1rem;
+}
+
+
+}
+
+@media only screen and (min-width: 400px) and (max-width: 767px) {
+  .price-label-off-tag {
+    font-size: 14px;
+}
+
+.shine-card-header {
+  font-size: 20px;
+}
+.overflowHiddenByJs iframe#launcher {
+  display: none;
+}
+
+
+}

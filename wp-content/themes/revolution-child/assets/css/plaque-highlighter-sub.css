@@ -1,0 +1,3673 @@
+.d-flex {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+  
+  .block {
+    display: block;
+  }
+  
+  ul.accordion-list {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto;
+    /* padding: 20px; */
+    margin: 0;
+    list-style: none;
+    /* background-color: #f9f9fa; */
+  }
+  
+  ul.accordion-list li {
+    position: relative;
+    /* display: block;
+    width: 100%;
+    height: auto;
+    background-color: #fff; */
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    /* margin: 0 auto 15px auto; */
+    border-bottom: 1px solid #c8c6c6;
+    /* border-radius: 5px; */
+    cursor: pointer;
+  }
+  
+  ul.accordion-list li.active h3:after {
+    transform: rotate(180deg);
+  }
+  
+  .accordion-faq-section {
+    padding-bottom: 70px;
+  }
+  
+  ul.accordion-list li h3 {
+    font-weight: 700;
+    position: relative;
+  
+    width: 100%;
+    height: auto;
+    padding: 0 0 0 0;
+    margin: 0;
+    cursor: pointer;
+    flex-wrap: nowrap;
+  }
+  
+  ul.accordion-list li h3:after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: #fcc110;
+    transition: all 0.3s ease-in-out;
+    background-image: url(../images/products/new-dental-probiotic/chevron-arrow.png);
+    width: 52px;
+    height: 52px;
+    background-repeat: no-repeat;
+    background-position: center;
+    top: 50%;
+    margin-top: -26px;
+  
+  }
+  
+  ul.accordion-list li div.answer {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+  }
+  .logos-section-wrapper{
+    background-color: #f0f5f9;
+
+  }
+  .immune-support-section {
+    background-color: #9e1e82;
+    padding: 20px 0px;
+    text-align: center;
+  }
+  .immune-support-text p {
+    font-size: 34px !important;
+    font-weight: 400 !important;
+    font-family: 'montserrat' !important;
+    color: #fff !important;
+    margin-bottom: 10px;
+  }
+  .oral-sinus-btn.btn.btn-primary-teal.btn-lg{
+    padding: 12px 12px !important;
+    border-radius: 8px !important;
+    letter-spacing: 0px !important;
+    margin-bottom: 20px;
+  }
+  .review-section-wrapper .reviews-detail {
+    text-align: center;
+    padding-top: 80px;
+    margin-bottom: 60px;
+  }
+  .reviews-button {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 80px;
+  }
+  .btn.btn-primary-teal.btn-lg.reviews-btn {
+    border-radius: 8px !important;
+    letter-spacing: 0px !important;
+    padding: 12px 80px !important;
+    
+  }
+  .review-section-wrapper .reviews-detail h1 {
+    font-size: 48px;
+    color: #002244;
+    font-family: 'montserrat';
+    font-weight: 800;
+  }
+  .review-section-wrapper .reviews-detail p {
+    font-size: 24px;
+    font-family: 'montserrat' !important;
+    color: #002244;
+    font-weight: 500;
+
+  }
+  .review-section-wrapper .reviews-wrapper {
+    display: flex;
+    align-items: center;
+  }
+  .review-section-wrapper .reviews-wrapper .review-box
+{
+  border: 1px solid #eee;
+  padding: 20px 20px;
+  border-radius: 12px;
+}
+.review-section-wrapper .slick-slide{
+  margin: 0px 14px !important;
+}
+.verified-customer {
+  display: flex;
+}
+.the-proshield-process .btn.btn-primary-teal:hover,.reviews-button .see-pricing-btn .btn.btn-primary-teal:hover,.buy-btn a:hover{
+  background-color: #595858;
+    border-color: #595858;
+}
+.verified-customer .name
+{
+  padding-left: 10px;
+}
+.verified-customer .name h2
+{
+  font-size: 16px;
+  margin-bottom: -2px;
+  font-weight: 500;
+}
+.verified-customer .name p {
+  font-size: 12px;
+  margin-bottom: 0px;
+}
+.review-section-wrapper .reviews-wrapper .review-box .review-img {
+  max-width: 90px;
+  margin-bottom: 20px;
+}
+.review-text {
+  min-height: 172px;
+}
+.review-section-wrapper .reviews-wrapper .review-box .review-text p{
+font-size: 14px;
+}
+  .review-section-wrapper .reviews-detail img {
+    padding: 10px 0px;
+  }
+  .review-section-wrapper  .slick-next,  .review-section-wrapper .slick-prev{
+    z-index: 1;
+  }
+  .review-section-wrapper .slick-next {
+    right: -10px;
+    }.review-section-wrapper .slick-prev {
+      left: -25px;
+    }
+
+  .review-section-wrapper .slick-prev:before, .review-section-wrapper .slick-next:before {
+    font-size: 35px;
+    opacity: 1;
+    color: #68c8c7;
+  }
+  .review-section-wrapper .reviews-detail .rating-stars i
+{
+  color: #f5d060;
+  font-size: 24px;
+}
+.logos-section-wrapper .logo-wrapper {
+  padding: 20px 0px;
+}
+
+@media only screen and (min-width: 1025px) {
+  .logos-section-wrapper .logo-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+
+
+  .logos-section-wrapper .health{
+    max-width: 120px;
+  }
+  .logos-section-wrapper .forbee{
+    max-width: 130px;
+  }
+  .logos-section-wrapper .fox{
+    max-width: 75px;
+  }
+  .logos-section-wrapper .post{
+    max-width: 225px;
+  }
+  .logos-section-wrapper .sleep{
+    max-width: 135px;
+  }
+  .logos-section-wrapper .cent{
+    max-width: 80px;
+  }
+  .logos-section-wrapper .allure{
+    max-width: 125px;
+  }
+  .logos-section-wrapper .refiner{
+    max-width: 40px;
+  }
+  ul.accordion-list li div.answer p {
+    position: relative;
+    display: block;
+    font-weight: 300;
+    padding: 10px 0 0 0;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 12px;
+  }
+  .nutrition-facts:hover{
+    background-color: #2d2e2f !important;
+    border-color: #2d2e2f !important;
+
+  }
+  
+  span.digits-number {
+    font-size: 60px;
+    color: #0db4ba;
+    line-height: 1;
+    min-width: 110px;
+    font-family: "Montserrat";
+  }
+  
+  .text--k {
+    font-family: "Montserrat";
+    font-size: 36px;
+    color: #2d2e2f;
+    line-height: 1.1;
+    font-weight: 500;
+    padding-right: 4rem;
+  }
+
+  
+  .rating-stars i {
+    color: #fbf046;
+  }
+  .subscription-product-wrapper .rating-stars i{
+    font-size: 18px;
+  }
+  .hsf-fsa-logo img {
+    max-width: 40px;
+  }
+  .list-item-section{
+    padding-top: 60px;
+  }
+  .list-item-section ul li {
+    margin-bottom: 5px;
+    display: inline-block;
+    border-radius: 8px;
+    background-color: #002244;
+    height: 32px;
+    padding-right: 30px;
+    font-family: 'montserrat';
+    line-height: 32px;
+
+  }
+  .subscription-product-detail .caripro-content p{
+    font-family: 'montserrat';
+    font-weight: 400;
+    position: relative;
+  }
+  .subscription-product-detail .caripro-content p:after
+{
+  content: '';
+  width: 135px;
+  height: 6px;
+  background-color: #0eb4ba;
+  border-radius: 3px;
+  position: absolute;
+  top: 40px;
+  right: 37%;
+}
+.fruit-content .middile-content p.berry-falour {
+  color: #9e1e82 ;
+  font-weight: 500;
+}
+.subscription-product-inner-wrapper {
+  border: 1px solid #c5c6c9;
+  border-radius: 12px;
+}
+.fruit-content .middile-content {
+  padding-top: 20px;
+  text-align: center;
+}
+.fruit-content .middile-content p{
+  color: #616264;
+  font-size: 13px;
+  margin-bottom: 4px;
+}
+.middile-content img {
+  margin-top: 20px;
+}
+.subscription-product-detail .caripro-content img {
+  margin-top: 40px;
+}
+
+  .list-item-section ul{
+    padding-left: 80px;
+  }
+  .list-item-section ul li::before
+  {
+    position: absolute;
+    content: '';
+    background-color: #002244;
+    left: -1157px;
+    height: 32px;
+    z-index: 0;
+    width: 1500px;
+  }
+
+  .list-item-section ul li span {
+    position: relative;
+    z-index: 2;
+    color: #fff;
+    font-size: 19px;
+  }
+  .small-text {
+    color: #0db4ba;
+    font-size: 23px;
+    margin-top: 35px;
+    font-weight: 600;
+  }
+  .subtitle {
+    font-size: 20px;
+  }
+  .rating-stars{
+    margin-top: 0px;
+    margin-bottom: 4px;
+  }
+  .answer-content {
+    padding-top: 2.5rem;
+    padding-left: 112px;
+  }
+ 
+  span.mont-bold-italic {
+    font-style: italic;
+    font-weight: 600;
+  }
+  
+  section.select-your-packages {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: #002245;
+  }
+  
+  section.select-your-packages h4 {
+    color: #fff;
+    font-size: 48px;
+    font-weight: 800;
+    position: relative;
+  }
+  
+  section.select-your-packages h4:after {
+    content: '';
+    height: 6px;
+    position: relative;
+    display: block;
+    background: #9e1e82;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 365px;
+    border-radius: 2px;
+    margin-top: 15px;
+  
+  }
+  .poweredby-section .gurantee-logo img {
+    max-width: 80%;
+  }
+  section.select-your-packages .heading-title {
+    color: #fff;
+    font-size: 24px;
+  
+  }
+  .partnership-banner-bottom .our-people-promise {
+    margin-top: 50px;
+  }
+  .partnership-banner-bottom .content-section h5,.partnership-banner-bottom .content-section p,.partnership-banner-bottom .content-section .poweredby-section,.partnership-banner-bottom .content-section .our-people-promise {
+    position: relative;
+    z-index: 2;
+  }
+  .partnership-banner-bottom .powerd-by-text span{
+    font-size: 24px;
+    color: #fff;
+    font-weight: 300 !important;
+    font-style: normal;
+  }
+  .partnership-banner-bottom .image-circle {
+    position: relative;
+    top: 28px;
+    left: 65px;
+  }
+  .partnership-banner-bottom .image-circle img {
+    max-width: 65%;
+  }
+  .family-img
+  {
+    position: absolute;
+    bottom: -120px;
+    z-index: 0;
+    left: -105px;
+  }
+  .family-img img
+  {
+    max-width: 115%;
+  }
+  section.partnership-banner-bottom {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background: #002244;
+    position: relative;
+  }
+  section.partnership-banner-bottom{
+    overflow: hidden;
+  }
+  section.partnership-banner-bottom:before {
+    content: '';
+    background-image: url(../images/products/plaque-highlighter-new/footer-bg.jpg);
+    width: 100%;
+    height: 107%;
+    display: block;
+    position: absolute;
+    left: 0;
+    background-repeat: no-repeat;
+    top: 0;
+    background-size: contain;
+  }
+  .reviews-button .see-pricing-btn .btn.btn-primary-teal {
+    background-color: #9e1e82;
+    border-color: #9e1e82;
+    letter-spacing: 0px;
+    border-radius: 12px;
+  }
+  .the-proshield-process .btn.btn-primary-teal {
+    background-color: #9e1e82;
+    border-color: #9e1e82;
+    letter-spacing: 0px;
+    border-radius: 12px;
+  }
+  .partnership-banner-bottom p.heading-bottom-text
+  {
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 34px;
+    margin-top: -18px;
+    font-family: 'montserrat';
+  }
+  #product-list.productLandingPageContainer:not(.grid-changed) .medium-12.thb-dark-column.small-12.landing-product .product-selection-description-parent {
+    justify-content: center;
+  }
+  #product-list.productLandingPageContainer .featureShippingPrice {
+    color: #f0c23a;
+  }
+  .align-center-smilebrilliant,.long-strip.slide-stiprs-in-loop,.slide-stiprs-in-loop-slide-four.long-strip{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  h5.section-heading-partner {
+    font-size: 36px;
+  }
+  .all-product-dropdown {
+    display: none;
+  }
+  .product-skincare .text-white {
+    color: #fff;
+  }
+  
+  .image-circle a {
+    position: relative;
+  }
+  
+  .video-play-button {
+    position: absolute;
+    z-index: 10;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    box-sizing: content-box;
+    display: block;
+    width: 32px;
+    height: 44px;
+    /* background: #fa183d; */
+    border-radius: 50%;
+    padding: 18px 20px 18px 28px;
+  }
+  
+  .video-play-button:before {
+    content: "";
+    position: absolute;
+    z-index: 0;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    display: block;
+    width: 80px;
+    height: 80px;
+    background: #ba1f24;
+    border-radius: 50%;
+    animation: pulse-border 1500ms ease-out infinite;
+  }
+  
+  .video-play-button:after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    display: block;
+    width: 80px;
+    height: 80px;
+    background: #fa183d;
+    border-radius: 50%;
+    transition: all 200ms;
+  }
+  
+  .video-play-button:hover:after {
+    background-color: darken(#fa183d, 10%);
+  }
+  
+  .video-play-button img {
+    position: relative;
+    z-index: 3;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+  }
+  
+  .video-play-button span {
+    display: block;
+    position: relative;
+    z-index: 3;
+    width: 0;
+    height: 0;
+    border-left: 32px solid #fff;
+    border-top: 22px solid transparent;
+    border-bottom: 22px solid transparent;
+  }
+  .product-proshield .the-proshield-process {
+    padding-top: 60px;
+    padding-bottom: 5.5rem;
+    border-bottom: 1px solid #c8c6c6;
+  }
+  
+  .product-proshield .the-proshield-process h4 {
+    font-size: 48px;
+    color: #002244;
+    font-family: 'montserrat';
+    font-weight: 800;
+    margin-bottom:0px;
+  }
+  .product-proshield .page-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    column-gap: 100px;
+    margin-bottom: 60px;
+  }
+  
+  .product-proshield .process-box {
+    max-width: 358px;
+  }
+  
+  .product-proshield .process-media {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 180px;
+  }
+  .review-section-wrapper .slick-next {
+    right: -10px;
+}
+  .process-box.box-one .process-media img {
+    position: relative;
+    left: 0px;
+  }
+ 
+  .product-proshield .the-process-title {
+    font-weight: 400;
+    margin-bottom: 15px;
+  }
+  .the-process-content-text {
+    color: #565759;
+    min-height: 59px;
+  }
+  .product-proshield .ht-txt {
+    min-width: 101px;
+  }
+  td.bdy-txt {
+    text-transform: uppercase;
+    font-size: 14px;
+  }
+  
+  @keyframes pulse-border {
+    0% {
+      transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
+      opacity: 1;
+    }
+  
+    100% {
+      transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.5);
+      opacity: 0;
+    }
+  }
+  
+  .image-circle:hover .video-play-button:before {
+    background: #f0c23b;
+  }
+  
+  .image-circle:hover .video-play-button:after {
+    background: #f0c23b;
+  
+  }
+  
+  .image-circle:hover .video-play-button:hover:after {
+    background-color: darken(#f0c23b, 10%);
+  }
+  
+  .justify-content-between {
+    justify-content: space-between;
+  }
+  
+  .justify-content-center {
+    justify-content: center;
+  }
+  
+  .align-items-end {
+    align-items: end;
+  }
+  
+  .no-padding {
+    padding: 0;
+  }
+  
+  .weight-normal {
+    font-weight: normal;
+  }
+  
+  .weight-600 {
+    font-weight: 600;
+  }
+  
+  .weight-900 {
+    font-weight: 900;
+  }
+  
+  .long-strip span {
+    height: 12px;
+  }
+  
+  .section-top-banner {
+    background:#cff0f1;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  section.section-top-banner h1 {
+    font-size: 45px;
+    color: #fff;
+    margin-top: 30px;
+    padding-left: 66px;
+    display: inline-block;
+  }
+  section.section-top-banner h1 span {
+    color: #0eb4ba;
+    font-weight: 300;
+  }
+  .banner-top-logos
+{
+  text-align: center;
+  max-width: 200px;
+  margin: 0px auto;
+  position: absolute;
+  top: unset; 
+  left: 16%;
+  bottom: 30%;
+}
+.banner-top-logos .gurantee-logo img {
+  max-width: 85px;
+}
+  section.section-top-banner .banner-image
+  {
+    max-width: 80%;
+    margin-left:auto;
+  }
+  .girl-skin-care-banner .banner-image img {
+    position: relative;
+    left: 120px;
+  }
+  .sbr-content-banner{
+    position: relative;
+    z-index:  1;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            99;
+  }
+  .sbr-content-banner:before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-image: url(../images/products/plaque-highlighter-new/plaque-text-bg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    z-index: -1;
+    background-position-x: 68%;
+    top: 22px;
+    margin-top: 5px;
+  }
+  section.section-top-banner h1:after {
+    content: '';
+    height: 5px;
+    border-radius: 4px;
+    background-color: #0eb4ba;
+    display: block;
+    position: relative;
+    margin-top: 6px;
+  }
+  .new-dental-probiotic p.top-banner-text {
+    font-size: 24px;
+    font-family: 'montserrat';
+    color: #002244;
+    font-weight: 500;
+    padding-left: 66px;
+  }
+  section.section-top-banner h1 strong {
+    font-weight: 800 !important;
+    color: #002244 !important;
+    
+  }
+ .list-item-content li img {
+  margin-right: 20px;
+  margin-top: -3px;
+ }
+  
+  .section-header.dark-blue {
+    background: #f4efe2;
+    padding: 2.2rem 0;
+    /* position: relative; */
+  }
+  
+  .section-header.dark-blue h1 {
+    color: #002343;
+    font-size: 42px;
+    position: relative;
+  
+  }
+  .section.section-the-real-science .scrollable-bullets h2 {
+    color: #fff;
+    font-family: 'Montserrat';
+    font-weight: 700;
+  }
+  .sea-green-text {
+    color: #0db4ba;
+  }
+  .circle-yellow {
+    position: relative;
+    height: 500px;
+    width: 500px;
+    border-radius: 500px;
+  }
+  
+  .circle-yellow:after {
+    content: '';
+    height: 500px;
+    width: 500px;
+    border-radius: 500px;
+    background-color: #f0c23a;
+    position: absolute;
+    left: 0;
+    right: 0;
+  }
+  
+  .circle-yellow:before {
+    content: '';
+    width: 104%;
+    height: 100%;
+    background-color: #f5e2aa;
+    position: absolute;
+    left: -15px;
+    right: 0px;
+    border-radius: 100%;
+    top: -13px;
+  }
+  
+  .action-btn button {
+    background: #9e1e82;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-color: #9e1e82;
+    border-radius: 10px;
+    letter-spacing: 0;
+  }
+  .seethescience a {
+    font-size: 20px;
+    font-family: 'Montserrat';
+    color: #002244 !important;
+  }
+  .girl-skin-care-banner {
+    position: relative;
+    /* max-height: 600px;
+    overflow: hidden; */
+  }
+  
+  .section-top-banner .action-btn {
+    max-width: 290px;
+    margin-top: 100px;
+    margin-left: 30px;
+  }
+  
+  .tablets-img {
+    position: absolute;
+    bottom: 0;
+    left: 185px;
+    z-index: 9;
+  }
+  .hero-right-side-images {
+    position: relative;
+  }
+  .product-skincare p {
+    color: #2d2e2f;
+    font-size: 16px;
+  }
+  
+  .circle-banner-home {
+    position: absolute;
+    left: -418px;
+    bottom: 210px;
+  }
+  
+  .circle-banner-home img {
+    width: 100%;
+    max-width: 100%;
+  }
+  
+  .seethescience a {
+    font-family: 'Montserrat', 'BlinkMacSystemFont', -apple-system, 'Roboto', 'Lucida Sans';
+    color: #fff;
+  }
+  
+  .scrollable-bullets ul {
+    /* display: flex; */
+    /* flex-wrap:wrap; */
+    list-style: none;
+    margin-bottom: 0;
+    /* justify-content: center; */
+  }
+  .scrollable-bullets ul li {
+    font-family: 'montserrat';
+  }
+  
+  .parallax-image-banner {
+    background-image: url(../images/products/plaque-highlighter-new/hand-img.png);
+    /* background-attachment: fixed; */
+    background-position: top;
+    background-repeat: no-repeat;
+    background-position-x: 64% !important;
+    min-height: 400px;
+  }
+  .image-cation {
+    text-align: center;
+    padding-top: 38px;
+    padding-bottom: 48px;
+  }
+  .image-cation p{
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: 22px;
+    font-family: 'Open Sans';
+    color: #002244;
+    margin-bottom: 0px;
+  }
+
+.buy-btn a {
+  color: #fff !important;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 20px;
+  max-width: 292px;
+  margin: 0px auto;
+  text-align: center;
+  background: #9e1e82;
+  border-color: #9e1e82;
+  padding: 13px 0px;
+  border-radius: 10px;
+  display: block;
+  margin-bottom: 26px;
+}
+.want-highlighters p {
+  text-align: center;
+    font-size: 20px;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    color: #002244;
+}
+  .answer-content .content-wrapper
+{
+  display: flex;
+  justify-content: space-between;
+}
+.right-side-content-six-col {
+  padding-top: 170px;
+  padding-left: 40px;
+}
+.right-side-content-six-col h5 {
+  font-size: 24px;
+  color: #002244;
+  font-family: 'Montserrat';
+font-weight: 600;
+text-transform: capitalize;
+margin-bottom: 40px;
+}
+.right-side-content-six-col h3 {
+  font-size: 70px;
+  font-family: 'Montserrat';
+  line-height: 85px;
+  font-style: italic;
+  color: #0eb4ba;
+  font-weight: 700;
+}
+.right-side-content-six-col h4{
+  font-size: 72px;
+    font-family: 'Montserrat';
+    line-height: 70px;
+    font-style: italic;
+    color: #002244;
+    font-weight: 700;
+    margin-top: 80px;
+}
+.right-side-content-six-col h4{
+  position: relative;
+}
+.right-side-content-six-col h4:before{
+  content: '';
+    width: 285px;
+    height: 400px;
+    position: absolute;
+    background-image: url(../images/products/plaque-highlighter-new/plaque-text-bg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    z-index: -1;
+    top: -240%;
+    margin-top: 5px;
+    left: 7%;
+}
+p.gray-text {
+    font-size: 16px;
+    font-family: 'Open Sans';
+    color: #002244;
+    line-height: 24px;
+    font-weight: 400;
+}
+p.gray-bold-text {
+  font-weight: 600;
+  font-size: 16px;
+  font-family: 'Open Sans';
+  color: #002244;
+  line-height: 24px;
+}
+p.grenish-text {
+  margin-top: 80px;
+  font-size: 16px;
+  font-family: 'Open Sans';
+  font-style: italic;
+  color: #0eb4ba;
+  font-weight: 600;
+}
+.right-side-content-six-col h4 {
+  position: relative;
+}
+.answer-content .content-wrapper .image {
+
+  padding: 40px 40px 40px 20px;
+  text-align: center;
+  max-width: 100%;
+  width: 300px;
+}
+.answer-content .content-wrapper .image h2{
+  font-size: 18px;
+  font-weight: 700;
+  color: #ff928e;
+}
+.green-color{
+  color: #0eb4ba !important;
+}
+p.green-color{
+  font-style: italic;
+  padding-top: 15px;
+  font-weight: 400 !important;
+}
+p.orange-color {
+  color: #ff928e;
+  font-style: italic;
+  font-weight: 400 !important;
+}
+p.bold{
+  font-weight: 500 !important;
+  color: #555759;
+}
+.third-accordion .image {
+  display: flex;
+  align-items: end;
+  padding-bottom: 20px;
+}
+.fruits-section {
+  /* background-image: url(../images/products/new-dental-probiotic/fruits-bg.webp); */
+  background-color: #ecf5f9;
+  background-repeat: no-repeat;
+  background-size: 114%;
+  background-position: left 80%;
+  padding: 40px 0px 35px 0px;
+  position: relative;
+  z-index: 23;
+  margin-top: 80px;
+
+}
+.fruits-section .container{
+  position: relative;
+  z-index: 9999;
+}
+.icon-box p{
+color: #fff;
+padding-top: 10px;
+}
+.heading h2 {
+  border-bottom: 4px solid #00bbb4;
+  padding:20px 30px;
+  max-width: 665px;
+  margin: 0px auto;
+  padding-bottom: 8px;
+  border-radius: 1px;
+  font-size: 24px;
+  font-weight: 700;
+    font-family: 'Montserrat';
+  color: #002244;
+  margin-bottom: 60px;
+}
+.icon-text-wrapper
+{
+  /* display: flex;
+  justify-content: space-around; */
+  padding: 40px 40px;
+}
+.fruits-section  .overlay
+/* {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #002343;
+  opacity: 0.6;
+  top: 0;
+  z-index: 3;
+} */
+.fruits-section .modal {
+  position: absolute;
+  z-index: 10000; /* 1 */
+  top: 0;
+  left: 0;
+  visibility: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+.fruits-section .modal.is-visible {
+  visibility: visible;
+}
+
+.fruits-section .modal-overlay {
+position: fixed;
+z-index: 10;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background: hsla(0, 0%, 0%, 0.5);
+visibility: hidden;
+opacity: 0;
+transition: visibility 0s linear 0.3s, opacity 0.3s;
+}
+
+.fruits-section .modal.is-visible .modal-overlay {
+opacity: 1;
+visibility: visible;
+transition-delay: 0s;
+}
+
+.fruits-section .modal-wrapper {
+position: fixed;
+z-index: 9999;
+top: 20%;
+left: 50%;
+transform: translate(-50%,-2  0%);
+width: 25em;
+margin-left: -16em;
+background-color: #fff;
+border-radius: 12px;
+border: 4px solid #000;
+}
+.fruits-section .modal-body  {
+  margin: 10px 10px 10px 10px;
+}
+.fruits-section .modal-body p{
+  font-size: 14px;
+  font-weight: 500;
+margin-bottom: 0px;
+color: #565a5d;
+line-height: 18px;
+text-align: left;
+}
+.fruits-section .modal-body  .modal-content img {
+  width: 100%;
+}
+.fruits-section .modal-body .modal-content .shelf-life {
+  max-width: 100px;
+  margin: 0px auto;
+  border: 1px solid #000;
+  padding: 5px;
+  text-align: center;
+
+}
+.modal-top-heading {
+  position: relative;
+}
+.modal-top-heading h2 {
+  display: block;
+   
+    border: 1px solid #000;
+    padding: 5px;
+    letter-spacing: .2rem;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.grantee-text {
+  position: absolute;
+    display: inline-block;
+    background: #fff;
+    top: -15px;
+    left: 25px;
+    padding: 0px 10px;
+}
+.modal-top-heading {
+  max-width: 174px;
+  margin: 0px auto;
+  margin-top: 14px;
+}
+.fruits-section .modal-body .modal-content .shelf-life p {
+  text-align: center;
+}
+.fruits-section .modal-transition {
+transition: all 0.3s 0.12s;
+transform: translateY(-10%);
+display:none;
+}
+
+.fruits-section .modal.is-visible .modal-transition {
+transform: translateY(0);
+display: block;
+}
+
+.fruits-section .modal-header,
+.fruits-section .modal-content {
+padding: 1rem 1rem 0px 1rem;
+}
+.fruits-section .modal-content .text-box {
+  border: 1px solid #000;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.fruits-section .modal-header {
+position: relative;
+background-color: #fff;
+border-top-left-radius: 12px;
+border-top-right-radius: 12px;
+text-align: center;
+}
+.fruits-section .modal-content .text-box-2 p {
+  margin-top: 10px;
+}
+.fruits-section .modal-close {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  padding: 5px 10px;
+  color: #000;
+  background: #fff;
+  border: 1px solid #000;
+  border-radius: 85px;
+  font-size: 25px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+
+.fruits-section .modal-heading {
+font-size: 26px;
+margin: 0;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+}
+.grantee-text i {
+  font-size: 18px;
+}
+.fruits-section .modal-content > *:first-child {
+margin-top: 0;
+}
+
+.fruits-section .modal-content > *:last-child {
+margin-bottom: 0;
+}
+.fruits-section .icon-box
+{
+  margin: 0px 20px;
+  max-width: 95px;
+  text-align: center;
+}
+.new-dental-probiotic .caripro-logo img {
+  filter: brightness(130%) contrast(234%);
+}
+.nutrition-facts-content {
+  max-width: 1280px;
+  margin: 0px auto;
+  text-align: center;
+}
+.icon-text-wrapper {
+  /* display: flex;
+  justify-content: center; */
+}
+.third-accordion .content {
+  padding-left: 92px !important;
+  padding-right: 94px !important;
+}
+.third-accordion .image img
+{
+  max-width: 210%;
+  position: relative;
+  left: -55px;
+}
+.third-accordion .image img {
+  max-width: 200%;
+}
+.accordion-two-content
+{
+  padding-top: 40px;
+}
+.answer-content .image-two {
+  max-width: 78%;
+}
+.section-2 .image {
+  width: 72% !important;
+}
+.section-2 .image img {
+ max-width: 95%;
+}
+.answer-content .content-wrapper .detail b {
+  font-weight: 600;
+  line-height: inherit;
+  color: #555759;
+}
+.answer-content .content-wrapper .detail b.colored{
+  color: #ff928e;
+
+}
+
+.answer-content .content-wrapper .content
+{
+  padding-top: 25px;
+  padding-left: 20px;
+}
+  .scrollable-bullets ul li {
+    color: #fff;
+    font-size: 30px;
+    font-size: 26px;
+    text-transform: uppercase;
+    line-height: 1.4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .scrollable-bullets ul li span.dot-yellow {
+    display: inline-flex;
+    width: 11px;
+    height: 11px;
+    border-radius: 11px;
+    background: #00b6b1;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  
+  .scrollable-bullets {
+    background: #002245;
+    padding-top: 2.4rem;
+    padding-bottom: 2.4rem;
+    text-align: center;
+  }
+  
+  .section-real-science {
+    padding-top: 90px;
+  }
+  
+  .section-the-real-science .section-title {
+    margin-bottom: 38px;
+    color: #002244;
+    font-weight: 500;
+    font-size: 24px;
+    padding-left: 80px;
+  } 
+  
+  .section-the-real-science .section-heading-h2 {
+    line-height: 1.1;
+    font-size: 78px;
+    color: #002244;
+    padding-left: 80px;
+  }
+  
+  .yellow-text {
+    color: #f0c23a;
+  }
+  
+  .weight-800 {
+    font-weight: 800;
+  }
+  .wrapContainer {
+    background-image: url(../images/products/plaque-highlighter-new/gradient-bg.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-repeat: repeat-x;
+}
+  .section.section-the-real-science .scrollable-bullets h2 {
+    color: #fff;
+    font-family: 'montserrat';
+    font-weight: 700;
+    margin-bottom: 0px;
+  }
+  .dont-belive-it {
+    color: #002244;
+    font-size: 24px;
+    padding-left: 180px;
+    margin-bottom: 90px;
+  }
+  .right-side-content-six-col .buy-btn, .right-side-content-six-col .want-highlighters{
+    display: none;
+      }
+  .men-apply-cream {
+    position: relative;
+    left: -140%;
+  }
+  
+  .men-apply-cream img {
+    max-width: 230%;
+    height: 200%;
+  }
+  
+  /* review section */
+  .review-item {
+    display: flex;
+    margin: 0 -10px;
+  }
+  .fruit-content-header img.grantee-logo {
+    max-width: 102px;
+  }
+  .review-item span {
+    display: flex;
+    border: 1px solid #a7a6a6;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .review-item span img {
+    display: block;
+    width: 100%;
+  }
+  
+  .review-item .slick-slide {
+    margin: 0 10px;
+    max-height: 250px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .powerd-by-text span {
+    font-size: 12px;
+    color: #9e9e9e;
+    font-style: italic;
+  }
+  
+  .poweredby-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .partnership-banner-bottom .our-people-promise {
+    width: auto;
+  }
+  
+  .our-people-promise button {
+    background: #4acac9;
+    color: #fff;
+    border-color:#4acac9 ;
+    padding: 12px 40px !important;
+  }
+  
+  
+  /* Add your custom styles here */
+  .embed-responsive {
+    position: relative;
+    display: block;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+  }
+  
+  .embed-responsive iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  
+  
+  
+  
+  /* Video Modal
+  -----------------------------------------*/
+  .video-modal,
+  .video-modal .overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 3000;
+  }
+  
+  .video-modal {
+    overflow: hidden;
+    position: fixed;
+    opacity: 0.0;
+  
+    -webkit-transform: translate(500%, 0%);
+    transform: translate(500%, 0%);
+  
+    -webkit-transition: -webkit-transform 0s linear 0s;
+    transition: transform 0s linear 0s;
+  
+  
+    /* using flexbox for vertical centering */
+  
+    /* Flexbox display */
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+  
+    /* Vertical alignment */
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+  }
+  
+  .video-modal .overlay {
+    z-index: 0;
+    background: rgb(240 194 58 / 82%);
+    /* overlay color */
+  
+    opacity: 0.0;
+  
+    -webkit-transition: opacity 0.2s ease-out 0.05s;
+    transition: opacity 0.2s ease-out 0.05s;
+  }
+  
+  
+  .video-modal-content {
+    position: relative;
+    top: auto;
+    right: auto;
+    bottom: auto;
+    left: auto;
+    z-index: 1;
+    margin: 0 auto;
+    overflow-y: visible;
+    background: #000;
+    width: calc(100% - 12em);
+    height: 0;
+    padding-top: calc((100% - 12em) * 0.5625);
+    /* 16:9 calc */
+  }
+
+  .stars-wrapper-tp {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .subscription-product-detail {
+    margin: 40px 0px;
+    border: 1px solid #c5c6c9;
+    border-radius: 12px;
+    display: flex;
+    max-width: 100%;
+    padding:40px 30px 40px 40px;
+
+}
+
+.subscription-product-detail .caripro-content {
+    text-align: center;
+    width: 40%;
+}
+.subscription-product-detail .caripro-content h1{
+    font-size: 28px;
+    color: #002244;
+}
+.fruit-content-header
+{
+display: flex;
+align-items: center;
+border-bottom: 1px solid #eee;
+padding-bottom: 15px;
+}
+.fruit-content
+{
+  width: 21%;
+  padding-left: 0px;
+  padding-top: 20px;
+  margin-left: 125px;
+  margin-left: 90px;
+}
+
+.fruit-content .header-content p
+{
+  padding-left: 10px;
+  font-size: 13px;
+  margin-bottom: 0px;
+  padding-right: 7px;
+  font-weight: 500;
+}
+.fruit-content .header-content img {
+padding-left: 10px;
+padding-top: 10px;
+}
+.subscription-product{
+  width: 30%;
+  margin-left: 30px;
+
+}
+.ninety-day-system{
+background-color:#effafa ;
+}
+.subscribe-save{
+background-color: transparent;
+}
+.subscription-product-wrapper .container {
+  max-width: 1280px;
+}
+
+
+/* Style the checked label differently */
+
+.subscription-product-detail [type="radio"]:checked,
+.subscription-product-detail [type="radio"]:not(:checked) {
+position: absolute;
+left: -9999px;
+}
+.subscription-product-detail [type="radio"]:checked + label,
+.subscription-product-detail [type="radio"]:not(:checked) + label
+{
+position: relative;
+padding-left: 28px;
+cursor: pointer;
+line-height: 20px;
+display: inline-block;
+color: #666;
+}
+.subscription-product-detail [type="radio"]:checked + label:before,
+.subscription-product-detail [type="radio"]:not(:checked) + label:before {
+content: '';
+position: absolute;
+left: 1px;
+top: 7px;
+width: 18px;
+height: 18px;
+border: 1px solid #ddd;
+border-radius: 100%;
+background: transparent;
+}
+.subscription-product-detail [type="radio"]:checked + label:after,
+.subscription-product-detail [type="radio"]:not(:checked) + label:after {
+content: '';
+width: 12px;
+height: 12px;
+background: #68c8c7;
+position: absolute;
+top: 10px;
+left: 4px;
+border-radius: 100%;
+-webkit-transition: all 0.2s ease;
+transition: all 0.2s ease;
+}
+.subscription-product-detail [type="radio"]:not(:checked) + label:after {
+opacity: 0;
+-webkit-transform: scale(0);
+transform: scale(0);
+}
+.subscription-product-detail [type="radio"]:checked + label:after {
+opacity: 1;
+-webkit-transform: scale(1);
+transform: scale(1);
+}
+.subscription-product-header-top
+{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.subscription-product-header-top p,.subscription-product-header-bottom p {
+margin-bottom: 0px;
+}
+.section.section-top-banner .sbr-content-banner h1 img {
+  max-width: 124px;
+  margin-left: 10px;
+}
+.subscription-product-header-bottom .sale-text p {
+font-size: 12px;
+font-style: italic;
+color:#9e1e82;
+font-weight: 500;
+}
+.subscription-product-header
+{
+background: #effafa;
+padding-right: 10px;
+padding-left: 10px;
+padding-bottom: 5px;
+border-bottom: 1px solid #eee;
+/* border-top-left-radius: 12px; */
+border-top-right-radius: 12px;
+}
+.subscription-product-header-bottom{
+display: flex;
+justify-content: space-between;
+align-items: end;
+}
+.subscription-product-header-top p {
+font-size: 14px;
+}
+.subscription-product-header-top p span {
+  font-size: 100%;
+}
+
+span.originalPriceut {
+  display: inline-flex;
+  margin-right: 6px;
+}
+span.pricingDiscountMbt del {
+  color: #c6c9cd;
+  text-decoration-color: #9e1e82;    font-size: 18px;
+}
+.dollerSymbal {
+  font-size: 14px;
+}
+
+.subscription-product-header-top .main-price {
+font-size: 21px;
+}
+.subscription-product-header-bottom .sale{
+background: #9e1e82;
+padding: 1px 20px;
+border-radius: 12px;
+}
+.notify-text.font-mont.last-notify:after {
+  display: none;
+}
+.subscription-product-header-bottom .sale p {
+font-size: 10px;
+color: #fff;
+font-size: 400;
+}
+.subscription-product-content-body{
+display: none;
+}
+.subscription-product-content ul {
+list-style: none;
+padding: 5px 15px 0px 25px;
+margin-bottom: 5px;
+} 
+.subscription-product-content ul li{
+font-size: 12px;
+}
+.ninety-day-subscription .white-background,.subscribe-save .white-background,.one-time-offer .white-background{
+background-color: #fff;
+border-top-left-radius: 12px;
+border-top-right-radius: 12px;
+}
+.ninety-day-subscription .subscription-product-header {
+  border-top-left-radius: 12px;
+border-top-right-radius: 12px;
+} 
+.one-time-offer .subscription-product-header {
+  border-top-left-radius: 12px;
+border-bottom-right-radius: 12px;
+}
+.subscription-product-footer .btn-primary-teal.btn-lg {
+width: 100%;
+background-color: #9e1e82;
+border-color: #9e1e82;
+border-radius: 12px;
+letter-spacing: 0;
+}
+.plaquehighlighter-subscription-product-box.subscribe-save .subscription-product-header {
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+
+
+.subscription-product-footer{
+padding: 10px;
+}
+.select-content{
+  padding: 10px 10px 0px 10px;
+}
+.select-content select {
+border-radius: 15px;
+margin-bottom: 10px;
+line-height: 40px !important;
+height: 40px !important;
+background: #f1f2f2 url("../images/products/new-dental-probiotic/select_arrow.png") calc(100% - 8px) 19px no-repeat !important;
+background-size: 9px 5px !important;
+border-color: #c5c6c9;
+box-shadow: 0px 13px 10px -15px #111;
+}
+.white-background .subscription-title{
+font-weight: 600;
+}
+.subscription-product-content label {
+  padding-left: 10px;
+}
+.select-content select {
+font-family: 'Montserrat', 'BlinkMacSystemFont', -apple-system, 'Roboto', 'Lucida Sans';
+}
+.select-content select option{
+font-family: 'Montserrat', 'BlinkMacSystemFont', -apple-system, 'Roboto', 'Lucida Sans';
+}
+.subscription-badge {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 53px;
+}
+.subscription-badge span{
+  display: inline-block;
+  max-width: 350px;
+  background: #002244;
+  padding: 2px 20px;
+  border-radius: 6px;
+  color: #fff;
+  font-family: 'montserrat';
+  font-weight: 500;
+}
+.subscription-product-detail select{
+  border-radius: 15px;
+  margin-bottom: 10px;
+  line-height: 40px;
+  height: 40px;
+  background:#f1f2f2 url(../images/products/new-dental-probiotic/select_arrow.png) calc(100% - 8px) 15px no-repeat;
+  background-size: 9px 5px;
+  border-color: #c5c6c9;
+  box-shadow: 0px 13px 10px -15px #111;
+  font-family: 'Montserrat', 'BlinkMacSystemFont', -apple-system, 'Roboto', 'Lucida Sans';
+}
+  /* Scaling to fit within the current Viewport size:
+     When viewport aspect ratio is greater than 16:9
+     work off the height instead of the width for calc */
+  @media (min-aspect-ratio: 16/9) {
+    .video-modal-content {
+      width: 0;
+      height: calc(100vh - 10em);
+      padding-top: 0;
+      padding-left: calc((100vh - 10em) * 1.7778);
+      /* 16:9 calc */
+    }
+  }
+  
+  /* Mobile Layout Tweaks - side margins reduced */
+  @media (max-width: 640px) {
+    .video-modal-content {
+      width: calc(100% - 1em);
+      padding-top: calc((100% - 1em) * 0.5625);
+      /* 16:9 calc */
+    }
+  }
+  
+  
+  
+  
+  
+  /* modal close button */
+  .close-video-modal {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: -40px;
+  
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  /* set the iframe element to stretch to fit its parent element */
+  iframe#youtube {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+  
+    background: #000;
+    box-shadow: 0px 2px 16px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* show the modal: 
+   add class to the body to reveal */
+  .show-video-modal .video-modal {
+    opacity: 1.0;
+  
+    transform: translate(0%, 0%);
+    -webkit-transform: translate(0%, 0%);
+  }
+  
+  .show-video-modal .video-modal .overlay {
+    opacity: 1.0;
+  }
+  
+  .show-video-modal .video-modal-content {
+    transform: translate(0%, 0%);
+    -webkit-transform: translate(0%, 0%);
+  }
+  
+  /* product section */
+  #product-list.productLandingPageContainer .medium-12.thb-dark-column.small-12.landing-product >.vc_column-inner .product-selection-box {
+    max-width: 1330px;
+  }
+  section.shopLanderPageHader .no-flex ,.single-product .row{
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+  #product-list.productLandingPageContainer .medium-12.thb-dark-column.small-12.landing-product >.vc_column-inner {
+    background-color: #f6f4ee !important;
+  }
+  #product-list .landing-product div[data-tagging="Featured!"] .featureTag
+  ,#product-list .landing-product:not(.medium-12) .featureTag
+  {
+    background-color: #f0c23a;
+    border-radius: 10px;
+  }
+  
+  .product-selection-box{
+    border-radius: 8px;
+  }
+  .single-product .teethWhieteingSystemWrapper.productLandingPageContainer .product-selection-price-wrap button, .single-product .teethWhieteingSystemWrapper.productLandingPageContainer .product-selection-price-wrap a.product_type_composite, .single-product .teethWhieteingSystemWrapper.productLandingPageContainer .btn {
+    background-color: #2d2e2f;
+    border-color: #2d2e2f;
+    border-radius: 10px;    
+    text-transform: capitalize;
+  }
+  
+  
+  .teethWhieteingSystemWrapper.productLandingPageContainer .landing-product:not(.medium-12) .product-selection-description-parent {
+    background: #f6f4ee;
+    border-radius: 0px 0 10px 10px;
+  }
+  body {
+    overflow-x: hidden;
+  }
+  #product-list:not(.grid-changed).productLandingPageContainer .landing-product:not(.medium-12) .product-selection-box {
+    margin-bottom: 65px;
+  }
+  
+  #product-list.productLandingPageContainer .medium-12 .product-selection-image-wrap img {
+    max-width: 345px;
+  }
+  #product-list:not(.grid-changed) .medium-12.thb-dark-column.small-12.landing-product >.vc_column-inner{
+    padding-top: 65px;
+  }
+  div#product-list.grid-changed{
+    padding-top: 65px;
+  }
+  
+  #product-list.productLandingPageContainer .medium-4 .product-selection-image-wrap img {
+    max-height: 200px;
+  }
+  #product-list.productLandingPageContainer .medium-12 span.product-selection-price-text del:before {
+    background: #d5a415;
+  }
+  #product-list .columns:not(.medium-12) span.product-selection-price-text .wasText {
+    display: none;
+  }
+   #product-list:not(.grid-changed) .columns:not(.medium-12) span.product-selection-price-text del:before {
+    top: 25px;
+  }
+   #product-list .columns:not(.medium-12) span.product-selection-price-text del:before {
+    left: -1px;
+    height: 2px;
+    background: #d5a415;
+  }
+  #product-list .columns:not(.medium-12) span.product-selection-price-text del bdi {
+    color: #c6c9cd;
+    font-size: 100%;
+  }
+  
+  #product-list .productLandingPageContainer .medium-4 span.product-selection-price-text del bdi, #product-list .productLandingPageContainer .medium-6 span.product-selection-price-text del bdi {
+    margin-right: 0;
+  }
+  #product-list.productLandingPageContainer .medium-4 .product-selection-price-text-top{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    justify-content: center;
+  }
+  
+    #product-list .landing-product .productDescriptionDiv, #product-list .landing-product .productDescriptionDiv
+    ,.productLandingPageContainer .packageheader
+    {
+      color: #2d2e2f;
+    } 
+    .packageQuantityBox{
+      background: #f6f4ee;
+    }
+  
+    .loading:before, .loading-mbt:before{
+      border-top: 10px solid #f0c23a;
+    }
+    .loading::after, .loading-mbt::after{
+      background: #d5a41557; 
+      border-radius: 10px;
+    }
+    #product-list.productLandingPageContainer .packageheader a.iconCloseBox
+    ,html body #product-list.teethWhieteingSystemWrapper.productLandingPageContainer .product-selection-price-wrap .packageQuantityBox .plus-minusWrapper button
+    ,.productLandingPageContainer .priceparentBx span.packageAmount
+    {
+      color: #d5a415;
+      border-radius: 0;
+    }
+    .image-bottom-mobile{
+      display: none;
+    }
+  .teethWhieteingSystemWrapper.grid-changed .landing-product .product-selection-description-parent {
+    background: #f6f4ee;
+  }
+  
+  #product-list .columns:not(.medium-12) .medium-12.thb-dark-column.small-12.landing-product .product-selection-description-parent {
+   
+      width: auto;
+      max-width: 100%;
+  }
+  .product-selection-description-parent .packageQuantityBox p.total{
+    font-size: 16px;
+  }
+  .productLandingPageContainer .priceparentBx span.packageAmount, .productLandingPageContainer p.total span#total, .productLandingPageContainer .price-display{
+    color: #565759;
+  }
+  .yellow-text-refill{
+    color:#d5a415;
+  }
+  
+  
+  .single-product #product-list.productLandingPageContainer.grid-changed .medium-12.thb-dark-column.small-12.landing-product .product-selection-description-parent{
+    width: auto;
+    max-width: inherit;
+  }
+  .single-product  #product-list.productLandingPageContainer.grid-changed .medium-4 .product-selection-price-text-top {
+    justify-content: flex-start;
+  }
+  .single-product  #product-list.grid-changed .starRatinGImage {
+    display: none;
+  }
+  .single-product   #product-list.grid-changed .medium-12 .small-desc,.single-product   #product-list.grid-changed .medium-12 .featureShippingPrice {
+    display: none;
+  }
+  .single-product  #product-list.grid-changed .medium-12 .product-selection-description b {
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding-right: 15px;
+    color: #565759;
+  }
+  .partnership-banner-bottom .our-people-promise.action-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .single-product  #product-list.grid-changed .product-selection-price-text-top {
+    height: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: initial;
+    justify-content: flex-start;
+  }
+  .single-product  #product-list.grid-changed .product-selection-price-text-top {
+    padding-top: 5px;
+  }
+  .single-product  #product-list.grid-changed .medium-12 .product-selection-price-text-top {
+    margin: 0px;
+  }
+  .single-product  #product-list.grid-changed .medium-12.thb-dark-column.small-12.landing-product .product-selection-description-parent-inner {
+    padding: 0px;
+  }
+  .single-product  #product-list.grid-changed .medium-12 .product-selection-price-text-top.noflexDiv {
+    flex-direction: flex-start;
+    flex-direction: row;
+  }
+  
+  #product-list.grid-changed .medium-12 .product-selection-image-wrap img {
+    max-width: 100%;    max-height: 280px;
+  }
+   #product-list.grid-changed .medium-12.thb-dark-column.small-12.landing-product>.vc_column-inner {
+    background-color: #ffffff !important;
+  }
+  
+  #product-list.grid-changed .medium-4 .product-selection-image-wrap img {
+    max-height: 250px;
+  }
+  #product-list.grid-changed .medium-4 .product-selection-price-text-top {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  #product-list.productLandingPageContainer.grid-changed .thb-dark-column.medium-12.landing-product{
+    margin-bottom: 0px;
+  }
+  .teethWhieteingSystemWrapper.grid-changed .landing-product.medium-12 .product-selection-description-parent{
+    border-radius: 0px 0 10px 10px;
+  }
+  #product-list.productLandingPageContainer.grid-changed .medium-12  span.woocommerce-Price-amount.amount
+  ,#product-list.productLandingPageContainer.grid-changed .medium-12  .product-selection-price-text
+  ,#product-list.productLandingPageContainer.grid-changed .medium-12 span.product-selection-price-text ins bdi
+  ,#product-list.productLandingPageContainer.grid-changed .medium-12 span.product-selection-price-text bdi
+  
+  {
+    font-size: 24px !important ;
+    font-weight: 500 !important;
+  }
+  
+  
+  #product-list.productLandingPageContainer.grid-changed .medium-12 span.product-selection-price-text del:before{
+    left: -4px;
+    top: 15px;
+  }
+  #product-list.productLandingPageContainer.grid-changed .medium-12.thb-dark-column.small-12.landing-product .product-selection-description-parent-inner .btn-primary-blue{
+    font-size: 18px;
+  }
+  #product-list.productLandingPageContainer.grid-changed .medium-12 .selectPackageBox, #product-list.productLandingPageContainer.grid-changed .medium-12 .packageQuantityBox{
+    left: auto;
+  }
+  .mobile-show{
+    display: none;
+  }
+  .mobile-show{
+    display: none;
+  }
+  .mbl-img{
+    display: none;
+  }
+  .powered-section-mbl {
+    display: none;
+  }
+  .section.the-proshield-process p.preocess-para{
+    text-align: center;
+    font-size: 24px;
+    color: #4acac9;
+    font-weight: 600;
+    padding-bottom: 40px;
+  }
+  .new-dental-probiotic img {
+    /* filter: brightness(85%) contrast(165%); */
+  }
+  .third-accordion .btn-primary-teal {
+    background-color: #9e1e82 !important;
+    border-color: #9e1e82 !important;
+    border-radius: 12px !important;
+    margin-top: 20px !important;
+    letter-spacing: 0;
+  }
+  .thom-w{
+    max-width: 70px !important;
+  }
+  .mobile-head-img{
+    display:none;
+  }
+  #product-list .medium-4.landing-product .featureTag{ display: none;}
+
+  .bullets-slider-infinite
+  ,.bullets-slider-infinite-option-two
+  { opacity: 0;}
+  .bullets-slider-infinite.slick-initialized
+  ,.bullets-slider-infinite-option-two.slick-initialized
+  { opacity: 1;}
+
+  @media screen and (min-width: 768px){
+  
+    #product-list.productLandingPageContainer.grid-changed .medium-4.landing-product .product-selection-description-parent {
+      min-height: 95px;
+      max-height: 95px;
+  }
+  
+  
+    .hidden-desktop{ display: none;} 
+    #product-list .landing-product:not(.medium-12) .productDescriptionDiv, #product-list .landing-product:not(.medium-12) .productDescriptionDiv{
+      align-items: self-start;
+      min-height: initial;
+      justify-content: center;
+    }  
+    #product-list.productLandingPageContainer:not(.grid-changed) .thb-dark-column.medium-12.landing-product {
+      margin-bottom: 40px;
+    }
+  
+    .col-sm-3.custom-width-adjust {
+      -webkit-box-flex: 0;
+      -ms-flex: 0 0 11%;
+      flex: 0 0 11%;
+      max-width: 11%;
+  }
+  
+  
+  
+  
+  }
+  
+  
+  @media (max-width: 1599px) {
+    .new-dental-probiotic p.top-banner-text{
+      font-size: 22px;
+    }
+  
+    section.section-top-banner h1 {
+      font-size: 40px;
+  }
+    .circle-banner-home
+{
+    left: -556px;
+    bottom: 166px;
+  }
+  
+  .circle-banner-home img
+  {
+      width: 100%;
+      max-width: 100%;
+      transform: rotate(-342deg);
+    }
+    .section-header.dark-blue h1 {
+      font-size: 36px;
+    }
+    section.section-top-banner h1 {
+      font-size: 40px;
+    }
+    .list-item-section ul
+{
+  padding-left: 10px;
+}
+    section.partnership-banner-bottom:before{
+      height: 100%;
+      left: -140px;
+    }
+  
+    .col-sm-3.custom-width-adjust {
+      -webkit-box-flex: 0;
+      -ms-flex: 0 0 11%;
+      flex: 0 0 11%;
+      max-width: 11%;
+  }
+  .men-apply-cream {
+    left: -110%;
+  }
+  .men-apply-cream img {
+    max-width: 200%;
+  }
+  .circle-banner-home {
+    left: -603px;
+}
+  }
+
+  @media (max-width:1499px){
+    .circle-banner-home {
+      left: -500px;
+  }
+    section.partnership-banner-bottom:before{
+      left: -360px;
+    }
+    .men-apply-cream {
+      left: -140%;
+    }
+    .men-apply-cream img {
+      max-width: 200%;
+    }
+    .tablets-img{
+      bottom: -40px;
+    }
+    .right-side-content-six-col h4:before{
+      width: 210px;
+    height: 390px;
+    top: -361%;
+    left: 5%;
+    }
+    .right-side-content-six-col h4{
+      font-size: 48px;
+    line-height: 48px;
+    margin-top: 69px;
+    }
+    .right-side-content-six-col h3{
+      font-size: 48px;
+    line-height: 56px;
+    }
+  }
+  
+  @media (max-width: 1400px) {
+    section.section-top-banner h1 {
+      /* color: blue; */
+    }  
+    .circle-banner-home
+    {
+        left: -548px;
+        bottom: 185px;
+      }
+    section.section-top-banner h1 {
+      font-size: 40px;
+    }
+    .product-skincare p {
+      font-size: 15px;
+    }
+    .men-apply-cream{
+      left: 0%;
+    }
+    .men-apply-cream img {
+      max-width: 200%;
+    }
+    .men-apply-cream {
+      left: -125%;
+    }
+
+  }
+  
+  
+  @media (min-width: 1600px) and (max-width: 1799px) {
+    section.section-top-banner h1 {
+      /* color: yellow; */
+    }
+    .circle-banner-home {
+      left: -370px;
+  }
+    .col-sm-3.custom-width-adjust {
+      -webkit-box-flex: 0;
+      -ms-flex: 0 0 12%;
+      flex: 0 0 12%;
+      max-width: 12%;
+  }
+  
+    section.partnership-banner-bottom:before{
+      left: -111px;
+    }
+    .circle-banner-home
+{
+    position: absolute;
+    left: -495px;
+    bottom: 210px;
+  }
+  
+    .circle-banner-home img
+    {
+        width: 100%;
+        max-width: 100%;
+        transform: rotate(-325deg);
+      } 
+  
+  }
+  
+  @media (min-width: 1800px) and (max-width: 1999px) {
+    section.section-top-banner h1 {
+      /* color: red; */
+    }
+    .circle-banner-home {
+      left: -430px;
+  }
+  
+  }
+
+  @media screen and (min-width:1921px) and (max-width:2399px){
+    .circle-banner-home
+    {
+        left: -443px;
+         bottom: 230px;
+      }
+      .men-apply-cream {
+        position: relative;
+        left: -190%;
+      }
+      .men-apply-cream img {
+        max-width: 235%;
+        height: 200%;
+      }
+    .circle-banner-home img
+    {
+        width: 100%;
+        max-width: 104%;
+        transform: rotate(-355deg);
+      }
+  }
+  
+  @media (min-width: 2000px) and (max-width: 2299px) {
+    section.section-top-banner h1 {
+      /* color: orange; */
+    }
+    .men-apply-cream {
+      position: relative;
+      left: -180%;
+      bottom: -5%;
+    }
+    .circle-banner-home img {
+      width: 100%;
+      max-width: 100%;
+    }
+    .circle-banner-home
+    {
+        left: -310px;
+      }
+  
+    section.partnership-banner-bottom:before{
+  
+      height: 122%;
+      background-size: contain;
+    }
+    section.partnership-banner-bottom{
+      overflow: hidden;
+    }
+  
+  }
+  
+  @media (min-width: 2400px) and (max-width: 2550px) {
+    section.section-top-banner h1 {
+      /* color: green; */
+    }
+    .men-apply-cream {
+      position: relative;
+      left: -208%;
+      bottom: -5%;
+    }
+    .circle-banner-home {
+      left: -180px;
+    }
+  
+    .circle-banner-home img {
+      width: 100%;
+    max-width: 100%;
+    transform: rotate(-340deg);
+    }
+    section.partnership-banner-bottom:before{
+      width: 100%;
+      height: 137%;
+      background-size: contain;
+    }
+    section.partnership-banner-bottom{
+      overflow: hidden;
+    }
+  
+  }
+  
+  @media (min-width: 2551px) and (max-width: 2899px) {
+    section.section-top-banner h1 {
+      /* color: blue; */
+    }
+    .men-apply-cream {
+      position: relative;
+      left: -180%;
+      bottom: 0%;
+    }
+    .circle-banner-home img
+    {
+        width: 110%;
+        max-width: 110%;
+        transform: rotate(-325deg);
+      }
+  
+      .circle-banner-home
+{
+    left: -28px;
+    bottom: 166px;
+  }
+    section.partnership-banner-bottom{
+      overflow: hidden;
+    }
+    section.partnership-banner-bottom:before{
+      width: 100%;
+      height: 148%;
+      background-size: contain;
+    }
+  
+  }
+  
+  @media (min-width: 2900px) and (max-width: 36500px) {
+  
+    .circle-banner-home {
+      left: -490px;
+      top: 169px;
+    }
+  
+    .circle-banner-home img {
+      width: 250%;
+      max-width: 250%;
+      transform: rotate(205deg);
+    }
+  
+  }
+  @media screen and (max-width: 768px), screen and (max-height: 1000px) {
+    .modal-body {
+        overflow: auto;
+        max-height: 400px;
+    }
+    .fruits-section .modal-wrapper{
+      top: 15%;
+    }
+}
+  @media (min-width: 768px) {
+    .col-sm-3 {
+      -webkit-box-flex: 0;
+      -ms-flex: 0 0 25%;
+      flex: 0 0 25%;
+      max-width: 25%;
+    }
+  
+    .col-sm-4 {
+      -webkit-box-flex: 0;
+      -ms-flex: 0 0 33.333333%;
+      flex: 0 0 33.333333%;
+      max-width: 33.333333%;
+    }
+  
+    .col-sm-5 {
+      -webkit-box-flex: 0;
+      -ms-flex: 0 0 41.666667%;
+      flex: 0 0 41.666667%;
+      max-width: 41.666667%;
+    }
+  
+    .col-sm-6 {
+      -webkit-box-flex: 0;
+      -ms-flex: 0 0 50%;
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
+  
+    .col-sm-7 {
+      -webkit-box-flex: 0;
+      -ms-flex: 0 0 58.333333%;
+      flex: 0 0 58.333333%;
+      max-width: 58.333333%;
+    }
+  
+    .col-sm-8 {
+      -webkit-box-flex: 0;
+      -ms-flex: 0 0 66.666667%;
+      flex: 0 0 66.666667%;
+      max-width: 66.666667%;
+    }
+  
+    .col-sm-9 {
+      -webkit-box-flex: 0;
+      -ms-flex: 0 0 75%;
+      flex: 0 0 75%;
+      max-width: 75%;
+    }
+  
+    .col-sm-10 {
+      -webkit-box-flex: 0;
+      -ms-flex: 0 0 83.333333%;
+      flex: 0 0 83.333333%;
+      max-width: 83.333333%;
+    }
+  
+  }
+  
+  
+  @media(max-width:1499px){
+  
+    .girl-skin-care-banner{
+      max-height: 500px;
+    }
+      .scrollable-bullets ul li{
+        font-size: 20px;
+      }
+      .section-the-real-science .section-heading-h2{
+        font-size:64px;
+      }
+  
+  
+    #footer-newsletter-title {
+      font-size: 21px;
+    }
+  
+  }
+
+  @media screen and (min-width:768px) and (max-width:1199px){
+    .list-item-section ul li {
+      min-width: 450px;
+    }
+  }
+  
+  @media(max-width:1199px){
+   
+    .fruit-content{
+      display: none;
+    }
+    .subscription-product {
+      width: 35%;
+   
+  }
+  .subscription-product-detail .caripro-content {
+    text-align: center;
+    width: 50%;
+}
+  .subscription-product-detail {
+    justify-content: space-between;
+  }
+    .sbr-content-banner {
+      padding-left: 2rem;
+  }
+  .section-header.dark-blue h1 {
+    font-size: 28px;
+  }
+  .section-the-real-science .section-heading-h2 {
+    font-size: 52px;
+  }
+   .section-real-science .col-md-4 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 33%;
+    max-width: 33%;
+  }
+  .text--k{
+    font-size: 22px;
+  }
+  span.digits-number {
+    font-size: 42px;
+  }
+  span.digits-number{
+    min-width: 75px;
+  }
+  .small-text{
+    margin-top: 22px;
+    font-size: 16px;
+  }
+  
+   #product-list.productLandingPageContainer .medium-12 .product-selection-image-wrap img {
+    max-width: 270px;
+  }
+  #product-list .landing-product:not(.medium-12) .productDescriptionDiv, #product-list .landing-product:not(.medium-12) .productDescriptionDiv {
+  
+    min-height: 40px;
+  }
+  #product-list:not(.grid-changed).productLandingPageContainer .landing-product:not(.medium-12) .product-selection-box {
+    margin-bottom: 35px;
+  }
+  #product-list:not(.grid-changed) .landing-product.medium-4 .product-selection-description-parent {
+    min-height: 175px;
+    max-height: 175px;
+  }
+  section.partnership-banner-bottom:before {
+    left: -459px;
+  }
+  h5.section-heading-partner {
+    font-size: 28px;
+  }
+  .product-skincare .partnership-banner-bottom p{
+    font-size: 14px;
+  }
+
+  
+  .col-sm-3.custom-width-adjust {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 0%;
+    flex: 0 0 0%;
+    max-width: 0%;
+  }
+  .section-return-policy-option .icon {
+    margin-right: 12px;
+  }
+  .section-return-policy-option .notify-text {
+  
+    font-size: 11px;
+  }
+  
+  #footer-newsletter-title {
+    font-size: 16px;
+  }
+  .subscribe-newsletter {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .footer-sbr-cotnent p {
+    font-size: 14px;
+  }
+  
+  .footer-logo img {
+    max-width: 88%;
+  }
+  .footer-sbr-cotnent {
+  
+    margin-left: 321px;
+  }
+  section.section.section-top-banner p br{ display: none;}
+  .answer-content{
+    padding-left: 75px;
+  }
+  
+  }
+  
+  @media(max-width:990px){
+    .hidden-mobile {
+      display: none;
+  }  
+    .section-top-banner{
+        background:linear-gradient(132deg, rgba(171,219,219,1) 30%, rgba(99,207,206,1) 58%, rgba(74,202,201,1) 100%);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .product-skincare .col-sm-5{
+      -webkit-box-flex: 0;
+      -ms-flex: 0 0 100%;
+      flex: 0 0 100%;
+      max-width: 100%;    
+    }
+    .sbr-content-banner {
+        padding-left: 0rem;
+        text-align: center;
+    }
+    .circle-banner-home {
+      left: -314px;
+      top: 0px;
+      max-width: 452px;
+  }
+  .section-header.dark-blue h1 {
+    font-size: 28px;
+  }
+  .section-top-banner .sbr-content-banner p {
+    display: block;
+  }
+  .section-header.dark-blue h1{
+    margin-top: 0;
+  }
+  .product-skincare .container{
+    margin-left: auto;
+    margin-right:auto;
+  }
+  .section-the-real-science .section-heading-h2 {
+    font-size: 40px;
+  }
+  .section-the-real-science .section-title {
+    margin-bottom: 19px;
+    font-size: 22px;
+  }
+  .subtitle {
+    font-size: 14px;
+  }
+  section.select-your-packages h4{
+    font-size: 36px;
+  }
+  section.select-your-packages .heading-title {
+    font-size: 16px;
+  }
+  #product-list:not(.grid-changed) .columns.medium-4 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 33.333%;
+    flex: 0 0 33.333%;
+    max-width: 33.333%;
+  }
+  .gurantee-logo {
+    max-width: 100px;
+  }
+  span.formulate-logo {
+    max-width: 160px;
+    display: inline-block;
+  }
+  
+  }
+
+  @media screen and (min-width:768px) and (max-width:1024px){
+
+    /* .review-section-wrapper .reviews-wrapper .review-box{
+      max-width:320px
+    } */
+    .logos-section-wrapper .logo {
+      padding: 0px 20px;
+    }
+    .fruits-section {
+      background-size: cover;
+    }
+    section.section-top-banner h1 {
+      font-size: 23px;
+        line-height: 36px;
+  }
+  .list-item-section ul li span{
+    font-size: 16px;
+  }
+  section.section-top-banner .banner-image{
+    margin-right: auto;
+    margin-left: unset;
+  }
+  .girl-skin-care-banner .banner-image img{
+    left: 75px;
+  }
+  .tablets-img {
+    bottom: -40px;
+}
+.tablets-img {
+  left: 40px;
+}
+  .banner-top-logos{
+    left: -15%;
+    bottom: 57%;
+  }
+  .right-side-content-six-col {
+    padding-top: 70px;
+    padding-left: 0px;
+}
+.right-side-content-six-col h3 {
+  font-size: 66px;
+  line-height: 62px;
+}
+.section.section-top-banner .hidden-mobile{
+display: block;
+}
+.right-side-content-six-col h4 {
+  font-size: 71px;
+  line-height: 48px;
+  margin-top: 69px;
+}
+.right-side-content-six-col h4:before {
+  width: 257px;
+  height: 306px;
+  top: -280%;
+  left: 7%;
+}
+  .answer-content .content-wrapper .image{
+    padding: 0px;
+  }
+  .new-dental-probiotic p.top-banner-text {
+    font-size: 18px;
+}
+.list-item-section ul li::before{
+  left: -1090px;
+}
+.third-accordion .content { 
+  padding-left: 40px !important;
+  padding-right: 0px !important;
+}
+.answer-content{
+  padding-right: 0px !important;
+}
+.subscription-product-footer .add-to-cart-btn .btn-primary {
+  padding: 10px 25px !important;
+}
+.list-item-section ul li{
+  padding-right: 0px;
+  width: 120%;
+}
+    .subscription-product-detail .caripro-content p:after {
+      top: 52px;
+      right: 30%;
+    }
+    .review-section-wrapper .reviews-detail h1 {
+      font-size: 38px;
+    }
+    .product-skincare .col-sm-5{
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
+    .girl-skin-care-banner {
+      position: relative;
+      left: 65px;
+      top: 20px;
+  }
+    .col-sm-7.hidden-mobile {
+      display: block;
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
+    section.section-top-banner .banner-image{
+      padding-top: 110px;
+    }
+    .subscription-product-footer .add-to-cart-btn .btn-primary {
+      padding: 10px 25px !important;
+    }
+  }
+    @media(max-width:767px){
+      .mobile-head-img {
+        display: block;
+        position: relative;
+        bottom: -2px;
+        right: 20px;
+        height: 215px;
+    }
+    .mobile-head-img img {
+      max-width: 110%;
+    }
+      .men-apply-cream {
+        display: none;
+      }
+      .mobile-head-img{
+        display: block;
+      }
+      .list-item-section ul {
+        margin-left: 20px;
+    }
+    
+      .list-item-content li img {
+        margin-right: 5px;
+        max-width: 20px;
+    }
+      .answer-content .content-wrapper .image{
+        padding-bottom: 0px;
+      }
+      .answer-content .image-two{
+        max-width: 100%;
+      }
+      .girl-skin-care-banner {
+        margin-top: 50px !important;
+    }
+      .third-accordion .image img{
+        left: 0px;
+        max-width: 100%;
+      }
+      .answer-content .content-wrapper .image{
+        max-width: 300px;
+        margin:0px auto;
+      }
+      .mbl-fda-logo-hidden {
+        display: none;
+      }
+      .third-accordion .detail b br {
+        display: none;
+      }
+      .third-accordion .content{
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+      }
+      .right-side-content-six-col .buy-btn, .right-side-content-six-col .want-highlighters{
+        display: block;
+          }
+          .left-side-6-col .image-cation {
+display: none;
+          }
+      .answer-content{
+        padding-left: 0px;
+      }
+      .right-side-content-six-col h4 {
+        font-size: 36px;
+        line-height: 36px;
+        margin-top: 41px;
+    }
+    .right-side-content-six-col h3 {
+      font-size: 36px;
+      line-height: 36px;
+  }
+  .right-side-content-six-col {
+    padding-top: 45px;
+    padding-left: 0px;
+}
+.right-side-content-six-col h5{
+  font-size: 14px;
+}
+.right-side-content-six-col h4:before {
+  width: 157px;
+  height: 286px;
+  top: -355%;
+  left: 5%;
+}
+    p.grenish-text{
+      margin-top: 50px;
+    }
+      .answer-content .content-wrapper{
+        display: block;
+      }
+      .powered-section-mbl{
+        justify-content: start;
+        margin-top: 20px;
+      }
+      .gurantee-logo{
+        margin: 0px auto;
+      }
+      .family-img{
+        display: none;
+      }
+      .poweredby-section .gurantee-logo img{
+        max-width: 100%;
+      }
+      .powered-section-desktop {
+        display: none !important;
+      }
+      .powered-section-mbl {
+        display: flex !important;
+      }
+      .destop-hide-text {
+        display: none;
+      }
+      .mobile-show{
+        display: block;
+      }
+      .section-top-banner{
+        padding-bottom: 2rem;
+      }
+      /* li.first{
+        margin-left: -42px;
+      } */
+      /* li.third {
+        margin-left: -84px;
+      }
+      li.second{
+        margin-left: -30px;
+      } */
+      .list-item-section ul {
+        padding-left: 0px;
+      }
+      .list-item-section ul li::before {
+       
+        width: 1230px;
+      }
+      .banner-top-logos { 
+       
+        top: -40px;
+        left: 78%;
+      }
+      .circle-banner-home img{
+        transform: rotate(-115deg);
+      }
+      .new-dental-probiotic p.top-banner-text{
+        font-size: 16px;
+        font-weight: 500;
+        padding-left: 0px;
+      }
+      .section.the-proshield-process p.preocess-para {
+        font-size: 18px;
+        line-height: 24px;
+        color: #4acac9;
+        padding-top: 20px;
+        padding-bottom: 0px;
+    }
+    .product-proshield .the-proshield-process{
+      padding-bottom: 3.5rem;
+    }
+    .image-bottom-mobile{
+      display: block;
+      position: absolute;
+    bottom: -130  px;
+    left: 21%;
+    }
+    .wrapContainer {
+      padding-bottom: 90px;
+    }
+    .review-section-wrapper {
+      padding-top: 60px;
+  }
+  .parallax-image-banner{
+    background-image: none;
+  }
+      section.section-top-banner h1::after{
+     
+  margin-top: 15px;
+  width: 120%;
+  margin-left: -25px;
+      }
+     
+      .section.section-top-banner .sbr-content-banner h1 img{
+        margin-bottom: 20px;
+        max-width: 110px;
+      }
+      .mobile-div {
+        position: absolute;
+        left: 9%;
+        bottom: -45px;
+      }
+      section.section-top-banner .banner-image{
+        max-width: 80%;
+    text-align: center;
+    margin: auto;
+      }
+      .girl-skin-care-banner .banner-image img {
+        position: relative;
+        left: 14%;
+    }
+    .sbr-content-banner:before{
+      width: 28%;
+    height: 28%;
+    top: -20px;
+    left: 50%;
+    }
+      .banner-top-logos .gurantee-logo img{
+        max-width: 70px;
+      }
+      .mobile-show {
+        display: block !important;
+      }
+    #product-list.grid-changed .medium-4 .product-selection-price-text-top{
+      margin-top: 5px;
+      margin-bottom: 20px;
+    }
+    .answer-content .content-wrapper .detail br {
+      display: none;
+    }
+    #product-list .thb-dark-column.small-12.landing-product{
+      padding-left: 5px;
+      padding-right: 5px;
+    }
+    .single-product #product-list.productLandingPageContainer.grid-changed .medium-4  span.product-selection-price-text del:before{
+      top: 6px;
+      width: auto;        
+    }
+    #product-list .product-selection-description b{
+      padding-right: 0px;
+    }
+    #product-list.productLandingPageContainer:not(.grid-change) .medium-12.thb-dark-column.small-12.landing-product >.vc_column-inner{
+      margin-left: -15px;
+      margin-right: -15px;
+      width: auto;
+      padding-left: 15px;   
+      padding-right: 15px;
+    }
+  
+    #product-list.productLandingPageContainer:not(.grid-change) .thb-dark-column.medium-12.landing-product{
+      margin-bottom: 25px;
+    }
+    #product-list .medium-4.landing-product .product-selection-image-wrap{
+      max-height: 152px;
+      min-height: 152px;
+    }
+    .mobile-weight-light{  font-weight: 400;}
+   .section-top-banner .seethescience.text-center {
+      max-width: 284px;
+  }  
+    .circle-banner-home{
+      left: -282px;
+    top: 205px;
+    max-width: 428px;
+    }
+    section.section-top-banner h1 {
+      font-size: 24px;
+      margin-top: 0;
+      margin-bottom: 15px;
+      padding-left: 0px;
+  }  
+    .floting-geha-button {
+      display: none;
+  }  
+    .section-top-banner{
+      background-position: center;
+      background-size: cover;
+    }
+    .section-header.dark-blue h1 {
+      font-size: 18px;
+    }
+    .scrollable-bullets{
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+    .section-real-science .col-md-4 {
+      -ms-flex: 0 0 100%;
+      flex: 0 0 100%;
+      max-width: 100%;
+  }
+  .section-real-science .col-md-4{ order: 2;}
+  .section-real-science .col-md-8{ order: 1;}
+  .section-real-science {
+    padding-top: 130px;
+    text-align: left;
+  }
+  
+  .section-real-science .section-title,.section-the-real-science .section-heading-h2{
+    padding-left: 25px;
+    padding-right: 25px;  
+  }
+  .section-top-banner{
+    padding-top: 2rem;
+  }
+  .icon-text-wrapper{
+    padding: 40px 0px;
+  }
+  .subscription-product-content ul{
+    text-align: left;
+    font-weight: 500;
+  }
+  .section-real-science{
+    background-size: 140%;
+  }
+  .section-the-real-science .section-heading-h2  br {
+    display: none;
+  }
+  .parallax-image-banner {
+    background-position: top;
+  }
+  .section-the-real-science .section-heading-h2 {
+    font-size: 30px;
+  }
+  ul.accordion-list li h3:after {
+     width: 32px;
+    height: 31px;
+     top: 69%;
+    left: 6px;
+  }
+  ul.accordion-list {
+    padding:20px;
+  }
+  ul.accordion-list li h3::after {
+    background-image: url(../images/products/new-dental-probiotic/mbl-arrow.png);
+    width: 32px;
+    height: 31px;
+    top: 80% !important;
+    left: 10px;
+  }
+  .text--k {
+    padding-right: 0px;
+    font-size: 22px;
+  }
+  .subscription-badge{
+    top: 30px;
+  }
+  .answer-content {
+    padding-top: 1.5rem;
+  }
+  .subscription-product-detail .fruit-content{
+    display: none;
+  }
+  .review-section-wrapper .reviews-detail img {
+    max-width: 30%;
+    padding: 3px 0px;
+  }
+  .subscription-product{
+    margin-left: 0px;
+    margin-top: 25px;
+  }
+  .logo-wrapper .logo {
+    padding: 0px 20px;
+  
+  }
+  .review-section-wrapper .reviews-detail p{
+    font-size: 12px;
+  }
+  .review-section-wrapper .reviews-detail h1 {
+    font-size: 19px;
+  }
+  .logos-section-wrapper .fox {
+    max-width: 100px;
+  }
+  .immune-support-section {
+    display: none
+  }
+  .subscription-product-detail .caripro-content p::after{
+    right: 28%;
+  }
+  .subscription-product-detail .caripro-content h1 {
+    font-size: 22px;
+  color: #002244;
+  padding-top: 10px;
+  }
+  .mbl-img {
+    display: block;
+    margin-bottom: 40px;
+  }
+  span.off-white-color {
+    font-size: 18px;
+  }
+  .desktop-img {
+    display: none;
+  }
+  .subscription-product,.subscription-product-detail .caripro-content{
+   width: 100%;
+  }
+  .subscription-product-wrapper .container {
+    width:100%;
+
+  }
+  .subscription-product-detail {
+    padding: 20px 20px 40px 20px;
+    flex-direction: column;
+    margin: 20px 20px 40px 20px;
+  }
+  .nutrition-facts-content .heading h2 {
+    font-size: 16px;
+    padding: 0px 0px;
+    margin: 0px 10px;
+    padding-bottom: 10px;
+    border-bottom: 4px solid #00bbb4;
+    margin-bottom: 30px;
+  }
+  .fruits-section{
+    background-size: cover;
+    background-position: bottom;
+  }
+  .product-proshield .the-proshield-process h4{
+    font-size: 24px;
+    margin-bottom: 0px;
+  }
+  .left-side-6-col .buy-btn, .left-side-6-col .want-highlighters{
+display: none;
+  }
+  .process-box.box-one .process-media img{
+    left: 0px;
+  }
+  .section.section-the-real-science .scrollable-bullets h2{
+    font-size: 20px;
+  }
+  .review-section-wrapper .reviews-detail{
+    padding-top: 0px;
+  }
+  .product-proshield .page-row{
+    margin-bottom: 60px;
+  }
+  .product-proshield .process-box{
+    padding: 0px 20px;
+  }
+  .fruits-section .modal-wrapper{
+    left: 63%;
+  }
+  .men-apply-cream img {
+    max-width: 100%;
+    /* transform: rotate(265deg); */
+  }
+  .men-apply-cream {
+    position: relative;
+    left: -2%;
+    max-height: 238px;
+
+  }
+  .men-apply-cream img {
+    filter: unset;
+}
+  .yes-its-worth-it .rating-stars,.yes-its-worth-it .subtitle {
+    display: none;
+  }
+  section.select-your-packages {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .mobile-medium{ font-weight: 600;}
+  section.select-your-packages h4:after{
+    max-width: 195px;
+  }
+  span.off-white-color {
+    font-size: 17px;
+  }
+  section.shopLanderPageHader {
+    margin-top: 0rem;
+  }
+  
+  
+  section.partnership-banner-bottom:before { 
+    left: -303px;
+    transform: rotate(13deg);
+    width: 148%;
+    top: -114px;
+  }
+  
+  .partnership-banner-bottom .image-circle {
+    max-width: 420px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    top: 0;
+  }
+  .review-section-wrapper .reviews-wrapper .review-box .review-text p{
+    text-align: left;
+  }
+  /* .review-section-wrapper .reviews-wrapper .review-box {
+    max-width: 320px;
+  } */
+  .review-section-wrapper .reviews-wrapper .review-box{
+    margin: 0px;
+  }
+  .scrollable-bullets ul li{
+    font-size: 22px;
+  }
+  .review-section-wrapper .reviews-wrapper .review-box{
+    margin: 0px 14px;
+  }
+  .list-item-section {
+    padding-top: 80px;
+}
+  .review-section-wrapper .slick-prev {
+    left: 0px;
+}
+  .review-section-wrapper .slick-next {
+    right: 15px;
+}
+  .section-the-real-science .section-title{
+    font-size: 14px;
+  }
+  .dont-belive-it {
+    color: #2d2e2f;
+    font-size: 14px;
+    padding-left: 64px;
+    margin-bottom: 25px;
+  }
+  ul.accordion-list li h3:after{
+    bottom: 0;
+    top: initial;
+  }
+  .accordion-faq-section {
+    padding-bottom: 20px;
+  }
+  .review-item .slick-slide{ max-height: initial;}
+  .section-header.dark-blue h1 {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .section-real-science {
+    padding-top: 70px;
+  }
+  section.select-your-packages h4 {
+    font-size: 24px;
+    margin-bottom: 0px;
+  }
+  .mobile-text {
+    font-size: 20px;
+  }
+  
+  section.select-your-packages .heading-title {
+    font-size: 14px;
+  }
+  .partnership-banner-bottom .content-section {
+    text-align: left;
+    padding: 30px 0px;
+  }
+  .fruits-section
+  {
+    margin-top: 20px;
+  }
+  section.partnership-banner-bottom h5.section-heading-partner {
+    margin-top: 2rem;
+  }
+  .partnership-banner-bottom .our-people-promise {
+    margin-top: 41px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+  }
+  .verified-customer .name {
+    text-align: left;
+  }
+  .our-people-promise button {
+  
+    color: #ffffff;
+  }
+  .poweredby-section {
+    align-items: center;
+  }
+  
+  #product-list.productLandingPageContainer:not(.grid-change) .thb-dark-column.medium-4.landing-product{
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  #product-list.productLandingPageContainer .medium-4 .product-selection-image-wrap img {
+    max-height: 115px;
+  }
+  #product-list:not(.grid-changed).productLandingPageContainer .landing-product:not(.medium-12) .product-selection-box {
+    margin-bottom: 20px;
+  }
+  #product-list:not(.grid-changed) .columns:not(.medium-12) span.product-selection-price-text del:before {
+    top: 6px;
+    width: auto;
+  }
+  
+  #product-list.productLandingPageContainer .medium-12 span.product-selection-price-text del:before{
+    width: auto;
+  }
+  #footer-newsletter-title {
+    font-size: 16px;
+    flex-direction: column;
+  }
+  #footer-newsletter-title strong {
+    margin-right: 0px;
+    font-size: 22px;
+  }
+  .section-top-banner .action-btn {
+    max-width: 85%;
+    margin-top: 10px;
+    margin-left: -20px;
+    padding: 1.5rem 0rem;
+    margin-bottom: 30px;
+    border-radius: 0 30px 30px 0px;
+    max-width: 265px;
+    margin: 0px auto;
+  }
+  .section-top-banner .action-btn a {
+    font-size: 18px;
+  }
+  
+  .asjt-wrp-mbl{
+    min-height: 370px;
+  }
+  .header-spacer {
+    height: 45px !important;
+  }
+  li.second {
+    max-width: 70%;
+  }
+  li.third {
+    max-width: 65%;
+  }
+  .small-text {
+    min-height: 26px;
+  }
+  .single-product #product-list.grid-changed .medium-12 .product-selection-price-text-top.noflexDiv
+  ,.single-product #product-list.productLandingPageContainer.grid-changed .medium-4 .product-selection-price-text-top
+  {
+  
+    justify-content: center;
+  }
+  .list-item-section ul li{
+    display: block;
+    text-align: left;
+  }
+  .list-item-section ul li span{
+    font-size: 12px;
+  }
+  #product-list:not(.grid-changed ) .product-selection-description b {
+    font-size: 16px;
+  
+  }
+  
+  
+  }
+
+  @media screen and (min-width:432px) and (max-width:767px){
+    .list-item-section ul li{
+      max-width: 550px;
+      display: block;
+    }
+    /* li.first {
+      margin-left: -52px;
+  } */
+  /* li.second {
+    margin-left: -30px;
+}
+li.third {
+  margin-left: -71px !important; 
+} */
+  }
+  @media(max-width:430px){
+    /* li.first{
+      margin-left: -90px;
+    } */
+    /* li.third {
+      margin-left: -132px !important;
+    }
+    li.second{
+      margin-left: -67px;
+      padding-right: 10px !important;
+    } */
+  }
+  
+  @media(max-width:420px){
+  
+    .circle-banner-home {
+      left: -316px;
+  }
+  .subscription-product-detail .caripro-content p:after{
+    top: 55px;
+  }
+  /* li.first{
+    margin-left: -72px;
+  } */
+  /* li.third {
+    margin-left: -114px !important;
+  }
+  li.second{
+    margin-left: -48px;
+  } */
+  
+    .section.section-top-banner .seethescience {
+      max-width: 244px;
+  }
+    .section.section-top-banner .action-btn button{
+      min-width: 244px !important;
+    }
+  .section-top-banner {
+    background-position: center;
+  }
+  .section-header.dark-blue h1 {
+    font-size: 19px;
+  }
+  .section-the-real-science .section-heading-h2 {
+    font-size: 28px;
+  }
+  section.partnership-banner-bottom:before {
+    left: -289px;
+    transform: rotate(10deg);
+    width: 160%;
+  }
+  .men-apply-cream {
+    max-height: 216px;
+  }
+  }
+
+  @media (max-width:390px){
+    /* li.first{
+      margin-left: -45px;
+    } */
+    /* li.third {
+      margin-left: -82px !important;
+    } */
+    /* .list-item-section ul li span{
+      font-size: 13px;
+    } */
+    /* li.second{
+      margin-left: -25px;
+      padding-right: 10px !important;
+    } */
+    .list-item-section ul li span {
+      font-size: 11px;
+  }
+ 
+  }
+  @media (max-width:375px){
+    /* li.first{
+      margin-left: -35px;
+    } */
+    /* li.third {
+      margin-left: -75px !important;
+    } */
+    /* li.second{
+      margin-left: -10px;
+      padding-right: 10px !important;
+    } */
+   
+   
+  }
+  @media (max-width:360px){
+    /* li.first{
+      margin-left: -20px;
+    } */
+    /* li.third {
+      margin-left: -55px !important;
+    } */
+   
+    /* li.second {
+      margin-left: -6px;
+      padding-right: 3px !important;
+    } */
+  }
+  
+  @media (max-width: 992px) and (orientation: landscape) {
+    .subscription-product-header-bottom .sale{
+      padding: 1px 10px;
+    }
+    .subscription-product {
+      width: 50%;
+  }
+    .header-spacer {
+      height: 63px !important;
+  }
+  #footer-base-logo-wrap img {
+    max-width: 115px;
+}
+    .men-apply-cream {
+      left: -65%;
+  }
+  .men-apply-cream img {
+    max-width: 100%;
+    height: auto;
+}
+    #product-list:not(.grid-changed) span.woocommerce-Price-amount.amount {
+      font-size: 24px;
+  }  
+    #product-list.productLandingPageContainer .medium-12.thb-dark-column.small-12.landing-product .product-selection-description-parent {
+  
+      max-width: 420px;
+  }
+  
+    nav.navbar.navbar-expand-lg.navbar-dark.navbar.navbar-fixed-top.navbar-standard.row {
+      max-width: 98%;
+  }
+      #product-list .product-selection-description b {
+        font-size: 14px;
+        padding-right: 0;
+    }
+  
+    .productLandingPageContainer span.woocommerce-Price-amount.amount {
+      font-size: 24px;
+  }
+  #product-list .landing-product:not(.medium-12) .productDescriptionDiv, #product-list .landing-product:not(.medium-12) .productDescriptionDiv {
+    min-height: 31px;
+  }
+  .footer-logo img {
+    max-width: 87%;
+  }
+  .section-top-banner{
+    background-size: cover;
+  }
+  span.sbr-logo-round {
+  
+    min-width: 50px;
+  }
+  
+  }
+
+  @media screen and (max-width:360px){
+    .list-item-section ul {
+      margin-left: 5px;
+  }
+  }
+  

@@ -1,0 +1,981 @@
+@font-face {
+    font-family: 'bebas_neuebold';
+    src: url('/wp-content/themes/revolution-child/assets/fonts/bebasneue_bold-webfont.woff2') format('woff2'),
+        url('/wp-content/themes/revolution-child/assets/fonts/bebasneue_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+html{
+    overflow-x: hidden;
+}
+.bebas {
+    font-family: 'bebas_neuebold';
+}
+.text-white{
+    color: #fff;;
+}
+.text-green{
+    color: #afce4d;
+}
+.text-blue{
+    color: #1ba7ee;
+}
+.text-dark-blue{
+    color: #1b4764;
+}
+.textBrown{
+    color: #703F14;
+}
+.bg-dark-blue{
+    background: #1b4764;
+}
+.bg-light-blue{
+    background: #C9EBFC;
+}
+
+.bg-white {
+    background: #fff;
+}
+.bg-blue{
+    background: #1ba7ee;
+}
+
+.text-center{
+    text-align: center;
+}
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.db-flex {
+    display: flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+.align-item-center-mbt {
+    align-items: center;
+}
+.db-justify-content-center {
+    -webkit-box-pack: center!important;
+    -ms-flex-pack: center!important;
+    justify-content: center!important;
+}
+.db-justify-content-between {
+    justify-content: space-between;
+}
+
+
+.db-col-6 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+
+section {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+.pb-0{
+    padding-bottom: 0rem;
+}
+
+/* Section Top */
+.bad-breath {
+    font-size: 172px;
+    line-height: 150px;    margin-bottom: 30px;
+
+}
+.the-sciene-of-breath {
+    font-size: 140px;
+    line-height: 120px;    margin-top: 30px;
+}
+
+section.sectionTop {
+    padding-top: 100px;
+}
+
+section.sectionTop h5 {
+    font-size: 46px;
+    letter-spacing: 0.5px;
+    line-height: 46px;
+}
+.graphicLarge {
+    max-width: 430px;
+}
+.contentAreaTop {
+    width: 60%;padding-left: 20px;
+}
+
+
+/* Section Top Second */
+.graphicCircle {
+    max-width: 260px;
+}
+
+.contentAreaText {
+    width: 76%;
+}
+.graphicDescription {
+    font-size: 70px;
+    line-height: 1.001;
+    color: #1B4764;
+    padding-left: 20px;
+}
+.graphicDescription-2 {
+    font-size: 60px;
+    line-height: 1;
+    padding-left: 20px;
+}
+.sectionThird .graphicCircle {
+    max-width: 240px;
+    padding-left: 20px;
+}
+
+/* Section fourth */
+.sec-heading {
+    font-size: 74px;
+    line-height: 1;
+    margin-bottom: 30px;
+}
+
+.sectionfourth p {
+    font-size: 32px;
+    line-height: 1.5;
+    font-weight: normal;
+}
+
+.faceIcon {
+    max-width: 100px;
+}
+.bgGrayLight {
+    background: #ededed85;
+}
+.sectionfourth .textDescription {
+    max-width: 80%;
+    padding-left: 20px;    padding-top: 8px;padding-bottom: 8px;
+}
+.sectionfourth .textDescription h4 {
+    margin: 0;
+    font-size: 53px;
+    line-height: 50px;
+}
+
+.uppercase{text-transform: uppercase;}
+.padding10{ padding: 10px;}
+.sectionfourth .textDescription p {
+    font-size: 27px;
+    margin-bottom: 0;
+    font-weight: normal;
+
+}
+.db-mt-30{ margin-top: 30px;}
+.db-row{ 
+    /* margin-left: 15px; margin-right: -15px; */
+}
+.db-row > div{ padding-left: 15px; padding-right: 15px;}
+.faceBoxTwo,.faceBoxOne{
+    height: 210px;
+}
+.faceBoxThree,.faceBoxFour{
+    height: 162px;
+}
+.sectionfourth .faceBoxTwo .textDescription,.sectionfourth .faceBoxFour .textDescription {
+    max-width: 58%;
+}
+.sectionDescriptionBottom {
+    margin-top: 40px;
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+/* Section fifth */
+.sectionSulfurCompounds {
+    background: #fbf0de;
+}
+.tpHeadSec {
+    background: #1b4764;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 10px 15px;
+    color: #fff;
+    font-size: 40px;  
+  
+
+}
+.sectionHeading {
+    font-size: 110px;
+}
+.sectionVolatile .firstSec {
+    width: 28%;
+}
+
+.sectionVolatile .firstSec .graphicImage {
+    max-width: 246px;
+    max-width: 196px;    
+    margin-left: auto;
+    margin-right: auto;
+}
+.secHeadingSmall {
+    font-size: 44px;
+}
+.TextdarkGreen {
+    color: #7B871B;
+}
+.secSubHeaing {
+    font-size: 24px;
+}
+.secDesciptionText {
+    font-size: 24px;
+}
+.sectionVolatile .secondSec {
+    max-width: 44%;position: relative;
+}
+.graphicImageBottom {
+    max-width: 230px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -70px;
+    position: relative;
+margin-bottom: 20px;
+}
+.sectionVolatile {
+    display: flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+.firstSec  .graphicImage{
+    margin-bottom: 20px;
+}
+.sectionVolatile .ThirdtSec {
+    width: 28%;
+}
+.ThirdtSec .graphicImage {
+    max-width: 230px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-top: 47px;
+}
+
+.secondSec  .graphicImage{
+    width: 118%;
+}
+.secondSec .secDesciptionText {
+    width: 137%;
+    margin-left: -19%;
+}
+
+
+/* Section Sixth */
+.sectionOtherSmellAreTemporary {
+    background: #1b4764;
+}
+.sectionOtherSmellAreTemporary .sectionHeading {
+    font-size: 80px;    line-height: 88px;
+}
+.textBenethHeading {
+    font-size: 28px;    margin-bottom: 40px;
+}
+.sectionOtherSmellAreTemporary .garphicBox {
+    max-width: 230px;
+    margin-top: 30px;
+}
+
+.sectionOtherSmellAreTemporary .jaHeadingBx {
+    font-size: 30px;
+    line-height: 34px;
+    margin-top: 15px;
+}
+.sectionOtherSmellAreTemporary .garphicBox.text-center.SecBoxTwo {
+    margin-top: -2px;
+}
+
+.sectionSeventh .bad-breath {
+    font-size: 74px;
+    line-height: 74px;
+    margin-bottom: 10px;
+    margin-top: 89px;
+}
+.sectionSeventh .bad-breath h5{
+    font-size: 24px;
+}
+strong, b {
+    font-weight: bold !important;
+    line-height: inherit;
+}
+.sectionSeventh  h5{
+    font-size: 28px;
+    font-weight: normal;
+
+}
+#wrapper [role="main"]{
+    overflow: initial;
+}
+
+.sectionSeventh {
+    padding-top: 25px;
+}
+.sectionSeventh .graphicLarge{
+    margin-bottom: -17px;
+}
+.sectionSeventh .contentAreaTop{
+    margin-left: -44px;
+}
+
+
+/* Section Eight */
+.sectionEight  .secHeading  {
+    font-size: 80px;
+}
+.sectionEight h5 {
+    font-size: 32px;
+    font-weight: normal;
+}
+.coloredBox {
+    padding: 4px;
+}
+
+.bacOrange {
+    background: #F8A18A;
+}
+
+.sectionEight .colorBoxHeadHeading {
+    font-size: 38px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.sectionEight .contnetBodyBox .rowBrush {
+    max-width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.sectionEight .bacBlue .contnetBodyBox  .rowBrush {
+    max-width: 90%;
+    justify-content: space-between;
+}
+
+.sectionEight .boxItemImage {
+    max-width: 145px;    
+    margin-right: 15px;
+}
+.sectionEight .boxItemDes {
+    max-width: 73%;
+    /* padding-left: 15px; */
+}
+.sectionEight .contnetBodyBox .rowBrush:first-child {
+    margin-bottom: 20px;
+}
+.sectionEight .contnetBodyBox {
+    background: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;    
+}
+.sectionEight .boxItemDes {
+    font-size: 30px;
+}
+.bacBlue {
+    background: #1ba7ee;
+}
+.coloredBox.bacBlue {
+    margin-top: 30px;
+}
+.rowBrushOne .boxItemDes {
+    padding-left: 0;
+    padding-right: 54px;
+}
+
+
+
+.headOneMbt {
+    font-size: 48px;
+    line-height: 1;
+}
+.sectionEight .bacBlue .colorBoxHeadHeading {
+    line-height: 1;
+    font-size: 72px;
+    padding-bottom: 0px;
+}
+.sectionEight .bacBlue .colorBoxSubHeading{
+    font-size: 36px;
+    line-height: 1;
+    padding-bottom: 20px;    font-weight: normal;
+}
+.sectionEight .bacBlue  .boxItemImage {
+    max-width: 250px;
+}
+.text-mincrobiome {
+    color: #6DE4E8;
+}
+
+.learn-moreButton {
+    margin-top: 20px;
+}
+.learn-moreButton a{
+    background:#6DE4E8; border-color:#6DE4E8
+}
+
+.endText {
+    margin-top: 30px;
+    text-align: center;
+}
+.endText p {
+    margin-bottom: 0;
+}
+.rowBrushThree .boxItemDes {
+    max-width: 540px;
+}
+.bacBlue .contnetBodyBox .rowBrush {
+    margin-bottom: 30px;
+}
+
+
+
+/****************/
+@media (min-width: 768px) {
+    .desktop-hidden{ display: none;}
+    .garphicBox.text-center.SecBoxOne {
+        margin-top: 40px;
+    }
+    .sectionEight h5{
+        margin-top: 10px;
+        margin-bottom: 35px;        
+    }
+}
+
+@media (min-width: 1500px) {
+    #footer .container {
+        width: 1420px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+    .containerLarger{
+        width: 1222px;
+    }
+
+  
+}
+
+
+@media (max-width: 1200px) {
+
+    .graphicLarge {
+        max-width: 369px;
+    }
+
+    .the-sciene-of-breath {
+        font-size: 104px;
+        line-height: 80px;
+    }
+
+    .bad-breath {
+        font-size: 130px;
+        line-height: 130px;
+        margin-bottom: 20px;
+    }
+    section.sectionTop h5 {
+        font-size: 32px;
+        letter-spacing: 0.5px;
+        line-height: 40px;
+    }
+
+
+    .graphicCircle {
+        max-width: 220px;
+    }
+
+    .graphicDescription {
+        font-size: 54px;
+     }
+
+     .sectionThird .graphicCircle {
+        padding-left: 0px;
+    }
+
+    .graphicDescription-2 {
+        font-size: 48px;
+    }        
+    .sec-heading {
+        font-size: 54px;
+    }
+    .sectionfourth p {
+        font-size: 22px;
+    }    
+
+    .sectionfourth .textDescription {
+        max-width: 70%;
+
+    }   
+
+    .sectionfourth .textDescription h4{
+        font-size: 34px;
+        line-height: 42px;
+    }
+    .sectionfourth .textDescription p {
+        font-size: 20px;
+    }
+
+    .sectionHeading {
+        font-size: 82px;
+    }
+
+    .secHeadingSmall {
+        font-size: 36px;
+    }
+    .secSubHeaing {
+        font-size: 18px;
+    }
+    .secDesciptionText {
+        font-size: 20px;
+    }
+    .sectionOtherSmellAreTemporary .sectionHeading {
+        font-size: 68px;
+    }
+
+    .sectionOtherSmellAreTemporary .garphicBox {
+        max-width: 200px;
+    }
+    .sectionOtherSmellAreTemporary .jaHeadingBx {
+        font-size: 26px;
+        line-height: 29px;
+    }    
+
+    .sectionSeventh .bad-breath {
+        font-size: 60px;
+        line-height: 62px;
+    }    
+    .sectionSeventh h5 {
+        font-size: 24px;
+    }
+
+    .sectionEight .secHeading {
+        font-size: 62px;
+    }
+
+    .sectionEight h5 {
+        font-size: 26px;
+    }
+
+    .sectionEight .colorBoxHeadHeading {
+        font-size: 30px;
+
+    }   
+    .sectionEight .boxItemDes {
+        font-size: 24px;
+    }
+
+    .sectionEight .bacBlue .colorBoxHeadHeading {
+        font-size: 64px;
+
+    }
+
+    .sectionEight .bacBlue .contnetBodyBox .rowBrush {
+        max-width: 96%;
+    }
+    .headOneMbt {
+        font-size: 44px;
+
+    }
+
+    .sectionEight .boxItemDes {
+        max-width: 70%;
+    }
+    .sectionEight .bacBlue .boxItemImage {
+        max-width: 250px;
+        margin-right: 0;
+    }
+
+    .rowBrushOne .boxItemDes{
+        
+    padding-right: 20px
+    }
+
+}
+
+@media (max-width: 991px) {
+    section.sectionTop {
+        padding-top: 41px;
+    }
+    .graphicLarge {
+        max-width: 260px;
+    }
+    .the-sciene-of-breath {
+        font-size: 84px;
+        margin-top: 0px;
+    }
+    .bad-breath {
+        font-size: 100px;
+        line-height: 100px;
+        margin-bottom: 8px;
+    }
+    section.sectionTop h5 {
+        font-size: 26px;
+        line-height: 32px;
+    }
+    .graphicCircle {
+        max-width: 164px;
+    }
+
+    .graphicDescription {
+        font-size: 34px;
+        line-height: 1.1;
+    }
+
+    .sectionThird .graphicCircle {
+        max-width: 160px;
+    }
+
+    .graphicDescription-2 {
+        font-size: 34px;
+    }
+
+    .sectionfourth p {
+        font-size: 20px;
+    }
+    .faceIcon {
+        max-width: 70px;
+    }
+
+    .sectionfourth .textDescription h4 {
+        font-size: 26px;
+        line-height: 30px;
+    }
+    
+    .sectionfourth .textDescription p {
+        font-size: 18px;
+    }    
+
+
+    .sectionHeading {
+        font-size: 70px;
+    }
+
+    .secHeadingSmall {
+        font-size: 30px;
+    }
+
+    .secSubHeaing {
+        font-size: 16px;
+    }
+    .secDesciptionText {
+        font-size: 16px;
+    }
+
+    .sectionOtherSmellAreTemporary .garphicBox {
+        max-width: 152px;
+    }
+    .sectionOtherSmellAreTemporary .jaHeadingBx {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .sectionSeventh .bad-breath {
+        font-size: 45px;
+        line-height: 50px;
+        margin-top: 30px;
+    }
+    .sectionSeventh h5 {
+        font-size: 20px;
+    }
+
+    .sectionEight .secHeading {
+        font-size: 48px;
+    }
+
+    .sectionEight h5 {
+        font-size: 20px;
+    }
+
+    .sectionEight .colorBoxHeadHeading {
+        font-size: 24px;
+    }
+
+    .sectionEight .contnetBodyBox .rowBrush {
+        max-width: 91%;
+
+    }
+
+    .sectionEight .bacBlue .colorBoxHeadHeading {
+        font-size: 52px;
+    }
+
+    .sectionEight .bacBlue .colorBoxSubHeading {
+        font-size: 28px;
+    }
+
+    .headOneMbt {
+        font-size: 34px;
+    }
+    .sectionEight .boxItemDes {
+        font-size: 22px;
+    }
+
+    .rowBrushOne .boxItemDes {
+        padding-right: 20px;
+    }
+    .sectionEight .bacBlue .boxItemImage {
+        max-width: 180px;
+    }
+
+
+
+
+}
+
+@media (max-width: 767px) {
+    .order-1 {
+        order: 1;
+    }
+    .order-2 {
+        order: 2;
+    }
+    .contentAreaTop {
+        width: 100%;
+        padding-left: 0px;
+    }
+    .the-sciene-of-breath {
+        font-size: 64px;
+        line-height: 62px;
+
+    }
+    .bad-breath {
+        font-size: 79px;
+        line-height: 70px;
+        margin-bottom: 8px;
+    }
+    section.sectionTop h5 {
+        font-size: 21px;
+        line-height: 30px;
+    }
+    .graphicLarge {
+
+        margin-left: auto;
+        margin-right: auto;
+    }
+    section {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+    .graphicCircle{
+        max-width: 240px;
+        margin-left: auto;
+        margin-right: auto;margin-bottom: 25px;
+    }
+    .contentAreaText {
+        width: 100%;
+    }
+    .graphicDescription,.graphicDescription-2{
+        padding-left: 0px;
+    }
+    .sec-heading br {
+        display: none;
+    }
+    .sec-heading {
+        font-size: 38px;
+    }
+    .db-col-6 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .faceIcon {
+        max-width: 100%;
+        margin-top: -56px;
+    }
+    .faceIcon img {
+        max-width: 50%;
+    }
+    .sectionfourth .textDescription {
+        max-width: 100%;
+        padding-left: 0px;
+    }
+
+    .sectionfourth .textDescription h4 {
+        font-size: 38px;    margin-bottom: 40px;
+    }
+
+    .faceBoxTwo, .faceBoxOne {
+        height: auto;    margin-bottom: 50px;
+    }
+    .faceBoxThree, .faceBoxFour {
+        height: auto;margin-bottom: 50px;
+    }
+
+    .tpHeadSec{
+        font-size: 18px;
+    }
+    .sectionHeading {
+        font-size: 38px;
+        margin-top: 15px;
+    }
+    .sectionDescriptionBottom{
+
+        margin-top: 0px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .sectionVolatile .firstSec {
+        width: 100%;
+    }
+    .sectionVolatile .firstSec .graphicImage {
+        max-width: 160px;
+    }
+    .sectionVolatile .secondSec {
+        max-width: 100%;
+
+    }
+    .sectionVolatile .ThirdtSec {
+        width: 100%;
+    }
+    .sectionOtherSmellAreTemporary .sectionHeading{
+        font-size: 50px;
+        line-height: 50px;
+    }
+    .textBenethHeading {
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+
+    .sectionOtherSmellAreTemporary .garphicBox{
+        margin-top: 0px;
+        margin-bottom: 25px;
+    }
+    .sectionSeventh .contentAreaTop {
+        margin-left: 0px;
+    }
+    .sectionSeventh .bad-breath {
+        font-size: 40px;
+        line-height: 40px;
+        margin-top: 15px;
+    }
+    .sectionSeventh .graphicLarge {
+        margin-bottom: -9px;
+    }
+    .sectionEight .secHeading {
+        font-size: 34px;
+        line-height: 1;
+        margin-bottom: 20px;
+    }
+    .sectionEight .colorBoxHeadHeading {
+        font-size: 26px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .sectionEight .contnetBodyBox .rowBrush{
+        justify-content: center;
+    }
+    .sectionEight .boxItemImage {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+    }
+    .sectionEight .boxItemDes {
+        max-width: 90%;
+    }
+    .sectionEight .bacBlue .colorBoxHeadHeading {
+        font-size: 38px;
+    }
+    .sectionEight .bacBlue .colorBoxSubHeading {
+        font-size: 30px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .sectionEight .boxItemDes {
+        max-width: 100%;
+        padding-right: 0;
+    }
+    .sectionEight .bacBlue .boxItemImage{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .mob-hidden{ display: none;}
+    .secHeadingSmall{
+        font-size: 42px;
+        line-height: 1;
+    }
+    .secSubHeaing {
+        font-size: 24px;
+    }
+    .secDesciptionText {
+        font-size: 18px;
+    }
+
+    .mob-flex {
+        display: flex;
+        margin-left: -15px;
+        margin-right: -15px;        
+    }
+    .mob-conten-lft,.mob-conten-rght {
+        width: 50%;
+        padding-left: 15px;
+        padding-right: 15px;        
+    }
+    .ThirdtSec .graphicImage{
+        margin-top: 0px;
+    }
+    .graphicImageBottom{
+        margin-top: 0px;
+    }
+    .sectionVolatile .secondSec{
+        margin-top: 20px;
+    }
+    .secondSec .graphicImage{
+        width: 100%;
+        margin-bottom: 20px;
+        max-width: 360px;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+    .graphicDescription{
+        font-size: 35px;
+        line-height: 1.2;
+    }
+    .sectionfourth .faceBoxTwo .textDescription, .sectionfourth .faceBoxFour .textDescription {
+        max-width: 90%;
+    }
+    .m-order-1{order: 1;}
+    .m-order-2{order: 2;}
+    .m-order-3{order: 3;}
+    .m-order-4{order: 4;}
+
+    .sectionfourth .textDescription h4 {
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+    .mobTopSpec{ 
+        margin-top: 20px;
+        display: block;
+    }
+    .ThirdtSec .graphicImage,.graphicImageBottom{
+        max-width: 115px;
+    }
+    .secondSec.text-center {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}

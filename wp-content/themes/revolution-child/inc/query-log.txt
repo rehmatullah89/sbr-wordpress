@@ -1,0 +1,359 @@
+2024-08-08 11:26:35 - SELECT post_id FROM wp_postmeta, wp_posts WHERE ID = post_id AND post_type = 'product' AND meta_key = '_wp_old_slug' AND meta_value = 'dental-probiotics-adults'
+2024-08-08 11:27:28 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (897858,899226) ORDER BY meta_id ASC
+2024-08-08 11:27:28 - SELECT meta_id as meta_id, meta_key, meta_value
+				FROM wp_postmeta
+				WHERE post_id = 5
+				ORDER BY meta_id
+2024-08-08 11:27:29 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (897859) ORDER BY meta_id ASC
+2024-08-08 11:27:29 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (899227) ORDER BY meta_id ASC
+2024-08-08 11:27:29 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (745959) ORDER BY meta_id ASC
+2024-08-08 11:27:29 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (711505) ORDER BY meta_id ASC
+2024-08-08 11:27:30 - SELECT meta_id as meta_id, meta_key, meta_value
+				FROM wp_postmeta
+				WHERE post_id = 5
+				ORDER BY meta_id
+2024-08-08 11:27:30 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (192) ORDER BY meta_id ASC
+2024-08-08 11:27:30 - SELECT meta_id as meta_id, meta_key, meta_value
+				FROM wp_postmeta
+				WHERE post_id = 5
+				ORDER BY meta_id
+2024-08-08 11:27:31 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (3) ORDER BY meta_id ASC
+2024-08-08 11:27:31 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (897858,899226) ORDER BY meta_id ASC
+2024-08-08 11:27:31 - SELECT meta_id as meta_id, meta_key, meta_value
+				FROM wp_postmeta
+				WHERE post_id = 5
+				ORDER BY meta_id
+2024-08-08 11:27:31 - SELECT orders.ID as ID  FROM wp_posts as orders JOIN wp_postmeta as meta ON orders.ID=meta.post_id where 1=1 AND orders.post_type='shop_order' AND orders.post_status = 'wc-wfocu-pri-order' AND meta.meta_key = '_wfocu_schedule_status' AND meta.meta_value != ''  order by orders.post_date_gmt desc LIMIT 0, 100
+2024-08-08 11:27:31 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (3) ORDER BY meta_id ASC
+2024-08-08 11:27:31 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (920380) ORDER BY meta_id ASC
+2024-08-08 11:27:32 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (897858,899226) ORDER BY meta_id ASC
+2024-08-08 11:27:32 - SELECT meta_id as meta_id, meta_key, meta_value
+				FROM wp_postmeta
+				WHERE post_id = 5
+				ORDER BY meta_id
+2024-08-08 11:27:32 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (920380) ORDER BY meta_id ASC
+2024-08-08 11:27:32 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (754129) ORDER BY meta_id ASC
+2024-08-08 11:27:32 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (883114) ORDER BY meta_id ASC
+2024-08-08 11:27:32 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (912834) ORDER BY meta_id ASC
+2024-08-08 11:27:32 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (897859) ORDER BY meta_id ASC
+2024-08-08 11:27:32 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (899227) ORDER BY meta_id ASC
+2024-08-08 11:27:32 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (3) ORDER BY meta_id ASC
+2024-08-08 11:27:32 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (897901,897902,897903,897905,897906,897908,792380,792381,814268,792382,792383,792384,792385,792386,792387,792388,792389,792390,792391,792392,792393,792394,792395,792396,792397,792398,792399,792400,792401,856669,792402,792403,792404,792405,792406,897913,897909,792417,792408,792409,792410,792411,792412,792413,792415,897911,897912,792414) ORDER BY meta_id ASC
+2024-08-08 11:27:33 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (733493) ORDER BY meta_id ASC
+2024-08-08 11:27:35 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (897858,899226) ORDER BY meta_id ASC
+2024-08-08 11:27:35 - SELECT meta_id as meta_id, meta_key, meta_value
+				FROM wp_postmeta
+				WHERE post_id = 5
+				ORDER BY meta_id
+2024-08-08 11:27:35 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (3) ORDER BY meta_id ASC
+2024-08-08 11:27:41 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (733493) ORDER BY meta_id ASC
+2024-08-08 11:28:00 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (920380) ORDER BY meta_id ASC
+2024-08-08 11:28:04 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (733493) ORDER BY meta_id ASC
+2024-08-08 11:28:06 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (130264,899226) ORDER BY meta_id ASC
+2024-08-08 11:28:06 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (3) ORDER BY meta_id ASC
+2024-08-08 11:28:09 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (754129) ORDER BY meta_id ASC
+2024-08-08 11:28:09 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (883114) ORDER BY meta_id ASC
+2024-08-08 11:28:09 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (912834) ORDER BY meta_id ASC
+2024-08-08 11:28:09 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (897901,897902,897903,897905,897906,897908,792380,792381,814268,792382,792383,792384,792385,792386,792387,792388,792389,792390,792391,792392,792393,792394,792395,792396,792397,792398,792399,792400,792401,856669,792402,792403,792404,792405,792406,897913,897909,792417,792408,792409,792410,792411,792412,792413,792415,897911,897912,792414) ORDER BY meta_id ASC
+2024-08-08 11:28:15 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (427572) ORDER BY meta_id ASC
+2024-08-08 11:28:16 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (912854) ORDER BY meta_id ASC
+2024-08-08 11:28:16 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (667) ORDER BY meta_id ASC
+2024-08-08 11:28:16 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (427704,427602,130255,130256,130258,130259) ORDER BY meta_id ASC
+2024-08-08 11:28:16 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (427512) ORDER BY meta_id ASC
+2024-08-08 11:28:16 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (427513) ORDER BY meta_id ASC
+2024-08-08 11:28:16 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (857429) ORDER BY meta_id ASC
+2024-08-08 11:28:16 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (427618) ORDER BY meta_id ASC
+2024-08-08 11:28:16 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (129616) ORDER BY meta_id ASC
+2024-08-08 11:28:16 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (233459) ORDER BY meta_id ASC
+2024-08-08 11:28:16 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (427958) ORDER BY meta_id ASC
+2024-08-08 11:28:16 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (233462) ORDER BY meta_id ASC
+2024-08-08 11:28:16 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (427959) ORDER BY meta_id ASC
+2024-08-08 11:28:16 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (129047) ORDER BY meta_id ASC
+2024-08-08 11:28:16 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (129051) ORDER BY meta_id ASC
+2024-08-08 11:28:16 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (129331) ORDER BY meta_id ASC
+2024-08-08 11:28:16 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (129612) ORDER BY meta_id ASC
+2024-08-08 11:28:16 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (129613) ORDER BY meta_id ASC
+2024-08-08 11:28:16 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (129615) ORDER BY meta_id ASC
+2024-08-08 11:28:16 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (78) ORDER BY meta_id ASC
+2024-08-08 11:28:16 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (89) ORDER BY meta_id ASC
+2024-08-08 11:28:16 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (90) ORDER BY meta_id ASC
+2024-08-08 11:28:16 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (91) ORDER BY meta_id ASC
+2024-08-08 11:28:16 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (92) ORDER BY meta_id ASC
+2024-08-08 11:28:16 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (94) ORDER BY meta_id ASC
+2024-08-08 11:28:16 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (95) ORDER BY meta_id ASC
+2024-08-08 11:28:16 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (96) ORDER BY meta_id ASC
+2024-08-08 11:28:16 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (97) ORDER BY meta_id ASC
+2024-08-08 11:28:16 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (98) ORDER BY meta_id ASC
+2024-08-08 11:28:16 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (129630) ORDER BY meta_id ASC
+2024-08-08 11:28:16 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (70) ORDER BY meta_id ASC
+2024-08-08 11:28:16 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (72) ORDER BY meta_id ASC
+2024-08-08 11:28:16 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (34,36,32,35,817620) ORDER BY meta_id ASC
+2024-08-08 11:28:20 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (130269) ORDER BY meta_id ASC
+2024-08-08 11:28:20 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (130270) ORDER BY meta_id ASC
+2024-08-08 11:28:21 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (884484) ORDER BY meta_id ASC
+2024-08-08 11:28:22 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (130268) ORDER BY meta_id ASC
+2024-08-08 11:28:25 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (428535) ORDER BY meta_id ASC
+2024-08-08 11:28:25 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (754129) ORDER BY meta_id ASC
+2024-08-08 11:28:25 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (883114) ORDER BY meta_id ASC
+2024-08-08 11:28:25 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (849901) ORDER BY meta_id ASC
+2024-08-08 11:28:25 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (897901,897902,897903,897905,897906,897908,792380,792381,814268,792382,792383,792384,792385,792386,792387,792388,792389,792390,792391,792392,792393,792394,792395,792396,792397,792398,792399,792400,792401,856669,792402,792403,792404,792405,792406,897913,897909,792417,792408,792409,792410,792411,792412,792413,792415,897911,897912,792414) ORDER BY meta_id ASC
+2024-08-08 11:28:25 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (428538) ORDER BY meta_id ASC
+2024-08-08 11:28:25 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (428548) ORDER BY meta_id ASC
+2024-08-08 11:28:25 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (845842) ORDER BY meta_id ASC
+2024-08-08 11:28:25 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (849922) ORDER BY meta_id ASC
+2024-08-08 11:28:25 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (849910) ORDER BY meta_id ASC
+2024-08-08 11:28:25 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (845846) ORDER BY meta_id ASC
+2024-08-08 11:28:25 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (849920) ORDER BY meta_id ASC
+2024-08-08 11:28:25 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (849911) ORDER BY meta_id ASC
+2024-08-08 11:28:25 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (845848) ORDER BY meta_id ASC
+2024-08-08 11:28:25 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (849919) ORDER BY meta_id ASC
+2024-08-08 11:28:25 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (849913) ORDER BY meta_id ASC
+2024-08-08 11:28:25 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (845850) ORDER BY meta_id ASC
+2024-08-08 11:28:25 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (849918) ORDER BY meta_id ASC
+2024-08-08 11:28:25 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (849914) ORDER BY meta_id ASC
+2024-08-08 11:28:25 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (845851) ORDER BY meta_id ASC
+2024-08-08 11:28:25 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (849917) ORDER BY meta_id ASC
+2024-08-08 11:28:25 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (849915) ORDER BY meta_id ASC
+2024-08-08 11:28:25 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (710730) ORDER BY meta_id ASC
+2024-08-08 11:28:25 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (710732) ORDER BY meta_id ASC
+2024-08-08 11:28:25 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (358839) ORDER BY meta_id ASC
+2024-08-08 11:28:25 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (359103) ORDER BY meta_id ASC
+2024-08-08 11:28:25 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (428542,428539,428540,428541) ORDER BY meta_id ASC
+2024-08-08 11:28:28 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (427572) ORDER BY meta_id ASC
+2024-08-08 11:28:28 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (912854) ORDER BY meta_id ASC
+2024-08-08 11:28:28 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (667) ORDER BY meta_id ASC
+2024-08-08 11:28:28 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (427704,427602,130255,130256,130258,130259) ORDER BY meta_id ASC
+2024-08-08 11:28:29 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (427512) ORDER BY meta_id ASC
+2024-08-08 11:28:29 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (427513) ORDER BY meta_id ASC
+2024-08-08 11:28:29 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (857429) ORDER BY meta_id ASC
+2024-08-08 11:28:29 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (427618) ORDER BY meta_id ASC
+2024-08-08 11:28:29 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (129616) ORDER BY meta_id ASC
+2024-08-08 11:28:29 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (233459) ORDER BY meta_id ASC
+2024-08-08 11:28:29 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (427958) ORDER BY meta_id ASC
+2024-08-08 11:28:29 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (233462) ORDER BY meta_id ASC
+2024-08-08 11:28:29 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (427959) ORDER BY meta_id ASC
+2024-08-08 11:28:29 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (129047) ORDER BY meta_id ASC
+2024-08-08 11:28:29 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (129051) ORDER BY meta_id ASC
+2024-08-08 11:28:29 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (129331) ORDER BY meta_id ASC
+2024-08-08 11:28:29 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (129612) ORDER BY meta_id ASC
+2024-08-08 11:28:29 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (129613) ORDER BY meta_id ASC
+2024-08-08 11:28:29 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (129615) ORDER BY meta_id ASC
+2024-08-08 11:28:29 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (78) ORDER BY meta_id ASC
+2024-08-08 11:28:29 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (89) ORDER BY meta_id ASC
+2024-08-08 11:28:29 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (90) ORDER BY meta_id ASC
+2024-08-08 11:28:29 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (91) ORDER BY meta_id ASC
+2024-08-08 11:28:29 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (92) ORDER BY meta_id ASC
+2024-08-08 11:28:29 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (94) ORDER BY meta_id ASC
+2024-08-08 11:28:29 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (95) ORDER BY meta_id ASC
+2024-08-08 11:28:29 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (96) ORDER BY meta_id ASC
+2024-08-08 11:28:29 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (97) ORDER BY meta_id ASC
+2024-08-08 11:28:29 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (98) ORDER BY meta_id ASC
+2024-08-08 11:28:29 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (129630) ORDER BY meta_id ASC
+2024-08-08 11:28:29 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (70) ORDER BY meta_id ASC
+2024-08-08 11:28:29 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (72) ORDER BY meta_id ASC
+2024-08-08 11:28:29 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (34,36,32,35,817620) ORDER BY meta_id ASC
+2024-08-08 11:28:29 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (733493) ORDER BY meta_id ASC
+2024-08-08 11:28:34 - SELECT orders.ID as ID  FROM wp_posts as orders JOIN wp_postmeta as meta ON orders.ID=meta.post_id where 1=1 AND orders.post_type='shop_order' AND meta.meta_key = '_wfocu_pending_mails' AND meta.meta_value != ''  order by orders.post_date_gmt desc LIMIT 0, 100
+2024-08-08 11:28:35 - SELECT p.ID FROM wp_posts p
+                                INNER JOIN wp_postmeta pm ON (p.ID = pm.post_id AND pm.meta_key = '_wfocu_upsell_abandoned')
+                                WHERE p.post_type = 'shop_order'
+                                AND p.post_status IN ('wc-processing','wc-completed','wc-on-hold') 
+                                ORDER BY p.post_date DESC LIMIT 0, 100
+2024-08-08 11:28:35 - SELECT orders.ID as ID  FROM wp_posts as orders JOIN wp_postmeta as meta ON orders.ID=meta.post_id where 1=1 AND orders.post_type='shop_order' AND meta.meta_key = '_wfocu_status_schedule_for_cb' AND meta.meta_value != ''  order by orders.post_date_gmt desc LIMIT 0, 100
+2024-08-08 11:28:39 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (733493) ORDER BY meta_id ASC
+2024-08-08 11:28:40 - SELECT   wp_posts.ID
+					 FROM wp_posts  INNER JOIN wp_postmeta ON ( wp_posts.ID = wp_postmeta.post_id )
+					 WHERE 1=1  AND ( 
+  ( wp_postmeta.meta_key = '_payment_method' AND wp_postmeta.meta_value IN ('paypal','ppec_paypal') )
+) AND wp_posts.post_type IN ('shop_order', 'shop_order_refund') AND ((wp_posts.post_status = 'wc-pending' OR wp_posts.post_status = 'wc-on-hold'))
+					 GROUP BY wp_posts.ID
+					 ORDER BY wp_posts.post_date DESC
+					 LIMIT 0, 10
+2024-08-08 11:28:58 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (130270,899226) ORDER BY meta_id ASC
+2024-08-08 11:28:58 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (3) ORDER BY meta_id ASC
+2024-08-08 11:28:59 - SELECT   wp_posts.ID
+					 FROM wp_posts  INNER JOIN wp_postmeta ON ( wp_posts.ID = wp_postmeta.post_id )
+					 WHERE 1=1  AND ( 
+  ( wp_postmeta.meta_key = '_payment_method' AND wp_postmeta.meta_value IN ('paypal','ppec_paypal') )
+) AND wp_posts.post_type IN ('shop_order', 'shop_order_refund') AND ((wp_posts.post_status = 'wc-pending' OR wp_posts.post_status = 'wc-on-hold'))
+					 GROUP BY wp_posts.ID
+					 ORDER BY wp_posts.post_date DESC
+					 LIMIT 0, 10
+2024-08-08 11:28:59 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (427572) ORDER BY meta_id ASC
+2024-08-08 11:28:59 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (754129) ORDER BY meta_id ASC
+2024-08-08 11:28:59 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (883114) ORDER BY meta_id ASC
+2024-08-08 11:28:59 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (912854) ORDER BY meta_id ASC
+2024-08-08 11:28:59 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (897901,897902,897903,897905,897906,897908,792380,792381,814268,792382,792383,792384,792385,792386,792387,792388,792389,792390,792391,792392,792393,792394,792395,792396,792397,792398,792399,792400,792401,856669,792402,792403,792404,792405,792406,897913,897909,792417,792408,792409,792410,792411,792412,792413,792415,897911,897912,792414) ORDER BY meta_id ASC
+2024-08-08 11:28:59 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (667) ORDER BY meta_id ASC
+2024-08-08 11:28:59 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (427704,427602,130255,130256,130258,130259) ORDER BY meta_id ASC
+2024-08-08 11:28:59 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (427512) ORDER BY meta_id ASC
+2024-08-08 11:28:59 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (427513) ORDER BY meta_id ASC
+2024-08-08 11:28:59 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (857429) ORDER BY meta_id ASC
+2024-08-08 11:28:59 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (427618) ORDER BY meta_id ASC
+2024-08-08 11:28:59 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (129616) ORDER BY meta_id ASC
+2024-08-08 11:28:59 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (233459) ORDER BY meta_id ASC
+2024-08-08 11:28:59 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (427958) ORDER BY meta_id ASC
+2024-08-08 11:28:59 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (233462) ORDER BY meta_id ASC
+2024-08-08 11:28:59 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (427959) ORDER BY meta_id ASC
+2024-08-08 11:28:59 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (129047) ORDER BY meta_id ASC
+2024-08-08 11:28:59 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (129051) ORDER BY meta_id ASC
+2024-08-08 11:28:59 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (129331) ORDER BY meta_id ASC
+2024-08-08 11:28:59 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (129612) ORDER BY meta_id ASC
+2024-08-08 11:28:59 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (129613) ORDER BY meta_id ASC
+2024-08-08 11:28:59 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (129615) ORDER BY meta_id ASC
+2024-08-08 11:28:59 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (78) ORDER BY meta_id ASC
+2024-08-08 11:28:59 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (89) ORDER BY meta_id ASC
+2024-08-08 11:28:59 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (90) ORDER BY meta_id ASC
+2024-08-08 11:28:59 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (91) ORDER BY meta_id ASC
+2024-08-08 11:28:59 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (92) ORDER BY meta_id ASC
+2024-08-08 11:28:59 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (94) ORDER BY meta_id ASC
+2024-08-08 11:28:59 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (95) ORDER BY meta_id ASC
+2024-08-08 11:28:59 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (96) ORDER BY meta_id ASC
+2024-08-08 11:28:59 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (97) ORDER BY meta_id ASC
+2024-08-08 11:28:59 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (98) ORDER BY meta_id ASC
+2024-08-08 11:28:59 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (129630) ORDER BY meta_id ASC
+2024-08-08 11:28:59 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (70) ORDER BY meta_id ASC
+2024-08-08 11:28:59 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (72) ORDER BY meta_id ASC
+2024-08-08 11:28:59 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (34,36,32,35,817620) ORDER BY meta_id ASC
+2024-08-08 11:29:02 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (733493) ORDER BY meta_id ASC
+2024-08-08 11:29:09 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (130248) ORDER BY meta_id ASC
+2024-08-08 11:29:11 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (920380) ORDER BY meta_id ASC
+2024-08-08 11:29:11 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (912834) ORDER BY meta_id ASC
+2024-08-08 11:29:12 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (192) ORDER BY meta_id ASC
+2024-08-08 11:29:12 - SELECT post_id FROM wp_postmeta INNER JOIN wp_posts ON wp_posts.ID =  wp_postmeta.post_id WHERE meta_key='rdhc_id' AND meta_value = 156534 AND post_type='page' and post_status = 'publish'
+2024-08-08 11:29:12 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (735288) ORDER BY meta_id ASC
+2024-08-08 11:29:12 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (735305) ORDER BY meta_id ASC
+2024-08-08 11:29:12 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (130260,130261,130267) ORDER BY meta_id ASC
+2024-08-08 11:29:12 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (403975) ORDER BY meta_id ASC
+2024-08-08 11:29:13 - SELECT   wp_posts.ID
+					 FROM wp_posts  INNER JOIN wp_postmeta ON ( wp_posts.ID = wp_postmeta.post_id )
+					 WHERE 1=1  AND ( 
+  ( wp_postmeta.meta_key = '_payment_method' AND wp_postmeta.meta_value IN ('paypal','ppec_paypal') )
+) AND wp_posts.post_type IN ('shop_order', 'shop_order_refund') AND ((wp_posts.post_status = 'wc-pending' OR wp_posts.post_status = 'wc-on-hold'))
+					 GROUP BY wp_posts.ID
+					 ORDER BY wp_posts.post_date DESC
+					 LIMIT 0, 10
+2024-08-08 11:29:13 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (897884) ORDER BY meta_id ASC
+2024-08-08 11:29:13 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (368110) ORDER BY meta_id ASC
+2024-08-08 11:29:13 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (838581) ORDER BY meta_id ASC
+2024-08-08 11:29:13 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (368109) ORDER BY meta_id ASC
+2024-08-08 11:29:13 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (679) ORDER BY meta_id ASC
+2024-08-08 11:29:13 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (711228,711227,711226) ORDER BY meta_id ASC
+2024-08-08 11:29:13 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (877838) ORDER BY meta_id ASC
+2024-08-08 11:29:13 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (868924) ORDER BY meta_id ASC
+2024-08-08 11:29:13 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (868925) ORDER BY meta_id ASC
+2024-08-08 11:29:13 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (747173) ORDER BY meta_id ASC
+2024-08-08 11:29:13 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (747733) ORDER BY meta_id ASC
+2024-08-08 11:29:13 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (711909,711910,711911) ORDER BY meta_id ASC
+2024-08-08 11:29:13 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (868916) ORDER BY meta_id ASC
+2024-08-08 11:29:13 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (711912) ORDER BY meta_id ASC
+2024-08-08 11:29:13 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (868917) ORDER BY meta_id ASC
+2024-08-08 11:29:13 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (868918) ORDER BY meta_id ASC
+2024-08-08 11:29:13 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (751840,751839,751836) ORDER BY meta_id ASC
+2024-08-08 11:29:13 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (868942) ORDER BY meta_id ASC
+2024-08-08 11:29:13 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (839502) ORDER BY meta_id ASC
+2024-08-08 11:29:13 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (877840) ORDER BY meta_id ASC
+2024-08-08 11:29:13 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (868946) ORDER BY meta_id ASC
+2024-08-08 11:29:13 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (130265) ORDER BY meta_id ASC
+2024-08-08 11:29:13 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (868921) ORDER BY meta_id ASC
+2024-08-08 11:29:13 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (428548) ORDER BY meta_id ASC
+2024-08-08 11:29:13 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (849901) ORDER BY meta_id ASC
+2024-08-08 11:29:13 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (780226) ORDER BY meta_id ASC
+2024-08-08 11:29:13 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (782381) ORDER BY meta_id ASC
+2024-08-08 11:29:13 - SELECT SQL_CALC_FOUND_ROWS  wp_posts.ID
+					 FROM wp_posts  LEFT JOIN wp_term_relationships ON (wp_posts.ID = wp_term_relationships.object_id) INNER JOIN wp_postmeta ON ( wp_posts.ID = wp_postmeta.post_id )
+					 WHERE 1=1  AND ( 
+  wp_term_relationships.term_taxonomy_id IN (88)
+) AND ( 
+  wp_postmeta.meta_key = 'rdhc_order_for_rdhc_lander_page'
+) AND wp_posts.post_type = 'product' AND ((wp_posts.post_status = 'publish'))
+					 GROUP BY wp_posts.ID
+					 ORDER BY wp_postmeta.meta_value+0 ASC
+					 LIMIT 0, 12
+2024-08-08 11:29:13 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (192) ORDER BY meta_id ASC
+2024-08-08 11:29:13 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (549) ORDER BY meta_id ASC
+2024-08-08 11:29:13 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (426866) ORDER BY meta_id ASC
+2024-08-08 11:29:13 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (555) ORDER BY meta_id ASC
+2024-08-08 11:29:13 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (543) ORDER BY meta_id ASC
+2024-08-08 11:29:13 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (754129) ORDER BY meta_id ASC
+2024-08-08 11:29:13 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (130251,130252,130253) ORDER BY meta_id ASC
+2024-08-08 11:29:13 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (883114) ORDER BY meta_id ASC
+2024-08-08 11:29:13 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (711505) ORDER BY meta_id ASC
+2024-08-08 11:29:13 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (897901,897902,897903,897905,897906,897908,792380,792381,814268,792382,792383,792384,792385,792386,792387,792388,792389,792390,792391,792392,792393,792394,792395,792396,792397,792398,792399,792400,792401,856669,792402,792403,792404,792405,792406,897913,897909,792417,792408,792409,792410,792411,792412,792413,792415,897911,897912,792414) ORDER BY meta_id ASC
+2024-08-08 11:29:13 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (206665) ORDER BY meta_id ASC
+2024-08-08 11:29:13 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (130247,130246) ORDER BY meta_id ASC
+2024-08-08 11:29:13 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (234821) ORDER BY meta_id ASC
+2024-08-08 11:29:13 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (813839,813838,813836) ORDER BY meta_id ASC
+2024-08-08 11:29:13 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (868938) ORDER BY meta_id ASC
+2024-08-08 11:29:13 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (868940) ORDER BY meta_id ASC
+2024-08-08 11:29:13 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (868941) ORDER BY meta_id ASC
+2024-08-08 11:29:13 - SELECT SQL_CALC_FOUND_ROWS  wp_posts.ID
+					 FROM wp_posts  LEFT JOIN wp_term_relationships ON (wp_posts.ID = wp_term_relationships.object_id) INNER JOIN wp_postmeta ON ( wp_posts.ID = wp_postmeta.post_id )
+					 WHERE 1=1  AND ( 
+  wp_term_relationships.term_taxonomy_id IN (535)
+) AND ( 
+  wp_postmeta.meta_key = 'rdhc_order_for_rdhc_lander_page'
+) AND wp_posts.post_type = 'product' AND ((wp_posts.post_status = 'publish'))
+					 GROUP BY wp_posts.ID
+					 ORDER BY wp_postmeta.meta_value+0 ASC
+					 LIMIT 0, 12
+2024-08-08 11:29:13 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (794933,794935,794937,130269,130268,130270) ORDER BY meta_id ASC
+2024-08-08 11:29:13 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (868908) ORDER BY meta_id ASC
+2024-08-08 11:29:13 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (839495) ORDER BY meta_id ASC
+2024-08-08 11:29:13 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (868911) ORDER BY meta_id ASC
+2024-08-08 11:29:13 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (868913) ORDER BY meta_id ASC
+2024-08-08 11:29:13 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (868910) ORDER BY meta_id ASC
+2024-08-08 11:29:13 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (745222,745221,745219) ORDER BY meta_id ASC
+2024-08-08 11:29:13 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (868951) ORDER BY meta_id ASC
+2024-08-08 11:29:13 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (812571) ORDER BY meta_id ASC
+2024-08-08 11:29:13 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (868953) ORDER BY meta_id ASC
+2024-08-08 11:29:13 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (746731) ORDER BY meta_id ASC
+2024-08-08 11:29:14 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (912853) ORDER BY meta_id ASC
+2024-08-08 11:29:14 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (897858) ORDER BY meta_id ASC
+2024-08-08 11:29:14 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (897859) ORDER BY meta_id ASC
+2024-08-08 11:29:14 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (897861) ORDER BY meta_id ASC
+2024-08-08 11:29:14 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (897862) ORDER BY meta_id ASC
+2024-08-08 11:29:14 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (897864) ORDER BY meta_id ASC
+2024-08-08 11:29:14 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (897865) ORDER BY meta_id ASC
+2024-08-08 11:29:14 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (897867) ORDER BY meta_id ASC
+2024-08-08 11:29:14 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (897869) ORDER BY meta_id ASC
+2024-08-08 11:29:14 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (897870) ORDER BY meta_id ASC
+2024-08-08 11:29:14 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (897871) ORDER BY meta_id ASC
+2024-08-08 11:29:14 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (897873) ORDER BY meta_id ASC
+2024-08-08 11:29:14 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (897874) ORDER BY meta_id ASC
+2024-08-08 11:29:14 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (897876) ORDER BY meta_id ASC
+2024-08-08 11:29:14 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (897878) ORDER BY meta_id ASC
+2024-08-08 11:29:21 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (733493) ORDER BY meta_id ASC
+2024-08-08 11:29:22 - SELECT   wp_posts.ID
+					 FROM wp_posts  INNER JOIN wp_postmeta ON ( wp_posts.ID = wp_postmeta.post_id )
+					 WHERE 1=1  AND ( 
+  ( wp_postmeta.meta_key = '_payment_method' AND wp_postmeta.meta_value IN ('paypal','ppec_paypal') )
+) AND wp_posts.post_type IN ('shop_order', 'shop_order_refund') AND ((wp_posts.post_status = 'wc-pending' OR wp_posts.post_status = 'wc-on-hold'))
+					 GROUP BY wp_posts.ID
+					 ORDER BY wp_posts.post_date DESC
+					 LIMIT 0, 10
+2024-08-08 11:29:30 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (897858,899226) ORDER BY meta_id ASC
+2024-08-08 11:29:31 - SELECT meta_id as meta_id, meta_key, meta_value
+				FROM wp_postmeta
+				WHERE post_id = 5
+				ORDER BY meta_id
+2024-08-08 11:29:31 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (3) ORDER BY meta_id ASC
+2024-08-08 11:29:32 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (733493) ORDER BY meta_id ASC
+2024-08-08 11:29:33 - SELECT   wp_posts.ID
+					 FROM wp_posts  INNER JOIN wp_postmeta ON ( wp_posts.ID = wp_postmeta.post_id )
+					 WHERE 1=1  AND ( 
+  ( wp_postmeta.meta_key = '_payment_method' AND wp_postmeta.meta_value IN ('paypal','ppec_paypal') )
+) AND wp_posts.post_type IN ('shop_order', 'shop_order_refund') AND ((wp_posts.post_status = 'wc-pending' OR wp_posts.post_status = 'wc-on-hold'))
+					 GROUP BY wp_posts.ID
+					 ORDER BY wp_posts.post_date DESC
+					 LIMIT 0, 10
+2024-08-08 11:30:07 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (130264,899226) ORDER BY meta_id ASC
+2024-08-08 11:30:07 - SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (3) ORDER BY meta_id ASC
+2024-08-08 11:30:08 - SELECT   wp_posts.ID
+					 FROM wp_posts  INNER JOIN wp_postmeta ON ( wp_posts.ID = wp_postmeta.post_id )
+					 WHERE 1=1  AND ( 
+  ( wp_postmeta.meta_key = '_payment_method' AND wp_postmeta.meta_value IN ('paypal','ppec_paypal') )
+) AND wp_posts.post_type IN ('shop_order', 'shop_order_refund') AND ((wp_posts.post_status = 'wc-pending' OR wp_posts.post_status = 'wc-on-hold'))
+					 GROUP BY wp_posts.ID
+					 ORDER BY wp_posts.post_date DESC
+					 LIMIT 0, 10

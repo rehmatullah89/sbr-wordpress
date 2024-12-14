@@ -1,0 +1,1507 @@
+/*media query for larger screens*/
+
+.subscribe-newsletter{ padding-left: 35px; padding-right: 35px; }
+td.bdy-txt br {
+    display: none;
+}
+.table-max333 table.table-cnt {
+    max-width: 333px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.product-selection-table-wrap table {
+    margin: 0;
+}
+
+.product-selection-table-wrap .row.row-divided {
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+aside.socials.page-social-icon {
+    text-align: center;
+}
+
+aside.socials.page-social-icon a.social.youtube-play.menu-social i{
+	      font: normal normal normal 40px/1 FontAwesome;
+}
+aside.socials.page-social-icon a {
+    font-size: 36px;
+    display: inline-block;
+    padding-left: 5px;
+    padding-right: 6px;
+    color: #828383;
+}
+
+.the-process-content-text{color: #565759;}
+
+body:not(.home)  header#sbr-header{ background: #fff; }
+
+/*firefox only*/
+@-moz-document url-prefix() {
+    .the-process-content-text,.table-cnt td.bdy-txt{
+        font-weight: 600;
+    }
+    .the-process-title.the-process-title-1 span, .the-process-title.the-process-title-2 span, .the-process-title.the-process-title-3 span{
+        font-weight: 700 !important;
+    }
+
+
+
+}
+
+
+
+
+@media  (max-width: 830px){
+    .product-block-white-box{border: solid transparent 1px;}
+}
+@media (min-width: 768px) and (max-width: 1200px){
+
+    .product-block-white-box {
+        width: 86%;
+        height: 86%;
+        margin: 7% auto;
+    }
+    .home-page-product-block-whitening-refill-buttons{     flex-direction: column; }
+    .home-page-product-block-whitening-refill-buttons .btn{    display: inline-block;}
+
+}
+
+
+
+@media (max-width: 1100px) and (min-width: 768px){
+   #product-selection-standard .product-selection-title{
+        font-size: 17px;
+} 
+
+}
+
+@media (min-width: 1px){
+
+.the-process-container-mbt .box-one-mbt .vc_single_image-wrapper img {
+
+}
+.the-process-container-mbt .box-tow-mbt .vc_single_image-wrapper img{
+/*    max-width: 185px;
+    max-height: 222px;*/
+    margin-top: 10px;
+}
+.the-process-container-mbt .box-three-mbt .vc_single_image-wrapper img {
+/*    max-width: 250px;
+    max-height: 118px;*/
+   
+}
+.reasons-caripro-section .box-two-mbt img {max-width: 70%;}
+.reasons-caripro-section .box-three-mbt img {
+    margin: auto;
+    max-width: 80%;
+}
+
+
+#the-process-image-1 img {
+    max-width: 300px;
+    max-height: 231px;
+}
+
+#the-process-image-2 img {
+    max-width: 185px;
+    max-height: 222px;
+    margin-top: 10px;
+}
+
+#the-process-image-3 img {
+    max-width: 250px;
+    max-height: 118px;
+
+}
+.tray-creation-process-container #the-process-image-1 img{
+max-width: 200px;
+    max-height: 192px;
+}
+
+
+.product-electric-toothbrush #the-reasons-image-1 img {
+    height: 110px;
+}
+.product-electric-toothbrush  #the-reasons-image-2 img {
+max-width: 70%;
+}
+.product-electric-toothbrush  #the-reasons-image-3 img {
+    margin: auto;
+    max-width: 80%;
+}
+
+
+
+
+}
+
+@media (min-width: 768px) {
+.container {
+    width: 750px;
+}
+.the-process-container-mbt .box-one-mbt .vc_single_image-wrapper img {
+
+}
+.the-process-container-mbt .box-tow-mbt .vc_single_image-wrapper img{
+/*    width: 135px;
+    height: 162px;*/
+    margin-top: 0px;
+}
+.the-process-container-mbt .box-three-mbt .vc_single_image-wrapper img {
+/*    width: 170px;
+    height: 80px;*/
+}
+.sbr-header-mbt .navbar-expand-lg {
+    max-width: 750px;
+}
+
+.sbr-header-mbt .navbar-nav > li {
+    margin-right: 20px;
+}
+.sbr-header-mbt .navbar-nav > li > a {
+    font-size: 10px;
+}
+.secondary-area #quick_cart:before{
+	    font: normal normal normal 14px/1 FontAwesome;
+}
+header .user-login a{
+	font-size: 14px;
+}
+.product-selection-image-wrap {
+    min-height: 150px;
+}
+.reasons-caripro-section .box-one-mbt img {height: 80px;}
+
+
+    #causes-tooth-sensitivity-wrap
+        {
+            padding-right:0px;
+            text-align:right;
+            height:460px;
+        }
+            #causes-tooth-sensitivity-wrap img
+            {
+                max-width:630px;
+            }
+            #graphic-causes-teeth-sensitivity-mobile
+            {
+                display:none;
+            }
+            #graphic-causes-teeth-sensitivity-desktop
+            {
+                display:inline;
+            }
+            #causes-text-wrap
+            {
+                display:block;
+            }
+
+                .graphic-text-header
+                {
+                    text-align:left;
+                    font-family:Montserrat;
+                    font-weight:bold;
+                    font-size:18px;
+                    line-height:1.0em;
+                    color:#b8b8dc;
+
+                }
+                .graphic-text-main
+                {
+                    font-size:1em;
+                    text-align:left;
+                    padding-top:5px;
+                }
+
+                #micro-fractures-text
+                {
+                    width:300px;
+                    height:150px;
+                    margin-top:-380px;
+                    margin-left:40px;
+                    text-align:left;
+                }
+                #thin-enamel-text
+                {
+                    width:300px;
+                    height:150px;
+                    margin-top:0px;
+                    margin-left:60px;
+                    text-align:left;
+                }
+                #tooth-dehydration-text
+                {
+                    width:300px;
+                    height:150px;
+                    margin-top:-20px;
+                    margin-left:150px;
+                    text-align:left;
+                }
+
+
+.tray-creation-process-container #the-process-image-1 img{
+        width: 135px;
+    height: 129px;
+
+}
+
+#the-process-image-1 img {
+    width: 200px;
+    height: 154px;
+}
+
+
+#the-process-image-2 img {
+    width: 135px;
+    height: 162px;
+    margin-top: 0px;
+}
+
+
+#the-process-image-3 img {
+    width: 170px;
+    height: 80px;
+
+}
+.col-md-3.product-selection-price-wrap {
+    padding-bottom: 29px;
+}
+
+
+#percent-guarantee-image-wrap img {
+    width: 90px;
+    height: 90px;
+}
+#vegan-image-wrap img {
+    width: 75px;
+    height: 84px;
+}
+#easy-to-use-image-1 img {
+    width: 34px;
+    height: 200px;
+    margin-top: 10px;
+}
+#easy-to-use-image-2 img {
+    width: 179px;
+    height: 130px;
+    margin-top: 70px;
+}
+#easy-to-use-image-3 img {
+    width: 140px;
+    height: 140px;
+    margin-top: 60px;
+}
+
+
+.choose-your-package-product-option .col-md-4,.inner-col-adjust .col-md-4{
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;    
+}
+
+.choose-your-package-product-option .product-selection-image-wrap img {
+    width: 34px;
+    height: 60px;
+    vertical-align: baseline;
+    margin-right: -5px;
+}
+.teeth-whitening-gel-mbt .product-selection-image-wrap span {
+    font-size: 74px;
+    line-height: 74px;
+}
+
+.whats-included-image-cell img {
+    max-width: 120px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.desensitizing-gel-multiple-sec .box-one-mbt .vc_single_image-wrapper img{
+    width: 34px;
+    height: 200px;
+}
+
+.desensitizing-gel-multiple-sec .box-two-mbt .vc_single_image-wrapper img{
+width: 179px;
+    height: 130px;
+}
+
+.desensitizing-gel-multiple-sec .box-three-mbt .vc_single_image-wrapper img{
+    width: 140px;
+    height: 140px;
+}
+
+
+
+
+    .product-electric-toothbrush .logo2 img {
+        max-width: 130px;
+    }
+    .product-electric-toothbrush .logos-strip .logo3 img {
+        max-height: 60px;
+    }
+    .product-electric-toothbrush .logos-strip .logo4  img {
+        max-width: 130px;
+    }
+    .product-electric-toothbrush .logos-strip .logo6 img {
+        max-width: 100px;
+    }
+
+.product-night-guards .page-background-banner{    background-position: -590px 200px;     background-color: #f3f3f8; background-repeat: no-repeat;}
+
+.product-night-guards #process-1 img {
+    margin: auto;
+    max-width: 80%;
+}
+.product-night-guards #process-2 img {
+    margin: 0 auto;
+    height: 160px;
+}
+.product-night-guards  #process-3 img {
+    margin: 0 auto;
+    height: 150px;    max-width: 80%;
+}
+
+.articles-page .col-md-10 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.articles-page .col-md-3{
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;    
+}
+
+#best-brush-heading {
+    color: #555759;
+    font-size: 2.4em;
+    font-family: "Montserrat";
+    font-weight: bold;
+    margin-top: 120px;
+    line-height: 1.0em;
+    text-shadow: 1px 0px 9px #ffffff69;
+}
+
+
+#best-brush-heading {
+    text-align: center;    text-shadow: 1px 0px 9px #ffffff69;
+}
+.product-water-flosser #best-brush-section{background-position: -500px top;}
+
+
+
+}
+/*Ends 768*/
+
+@media (min-width: 992px){
+
+.container {
+    width: 970px;
+}
+.the-process-container-mbt .box-one-mbt .vc_single_image-wrapper img {
+}
+.the-process-container-mbt .box-tow-mbt .vc_single_image-wrapper img{
+/*    width: 165px;
+    height: 198px;*/
+}
+.the-process-container-mbt .box-three-mbt .vc_single_image-wrapper img {
+/*    width: 210px;
+    height: 99px;*/
+
+}
+
+.sbr-header-mbt .navbar-expand-lg {
+    max-width: 970px;
+}
+
+.sbr-header-mbt .navbar-nav > li {
+    margin-right: 20px;
+}
+.sbr-header-mbt .navbar-nav > li > a {
+    font-size: 11px;
+}
+.secondary-area #quick_cart:before{
+	    font: normal normal normal 16px/1 FontAwesome;
+}
+header .user-login a{
+	font-size: 16px;
+}
+.product-selection-image-wrap {
+    min-height: 200px;
+}
+
+.info-des-ja {
+    min-height: 133px;
+}   
+
+.reasons-caripro-section .box-one-mbt img {height: 90px;}
+
+
+
+        #causes-tooth-sensitivity-wrap
+        {
+            text-align:center;
+            margin-left:45px;
+            height:460px;
+        }
+            #causes-tooth-sensitivity-wrap img
+            {
+                max-width:720px;
+            }
+            #graphic-causes-teeth-sensitivity-mobile
+            {
+                display:none;
+            }
+            #graphic-causes-teeth-sensitivity-desktop
+            {
+                display:inline;
+            }
+            #causes-text-wrap
+            {
+                display:block;
+            }
+
+                .graphic-text-header
+                {
+                    text-align:left;
+                    font-family:Montserrat;
+                    font-weight:bold;
+                    font-size:18px;
+                    line-height:1.0em;
+                    color:#b8b8dc;
+
+                }
+                .graphic-text-main
+                {
+                    font-size:1em;
+                    text-align:left;
+                    padding-top:5px;
+                }
+
+                #micro-fractures-text
+                {
+                    width:300px;
+                    height:150px;
+                    margin-top:-430px;
+                    margin-left:80px;
+                    text-align:left;
+                }
+                #thin-enamel-text
+                {
+                    width:300px;
+                    height:150px;
+                    margin-top:20px;
+                    margin-left:100px;
+                    text-align:left;
+                }
+                #tooth-dehydration-text
+                {
+                    width:300px;
+                    height:150px;
+                    margin-top:-10px;
+                    margin-left:170px;
+                    text-align:left;
+                }
+
+#the-process-image-1 img {
+    width: 280px;
+    height: 216px;
+}
+
+
+#the-process-image-2 img {
+    width: 165px;
+    height: 198px;
+    margin-top: 0px;
+}
+
+#the-process-image-3 img {
+    width: 210px;
+    height: 99px;
+
+}
+
+#easy-to-use-image-1 img {
+    width: 43px;
+    height: 250px;
+    margin-top: 10px;
+}
+#easy-to-use-image-2 img {
+    width: 221px;
+    height: 160px;
+    margin-top: 70px;
+}
+#easy-to-use-image-3 img {
+    width: 180px;
+    height: 180px;
+    margin-top: 60px;
+}
+
+.choose-your-package-product-option .product-selection-image-wrap img {
+    width: 68px;
+    height: 120px;
+    vertical-align: baseline;
+    margin-right: -20px;
+}
+
+.teeth-whitening-gel-mbt .product-selection-image-wrap span {
+    font-size: 84px;
+    line-height: 84px;
+}
+.teeth-whitening-gel-mbt .product-selection-description b {
+    font-size: 1em;
+}
+
+.whats-included-image-cell img {
+    max-width: 130px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+
+.tray-creation-process-container #the-process-image-1 img{
+width: 175px;
+    height: 168px;
+
+}
+
+.desensitizing-gel-multiple-sec .box-one-mbt .vc_single_image-wrapper img{
+    width: 43px;
+    height: 250px;
+}
+
+
+.desensitizing-gel-multiple-sec .box-two-mbt .vc_single_image-wrapper img{
+    width: 221px;
+    height: 160px;
+}
+
+.desensitizing-gel-multiple-sec .box-three-mbt .vc_single_image-wrapper img{
+    width: 180px;
+    height: 180px;
+}
+
+
+
+    .product-electric-toothbrush .logo2 img {
+        max-width: 180px;
+    }
+    .product-electric-toothbrush .logos-strip .logo3 img {
+        max-height: 50px;
+    }
+    .product-electric-toothbrush .logos-strip .logo4  img {
+        max-width: 180px;
+    }
+    .product-electric-toothbrush .logos-strip .logo6 img {
+        max-width: 120px;
+    }
+
+
+.product-electric-toothbrush #the-reasons-image-1 img {
+    height: 90px;
+}
+.product-electric-toothbrush  #the-reasons-image-2 img {
+max-width: 70%;
+}
+.product-electric-toothbrush  #the-reasons-image-3 img {
+    margin: auto;
+    max-width: 80%;
+}
+
+.product-night-guards .page-background-banner{ background-position: left top; background-color: #f3f3f8; background-repeat: no-repeat;}
+
+#best-brush-heading {
+    color: #555759;
+    font-size: 2.4em;
+    font-family: "Montserrat";
+    font-weight: bold;
+    margin-top: 19rem;
+    line-height: 1.0em;
+}
+
+.product-water-flosser #best-brush-section{    background-position: 0px top;}
+
+.water-flosser-three-reasons #the-reasons-image-1 img {
+    height: 165px;    max-width: 100%;
+}
+}
+/*Ends 992*/
+
+@media (min-width: 1200px){
+
+.container {
+    width: 1170px;
+}
+
+.the-process-container-mbt .box-one-mbt .vc_single_image-wrapper img {
+
+}
+.the-process-container-mbt .box-tow-mbt .vc_single_image-wrapper img {
+/*    width: 185px;
+    height: 222px;
+*/
+}
+.the-process-container-mbt .box-three-mbt .vc_single_image-wrapper img {
+/*    width: 250px;
+    height: 118px;*/
+}
+
+.sbr-header-mbt .navbar-expand-lg {
+    max-width: 1170px;
+}
+.sbr-header-mbt .navbar-nav > li {
+    margin-right: 40px;
+}
+.sbr-header-mbt .navbar-nav > li > a {
+    font-size: 13px;
+}
+
+.secondary-area #quick_cart:before{
+	    font: normal normal normal 20px/1 FontAwesome;
+}
+header .user-login a{
+	font-size: 20px;
+}
+
+.product-selection-image-wrap {
+    min-height: 200px;
+}
+.info-des-ja {
+    min-height: 133px;
+}   
+.product-selection-title{ font-size: 18px; }
+.reasons-caripro-section .box-one-mbt img {height: 100px;}
+
+
+
+
+#causes-tooth-sensitivity-wrap
+        {
+            text-align:center;
+            margin-left:45px;
+            height:500px;
+        }
+            #causes-tooth-sensitivity-wrap img
+            {
+                max-width:820px;
+            }
+            #graphic-causes-teeth-sensitivity-mobile
+            {
+                display:none;
+            }
+            #graphic-causes-teeth-sensitivity-desktop
+            {
+                display:inline;
+            }
+
+            #causes-text-wrap
+            {
+                display:block;
+            }
+                .graphic-text-header
+                {
+                    text-align:left;
+                    font-family:Montserrat;
+                    font-weight:bold;
+                    font-size:21px;
+                    line-height:1.0em;
+                    color:#b8b8dc;
+
+                }
+                .graphic-text-main
+                {
+                    font-size:1em;
+                    text-align:left;
+                    padding-top:5px;
+                }
+
+                #micro-fractures-text
+                {
+                    width:300px;
+                    height:150px;
+                    margin-top:-500px;
+                    margin-left:135px;
+                    text-align:left;
+                }
+                #thin-enamel-text
+                {
+                    width:300px;
+                    height:150px;
+                    margin-top:50px;
+                    margin-left:165px;
+                    text-align:left;
+                }
+                #tooth-dehydration-text
+                {
+                    width:300px;
+                    height:150px;
+                    margin-top:20px;
+                    margin-left:195px;
+                    text-align:left;
+                }
+
+#the-process-image-1 img {
+    width: 320px;
+    height: 247px;
+}
+
+#the-process-image-2 img {
+    width: 185px;
+    height: 222px;
+    margin-top: 10px;
+}
+
+#the-process-image-3 img {
+    width: 250px;
+    height: 118px;
+
+}
+
+
+#easy-to-use-image-1 img {
+    width: 43px;
+    height: 250px;
+    margin-top: 10px;
+}
+
+#easy-to-use-image-2 img {
+    width: 221px;
+    height: 160px;
+    margin-top: 70px;
+}
+#easy-to-use-image-3 img {
+    width: 180px;
+    height: 180px;
+    margin-top: 60px;
+}
+
+
+.tray-creation-process-container #the-process-image-1 img{
+    width: 195px;
+    height: 187px;
+}
+
+
+.desensitizing-gel-multiple-sec .box-one-mbt .vc_single_image-wrapper img{
+    width: 43px;
+    height: 250px;
+}
+
+
+
+.desensitizing-gel-multiple-sec .box-two-mbt .vc_single_image-wrapper img{
+width: 221px;
+    height: 160px;
+}
+
+.desensitizing-gel-multiple-sec .box-three-mbt .vc_single_image-wrapper img{
+    width: 180px;
+    height: 180px;
+}
+
+
+
+    .product-electric-toothbrush .logo2 img {
+        max-width: 200px;
+    }
+    .product-electric-toothbrush .logos-strip .logo3 img {
+        max-height: 60px;
+    }
+    .product-electric-toothbrush .logos-strip .logo4  img {
+        max-width: 200px;
+    }
+    .product-electric-toothbrush .logos-strip .logo6 img {
+        max-width: 140px;
+    }
+
+
+.product-electric-toothbrush #the-reasons-image-1 img {
+    height: 100px;
+}
+.product-electric-toothbrush  #the-reasons-image-2 img {
+max-width: 70%;
+}
+.product-electric-toothbrush  #the-reasons-image-3 img {
+    margin: auto;
+    max-width: 80%;
+}
+
+.product-night-guards .page-background-banner{  background-position: -190px top; background-color: #f3f3f8; background-repeat: no-repeat;}
+.sbr-header-mbt .navbar-expand-lg,.wrapper-mbt {
+    max-width: 1170px;
+}
+
+#best-brush-heading {
+    color: #555759;
+    font-size: 3.3em;
+    font-family: "Montserrat";
+    font-weight: bold;
+    line-height: 1.3;
+    text-align: center;    text-shadow: 1px 0px 9px #ffffff69;
+}
+
+.product-water-flosser #best-brush-section{    background-position: 0px top;}
+
+.water-flosser-three-reasons #the-reasons-image-1 img {
+    height: 165px;    max-width: 100%;
+}
+
+
+}
+/*Ends 1200*/
+
+
+@media (min-width: 768px) and (max-width: 990px){
+.smile-fearlessly-mbt h1{color: #565759;}
+header#sbr-header{background-color: transparent;border-bottom: 0px solid rgba(255, 255, 255, 0.25);}
+.logos-strip.flex-container {flex-wrap: wrap;}	
+.logos-strip .logo{width: 24.333%;min-height: 89px;display: flex;align-items: flex-end;}
+.home .the-process-container-mbt .box-one-mbt .vc_single_image-wrapper img {
+
+}
+.the-process-container-mbt .box-tow-mbt .vc_single_image-wrapper img{
+/*    width: 135px;
+    height: 162px;*/
+    margin-top: 0px;
+}
+
+
+
+.sbr-header-mbt .navbar-nav > li > a {
+    font-size: 13px;
+
+}
+
+
+
+
+}
+
+
+@media (min-width: 1500px) {
+
+.container {
+    width: 1420px;
+    margin-left: auto;
+margin-right: auto;
+}
+
+#product-selection-standard .product-selection-image-wrap {
+    min-height: 230px;
+}
+.reasons-caripro-section .box-one-mbt img {height: 110px;}
+
+
+
+
+    #causes-tooth-sensitivity-wrap
+        {
+            text-align:center;
+            margin-left:50px;
+            height:500px;
+        }
+            #causes-tooth-sensitivity-wrap img
+            {
+                max-width:820px;
+            }
+            #graphic-causes-teeth-sensitivity-mobile
+            {
+                display:none;
+            }
+            #graphic-causes-teeth-sensitivity-desktop
+            {
+                display:inline;
+            }
+
+            #causes-text-wrap
+            {
+                display:block;
+            }
+                .graphic-text-header
+                {
+                    text-align:left;
+                    font-family:Montserrat;
+                    font-weight:bold;
+                    font-size:21px;
+                    line-height:1.0em;
+                    color:#b8b8dc;
+
+                }
+                .graphic-text-main
+                {
+                    font-size:1em;
+                    text-align:left;
+                    padding-top:5px;
+                }
+
+                #micro-fractures-text
+                {
+                    width:300px;
+                    height:150px;
+                    margin-top:-500px;
+                    margin-left:215px;
+                    text-align:left;
+                }
+                #thin-enamel-text
+                {
+                    width:300px;
+                    height:150px;
+                    margin-top:50px;
+                    margin-left:265px;
+                    text-align:left;
+                }
+                #tooth-dehydration-text
+                {
+                    width:300px;
+                    height:150px;
+                    margin-top:10px;
+                    margin-left:315px;
+                    text-align:left;
+                }
+
+
+#the-process-image-1 img {
+    width: 340px;
+    height: 262px;
+}
+#the-process-image-2 img {
+    width: 205px;
+    height: 245px;
+    margin-top: 10px;
+}
+#the-process-image-3 img {
+    width: 270px;
+    height: 127px;
+
+}
+
+
+#easy-to-use-image-1 img {
+    width: 43px;
+    height: 250px;
+    margin-top: 10px;
+}
+
+#easy-to-use-image-2 img {
+    width: 221px;
+    height: 160px;
+    margin-top: 70px;
+}
+
+#easy-to-use-image-3 img {
+    width: 180px;
+    height: 180px;
+    margin-top: 60px;
+}
+
+
+.teeth-whitening-gel-mbt .product-selection-description b {
+    font-size: 1.2em;
+}
+
+.tray-creation-process-container #the-process-image-1 img{
+    width: 210px;
+    height: 201px;
+}
+
+
+.desensitizing-gel-multiple-sec .box-one-mbt .vc_single_image-wrapper img{
+    width: 43px;
+    height: 250px;
+}
+
+
+
+.desensitizing-gel-multiple-sec .box-two-mbt .vc_single_image-wrapper img{
+    width: 221px;
+    height: 160px;
+}
+
+.desensitizing-gel-multiple-sec .box-three-mbt .vc_single_image-wrapper img{
+    width: 180px;
+    height: 180px;
+}
+
+
+.product-electric-toothbrush #the-reasons-image-1 img {
+    height: 110px;
+}
+.product-electric-toothbrush  #the-reasons-image-2 img {
+       max-width: 70%;
+}
+.product-electric-toothbrush  #the-reasons-image-3 img {
+    margin: auto;
+    max-width: 80%;
+}
+
+
+.product-night-guards .page-background-banner{    background-position: left top; background-color: #f3f3f8; background-repeat: no-repeat;}
+
+
+
+
+.sbr-header-mbt .navbar-nav > li > a {
+    font-size: 14px;
+    color: #171717;
+    font-weight: normal;
+    letter-spacing: 0.09em;
+}
+.sbr-header-mbt .navbar-expand-lg,.wrapper-mbt {
+    max-width: 1420px;
+padding-right: 15px;
+padding-left: 15px;    
+margin-left: auto; margin-right: auto;
+}
+
+.home .logos-strip .logo{
+width: 16.66666667%;	
+text-align: center;
+}
+
+
+.home .logos-container-mbt h2{ margin-top: 14px; }
+
+
+.product-teeth-whitening-trays h1.full-larger-heading{font-size: 2.6em; margin-top: 10px;}
+.cm-head h4{font-family: Montserrat; margin-top: 18px;}
+.product-teeth-whitening-trays .logos-container-mbt h2{ font-size: 28px;font-weight: 800; margin-top: 10px; }
+.product-water-flosser .section-header-content-grey-large {
+    font-size: 22px;
+    max-width: 66.66667%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.section-header-content-grey, .section-header-content-grey-large {
+    color: #565759;
+        font-family: "Montserrat";
+
+}
+#best-brush-heading {
+       margin-top: 19rem;
+        text-align: center;
+}
+.product-water-flosser #best-brush-section{    background-position: 0px top;}
+
+.water-flosser-three-reasons #the-reasons-image-1 img {
+    height: 165px;    max-width: 100%;
+}
+
+.water-flosser-three-reasons  #the-reasons-image-2 img {
+    max-width: 70%;
+    max-width: 280px;
+}
+
+
+
+}
+/*ends 1500*/
+
+/*Ipad Only*/
+
+@media (min-width: 950px) and (max-width: 1260px) {
+
+.logos-strip.flex-container {flex-wrap: wrap;}
+
+
+}
+
+
+@media all and (device-width: 768px) and (device-height: 1024px){
+
+    .large-logoes-mbt .logos-strip .logo img {
+        max-width: 130px;
+    }
+
+    .logos-strip .logo{
+    margin-left: 0px;
+    margin-right: 0px;
+width: 21.333%;
+    min-height: 89px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    .logos-container-mbt h2{
+            margin-bottom: 1px;
+    }
+    .package-stle h4 br{ display:none; }
+    .product-selection-description-text p{
+    font-size: 1.2em;
+    text-align: center;        
+    }
+    .row {
+        padding-left:0px;
+        padding-right:0px;        
+    }
+
+    .product-electric-toothbrush .electric-toothbrush-mbt .logos-strip .logo {margin-left: 1vw;margin-right: 1vw;}
+
+
+}
+
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
+
+.the-process-container-mbt .table-contentcnt, .the-process-container-mbt .text-block-mbt {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.row.wpb_row.vc_inner.row-fluid.max_width {
+    padding-left: 0; padding-right: 0;
+}
+.the-process-title {
+    font-size: 17px;
+}  
+
+.the-process-container-mbt .text-block-mbt {
+
+    min-height: 102px;
+}
+.subscribe-newsletter{ 
+    padding-left: 0px;
+    padding-right: 0px;
+ }
+
+footer#footer .footer-mbt-tp {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.row.footer-row.footer-mbt-tp .small-12.medium-6.columns{
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 30%;
+    max-width: 30%;    
+}
+
+.row.footer-row.footer-mbt-tp .small-12.medium-6.columns:nth-child(2){
+    flex: 0 0 24%;
+    max-width: 24%;    
+}
+.row.footer-row.footer-mbt-tp .small-12.medium-6.columns:nth-child(3){
+    flex: 0 0 24%;
+    max-width: 24%;    
+}
+.row.footer-row.footer-mbt-tp .small-12.medium-6.columns:nth-child(4){
+    flex: 0 0 21%;
+    max-width: 21%;
+}
+.subfooter{padding: 27px 2rem 18px;}
+.subfooter.style1.light.subfooter-full-width-on .row.subfooter-row .small-12.medium-6.columns.text-center.medium-text-left.bbbbnnn{
+    flex: 0 0 70%;
+    max-width: 70%;    
+}
+.subfooter.style1.light.subfooter-full-width-on .row.subfooter-row .small-12.medium-6.columns.text-center.medium-text-right{
+    flex: 0 0 30%;
+    max-width: 30%;    
+}
+
+
+#footer-base-logo-wrap img {
+    max-width: 100%;
+}
+
+.product-electric-toothbrush .product-selection-title{
+    padding: 30px 6px;
+    margin-top: -54px;    
+}
+.product-electric-toothbrush  .product-selection-image-wrap {
+    min-height: 148px;
+}
+   	.product-night-guards .the-process-container-mbt .text-block-mbt{ min-height: 0; }
+   	.hours-text{     font-size: 28px;
+    line-height: 28px; min-width: 59px !important; }
+
+
+}
+@media all and (device-width: 1024px) and (device-height: 768px) and (orientation:landscape) {
+
+}
+
+
+
+@media(max-width:1024px){
+.product-electric-toothbrush #best-brush-section .wpb_column.columns.medium-12.thb-dark-column.small-12::before {
+    content: "";
+    background-image: url(../images/pattern-transparent-white-85.png);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+    .package-includes-mbt .columns.medium-6,.product-electric-toothbrush  #best-brush-section  .wpb_column.columns.medium-4.thb-dark-column.small-12{
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;        
+    }
+.package-includes-mbt .wpb_wrapper .medium-6 .wpb_wrapper .vc_wp_text.wpb_content_element {
+    max-width: 100%;
+}
+
+#solid-color-with-text-section-maintext {
+    color: #fff;
+    font-size: 19px;
+}    
+
+#solid-color-with-text-section-subtext {
+    font-size: 14px;
+    padding-top: 10px;
+}
+
+.full-width-row.logos-container-mbt {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.br-remove br{ display: none; }
+.fnt34 {
+    font-size: 30px;
+}
+
+.product-selection-image-wrap {
+    min-height: 90px;
+}
+.product-selection-box {
+    padding: 10px;
+}    
+.what-inner-box-width-ajust .medium-6{
+-webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;    
+}
+
+.what-inner-box>.vc_column-inner>.wpb_wrapper, .lp-row-row .vc_column-inner .wpb_wrapper .wpb_row .wpb_column .vc_column-inner .wpb_wrapper {
+
+    justify-content: initial;
+}
+.lp-row-row .whats-included-image-cell {
+    min-width: 95px;
+    text-align: center;
+}
+
+.whats-included-text-cell {
+    padding-left: 40px;
+}
+#best-brush-section{ position: relative; }
+#best-brush-section .thb-dark-column:after{    content: " ";position: relative;
+    background-image:url(../images/pattern-transparent-white-85.png)
+
+}
+
+.vc_wp_text.wpb_content_element.warrabty-text-container {
+    max-width: 95%;
+}
+
+#footer-newsletter-title{
+    line-height: 24px;    padding-left: 15px;
+}
+.product-electric-toothbrush #best-brush-section h2 { margin-top: 120px; }
+.product-electric-toothbrush #best-brush-section h2 br{ display: none; }
+.product-electric-toothbrush #content-accordion .left-column,.product-electric-toothbrush #content-accordion .right-column
+,.product-water-flosser #content-accordion .left-column,.product-water-flosser #content-accordion .right-column
+{
+    flex: 0 0 100%;
+   max-width: 600px;
+    padding-right: 0px;
+    padding-left: 0;
+    zoom: 0.7;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.product-electric-toothbrush #content-accordion .left-colum-heading
+,.product-water-flosser #content-accordion .left-colum-heading
+{ text-align: center !important; }
+
+.product-electric-toothbrush .the-process-container-mbt .wpb_single_image {
+    max-height: 150px;
+    min-height: 150px;
+}    
+.product-toothbrush-heads .row.listing-promise-mbt {
+    padding-top: 10px;
+}
+.product-toothbrush-heads  .logos-container-mbt h2{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.product-toothbrush-heads .product-selection-title{    margin-top: -56px;}
+.ult_modal.ult-small {
+    width: 95%;
+}
+.product-night-guards .night-guides-top-sec-left.wpb_column.columns.medium-6.thb-dark-column.small-12 {
+    display: none;
+}
+.product-night-guards .night-guides-top-sec-option.wpb_column.columns.medium-6.thb-dark-column.small-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.product-night-guards .product-selection-title{    margin-top: -36px; font-size: 18px;     padding: 22px 7px;}
+.product-night-guards  .vc-custom-backround {
+    max-height: 840px;
+}
+
+#wrapper-package-includes-mbt-modified .row.wpb_row.vc_inner.row-fluid.max_width{ border-top: 0px solid #c3c5c9; }
+.product-night-guards  .the-process-container-mbt .heading-content-mbt {
+    margin-bottom: 0px;
+}
+.product-night-guards   .the-process-container-mbt .heading-content-mbt h2, .product-night-guards  .our-customers-speak-for-us h2{
+        font-size: 2.4em;
+}
+
+section.contact-bttm .col-sm-6.col-md-3.icon-gradient.sep-top-sm{
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;    
+}
+
+.articles-page a.btn.btn-primary.btn-large{padding: 10px 14px;}
+.post-detail .post-gallery-detail {
+
+    min-height: 0;
+    padding-top: 48px;
+}
+.product-water-flosser #best-brush-section .medium-6{ 
+
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+ }
+
+}
+
+@media(max-width:767px)
+    {
+        #causes-tooth-sensitivity-wrap
+        {
+            padding-right:0px;
+            clear:both;
+            padding-left:15px;
+            padding-right:15px;
+            text-align:right;
+        }
+            #causes-tooth-sensitivity-wrap img
+            {
+                max-width:830px;
+                width:100%;
+                margin-right:-20px;
+            }
+            #graphic-causes-teeth-sensitivity-mobile
+            {
+                display:inline;
+            }
+            #graphic-causes-teeth-sensitivity-desktop
+            {
+                display:none;
+            }
+            #causes-text-wrap
+            {
+                display:none;
+            }
+.product-toothbrush-heads  .logos-container-mbt h2{
+    width: 100%;
+ }
+.products-boxes .medium-6{
+	-webkit-box-flex: 0;
+    -ms-flex: 0 0 100%; 
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.the-process-container-mbt .medium-4.small-12{
+	-webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;	
+}
+.product-electric-toothbrush #best-brush-section h2 {
+    margin-top: 50px;
+}
+.product-electric-toothbrush #best-brush-section p br{ display: none; }
+
+.warranty-section-product h3 {
+    font-size: 24px;
+    line-height: 30px;
+}
+.postid-427576 .logos-container-mbt h2 {
+    font-size: 20px;
+}
+.fnt34 {
+    font-size: 24px;
+}
+div#product-toothbrush-heads {
+    margin: 0;
+}
+.feelthe-difference h4 {
+     font-size: 18px;
+    line-height: 28px;
+}
+#product-selection-night-guards .product-selection-box{margin-bottom: 50px;}
+div#product-selection-night-guards > .col-md-4:last-child .product-selection-box{margin-bottom: 0px;}
+div#process-section-scroll h2 {
+    margin-bottom: 40px;
+}
+.product-box-stars{ margin-top: 0px; }
+.row.wpb_row.row-fluid.year-wrannanty-container {
+    padding-top: 30px;
+}
+.secondary-area-mbt, .user-login{     min-height: 45px; }
+.home-section-top .sep-top-5x.wpb_column.columns.medium-12.thb-dark-column.small-12 {
+    padding-bottom: 0rem;
+}
+
+
+.product-water-flosser #best-brush-heading {
+    color: #555759;
+    font-size: 2em;
+    font-family: "Montserrat";
+    font-weight: bold;
+    margin-top: 170px;
+    text-shadow: none;
+    line-height: 1.2em;
+}
+
+
+    }
+
+/*only for Iphone 5*/
+@media screen and (device-aspect-ratio: 40/71) {
+
+.smile-fearlessly-mbt h1 {
+    font-size: 38px;
+    line-height: 42px;
+
+}
+.logos-container-mbt h2{
+	    font-size: 1.6em;
+}
+.product-box-large-title {
+    font-size: 20px;
+}
+#the-process-image-1 img {
+    max-width: 100%;
+  }
+  
+ .btn, div#wcContent .btn{padding: 10px 10px;font-size: 16px;}   
+.product-header-primary {
+    font-size: 26px;
+}
+
+.fnt34 {
+    font-size: 26px;
+}
+}
+
+
+
+

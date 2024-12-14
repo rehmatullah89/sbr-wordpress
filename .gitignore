@@ -1,0 +1,38 @@
+# # Ignore everything
+# /*
+
+# # But don't ignore the following:
+# !tools/
+# !gais-u.php
+# !gais-p.php
+# !subc-webhook.php
+# !wp-content/themes/revolution-child/
+# !wp-content/plugins/smile-brilliant/
+
+# # Make sure to include contents of the allowed directories
+# !tools/**/
+# !wp-content/themes/revolution-child/**/
+# !wp-content/plugins/smile-brilliant/**/
+
+# # Ignore everything
+*
+
+# Whitelist directories to allow descending into them
+!*/
+
+# Allow specific files and directories
+!tools/
+!gais-u.php
+!gais-p.php
+!/.gitignore
+!subc-webhook.php
+!wp-content/themes/revolution-child/
+!wp-content/plugins/smile-brilliant/
+!wp-content/plugins/mbt-packaging/
+!wp-content/plugins/sbr-reporting/
+
+!tools/**
+!wp-content/themes/revolution-child/**
+!wp-content/plugins/smile-brilliant/**
+!wp-content/plugins/mbt-packaging/**
+!wp-content/plugins/sbr-reporting/**

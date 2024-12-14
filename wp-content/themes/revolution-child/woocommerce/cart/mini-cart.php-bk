@@ -1,0 +1,279 @@
+<?php
+/**
+ * Mini-cart
+ *
+ * Contains the markup for the mini-cart, used by the cart widget.
+ *
+ * This template can be overridden by copying it to yourtheme/woocommerce/cart/mini-cart.php.
+ *
+ * HOWEVER, on occasion WooCommerce will need to update template files and you
+ * (the theme developer) will need to copy the new files to your theme to
+ * maintain compatibility. We try to do this as little as possible, but it does
+ * happen. When this occurs the version of the template file will be bumped and
+ * the readme will list any important changes.
+ *
+ * @see     https://docs.woocommerce.com/document/template-structure/
+ * @package WooCommerce\Templates
+ * @version 3.7.0
+ */
+defined('ABSPATH') || exit;
+
+do_action('woocommerce_before_mini_cart');
+?>
+<div class="widget_shopping_cart_content dropdown-menu widget-box cart-mbt" aria-labelledby="dropdownMenuCart">
+    <?php if (!WC()->cart->is_empty()) : ?>
+
+        <h5 class="section-title" id="shopping_cart_item_list_title">ITEMS</h5>
+        <ul class="woocommerce-mini-cart nav navbar-nav navbar-right service-nav cart_list product_list_widget cart_list product_list_widget <?php echo esc_attr($args['list_class']); ?>" id="menuCartWrap">
+            <?php
+            do_action('woocommerce_before_mini_cart_contents');
+
+
+            $cart_items = array();
+            foreach (WC()->cart->get_cart() as $cart_item_key => $cart_item) {
+
+                $product_id = apply_filters('woocommerce_cart_item_product_id', $cart_item['product_id'], $cart_item, $cart_item_key);
+                $_product = apply_filters('woocommerce_cart_item_product', $cart_item['data'], $cart_item, $cart_item_key);
+
+                if (wc_cp_is_composited_cart_item($cart_item)) {
+                    continue;
+                } elseif (wc_cp_is_composite_container_cart_item($cart_item)) {
+                    if (get_post_meta($product_id, 'three_way_ship_product', true) == 'yes') {
+                        if (isset($cart_items[$product_id])) {
+                            $cart_items[$product_id] = $cart_items[$product_id] + 1;
+                        } else {
+                            $cart_items[$product_id] = 1;
+                        }
+                    } else {
+                        $cart_items[$product_id] = $cart_item['quantity'];
+                    }
+                } else {
+                    $cart_items[$product_id] = $cart_item['quantity'];
+                }
+                /*
+                  if ($_product->is_type('composite')) {
+                  if (isset($cart_items[$product_id])) {
+                  //   echo '-*-*-*';
+                  $cart_items[$product_id] = $cart_items[$product_id] + 1;
+                  } else {
+                  $cart_items[$product_id] = 1;
+                  }
+
+                  }
+                 */
+            }
+            //    echo '<pre>';
+            //    print_r($cart_items);
+            //    echo '</pre>';
+            $display_product = array();
+            foreach (WC()->cart->get_cart() as $cart_item_key => $cart_item) {
+                $_product = apply_filters('woocommerce_cart_item_product', $cart_item['data'], $cart_item, $cart_item_key);
+                $product_id = apply_filters('woocommerce_cart_item_product_id', $cart_item['product_id'], $cart_item, $cart_item_key);
+
+                if (wc_cp_is_composited_cart_item($cart_item)) {
+                    continue;
+                } elseif (wc_cp_is_composite_container_cart_item($cart_item)) {
+                    if (isset($display_product[$product_id])) {
+                        continue;
+                    } else {
+                        $display_product[$product_id] = $product_id;
+                    }
+                }
+
+                if ($_product && $_product->exists() && $cart_item['quantity'] > 0 && apply_filters('woocommerce_widget_cart_item_visible', true, $cart_item, $cart_item_key)) {
+                    $product_name = apply_filters('woocommerce_cart_item_name', $_product->get_name(), $cart_item, $cart_item_key);
+                    $thumbnail = apply_filters('woocommerce_cart_item_thumbnail', $_product->get_image(), $cart_item, $cart_item_key);
+                    $product_price = apply_filters('woocommerce_cart_item_price', WC()->cart->get_product_price($_product), $cart_item, $cart_item_key);
+                    $product_permalink = apply_filters('woocommerce_cart_item_permalink', $_product->is_visible() ? $_product->get_permalink($cart_item) : '', $cart_item, $cart_item_key);
+                    ?>
+                    <li class="smile_brilliant-mini-cart-item">
+                        <?php
+                        /*
+                          echo apply_filters(// phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
+                          'woocommerce_cart_item_remove_link', sprintf(
+                          '<a href="%s" class="remove remove_from_cart_button" aria-label="%s" data-product_id="%s" data-cart_item_key="%s" data-product_sku="%s"><i class="fa fa-close"></i></a>', esc_url(wc_get_cart_remove_url($cart_item_key)), esc_attr__('Remove this item', 'woocommerce'), esc_attr($product_id), esc_attr($cart_item_key), esc_attr($_product->get_sku())
+                          ), $cart_item_key
+                          );
+                         * 
+                         */
+
+                        $_productt = wc_get_product($product_id);
+                        if ($_productt->is_type('simple')) {
+                            echo apply_filters(// phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
+                                    'woocommerce_cart_item_remove_link', sprintf(
+                                            '<a href="%s" class="remove remove_from_cart_button" aria-label="%s" data-product_id="%s" data-cart_item_key="%s" data-product_sku="%s"><i class="fa fa-close"></i></a>', esc_url(wc_get_cart_remove_url($cart_item_key)), esc_attr__('Remove this item', 'woocommerce'), esc_attr($product_id), esc_attr($cart_item_key), esc_attr($_product->get_sku())
+                                    ), $cart_item_key
+                            );
+                        } else {
+                            echo '<a href="javascript:void(0);" class="removesmilecart" data-product_id="' . esc_attr($product_id) . '"><i class="fa fa-close"></i></a>';
+                        }
+                        ?>
+                        <?php if (empty($product_permalink)) : ?>
+                            <?php echo $thumbnail . $product_name; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
+                        <?php else : ?>
+                            <a class="text-description" href="<?php echo esc_url($product_permalink); ?>">
+                                <?php echo $thumbnail . $product_name; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
+                            </a>
+                        <?php endif; ?>
+                        <?php
+                        if (isset($cart_items[$product_id])) {
+                            
+                        } else {
+                            echo wc_get_formatted_cart_item_data($cart_item); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped 
+                        }
+                        if (isset($cart_items[$product_id])) {
+                            echo '<span class="quantity">Qty ' . sprintf('%s &times; %s', $cart_items[$product_id], $product_price) . '</span>'; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped 
+                        } else {
+                            echo '<span class="quantity">Qty ' . sprintf('%s &times; %s', $cart_item['quantity'], $product_price) . '</span>';
+                        }
+                        ?>
+
+                    </li>
+
+                    <?php
+                }
+            }
+
+            do_action('woocommerce_mini_cart_contents');
+            ?>
+        </ul>
+        <div class="last-item-cnt">
+        <div class="smile_brilliant-mini-cart-item">
+            <?php
+            $sale_discount = 0;
+            $sale_discount_geha = 0;
+            foreach(WC()->cart->get_cart() as $cart_item) { 
+                $product = wc_get_product( $cart_item['product_id'] );
+                if($product->get_type() =='composite'){
+                    $new_discount = isset($cart_item['sale_discount']) ? $cart_item['sale_discount']:0;
+                    $qty =$cart_item['quantity'];
+                    $new_discount =   $new_discount* $qty;
+                    $sale_discount  = $sale_discount+$new_discount;
+
+                    $new_discount_geha = isset($cart_item['sale_discount_geha']) ? $cart_item['sale_discount_geha']:0;
+                    $qty =$cart_item['quantity'];
+                    $new_discount_geha =   $new_discount_geha* $qty;
+                    $sale_discount_geha  = $sale_discount_geha+$new_discount_geha;
+                }
+              
+            }
+            if($sale_discount >0) {
+                ?>
+                <div  class="shipping-mini-cart sale-discont">
+                <span class="shpping-text">Sale Discount:</span>
+                                <span class="shppng-nmber"> -$<?php echo $sale_discount;?></span>
+            </div>
+                <?php
+            }
+            if($sale_discount_geha >0) {
+                ?>
+                <div  class="shipping-mini-cart sale-discont">
+                <span class="shpping-text">Geha Sale Discount:</span>
+                                <span class="shppng-nmber"> -$<?php echo $sale_discount_geha;?></span>
+            </div>
+                <?php
+            }
+            ?>
+              
+        </div>
+            <?php
+            if (count(WC()->cart->get_coupons()) > 0) {
+                ?>
+
+                <?php
+                foreach (WC()->cart->get_coupons() as $code => $coupon) :
+                    ?>
+
+                    <div class="couponRow smile_brilliant-mini-cart-item">
+                        <h5 class="section-title pull-left " id="shopping_cart_coupon_list_title" style="">DISCOUNT</h5>
+
+                        <a href="<?php echo site_url('?remove_coupon=' . $code) ?>" class="remove" aria-label="Remove">
+                            <i class="fa fa-close"></i>
+                        </a>                                                   
+                        <a class="text-description" href="javascript:;">
+                            <?php wc_cart_totals_coupon_label($coupon); ?>
+
+                            <?php wc_cart_totals_coupon_html($coupon); ?>
+                        </a>
+
+
+                    </div>
+
+                    <?php
+                endforeach;
+            }
+            ?>
+
+            <div id="shopping-cart-shipping-total" class="shipping-mini-cart">
+                <span class="shpping-text">Shipping:</span>
+                <?php
+                $shippingCost = 0;
+                if (WC()->session->get('cart_totals')['shipping_total'] > 0) {
+                    $shippingCost = get_woocommerce_currency_symbol() . number_format((float) WC()->session->get('cart_totals')['shipping_total'], 2, '.', '');
+                    //$shippingCost = get_woocommerce_currency_symbol() . WC()->session->get('cart_totals')['shipping_total'];
+                } else {
+                    $shippingCost = 'FREE';
+                }
+                ?>
+                <span class="shppng-nmber"> <?php echo $shippingCost; ?></span>
+            </div>
+
+
+            <h5 class="section-title" id="shopping_cart_coupon_list_title" style="">TOTAL
+
+                <?php
+                /**
+                 * Hook: woocommerce_widget_shopping_cart_total.
+                 *
+                 * @hooked woocommerce_widget_shopping_cart_subtotal - 10
+                 */
+                echo WC()->cart->get_cart_total();
+                // echo wc_cart_totals_order_total_html();
+                ?>
+            </h5>
+
+            <?php do_action('woocommerce_widget_shopping_cart_before_buttons'); ?>
+        </div>
+
+        <p class="woocommerce-mini-cart__buttons buttons"><a href="javascript:void(0);" class="button wc-forward continue-shopping">Continue Shopping</a><?php do_action('woocommerce_widget_shopping_cart_buttons'); ?></p>
+
+        <?php do_action('woocommerce_widget_shopping_cart_after_buttons'); ?>
+
+    <?php else : ?>
+
+        <div class="shopping_cart_dropdown text-center" style="" id="shopping_cart_dropdown_no_items">
+
+            <?php echo __(' There Are Currently No Items In Your Shopping Cart', 'woocommerce'); ?>
+            <div style="padding-top:20px;clear:both;">
+                <a href="<?php echo site_url('/product/teeth-whitening-trays/') ?>" rel="nofollow" class="btn btn-primary btn-primary-blue btn-xs upper pull-right">
+                    <?php echo __('Shop Now', 'woocommerce'); ?>
+                </a>
+            </div>
+        </div>
+
+    <?php endif; ?>
+</div>
+<?php do_action('woocommerce_after_mini_cart'); ?>
+
+
+<style>
+    .woocommerce-remove-coupon{
+        display: none !important;
+    }
+    p.woocommerce-mini-cart__buttons.buttons a.button.wc-forward:nth-child(2) {
+        display: none !important;
+    }
+    p.woocommerce-mini-cart__buttons.buttons a.button.wc-forward:nth-child(1) {
+        display: flex !important;
+    }
+</style>
+<script>
+    jQuery('body').on('click', '.smile_brilliant-mini-cart-item .remove , .smile_brilliant-mini-cart-item .removesmilecart', function () {
+        jQuery(this).parent('.smile_brilliant-mini-cart-item').addClass('removing');
+    });
+    jQuery('body').on('click', '.continue-shopping', function () {
+
+        jQuery('.thb-mobile-close').click();
+    });
+
+</script>

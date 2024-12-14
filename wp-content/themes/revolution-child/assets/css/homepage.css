@@ -1,0 +1,1894 @@
+.home-page-wrappper{
+    background-image: url('../images/home/woman.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right 100%;
+    padding: 154px 0px 212px;
+    position: relative;
+    margin-top: 92px;
+}
+
+.circle-image:before{
+    content: "";
+    background-image: url(../images/home/pink-circle.webp);
+    position: absolute;
+    top: -36px;
+    left: -10%;
+    width: 750px;
+    height: 750px;
+    background-repeat: no-repeat;
+    background-size: 90%;
+}
+.home.page-template header#sbr-header{
+background-color: #fff;
+}
+.hero-text-box{
+    position: relative;
+    /* top: -95px; */
+}
+.green-text {
+    margin-top: 10px;
+}
+a.dropdown-toggle {
+    position: relative;
+}
+a.dropdown-toggle:after {
+    content: '';
+    background-image: url(../images/home/whiteicon.svg);
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    background-size: contain;
+    display: block;
+    z-index: 12;
+    transition: all 0.5s ;
+}
+a.btn.btn-primary.nightguard:hover,.desensitizing-gel.btn.btn-primary:hover,.explore-btn a:hover,.reviews-button .btn-primary-teal:hover{
+    background-color: #595858;
+    border-color: #595858;
+    box-shadow: none;
+}
+a.dropdown-toggle.active:after{
+    transform: rotate(-180deg);
+
+}
+.blue-text,.green-text{
+    position: relative;
+}
+.blue-text:before{
+    content: "";
+    position: absolute;
+    width: 1200px;
+    height: 162px;
+    left: -993px;
+    top: 0;
+    background: #3c97cb;
+    display: block;
+}
+.blue-text h1 {
+    padding: 20px 20px 20px 0;
+    background: #3c97cb;
+    border-radius: 24px;
+    font-weight: 700;
+    display: inline-block;
+    color: #fff;
+    font-family: 'Montserrat';
+    position: relative;
+    margin-left: -40px;
+    font-size: 51px;
+}
+.green-text:before{
+    content: "";
+    position: absolute;
+    width: 1250px;
+    height: 134px;
+    left: -947px;
+    display: block;
+    background: #4acac9;
+}
+.green-text p{
+    background: #4acac9;
+    padding: 20px 50px 30px 0;
+    font-size: 24px;
+    border-radius: 20px;
+    line-height: 28px;
+    font-weight: 300;
+    margin-left: -86px;
+    display: inline-block;
+    color: #fff;
+    font-family: 'Montserrat';
+    position: relative;
+    margin-left: -40px;
+}
+.home-content-section-one {
+    background-color: #2d2e2f;
+    padding: 20px 0;
+}
+.home-content-section-one p{
+    font-size: 40px;
+    color: #fff;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    margin-bottom: 0;
+}
+.home-content-section-one p b{
+    font-weight: 600;
+    color: #42bab8;
+}
+.optimal-health{
+    text-align: center;
+}
+.home-section-two-start-logo {
+    background-color: #3d3f40;
+    padding: 30px 0 40px;
+    text-align: center;
+}
+.home-section-two-start-logo  p{
+    font-size: 35px;
+    color: #fff;
+    font-family: 'Montserrat';
+    font-weight: 300;
+    margin-bottom: 0;
+}
+.logoes-strip-mbt {
+    column-gap: 30px;
+    margin-top: 30px;
+}
+.d-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+.home-section-two-start-logo  .logoes-strip-mbt {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+.blue-logo-wrapper  .logoes-strip-mbt {
+    margin-top: 0px;
+}
+.justify-content-center {
+    -ms-flex-pack: center !important;
+    justify-content: center !important;
+}
+.align-items-center {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.justify-content-center {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.mulimages.slick-initialized .slick-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.america-one-wrapper{
+    position: relative;
+    background: #f3f7fa;
+    padding-bottom: 198px;
+    overflow: hidden;
+}
+.america-one-wrapper:before{
+    content: '';
+    background-image: url('../images/home/pink.webp');
+    background-position: right;
+    width: 35%;
+    height: 540px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    right: 0;
+
+}
+.america-one-wrapper:after{
+    content: '';
+    background-image: url('../images/home/purple.webp');
+    background-position: left;
+    width: 35%;
+    height: 540px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.navbar-fixed-top-barr {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    height: 8px;
+    position: absolute;
+    width: 100%;
+    z-index: 99;
+    top: 0;
+}
+.america-heading-wrapper{
+    padding: 40px 0 80px;
+    text-align: center;
+    position: relative;
+}
+p.america-heading{
+    font-family: 'Montserrat';
+    font-size: 48px;
+    text-align: center;
+    font-weight: 500;
+    color: #2d2e2f;
+    margin-bottom: 0;
+}
+p.america-heading span {
+    font-weight: 700;
+}
+p.america-paragraph {
+    font-family: 'Montserrat';
+    font-size: 24px;
+    text-align: center;
+    font-weight: 400;
+    color: #3d3f40;
+}
+p.america-paragraph span {
+    font-weight: 600;
+}
+.make-impression-wrapper {
+    padding: 35px 0 20px 30px;
+}
+.impression-heading h2 {
+    font-weight: 800;
+    font-family: 'montserrat';
+    font-size: 36px;
+    margin-bottom: 0;
+    color: #2d2e2f;
+}
+.impression-heading p {
+    font-size: 35px;
+    font-family: 'montserrat';
+    font-weight: 600;
+    margin-bottom: 0;
+    line-height: 1;
+    color: #2d2e2f;
+}
+.impression-heading h3 {
+    font-size: 34px;
+    font-family: 'montserrat';
+    font-weight: 800;
+    color: #2d2e2f;
+}
+.impression-heading span {
+    font-weight: 700;
+}
+.impression-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    max-width: 80%;
+    padding-top: 48px;
+}
+.impression-buttons  .btn.btn-primary {
+    min-width: 284px;
+    margin-bottom: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 8.5px 12px !important;
+    font-size: 20px;
+    letter-spacing: 0;
+    color: #fff;
+}
+.btn.btn-primary.nightguard {
+    background: #331f97;
+    border-color: #331f97;
+}
+.teeth-whitening {
+    background: #fa319e;
+    border-color: #fa319e;
+}
+.sport-guard {
+    background: #002244;
+    border-color: #002244;
+}
+.impression-images {
+    position: relative;
+}
+.impression-images .women-img {
+    position: absolute;
+    top: 85px;
+    left: -55px;
+    z-index: 0;
+    max-width: 100%;
+}
+.impression-images .box-in-img 
+{
+    position: absolute;
+    max-width: 53%;
+    z-index: 2;
+    left: -70px;
+    top: -105px;
+}
+.impression-images .night-guard-sample-img {
+    position: absolute;
+    top: 370px;
+    left: -291px;
+}
+.teeth-whitening-trays {
+    padding: 27px 0px;
+    background-color: #3d3f40;
+}
+.whitening-tray-text p {
+    font-size: 30px;
+    font-family: 'montserrat';
+    color: #fff;
+    margin-bottom: 0px;
+
+}
+.teeth-whitening-trays .btn.btn-primary {
+    min-width: 284px;
+    border-radius: 10px;
+    padding: 8.5px 12px !important;
+    font-size: 20px;
+    letter-spacing: 0;
+    color: #fff;
+}
+.desensitizing-gel.btn.btn-primary {
+background-color: #b8b8dd;
+border-color: #b8b8dd;
+margin-left: 10px;
+}
+.make-impression-wrapper{
+    position: relative;
+    z-index: 2;
+}
+.caripro-wrapper {
+    position: relative;
+    min-height: 600px;
+    overflow: hidden;
+    padding: 70px 0px;
+}
+.caripro-wrapper:before {
+    content: '';
+    background-image: url(../images/home/top.webp);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    width: 30%;
+    height: 563px;
+    position: absolute;
+    top: -20px;
+    right: 0px;
+}
+.caripro-top-logo {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    padding-bottom: 100px;
+}
+.caripro-top-logo img {
+    max-width: 266px;
+}
+p.caripro-text{
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'montserrat';
+    padding-top: 20px;
+    margin-bottom: 0px;
+    color: #002244;
+}
+.whitening-gel-col {
+    text-align: right;
+}
+p.caripro-text span {
+    font-weight: 600;
+    color: #002244;
+}
+.caripro-verticle-text{
+    z-index: 1234;
+    top: 45%;
+    left: 0;
+    transform: rotate(0deg);
+}
+.vitals{
+    position: absolute;
+    font-size: 213px;
+    -webkit-transform: rotateZ(270deg);
+    transform-origin: 0 100%;
+    white-space: nowrap;
+    font-weight: 800;
+    font-family: 'Montserrat';
+    color: #d2f2f1;
+    bottom: -827px;
+    left: 150px;
+    z-index: 99;
+}
+.caripro-wrapper:after {
+    content: '';
+    background-image: url(../images/home/bottom.webp);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;
+    width: 35%;
+    height: 470px;
+    position: absolute;
+    bottom: -112px;
+    left: 0px;
+    z-index: -1;
+}
+.caripro-images-wrapper {
+    position: relative;
+    z-index: 2;
+}
+.bottles {
+    max-width: 340px;
+    position: relative;
+    left: 98px;
+    top: 75px;
+    z-index: 99;
+}
+.brushes {
+    position: absolute;
+    bottom: -590px;
+    z-index: 9;
+}
+.caripro-right-text {
+    padding-left: 100px;
+    position: relative;
+    z-index: 999;
+}
+.caripro-right-text h2 {
+    font-weight: 800;
+    font-size: 48px;
+    position: relative;
+    color: #002244;
+    font-family: 'montserrat';
+}
+.caripro-right-text P{
+    font-size: 32px;
+    position: relative;
+    padding-top: 20px;
+    font-family: 'montserrat';
+    font-weight: 600;
+    line-height: 36px;
+    color: #002244;
+}
+
+
+.drop-down-wrapper .nav li {
+    list-style: none;
+}
+.drop-down-wrapper{
+    max-width: 315px;
+    padding-top: 85px;
+}
+.drop-down-wrapper .nav .button-dropdown {
+    position: relative;
+}
+
+.drop-down-wrapper .nav li a {
+    display: block;
+    color: #fff;
+    padding: 8px 20px;
+    text-decoration: none;
+}
+
+.drop-down-wrapper .nav li a span {
+    display: inline-block;
+    margin-left: 5px;
+    font-size: 10px;
+    color: #999;
+}
+.skincare-wrapper{
+    position: relative;
+    background-color: #f6f4ee;
+    overflow: hidden;
+}
+.skincare-wrapper:after{
+    content: '';
+    background-image: url(../images/home/skin_bottom.webp);
+    position: absolute;
+    bottom: -70px;
+    left: 0px;
+    width: 26%;
+    height: 461px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.skin-care-heading {
+    padding-top: 152px;
+    padding-bottom: 60px;
+    position: relative;
+    z-index: 2;
+}
+.skin-care-paragraph {
+    padding-bottom: 60px;
+    position: relative;
+    z-index: 2;
+}
+.skin-care-paragraph p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #2d2e2f;
+}
+.skin-care-heading h2 {
+    font-size: 42px;
+    font-weight: 600;
+    color: #2d2e2f;
+    font-family: 'montserrat';
+}
+.skin-care-heading h2 i {
+    font-weight: 900;
+} 
+.skin-care-heading h2 span {
+    font-weight: 900;
+}
+.explore-btn a{
+    text-decoration: none;
+    color: #fff;
+    background: #2d2e2f;
+    padding: 13px 60px;
+    border-radius: 6px;
+    font-family: 'montserrat';
+    font-weight: 300;
+    font-size: 18px;
+}
+.explore-btn{
+    position: relative;
+    z-index: 2;
+}
+.formulate-img {
+    position: relative;
+    max-width: 300px;
+    left: 72%;
+    z-index: 2;
+    margin-top: -28%;
+}
+.skincare-wrapper .row ,.skincare-wrapper .col-md-5,.skincare-wrapper .col-md-7{
+    padding: 0px;
+}
+.skin-care-content{
+    position: relative;
+}
+.skincare-bullets .custom-container {
+    max-width: 1160px;
+    margin-left: auto;
+}
+.skincare-bullets .scrollable-bullets {
+    background-color: #f4efe2;
+    padding: 38px 0;
+}
+.women-img {
+    max-width: 700px;
+    position: relative;
+    top: -159px;
+    left: 60px;
+    z-index: 1;
+}
+.skincare-bullets .scrollable-bullets ul li span.dot-yellow {
+background-color: #f0c23a;
+}
+.skincare-bullets .scrollable-bullets ul li {
+    color: #2d2e2f;
+    font-weight: 400;
+}
+.drop-down-wrapper .nav li .dropdown-menu {
+    display: none;
+    position: absolute;
+    left: 0;
+    padding: 0;
+    margin: 0;
+    margin-top: 0px;
+    text-align: left;
+    width: 100%;
+    z-index: 99;
+    margin-top: -3px;
+}
+
+#brushes a{
+    background-color: #4597cb;
+    border-radius: 6px 6px 6px 6px;
+        font-size: 20px;
+        background-color: #4597cb;
+        text-align: center;
+        font-weight: 300;
+        font-family: 'Montserrat';
+    
+}
+#brushes #sub-menu a{
+    background-color: #6badd7!important;
+    font-size: 16px !important;
+    text-align: left;
+
+}
+li#brushes, li#oral, li#enamel-armour, li#highlighter {
+    margin-bottom: 15px;
+}
+#oral-microbiome a {
+    color: #000;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 300;
+    font-family: 'Montserrat';
+}
+#oral a{
+    background-color: #9e1e82;
+    border-radius: 6px 6px 6px 6px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 300;
+    font-family: 'Montserrat';
+}
+#oral #sub-menu a{
+    background-color: #ac4c97!important;
+    font-size: 16px !important;
+    text-align: left;
+
+}
+#sub-menu a.last-menu {
+    border-radius: 0px 0px 6px 6px;
+
+}
+#highlighter a{
+    background-color:#875aa3;
+    border-radius: 6px 6px 6px 6px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 300;
+    font-family: 'Montserrat';
+
+}
+#highlighter #sub-menu a{
+    background-color:#ab83c4!important;
+    font-size: 16px !important;
+    text-align: left;
+}
+#enamel-armour{
+    background: #002244;
+    border-radius: 6px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 300;
+    font-family: 'Montserrat';
+}
+#sub-menu a.first-menu{
+    border-radius: 0px;
+}
+#sub-menu a.first-menu {
+    border-radius: 0px;
+    border-bottom: 1px dashed;
+}
+.drop-down-wrapper .nav li .dropdown-menu.active {
+    display: block;
+}
+.scrollable-bullets {
+    background: #024;
+    padding-top: 2.2rem;
+    padding-bottom: 2.2rem;
+    text-align: center;
+}
+.scrollable-bullets ul li {
+    color: #fff;
+    font-family: 'Montserrat';
+    font-size: 26px;
+    text-transform: uppercase;
+    line-height: 1.4;
+    font-weight: 300;
+    align-items: center;
+    justify-content: center;
+}
+.scrollable-bullets ul li span.dot-yellow {
+    display: inline-flex;
+    width: 11px;
+    height: 11px;
+    border-radius: 11px;
+    background-color: #00bbb4;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+ul.bullets-slider-infinite.slick-initialized.slick-slider{
+    margin-bottom: 0px;
+}
+.review-section-wrapper .reviews-detail {
+    text-align: center;
+    padding-top: 65px;
+    margin-bottom: 60px;
+}
+.review-section-wrapper .reviews-detail h1 {
+    font-size: 48px;
+    color: #3d3f40;
+    font-family: 'montserrat';
+    font-weight: 800;
+}
+.review-section-wrapper .rating-stars {
+    margin-top: 0px;
+    margin-bottom: 4px;
+}
+.review-section-wrapper .d-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+.review-section-wrapper .reviews-detail p {
+    font-size: 24px;
+    font-family: 'montserrat' !important;
+    color: #3d3f40;
+    font-weight: 500;
+}
+.review-section-wrapper .reviews-wrapper {
+    display: flex;
+    align-items: center;
+}
+.review-section-wrapper .reviews-wrapper .review-box {
+    border: 1px solid #eee;
+    padding: 20px 20px;
+    margin: 0px 30px 0px 0px;
+    border-radius: 12px;
+}
+.review-section-wrapper .reviews-wrapper .review-box .review-img {
+    max-width: 90px;
+    margin-bottom: 20px;
+}
+.review-section-wrapper .reviews-wrapper .review-box .review-text p {
+    font-size: 14px;
+    color: #2d2e2f;
+}
+.review-section-wrapper .reviews-button {
+    text-align: center;
+    margin-top: 75px;
+    margin-bottom: 80px;
+}
+.verified-customer {
+    display: flex;
+}
+.verified-customer .name {
+    padding-left: 10px;
+}
+.verified-customer .name h2 {
+    font-size: 16px;
+    margin-bottom: -2px;
+    font-weight: 500;
+}
+.verified-customer .name p {
+    font-size: 12px;
+    margin-bottom: 0px;
+}
+.review-section-wrapper .justify-content-center {
+    -ms-flex-pack: center !important;
+    justify-content: center !important;
+}
+section.partnership-banner-bottom:before{
+    content: '';
+    background-image: url('../images/home/bootm_bg.jpg');
+    width: 100%;
+    height: 107%;
+    display: block;
+    position: absolute;
+    left: 0;
+    background-repeat: no-repeat;
+    top: 0;
+    background-size: contain;
+}
+section.partnership-banner-bottom {
+    overflow: hidden;
+}
+section.partnership-banner-bottom {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background: #2d2e2f;
+    position: relative;
+}
+section.partnership-banner-bottom .text-white{
+    color: #fff;
+    font-family: 'montserrat';
+    font-size: 16px;
+}
+.partnership-banner-bottom .image-circle {
+    position: relative;
+    top: 45px;
+    left: 135px;
+}
+.partnership-banner-bottom .image-circle img {
+    max-width: 65%;
+}
+h5.section-heading-partner {
+    font-size: 36px;
+    font-weight: 800;
+}
+.partnership-banner-bottom p.heading-bottom-text {
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 38px;
+    margin-top: -18px;
+    font-family: 'montserrat';
+}
+.product-skincare .text-white {
+    color: #fff;
+    font-size: 16px;
+}
+.sea-green-text {
+    color: #fa319e;
+}
+.weight-600 {
+    font-weight: 600;
+}
+.family-img {
+    position: absolute;
+    bottom: -120px;
+    z-index: 0;
+    left: -105px;
+}
+.partnership-banner-bottom p,.partnership-banner-bottom h5,.powerd-by-text,.our-people-promise {
+    position: relative;
+    z-index: 999;
+}
+.powerd-by-text {
+    padding-top: 10px;
+}
+.family-img img {
+    max-width: 115%;
+}
+.partnership-banner-bottom .powerd-by-text span {
+    font-size: 24px;
+    color: #fff;
+    font-style: normal;
+}
+.partnership-banner-bottom .our-people-promise {
+    width: auto;
+}
+.reviews-button .btn-primary-teal {
+    background: #3c97cb;
+    border-color: #3c97cb;
+    padding: 10px 60px;
+    letter-spacing: 0;
+    border-radius: 8px;
+}
+.partnership-banner-bottom .our-people-promise {
+    margin-top: 50px;
+}
+.our-people-promise button {
+    background: #3c97cb;
+    color: #fff;
+    border-color: #3c97cb;
+    border-radius: 10px;
+    padding: 9px 40px !important;
+    letter-spacing: 0;
+    font-size: 20px;
+}
+.blue-logo-wrapper {
+    padding: 25px 0px;
+    background-color: #f0f5f9;
+}
+.review-section-wrapper .reviews-wrapper .review-box .review-text p {
+    text-align: left;
+}
+.review-section-wrapper .reviews-wrapper .review-box {
+    margin: 0px 15px 0px 0px;
+}
+.blue-logo-wrapper .slick-slide img {
+    display: block;
+    max-height:40px;
+    width: auto;
+    padding: 0px 20px;
+}
+.home-section-two-start-logo .slick-slide img {
+    display: block;
+    max-height:40px;
+    width: auto;
+    padding: 0px 20px;
+}
+.desktop-hidden {
+    display: none;
+}
+.mobile-hidden {
+    display: block;
+}
+.mbl-women-img {
+    display: none;
+}
+@media screen and (max-width:1699px){
+    .skincare-wrapper:after {
+        left: -42px;
+        width: 31%;
+    }
+}
+@media screen and (max-width:1599px){
+    section.partnership-banner-bottom:before{
+        height: 100%;
+        left: -140px;
+    }
+    .partnership-banner-bottom p.heading-bottom-text{
+        font-size: 28px;
+    }
+    h5.section-heading-partner{
+        font-size: 28px;
+    }
+    .america-one-wrapper:before{
+        height: 456px;
+    }
+    .home-page-wrappper{
+        background-position: 85%;
+    }
+    .home-content-section-one p{
+        font-size: 32px;
+    }
+    .home-section-two-start-logo p{
+        font-size: 28px;
+    }
+    p.america-heading {
+        font-size: 38px;
+    }
+    .impression-images .box-in-img{
+        max-width: 49%;
+    z-index: 2;
+    left: -83px;
+    top: -81px;
+    }
+    .impression-images .women-img {
+        top: 85px;
+        left: -79px;
+    }
+    .impression-buttons{
+        padding-left: 80px;
+    }
+    .impression-heading {
+        padding-left: 80px;
+    }
+    p.america-paragraph{
+        font-size: 20px;
+    }
+    .blue-text h1{
+        margin-left: 84px;
+    }
+    .blue-text:before{
+        height: 131px;
+    }
+    .green-text p{
+        margin-left: 84px;
+    }
+    .circle-image:before{
+        left: -16%;
+    }
+}
+@media screen and (max-width:1499px){
+    .caripro-right-text h2{
+        font-size: 36px;
+    }
+    .caripro-right-text P {
+        font-size: 24px;
+    }
+    .whitening-tray-text p{
+        font-size: 28px;
+    }
+    .skincare-wrapper:after {
+        left: -42px;
+    width: 31%;
+    bottom: -115px;
+    }
+    .caripro-wrapper:before {
+        top: -47px;
+    }
+    .caripro-wrapper:after {
+        width: 39%;
+        bottom: -119px;
+    }
+    p.caripro-text {
+        font-size: 20px;
+    }
+    .brushes {
+        bottom: -518px;
+    }
+    .bottles {
+        top: 15px;
+    }
+    .scrollable-bullets ul li {
+        font-size: 20px;
+    }
+    .home-content-section-one p{
+        font-size: 32px;
+    }
+    .review-section-wrapper .reviews-detail p{
+        font-size: 22px;
+    }
+    .review-section-wrapper .reviews-detail p {
+        font-size: 42px;
+    }
+    .america-one-wrapper{
+        padding-bottom: 112px;
+    }
+    .impression-images .night-guard-sample-img {
+        top: 337px;
+        max-width: 200px;
+        left: -218px;
+    }
+    .blue-text h1 {
+        margin-left: -52px;
+    }
+    .green-text p {
+        margin-left: -52px;
+    }
+    .impression-images .box-in-img {
+        max-width: 55%;
+        left: -54px;
+        top: -68px;
+    }
+    .impression-heading,.impression-buttons{
+        padding-left: 0px;
+    }
+    .circle-image:before{
+        left: -21%;
+    }
+    .blue-text:before {
+        height: 130px;
+    }
+    .impression-images .women-img {
+        top: 87px;
+        left: -36px;
+    }
+    p.america-heading{
+        font-size: 36px;
+    }
+    p.america-paragraph {
+        font-size: 20px;
+    }
+    .teeth-whitening-trays .btn.btn-primary{
+        min-width: 244px;
+    }
+}
+
+@media screen and (max-width:1399px){
+    .circle-image:before{
+        top: -36px;
+        left: -19%;
+        width: 658px;
+        height: 680px;
+    }
+    .blue-text h1{
+        font-size: 38px;
+    }
+    .blue-text:before{
+        height: 131px;
+    }
+    .green-text p{
+        font-size: 18px;
+    }
+    .green-text:before{
+        left: -1025px;
+    }
+    .home-page-wrappper{
+        padding: 136px 0px 150px;
+    }
+}
+@media screen and (max-width:1299px){
+    .caripro-wrapper:after{
+        bottom: -130px;
+    }
+}
+@media screen and (max-width:1199px){
+    .whitening-tray-text p{
+        font-size: 20px;
+    }
+    .teeth-whitening-trays .btn.btn-primary{
+        min-width: 200px;
+        font-size: 14px;
+    }
+    p.america-heading{
+        font-size: 36px;
+    }
+    p.america-paragraph{
+        font-size: 20px;
+    }
+    .impression-heading h3{
+        font-size: 30px;
+    }
+    .impression-heading p{
+        font-size: 30px;
+    }
+    .impression-heading h2{
+        font-size: 32px;
+    }
+    .home-content-section-one p{
+        font-size: 32px;
+    }
+    .make-impression-wrapper{
+        padding: 1px 0 20px 30px;
+    }
+    .impression-images .box-in-img {
+        max-width: 56%;
+        left: -14px;
+        top: -29px;
+    }
+    .impression-images .women-img {
+        top: 98px;
+        left: 0px;
+    }
+    .impression-images .night-guard-sample-img{
+        top: 283px;
+    left: -108px;
+    max-width: 147px;
+    }
+    .america-one-wrapper{
+        padding-bottom: 45px;
+    }
+    
+}
+@media screen and (min-width: 1025px) and (max-width: 1199px) {
+    section.partnership-banner-bottom:before {
+        left: -212px;
+    }
+    .skin-care-heading h2{
+        font-size: 34px;
+    }
+    .skincare-wrapper:after{
+        bottom: -101px;
+        width: 38%;
+    }
+    .image-circle {
+        top: 70px;
+        left: 67px;
+    }
+    .caripro-wrapper:before{
+        top: -95px;
+    }
+    .formulate-img {
+        left: 90%;  
+        margin-top: -33%;
+    }
+    .scrollable-bullets ul li {
+        font-size: 20px;
+    }
+    .bottles{
+        max-width: 260px;
+        left: 63px;
+        top: 75px;
+   
+    }
+    .vitals{
+        font-size: 172px;
+        bottom: -671px;
+    }
+    .brushes {
+        bottom: -480px;
+    }
+    .caripro-wrapper:after{
+        width: 62%;
+    height: 490px;
+    left: -279px;
+    }
+    .caripro-top-logo {
+        padding-bottom: 62px;
+    }
+    .drop-down-wrapper{
+        padding-top: 55px;
+    }
+    .caripro-right-text P{
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .caripro-right-text h2 {
+        font-size: 28px;
+    }
+    p.caripro-text{
+        font-size: 18px;
+    }
+    .review-section-wrapper .reviews-detail h1{
+        font-size: 36px;
+    }
+    .review-section-wrapper .reviews-detail p{
+        font-size: 20px;
+    }
+    .partnership-banner-bottom p.heading-bottom-text{
+        font-size: 22px !important;
+    }
+    h5.section-heading-partner{
+        font-size: 24px;
+    }
+    section.partnership-banner-bottom .text-white {
+        font-size: 14px;
+    }
+}
+@media screen and (min-width: 1200px) and (max-width: 1399px) {
+    section.partnership-banner-bottom:before {
+        left: -150px;
+    }
+    h5.section-heading-partner{
+        font-size: 28px;
+    }
+    .partnership-banner-bottom p.heading-bottom-text{
+        font-size: 28px !important;
+    }
+    section.partnership-banner-bottom p.text-white{
+        font-size: 14px;
+    }
+}
+@media screen and  (min-width: 1600px) and (max-width: 1799px) {
+    section.partnership-banner-bottom:before {
+        left: -111px;
+    }
+}
+@media screen and (min-width: 2000px) and (max-width: 2299px) {
+    section.partnership-banner-bottom:before {
+        height: 122%;
+        background-size: contain;
+    }
+}
+@media screen and (min-width: 2400px) and (max-width: 2550px) {
+    section.partnership-banner-bottom:before {
+        width: 100%;
+        height: 137%;
+        background-size: contain;
+    }
+    .partnership-banner-bottom .image-circle {
+        left: 10px !important;
+    }
+    .skincare-wrapper:after {
+        bottom: -221px;
+        width: 40%;
+        height: 735px;
+    }
+}
+@media (min-width: 2551px) and (max-width: 2899px) {
+    .section.partnership-banner-bottom:before {
+        width: 100%;
+        height: 148%;
+        background-size: contain;
+    }
+    .partnership-banner-bottom .image-circle {
+        left: -177px !important;
+    }
+    .partnership-banner-bottom .image-circle img {
+        max-width: 85%;
+    }
+    .skincare-wrapper:after {
+        bottom: -221px;
+        width: 40%;
+        height: 735px;
+    }
+}
+@media (min-width: 768px) {
+    .col-sm-6 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+@media screen and (min-width: 1400px) and (max-width: 1599px) {
+    .blue-text h1{
+        font-size: 38px;
+     
+    }
+    .green-text p{
+        font-size: 18px;
+
+    }
+    .blue-text:before {
+        height: 130px;
+        left: -1060px;
+    }
+    .green-text:before{
+        left: -1100px;
+    }
+    .caripro-wrapper:after{
+        bottom: -122px;
+    }
+}
+@media screen and (min-width: 1200px) and (max-width: 1399px) {
+    .home-content-section-one p{
+        font-size: 28px;
+    }
+}
+
+@media screen and (min-width:1600px) and (max-width:1766px){
+    .circle-image:before{
+        left: -12%;
+    }
+}
+
+@media screen and (max-width:1024px){
+    .home-page-wrappper {
+        background-position: 50%;
+    }
+    ul.slick-dots {
+        display: none !important;
+    }
+    p.america-paragraph {
+        font-size: 26px;
+    }
+    p.america-heading {
+        font-size: 44px;
+    }
+    .teeth-whitening-trays {
+        display: none;
+    }
+    .impression-images .box-in-img {
+        max-width: 26%;
+        left: 58%;
+        top: -306px;
+    }
+    .impression-images .women-img {
+        top: -225px;
+        left: 348px;
+    }
+    .impression-images .women-img img {
+        max-width: 130%;
+    }
+    .impression-images .night-guard-sample-img {
+        top: -38px;
+        left: 38%;
+        max-width: 147px;
+    }
+    .skincare-wrapper .col-md-5{
+        flex: 0 0 41%;
+        max-width: 41%;
+    }
+    .caripro-wrapper .col-md-6 {
+        max-width: 50%;
+    }
+    .caripro-right-text{
+        padding-left: 0;
+    }
+    .caripro-right-text h2 {
+        font-size: 27px;
+    }
+    .caripro-right-text P {
+        font-size: 24px;
+    }
+    .caripro-right-text P br{
+       display: none;
+    }
+    .bottles {
+        max-width: 270px;
+        left: 25px;
+    }
+    .brushes {
+        bottom: -340px;
+    }
+    .skin-care-paragraph p {
+        padding-left: 30px;
+    }
+    .skin-care-paragraph p br {
+        display: none;
+    }
+    .formulate-img {
+        left: 115%;
+        margin-top: -65%;
+    }
+    .explore-btn {
+        padding-left: 30px;
+    }
+    .caripro-wrapper:after {
+        left: -220px;
+        bottom: -120px;
+        width: 80%;
+    }
+    #oral-microbiome a {
+        font-size: 19px;
+    }
+    .content-section {
+        padding-left: 20px;
+    }
+    .skin-care-heading {
+        padding-top: 125px;
+    }
+    .skin-care-heading h2 {
+        padding-left: 30px;
+        font-size: 22px;
+    }
+    .skincare-wrapper .col-md-7{
+        flex: 0 0 59%;
+        max-width: 59%;
+    }
+    .circle-image:before {
+        top: 0px;
+        left: -25%;
+        width: 550px;
+        height: 550px;
+    }
+    .blue-text h1 {
+        margin-left: 0px;
+    }
+    .green-text p {
+        margin-left: 0px;
+    }
+    .caripro-wrapper:before {
+        top: -145px;
+        width: 58%;
+    }
+    .skincare-wrapper:after {
+        left: -115px;
+        width: 50%;
+    }
+    section.partnership-banner-bottom:before {
+        height: 100%;
+        left: -450px;
+    }
+    .review-section-wrapper .reviews-detail h1 {
+        font-size: 36px;
+
+    }
+    .review-section-wrapper .reviews-detail p {
+        font-size: 22px;
+    }
+}
+@media screen and (min-width:992px) and (max-width:1024px){
+    .formulate-img {
+        left: 92%;
+        margin-top: -35%;
+    }
+}
+@media screen and (min-width:768px) and (max-width:992px){
+    section.partnership-banner-bottom:before {
+        height: 100%;
+        left: -354px;
+    }
+    .partnership-banner-bottom p.heading-bottom-text {
+        font-size: 22px;
+    }
+    .partnership-banner-bottom p.heading-bottom-text br{
+        display: none;
+    }
+    section.partnership-banner-bottom .text-white {
+        font-size: 14px;
+    }
+    p.text-white.heading-bottom-text.mobile-hidden {
+        font-size: 22px;
+        line-height: 32px;
+    }
+    .our-people-promise button {
+        font-size: 18px;
+    }
+
+}
+@media screen and (max-width:767px){
+    .skincare-wrapper .col-md-5{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .caripro-wrapper .col-md-6  {
+        max-width: 100%;
+        flex: 0 0 100%;
+
+    }
+    .explore-btn {
+        padding-left: 0px;
+    }
+    .home-page-wrappper {
+        background-image:none
+    }
+    .skincare-wrapper .col-md-7{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .mobile-hidden {
+        display: none;
+    }
+    .desktop-hidden{
+        display: block;
+    }
+    .america-heading-wrapper{
+        padding: 52px 0 60px;
+    }
+    .america-one-wrapper:before {
+        width: 74%;
+        top: -310px !important;
+        transform: rotate(313deg);
+        left: -5% !important;
+        background-size: 100%;
+    }
+    .make-impression-wrapper {
+        padding: 1px 0 20px 0px;
+    }
+    .impression-buttons .btn.btn-primary {
+        font-size: 18px;
+        padding: 10.2px 12px !important;
+    }
+    .impression-buttons {
+        max-width: 80%;
+        padding-top: 0px;
+        margin: 0px auto;
+        position: relative;
+        z-index: 4;
+    }
+    .desktop-hidden.puple-image {
+        position: absolute;
+        bottom: -331px;
+        left: -130px;
+        z-index: 2;
+        max-width: 100%;
+    }
+    .scrollable-bullets {
+        position: relative;
+        z-index: 2;
+    }
+    .caripro-top-logo {
+        position: relative;
+        z-index: 2;
+        padding-top: 50px;
+        padding-bottom: 20px;
+    }
+    .caripro-top-logo img {
+        max-width: 145px;
+    }
+    p.caripro-text {
+        display: none;
+    }
+    #oral-microbiome a {
+        display: none;
+    }
+    #enamel-armour {
+        font-size: 18px;
+    }
+    .vitals {
+        font-size: 133px;
+        bottom: -630px;
+        left: 118px;
+    }
+    .caripro-right-text {
+        z-index: 9;
+    }
+    .family-img {
+        position: absolute;
+        bottom: -120px;
+        z-index: 0;
+        left: -60px;
+    }
+    .caripro-wrapper:after {
+        width: 100%;
+        height: 562px;
+        background-position: center;
+    background-size: cover;
+    bottom: -136px;
+    left: 0px;
+    }
+    .family-img img {
+        max-width: 100%;
+    }
+    .skincare-bullets.desktop-hidden {
+        padding-top: 8px;
+    }
+    .women-img {
+        max-width: 120%;
+        top: -137px;
+        left: -19px;
+    }
+    .skin-care-heading {
+        padding-top: 0px;
+        margin-top: -105px;
+    }
+    .skincare-wrapper {
+        padding-bottom: 50px;
+    }
+    .skincare-wrapper:after {
+        left: 0px;
+        width: 100%;
+        bottom: -143px;
+        height: 639px;
+        background-position: center;
+        background-size: cover;
+    }
+    .skin-care-paragraph p {
+        padding: 0px 20px;
+        font-size: 14px;
+        font-weight: 600;
+    }
+    .skin-care-paragraph {
+        padding-bottom: 25px;
+    }
+    .skin-care-paragraph p br {
+        display: none;
+    }
+    section.partnership-banner-bottom:before {
+        transform: rotate(45deg);
+        width: 100%;
+        height: 90%;
+        top: -30%;
+    background-size: cover;
+    left: -277px;
+    }
+    section.partnership-banner-bottom .text-white {
+        font-size: 14px;
+    }
+    .partnership-banner-bottom p, .partnership-banner-bottom h5, .powerd-by-text, .our-people-promise {
+        z-index: 9;
+    }
+    .poweredby-section .powerd-by-text {
+        display: none
+    }
+    .partnership-banner-bottom .image-circle {
+        left: 0px;
+        top: -40px;
+    }
+    h5.section-heading-partner {
+        font-size: 24px;
+    }
+    .review-section-wrapper .reviews-detail {
+        padding-top: 40px;
+    }
+    .reviews-detail .rating-stars {
+        max-width: 105px;
+        margin: 0px auto;
+        margin-bottom: 5px;
+    }
+    .review-section-wrapper .reviews-detail p {
+        font-size: 13px;
+    }
+    .review-section-wrapper .reviews-detail h1 {
+        font-size: 18px;
+    }
+    .formulate-img {
+        position: relative;
+        max-width: 300px;
+        left: 8%;
+        z-index: 2;
+        margin-top: -14%;
+    }
+    .skin-care-heading h2 {
+        font-size: 28px;
+        padding-left: 0px;
+    }
+    .women-img img {
+        max-width: 110%;
+    }
+    .skincare-bullets .scrollable-bullets {
+        padding: 20px 0px;
+    }
+    .drop-down-wrapper {
+        margin: 0px auto;
+    }
+    .brushes {
+        bottom: -280px;
+    }
+    .drop-down-wrapper .nav .button-dropdown  a {
+        font-size: 18px !important;
+    }
+    .impression-images .women-img {
+        top: -280px;
+        right: -48px !important;
+        left: unset;
+    }
+    .caripro-right-text {
+        position: relative;
+        z-index: 99;
+        padding: 0px 20px;
+        padding-top: 34px;
+    }
+    .caripro-right-text P {
+        padding-top: 5px;
+        font-family: 'montserrat';
+        font-weight: 600;
+        line-height: 20px;
+        color: #002244;
+    }
+    .bottles {
+        max-width: 210px;
+        left: 60px;
+        top: -10px;
+    }
+    .caripro-right-text h2 {
+        line-height: 42px;
+        font-size: 36px;
+    }
+    .drop-down-wrapper {
+        padding-top: 105px;
+    }
+    .caripro-right-text P {
+        font-size: 13px;
+    }
+    .caripro-right-text P  br {
+        display: none;
+    }
+    .caripro-wrapper:before {
+        top: -135px;
+        transform: rotate(327deg);
+        width: 75%;
+        right: -8px;
+        height: 500px;
+        background-size: 100%;
+    }
+    .america-one-wrapper:after {
+        background-image:none
+    }
+    .impression-images .women-img img {
+        max-width: 120%;
+    }
+    p.america-heading {
+        font-size: 25px;
+        padding-top: 100px;
+        line-height: 30px;
+    }
+    .impression-buttons .btn.btn-primary {
+        min-width: 100%;
+    }
+    .scrollable-bullets {
+        padding-top: 1.4rem;
+    padding-bottom: 1.4rem;
+    }
+    .america-heading-wrapper{
+        z-index: 2;
+    }
+    .caripro-wrapper {
+        padding-top: 8px;
+    }
+    .teeth-whitening-trays {
+        display: none;
+    }
+    p.america-paragraph {
+        font-size: 14px;
+        padding: 0px 20px;
+        padding-top: 15px;
+        font-weight: 500;
+    }
+    .circle-image:before {
+        top: 0px;
+        left: -60%;
+        width: 545px;
+        height: 545px;
+    }
+    .blue-text h1 {
+        font-size: 29px;
+    }
+    .blue-text h1 {
+        margin-left: 10px;
+        text-align: left;
+    }
+    .home-page-wrappper {
+        background-position: 53%;
+    }
+    .green-text p {
+        text-align: left;
+        border-radius: 35px;
+    }
+    .home-content-section-one p {
+        font-size: 22px;
+        line-height: 26px;
+    }
+    .home-section-two-start-logo p {
+        font-size: 15px;
+        padding-top: 5px;
+    }
+    .home-section-two-start-logo .rating-stars {
+        max-width: 145px;
+        margin: 0px auto;
+    }
+    .blue-text:before {
+        height: 110px;
+    }
+    .home-section-two-start-logo {
+        padding: 30px 0 20px;
+    }
+    .impression-images-mobile .box-in-img{
+        max-width: 71%;
+        position: relative;
+        margin: 0px auto;
+        left: -20px;
+    }
+    .impression-images-mobile .night-guard-sample-img {
+        position: absolute;
+        right: 30px;
+        max-width: 200px;
+        margin: 0px auto;
+        margin-top: -96px;
+    }
+    .impression-heading h2 {
+        font-size: 28px;
+    }
+    .impression-heading p {
+        font-size: 27px;
+    }
+    .impression-heading h3 {
+        font-size: 26px;
+    }
+    .mbl-women-img {
+        display: block;
+    }
+    .review-section-wrapper .reviews-button {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .circle-image:before {
+        top: 6px;
+        left: -62%;
+        width: 480px;
+        height: 500px;
+    }
+    .mbl-women-img {
+        position: absolute;
+        right: -432px;
+        top: -105px;
+        z-index: -1;
+    }
+    .home-page-wrappper {
+        padding: 103px 0px 90px;
+    }
+    .green-text p {
+        margin-left: -52px;
+    }
+}
+@media screen and (max-width:430px){
+    .circle-image:before {
+        top: -35px;
+        left: -74%;
+        width: 545px;
+        height: 507px;
+    }
+    p.america-heading {
+        font-size: 26px;
+    }
+    .america-one-wrapper:before {
+        top: -310px !important;
+    }
+    .desktop-hidden.puple-image {
+        bottom: -382px;
+        left: -165px;
+    }
+    a.dropdown-toggle:after{
+        top: 12px;
+    }
+    .green-text p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .green-text{
+        padding-left: 10px;
+    }
+    .green-text:before {
+        height: 122px;
+    }
+}
+
+@media screen and (max-width:400px){
+    .home-content-section-one p {
+        font-size: 20px;
+    }
+    p.america-heading{
+        font-size: 23px;
+    }
+    .home-section-two-start-logo p {
+        font-size: 14px;
+    }
+    .home-section-two-start-logo .rating-stars {
+        max-width: 120px;
+    }
+
+    .blue-text h1 {
+        font-size: 26px;
+    }
+    .green-text{
+        padding-left:12px ;
+    }
+    .blue-text:before {
+        height: 102px;
+    }
+
+    .green-text:before {
+        height:103px
+    }
+    .green-text p {
+        font-size: 14px;
+        padding: 20px 50px 20px 0;
+        line-height: 21px;
+    }
+    .america-one-wrapper:before {
+        top: -290px !important;
+    }
+    .desktop-hidden.puple-image {
+        bottom: -321px;
+        left: -147px;
+
+    }
+    .circle-image:before {
+        top: -53px;
+        left: -89%;
+        width: 531px;
+        height: 531px;
+    }
+    .mbl-women-img {
+        position: absolute;
+        right: -432px;
+        top: -118px;
+        z-index: -1;
+    }
+   
+}

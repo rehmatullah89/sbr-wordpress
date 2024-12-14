@@ -1,0 +1,3137 @@
+/*media query for larger screens*/
+.woocommerce-checkout .payment_box.payment_method_authorize_net_cim_credit_card p.form-row.form-row-wide {
+    width: 100%;
+    margin-top: 12px;
+}
+
+.subscribe-newsletter{ padding-left: 35px; padding-right: 35px; }
+td.bdy-txt br {
+    display: none;
+}
+.table-max333 table.table-cnt {
+    max-width: 333px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.product-selection-table-wrap table {
+    margin: 0;
+}
+
+.product-selection-table-wrap .row.row-divided {
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+aside.socials.page-social-icon {
+    text-align: center;
+}
+
+aside.socials.page-social-icon a.social.youtube-play.menu-social i{
+          font: normal normal normal 40px/1 FontAwesome;
+}
+aside.socials.page-social-icon a {
+    font-size: 36px;
+    display: inline-block;
+    padding-left: 5px;
+    padding-right: 6px;
+    color: #828383;
+}
+
+.the-process-content-text{color: #565759;}
+
+body:not(.home)  header#sbr-header{ background: #fff; }
+body.postid-427577  header#sbr-header
+,.body-dental-probiotics-adults header#sbr-header,.body-dental-probiotics-kids header#sbr-header
+{background-color: transparent!important; border-bottom: 0px solid rgba(255, 255, 255, 0.25)!important; background: none !important;}
+body.postid-427577  header#sbr-header.opaque
+,.body-dental-probiotics-adults header#sbr-header.opaque,.body-dental-probiotics-kids header#sbr-header.opaque
+{border-bottom: 1px solid rgba(0, 0, 0, 0.1)!important;
+    background: #ffffff !important;
+}
+
+.water-flosser-three-reasons  .vc_single_image-wrapper img {
+    margin: auto;
+    max-width: 80%;
+}
+
+.product-water-flosser .section-header-content-grey-large {
+    font-size: 22px;
+    max-width: 66.66667%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;color: #565759;
+}
+
+
+
+.water-flosser-page-bottom-sec table {
+    background-color: transparent;
+}
+.water-flosser-page-bottom-sec table {
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+#whats-included-section  td.whats-included-text-cell {
+    text-align: left;
+    font-size: 16px;
+}
+#whats-included-section table b {
+    color: #000;    font-weight: 600;font-size: 16px;
+}
+#whats-included-section table tbody{border: 0px solid #f1f1f1;}
+#whats-included-section table p:empty{ display: none; }
+#whats-included-section table tbody tr:nth-child(even){background: none;}
+#whats-included-section table p{ margin: 0; }
+
+
+#technical-specs-wrap {
+    color: #fff;
+    text-align: center;
+    height: 0;
+    overflow: hidden;
+    margin-top: 0;
+    transition: all linear .4s;
+    max-width: 1200px !important;
+}
+#technical-specs-wrap.visible {
+    height: auto;
+    overflow: visible;margin-top: 20px;
+
+}
+.product-water-flosser .see-full-technical-specification-cont .see-full-technical-specification
+,.product-electric-toothbrush .see-full-technical-specification-cont .see-full-technical-specification
+{text-align: center;}
+.water-flosser-page-bottom-sec .col-lg-10.text-center ul li {
+font-size: 16px;
+}
+
+.product-water-flosser .electric-toothbrush-mbt.large-logoes-mbt .logos-strip .logo.logo3 img{max-height: initial;     width: auto;height: auto;}
+.product-water-flosser .electric-toothbrush-mbt.large-logoes-mbt .logos-strip .logo.logo6 img {
+    max-width: 172px;
+}
+.width-container{ max-width: 660px; margin-left: auto; margin-right: auto; }
+
+.style-container .section-header-content-blue {
+    text-align: center;
+}
+.avg-price{font-weight: 400;}
+#technical-specs-wrap table{margin-bottom: 0.5rem;}
+.product-night-guards .year-wrannanty-container h3 {font-size: 34px;}
+
+.page-template-page-templates .articles-page .col-md-10{max-width: 1183px;}
+section.articles-page .post-title a:hover{color: #f8a18a;}
+.home .smile-fearlessly-mbt .drop-down-home-nav a.btn{     letter-spacing: 0.04em;
+
+    font-weight: 400;
+}
+.home .water-flosser-dropdown .caret{    color: #fff;}
+.body-dental-probiotics-adults #product-image-section .product-header-sub .caripro-top .tm-symbal {
+
+    top: 0px;
+}
+
+.body-dental-probiotics-adults .tm-align-top .with-caripro-dental span.tm-symbal{
+    position: relative;
+    top: -20px;
+    font-size: 30px;    
+}
+
+.woocommerce-checkout.woocommerce-page .woocommerce-invalid input[type="text"],.woocommerce-checkout.woocommerce-page .woocommerce-invalid input[type="password"],.woocommerce-checkout.woocommerce-page .woocommerce-invalid input[type="date"],.woocommerce-checkout.woocommerce-page .woocommerce-invalid input[type="datetime"],.woocommerce-checkout.woocommerce-page .woocommerce-invalid input[type="email"],.woocommerce-checkout.woocommerce-page .woocommerce-invalid input[type="number"],.woocommerce-checkout.woocommerce-page .woocommerce-invalid input[type="search"],.woocommerce-checkout.woocommerce-page .woocommerce-invalid input[type="tel"],.woocommerce-checkout.woocommerce-page .woocommerce-invalid input[type="time"],.woocommerce-checkout.woocommerce-page .woocommerce-invalid input[type="url"],.woocommerce-checkout.woocommerce-page .woocommerce-invalid textarea{
+    border-color: red !important; 
+}
+
+.js-product-electric-toothbrush  .geha-replacement-brush-heads {
+    max-width: 560px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7rem;
+    border: 1px solid #cbcbcc;
+    padding: 15px;
+    text-align: center;
+    line-height: 1.4;
+}
+
+/******for mac firefox***/
+@supports (-moz-osx-font-smoothing: auto) {
+    /* .the-process-content-text,.table-cnt td.bdy-txt{
+        font-weight: 600;
+    }
+    .product-teeth-whitening-trays .the-process-title.the-process-title-1 span,.product-teeth-whitening-trays  .the-process-title.the-process-title-2 span,.product-teeth-whitening-trays  .the-process-title.the-process-title-3 span{
+        font-weight: 700 !important;
+    }
+    .product-teeth-whitening-trays .avg-price{font-weight: 600;}    
+    .product-teeth-whitening-trays .mnts-lt span{font-weight: 600;}
+    .product-teeth-whitening-gel .product-selection-description b
+    ,.product-sensitive-teeth-gel .teeth-whitening-gel-mbt .product-selection-description b,
+    .product-electric-toothbrush .product-selection-title
+    {font-weight: 600;}
+    .postid-427576 .product-selection-description{color: #565759;}
+    .postid-427577 .the-process-content-text{font-weight: 600;}
+    .postid-427577 .faq-section .textwidget h2{font-weight: 500;}
+    .postid-427577 .faq-section .textwidget h4{font-weight: 600;} */
+
+}
+
+/*firefox only*/
+@-moz-document url-prefix() {
+
+}
+
+
+
+
+
+@media  (max-width: 830px){
+    .product-block-white-box{border: solid transparent 1px;}
+}
+@media (min-width: 768px) and (max-width: 1200px){
+
+    .product-block-white-box {
+        width: 86%;
+        height: 86%;
+        margin: 7% auto;
+    }
+    .home-page-product-block-whitening-refill-buttons{     flex-direction: column; }
+    .home-page-product-block-whitening-refill-buttons .btn{    display: inline-block;}
+
+}
+
+
+
+@media (max-width: 1100px) and (min-width: 768px){
+   #product-selection-standard .product-selection-title{
+        font-size: 17px;
+} 
+
+}
+
+@media (min-width: 1px){
+
+.the-process-container-mbt .box-one-mbt .vc_single_image-wrapper img {
+
+}
+.the-process-container-mbt .box-tow-mbt .vc_single_image-wrapper img{
+/*    max-width: 185px;
+    max-height: 222px;*/
+    margin-top: 10px;
+}
+.the-process-container-mbt .box-three-mbt .vc_single_image-wrapper img {
+/*    max-width: 250px;
+    max-height: 118px;*/
+   
+}
+.reasons-caripro-section .box-two-mbt img {max-width: 70%;}
+.reasons-caripro-section .box-three-mbt img {
+    margin: auto;
+    max-width: 80%;
+}
+
+
+#the-process-image-1 img {
+    max-width: 300px;
+    max-height: 231px;
+}
+
+#the-process-image-2 img {
+    max-width: 185px;
+    max-height: 222px;
+    margin-top: 10px;
+}
+
+#the-process-image-3 img {
+    max-width: 250px;
+    max-height: 118px;
+
+}
+.tray-creation-process-container #the-process-image-1 img{
+max-width: 200px;
+    max-height: 192px;
+}
+
+.product-electric-toothbrush #the-reasons-image-1 img {
+    height: 110px;
+}
+.product-electric-toothbrush  #the-reasons-image-2 img {
+max-width: 70%;
+}
+.product-electric-toothbrush  #the-reasons-image-3 img {
+    margin: auto;
+    max-width: 80%;
+}
+
+
+.water-flosser-three-reasons  #the-reasons-image-2 img {
+    max-width: 70%;
+    max-width: 280px;
+}
+.water-flosser-three-reasons  div#the-reasons-image-3 img {
+    max-width: 272px;
+}
+.woocommerce-lost-password .post-content.no-vc{
+    margin-top: 10px;
+}
+
+
+}
+
+@media (min-width: 768px) {
+    button#place_order_mobile,.wfacp-payment-dec.mobileNotificationMbt{ display:none}
+    .wfacp-payment-dec.mobileNotificationMbt {
+        margin-left: -15px;
+        width: 100%;
+        background-color: #f8f8f8;
+        padding: 10px;
+        font-size: 14px;
+    }
+    .page-id-191 #wrapper div[role="main"]{
+        overflow: initial;
+    }
+     .page-id-191   #checkoutCartParent{
+        position: sticky;
+        position: -webkit-sticky;
+        top: 38px;
+        align-self: flex-start;
+    }
+
+    #gehaBrushHeadPromoModal  .modal-body .scroll-able-div{
+        max-height: 800px;
+        overflow-x: auto;
+    }
+    #gehaBrushHeadPromoModal  .modal-body .scroll-able-div::-webkit-scrollbar {
+        width: 8px;
+    }
+
+    #gehaBrushHeadPromoModal  .modal-body .scroll-able-div::-webkit-scrollbar-track {
+        background-color: #ebebeb;
+        -webkit-border-radius: 5px;
+        border-radius: 5px;
+    }
+    
+    #gehaBrushHeadPromoModal  .modal-body .scroll-able-div::-webkit-scrollbar-thumb {
+        -webkit-border-radius: 5px;
+        border-radius: 10px;
+        background: #616161; 
+    }
+    #gehaBrushHeadPromoModal   .modal-body{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    #gehaBrushHeadPromoModal  .modal-body .scroll-able-div{
+        padding-left: 15px;
+        padding-right: 15px; 
+    }
+    .hidden-desktop {
+        display: none;
+    }
+
+.container {
+    width: 750px;
+}
+.the-process-container-mbt .box-one-mbt .vc_single_image-wrapper img {
+
+}
+.the-process-container-mbt .box-tow-mbt .vc_single_image-wrapper img{
+/*    width: 135px;
+    height: 162px;*/
+    margin-top: 0px;
+}
+.the-process-container-mbt .box-three-mbt .vc_single_image-wrapper img {
+/*    width: 170px;
+    height: 80px;*/
+}
+.sbr-header-mbt .navbar-expand-lg {
+    max-width: 750px;
+}
+
+.sbr-header-mbt .navbar-nav > li {
+    margin-right: 20px;
+}
+.sbr-header-mbt .navbar-nav > li > a {
+    font-size: 10px;
+}
+.secondary-area #quick_cart:before{
+        font: normal normal normal 14px/1 FontAwesome;
+}
+header .user-login a{
+    font-size: 14px;
+}
+.product-selection-image-wrap {
+    min-height: 150px;
+}
+.reasons-caripro-section .box-one-mbt img {height: 80px;}
+
+
+    #causes-tooth-sensitivity-wrap
+        {
+            padding-right:0px;
+            text-align:right;
+            height:460px;
+        }
+            #causes-tooth-sensitivity-wrap img
+            {
+                max-width:630px;
+            }
+            #graphic-causes-teeth-sensitivity-mobile
+            {
+                display:none;
+            }
+            #graphic-causes-teeth-sensitivity-desktop
+            {
+                display:inline;
+            }
+            #causes-text-wrap
+            {
+                display:block;
+            }
+
+                .graphic-text-header
+                {
+                    text-align:left;
+                    font-family:Montserrat;
+                    font-weight:bold;
+                    font-size:18px;
+                    line-height:1.0em;
+                    color:#b8b8dc;
+
+                }
+                .graphic-text-main
+                {
+                    font-size:1em;
+                    text-align:left;
+                    padding-top:5px;
+                }
+
+                #micro-fractures-text
+                {
+                    width:300px;
+                    height:150px;
+                    margin-top:-380px;
+                    margin-left:40px;
+                    text-align:left;
+                }
+                #thin-enamel-text
+                {
+                    width:300px;
+                    height:150px;
+                    margin-top:0px;
+                    margin-left:60px;
+                    text-align:left;
+                }
+                #tooth-dehydration-text
+                {
+                    width:300px;
+                    height:150px;
+                    margin-top:-20px;
+                    margin-left:150px;
+                    text-align:left;
+                }
+
+
+.tray-creation-process-container #the-process-image-1 img{
+        width: 135px;
+    height: 129px;
+
+}
+
+#the-process-image-1 img {
+    width: 200px;
+    height: 154px;
+}
+
+
+#the-process-image-2 img {
+    width: 135px;
+    height: 162px;
+    margin-top: 0px;
+}
+
+
+#the-process-image-3 img {
+    width: 170px;
+    height: 80px;
+
+}
+.col-md-3.product-selection-price-wrap {
+    padding-bottom: 29px;
+}
+
+
+#percent-guarantee-image-wrap img {
+/*    width: 90px;
+    height: 90px;*/
+}
+#vegan-image-wrap img {
+    width: 75px;
+    height: 84px;
+}
+#easy-to-use-image-1 img {
+    width: 34px;
+    height: 200px;
+    margin-top: 10px;
+}
+#easy-to-use-image-2 img {
+    width: 179px;
+    height: 130px;
+    margin-top: 70px;
+}
+#easy-to-use-image-3 img {
+    width: 140px;
+    height: 140px;
+    margin-top: 60px;
+}
+
+
+.choose-your-package-product-option .col-md-4,.inner-col-adjust .col-md-4{
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;    
+}
+
+.choose-your-package-product-option .product-selection-image-wrap img {
+    width: 34px;
+    height: 60px;
+    vertical-align: baseline;
+    margin-right: -5px;
+}
+.teeth-whitening-gel-mbt .product-selection-image-wrap span {
+    font-size: 74px;
+    line-height: 74px;
+}
+
+.whats-included-image-cell img {
+    max-width: 120px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.desensitizing-gel-multiple-sec .box-one-mbt .vc_single_image-wrapper img{
+    width: 34px;
+    height: 200px;
+}
+
+.desensitizing-gel-multiple-sec .box-two-mbt .vc_single_image-wrapper img{
+width: 179px;
+    height: 130px;
+}
+
+.desensitizing-gel-multiple-sec .box-three-mbt .vc_single_image-wrapper img{
+    width: 140px;
+    height: 140px;
+}
+
+
+
+
+    .product-electric-toothbrush .logo2 img {
+        max-width: 130px;
+    }
+    .product-electric-toothbrush .logos-strip .logo3 img {
+        max-height: 60px;
+    }
+    .product-electric-toothbrush .logos-strip .logo4  img {
+        max-width: 130px;
+    }
+    .product-electric-toothbrush .logos-strip .logo6 img {
+        max-width: 100px;
+    }
+
+.product-night-guards .page-background-banner{    background-position: -590px 200px;     background-color: #f3f3f8; background-repeat: no-repeat;}
+
+.product-night-guards #process-1 img {
+    margin: auto;
+    max-width: 80%;
+}
+.product-night-guards #process-2 img {
+    margin: 0 auto;
+    height: 160px;
+}
+.product-night-guards  #process-3 img {
+    margin: 0 auto;
+    height: 150px;    max-width: 80%;
+}
+
+.articles-page .col-md-10 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.articles-page .col-md-3{
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;    
+}
+
+#best-brush-heading {
+    color: #555759;
+    font-size: 2.4em;
+    font-family: "Montserrat";
+    font-weight: bold;
+    margin-top: 120px;
+    line-height: 1.0em;
+    text-shadow: 1px 0px 9px #ffffff69;
+}
+
+
+#best-brush-heading {
+    text-align: center;    text-shadow: 1px 0px 9px #ffffff69;
+}
+.product-water-flosser #best-brush-section{background-position: -500px top;}
+
+
+#whats-included-section .whats-included-image-cell-mbt {
+    margin-bottom: 20px;
+}
+.whats-included-left-column td.whats-included-image-cell-mbt {
+    padding-right: 40px;
+}
+
+#whats-included-section table ul {
+    margin-top: 0;
+    margin-bottom: 40px;
+    padding-left: 20px;
+}
+
+
+.product-teeth-whitening-gel .cnt-custom-height img {
+    width: 90px;
+    height: 90px;
+}
+.product-teeth-whitening-gel #vegan-image-wrap img {
+    width: 75px;
+    height: 84px;
+}
+
+.product-sensitive-teeth-gel #vegan-image-wrap img {width: 75px;height: 84px;}
+
+.product-sensitive-teeth-gel  .product-selection-image-wrap {
+    min-height: 150px;
+}
+
+.product-sensitive-teeth-gel  .graphic-text-main {
+    font-size: 14px;
+}
+
+.product-sensitive-teeth-gel   .the-process-container-mbt {
+    padding-top: 57px;
+}
+.product-sensitive-teeth-gel   .the-process-container-mbt h2{
+    line-height: 1;
+}
+.product-sensitive-teeth-gel  .order-the-system-cnt.row.max_width {
+    margin-top: 0px;
+}
+
+.product-electric-toothbrush .logos-container-mbt h2{    font-size: 28px;}
+
+.product-electric-toothbrush #the-reasons-image-2 img{max-width: 195px; margin-left: -12px;}
+
+
+
+/****plaque-highterier-page*****/
+.body-plaque-highlighter  .logos-container-mbt h2{font-size: 1.4em;}
+.body-plaque-highlighter  ul.background-graphic {
+    padding-left: 20px;
+}
+.body-plaque-highlighter .product-selection-image-wrap {
+    min-height: 150px;
+}
+.body-plaque-highlighter .product-selection-dentist-price-note {
+    font-size: 0.8em;
+}
+
+.body-plaque-highlighter .product-selection-price-text{ font-size: 42px; }
+.body-plaque-highlighter .product-plaque-highlighters-adults-contianer .btn-primary-purple{margin-top: 8px;    font-weight: 300;letter-spacing: 0.2em;}
+.body-plaque-highlighter  #product-process-section{ margin-top: 0px; }
+
+
+/****plaque-highterier-page kids page*****/ 
+.body-plaque-highlighter-kids .logos-container-mbt h2{font-size: 42px;}
+.body-plaque-highlighter-kids #product-process-section {margin-top: 0px;}
+
+#home-page-top-banner-section{
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-position: top right; */
+    height: 670px;
+}
+
+.woocommerce-lost-password .post-content.no-vc{
+    margin-top: 10px;
+}
+.product-water-flosser div#product-selection-standard .col-md-8{
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.product-water-flosser .the-process-container-mbt .box-one-mbt .vc_single_image-wrapper img{
+    margin: auto;
+    max-width: 100%;
+    height: auto;
+
+}
+
+.the-process-container-mbt.reasons-caripro-section.table-max333.water-flosser-three-reasons .row.wpb_row.vc_inner.row-fluid.max_width
+,.the-process-container-mbt.reasons-caripro-section.table-max333.water-flosser-three-reasons .wpb_column.columns.medium-12.thb-dark-column.small-12
+{
+    padding-left: 0;
+    padding-right: 0;
+
+}
+.body-dental-probiotics-adults #product-image-section {
+    min-height: 631px;
+}
+.woocommerce-checkout  fieldset#wc-authorize-net-cim-credit-card-credit-card-form p#wc-authorize-net-cim-credit-card-csc_field {
+    padding-left: 10px;
+}
+.woocommerce-checkout  fieldset#wc-authorize-net-cim-credit-card-credit-card-form p#wc-authorize-net-cim-credit-card-expiry_field {
+    padding-right: 10px;
+}
+
+
+}
+/*Ends 768*/
+
+@media (min-width: 992px){
+
+.container {
+    width: 970px;
+}
+.the-process-container-mbt .box-one-mbt .vc_single_image-wrapper img {
+}
+.the-process-container-mbt .box-tow-mbt .vc_single_image-wrapper img{
+/*    width: 165px;
+    height: 198px;*/
+}
+.the-process-container-mbt .box-three-mbt .vc_single_image-wrapper img {
+/*    width: 210px;
+    height: 99px;*/
+
+}
+
+.sbr-header-mbt .navbar-expand-lg {
+    max-width: 970px;
+}
+
+.sbr-header-mbt .navbar-nav > li {
+    margin-right: 20px;
+}
+.sbr-header-mbt .navbar-nav > li > a {
+    font-size: 11px;
+}
+.secondary-area #quick_cart:before{
+        font: normal normal normal 16px/1 FontAwesome;
+}
+header .user-login a{
+    font-size: 16px;
+}
+.product-selection-image-wrap {
+    min-height: 200px;
+}
+
+.product-teeth-whitening-gel .product-selection-image-wrap {
+    min-height: 160px;
+}
+
+.info-des-ja {
+    min-height: 133px;
+}   
+
+.reasons-caripro-section .box-one-mbt img {height: 90px;}
+
+
+
+        #causes-tooth-sensitivity-wrap
+        {
+            text-align:center;
+            margin-left:45px;
+            height:460px;
+        }
+            #causes-tooth-sensitivity-wrap img
+            {
+                max-width:720px;
+            }
+            #graphic-causes-teeth-sensitivity-mobile
+            {
+                display:none;
+            }
+            #graphic-causes-teeth-sensitivity-desktop
+            {
+                display:inline;
+            }
+            #causes-text-wrap
+            {
+                display:block;
+            }
+
+                .graphic-text-header
+                {
+                    text-align:left;
+                    font-family:Montserrat;
+                    font-weight:bold;
+                    font-size:18px;
+                    line-height:1.0em;
+                    color:#b8b8dc;
+
+                }
+                .graphic-text-main
+                {
+                    font-size:1em;
+                    text-align:left;
+                    padding-top:5px;
+                }
+
+                #micro-fractures-text
+                {
+                    width:300px;
+                    height:150px;
+                    margin-top:-430px;
+                    margin-left:80px;
+                    text-align:left;
+                }
+                #thin-enamel-text
+                {
+                    width:300px;
+                    height:150px;
+                    margin-top:20px;
+                    margin-left:100px;
+                    text-align:left;
+                }
+                #tooth-dehydration-text
+                {
+                    width:300px;
+                    height:150px;
+                    margin-top:-10px;
+                    margin-left:170px;
+                    text-align:left;
+                }
+
+#the-process-image-1 img {
+    width: 280px;
+    height: 216px;
+}
+
+
+#the-process-image-2 img {
+    width: 165px;
+    height: 198px;
+    margin-top: 0px;
+}
+
+#the-process-image-3 img {
+    width: 210px;
+    height: 99px;
+
+}
+
+#easy-to-use-image-1 img {
+    width: 43px;
+    height: 250px;
+    margin-top: 10px;
+}
+#easy-to-use-image-2 img {
+    width: 221px;
+    height: 160px;
+    margin-top: 70px;
+}
+#easy-to-use-image-3 img {
+    width: 180px;
+    height: 180px;
+    margin-top: 60px;
+}
+
+.choose-your-package-product-option .product-selection-image-wrap img {
+    width: 68px;
+    height: 120px;
+    vertical-align: baseline;
+    margin-right: -20px;
+}
+
+.teeth-whitening-gel-mbt .product-selection-image-wrap span {
+    font-size: 84px;
+    line-height: 84px;
+}
+.teeth-whitening-gel-mbt .product-selection-description b {
+    font-size: 1em;
+}
+
+.whats-included-image-cell img {
+    max-width: 130px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+
+.tray-creation-process-container #the-process-image-1 img{
+width: 175px;
+    height: 168px;
+
+}
+
+.desensitizing-gel-multiple-sec .box-one-mbt .vc_single_image-wrapper img{
+    width: 43px;
+    height: 250px;
+}
+
+
+.desensitizing-gel-multiple-sec .box-two-mbt .vc_single_image-wrapper img{
+    width: 221px;
+    height: 160px;
+}
+
+.desensitizing-gel-multiple-sec .box-three-mbt .vc_single_image-wrapper img{
+    width: 180px;
+    height: 180px;
+}
+
+
+
+    .product-electric-toothbrush .logo2 img {
+        max-width: 180px;
+    }
+    .product-electric-toothbrush .logos-strip .logo3 img {
+        max-height: 50px;
+    }
+    .product-electric-toothbrush .logos-strip .logo4  img {
+        max-width: 180px;
+    }
+    .product-electric-toothbrush .logos-strip .logo6 img {
+        max-width: 120px;
+    }
+
+
+.product-electric-toothbrush #the-reasons-image-1 img {
+    height: 90px;
+}
+.product-electric-toothbrush  #the-reasons-image-2 img {
+max-width: 70%;
+}
+.product-electric-toothbrush  #the-reasons-image-3 img {
+    margin: auto;
+    max-width: 80%;
+}
+
+.product-night-guards .page-background-banner{ background-position: left top; background-color: #f3f3f8; background-repeat: no-repeat;}
+
+#best-brush-heading {
+    color: #555759;
+    font-size: 2.4em;
+    font-family: "Montserrat";
+    font-weight: bold;
+    margin-top: 19rem;
+    line-height: 1.0em;
+}
+
+.product-water-flosser #best-brush-section{    background-position: 0px top;}
+.water-flosser-three-reasons #the-reasons-image-1 img {
+    /* height: 165px;max-width: 100%; */
+}
+
+.product-teeth-whitening-gel .cnt-custom-height img {
+    width: 110px;
+    height: 110px;
+}
+.product-teeth-whitening-gel #vegan-image-wrap img {
+    width: 90px;
+    height: 101px;
+}
+
+.product-sensitive-teeth-gel #vegan-image-wrap img {width: 90px;height: 101px;}
+.ult_modal{ /*-webkit-transform: translateY(0%) !important; margin-top: -125px;*/}
+.product-electric-toothbrush #the-reasons-image-2 img{max-width: 195px; margin-left: -12px;}
+
+
+/****plaque-highterier-page*****/
+.body-plaque-highlighter  .logos-container-mbt h2{    font-size: 1.8em;}
+.body-plaque-highlighter  ul.background-graphic {
+       padding-left: 30px;
+}
+.body-plaque-highlighter  ul.background-graphic li {
+    font-size: 20px;
+    background-size: 50px;
+    padding-left: 70px;
+}
+
+.body-plaque-highlighter .product-selection-image-wrap {
+    min-height: 148px;
+}
+
+.body-plaque-highlighter .product-selection-dentist-price-note {
+   font-size: 0.8em;
+    color: #3a3a3a;
+}
+
+.body-plaque-highlighter .product-selection-price-text{ font-size: 46px;}
+
+.ti-widget.ti-goog {
+    position: fixed;
+    right: 0;
+        bottom: 4px;
+    z-index: 124;
+    max-width: 219px;
+}
+
+.body-plaque-highlighter  #product-process-section{ margin-top: 80px; }
+
+
+/****plaque-highterier-page kids page*****/ 
+.body-plaque-highlighter-kids .logos-container-mbt h2{font-size: 45px;}
+.body-plaque-highlighter-kids #product-process-section {margin-top: 0px;}
+
+.body-dental-probiotics-kids #product-image-section {
+    min-height: 545px;
+}
+
+.body-dental-probiotics-adults ul.background-graphic li {
+    font-size: 20px;
+}
+.body-dental-probiotics-adults #product-image-section {
+    min-height: 631px;
+}
+#home-page-top-banner-section{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top right;
+    height: 649px;
+}
+
+.smile-fearlessly-mbt h1{
+    font-size: 42px;
+}
+
+.home-section-top .sep-top-5x {
+    padding-top: 6em;
+}
+
+
+.woocommerce-lost-password .post-content.no-vc{
+    margin-top: 50px;
+}
+
+
+.night-guides-top-sec-left{ display:none;}
+.night-guides-top-sec-option{-ms-flex:0 0 36%;flex:0 0 36%;max-width:36%;text-align:center}
+
+.product-water-flosser div#product-selection-standard .col-md-8{
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+}
+/*Ends 992*/
+
+@media (min-width: 1200px){
+    .night-guides-top-sec-left{ display:block;}
+.container {
+    width: 1170px;
+}
+
+.the-process-container-mbt .box-one-mbt .vc_single_image-wrapper img {
+
+}
+.the-process-container-mbt .box-tow-mbt .vc_single_image-wrapper img {
+/*    width: 185px;
+    height: 222px;
+*/
+}
+.the-process-container-mbt .box-three-mbt .vc_single_image-wrapper img {
+/*    width: 250px;
+    height: 118px;*/
+}
+
+.sbr-header-mbt .navbar-expand-lg {
+    max-width: 1170px;
+}
+.sbr-header-mbt .navbar-nav > li {
+    margin-right: 40px;
+}
+.sbr-header-mbt .navbar-nav > li > a {
+    font-size: 13px;
+}
+
+.secondary-area #quick_cart:before{
+        font: normal normal normal 20px/1 FontAwesome;
+}
+header .user-login a{
+    font-size: 20px;
+}
+
+.product-selection-image-wrap {
+    min-height: 200px;
+}
+
+.product-night-guards #product-selection-night-guards .product-selection-image-wrap{
+    min-height: 244px;
+}
+.info-des-ja {
+    min-height: 133px;
+}   
+.product-selection-title{ font-size: 18px; }
+.reasons-caripro-section .box-one-mbt img {height: 100px;}
+
+
+
+
+#causes-tooth-sensitivity-wrap
+        {
+            text-align:center;
+            margin-left:45px;
+            height:500px;
+        }
+            #causes-tooth-sensitivity-wrap img
+            {
+                max-width:820px;
+            }
+            #graphic-causes-teeth-sensitivity-mobile
+            {
+                display:none;
+            }
+            #graphic-causes-teeth-sensitivity-desktop
+            {
+                display:inline;
+            }
+
+            #causes-text-wrap
+            {
+                display:block;
+            }
+                .graphic-text-header
+                {
+                    text-align:left;
+                    font-family:Montserrat;
+                    font-weight:bold;
+                    font-size:21px;
+                    line-height:1.0em;
+                    color:#b8b8dc;
+
+                }
+                .graphic-text-main
+                {
+                    font-size:1em;
+                    text-align:left;
+                    padding-top:5px;
+                }
+
+                #micro-fractures-text
+                {
+                    width:300px;
+                    height:150px;
+                    margin-top:-500px;
+                    margin-left:135px;
+                    text-align:left;
+                }
+                #thin-enamel-text
+                {
+                    width:300px;
+                    height:150px;
+                    margin-top:50px;
+                    margin-left:165px;
+                    text-align:left;
+                }
+                #tooth-dehydration-text
+                {
+                    width:300px;
+                    height:150px;
+                    margin-top:20px;
+                    margin-left:195px;
+                    text-align:left;
+                }
+
+#the-process-image-1 img {
+    width: 320px;
+    height: 247px;
+}
+
+#the-process-image-2 img {
+    width: 185px;
+    height: 222px;
+    margin-top: 10px;
+}
+
+#the-process-image-3 img {
+    width: 250px;
+    height: 118px;
+
+}
+
+
+#easy-to-use-image-1 img {
+    width: 43px;
+    height: 250px;
+    margin-top: 10px;
+}
+
+#easy-to-use-image-2 img {
+    width: 221px;
+    height: 160px;
+    margin-top: 70px;
+}
+#easy-to-use-image-3 img {
+    width: 180px;
+    height: 180px;
+    margin-top: 60px;
+}
+
+
+.tray-creation-process-container #the-process-image-1 img{
+    width: 195px;
+    height: 187px;
+}
+
+
+.desensitizing-gel-multiple-sec .box-one-mbt .vc_single_image-wrapper img{
+    width: 43px;
+    height: 250px;
+}
+
+
+
+.desensitizing-gel-multiple-sec .box-two-mbt .vc_single_image-wrapper img{
+width: 221px;
+    height: 160px;
+}
+
+.desensitizing-gel-multiple-sec .box-three-mbt .vc_single_image-wrapper img{
+    width: 180px;
+    height: 180px;
+}
+
+
+
+    .product-electric-toothbrush .logo2 img {
+        max-width: 200px;
+    }
+    .product-electric-toothbrush .logos-strip .logo3 img {
+        max-height: 60px;
+    }
+    .product-electric-toothbrush .logos-strip .logo4  img {
+        max-width: 200px;
+    }
+    .product-electric-toothbrush .logos-strip .logo6 img {
+        max-width: 140px;
+    }
+
+
+.product-electric-toothbrush #the-reasons-image-1 img {
+    height: 100px;
+}
+.product-electric-toothbrush  #the-reasons-image-2 img {
+max-width: 70%;
+}
+.product-electric-toothbrush  #the-reasons-image-3 img {
+    margin: auto;
+    max-width: 80%;
+}
+
+.product-night-guards .page-background-banner{  background-position: -190px top; background-color: #f3f3f8; background-repeat: no-repeat;}
+.sbr-header-mbt .navbar-expand-lg,.wrapper-mbt {
+    max-width: 1170px;
+}
+
+#best-brush-heading {
+    color: #555759;
+    font-size: 3.3em;
+    font-family: "Montserrat";
+    font-weight: bold;
+    line-height: 1.3;
+    text-align: center;    text-shadow: 1px 0px 9px #ffffff69;
+}
+
+.product-water-flosser #best-brush-section{    background-position: 0px top;}
+
+.water-flosser-three-reasons #the-reasons-image-1 img {
+    height: 165px;max-width: 100%;
+}
+
+
+.product-teeth-whitening-gel .cnt-custom-height img {
+    width: 120px;
+    height: 120px;
+}
+.product-teeth-whitening-gel #vegan-image-wrap img {
+    width: 100px;
+    height: 113px;
+}
+
+
+.product-sensitive-teeth-gel #vegan-image-wrap img {width: 100px;height: 113px;}
+
+.product-toothbrush-heads div#product-toothbrush-heads {
+    max-width: 1160px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/****plaque-highterier-page*****/
+.body-plaque-highlighter  .logos-container-mbt h2{font-size: 2.3em;}
+.body-plaque-highlighter  ul.background-graphic {
+    padding-left: 50px;
+    padding-top: 10px;
+}
+.body-plaque-highlighter ul.background-graphic li {
+    font-size: 22px;
+}
+
+.body-plaque-highlighter .product-selection-image-wrap {
+    min-height: 190px;
+}
+
+.body-plaque-highlighter  #product-process-section{ margin-top: 80px; }
+
+/****plaque-highterier-page kids page*****/ 
+.body-plaque-highlighter-kids .logos-container-mbt h2{font-size: 59px;}
+.body-plaque-highlighter-kids #product-process-section {margin-top: 0px;}
+.body-dental-probiotics-kids #product-image-section {
+    min-height: 750px;
+    padding-top: 48px;
+}
+
+.body-dental-probiotics-adults ul.background-graphic li {
+    font-size: 22px;
+}
+
+.body-dental-probiotics-adults #product-image-section {
+    min-height: 860px;
+}
+
+.woocommerce-lost-password .post-content.no-vc{
+    margin-top: 50px;
+}
+
+.product-water-flosser div#product-selection-standard .col-md-8{
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+}
+/*Ends 1200*/
+
+@media (min-width: 1300px){
+    #home-page-top-banner-section{
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: top right;
+        height: 766px;
+    }
+
+
+    .smile-fearlessly-mbt h1{
+        font-size: 55px;
+    }
+    
+    .home-section-top .sep-top-5x {
+        padding-top: 10em;
+    }
+    
+    .woocommerce-lost-password .post-content.no-vc{
+        margin-top: 50px;
+    }
+    
+
+}
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 990px){
+.smile-fearlessly-mbt h1{color: #565759;}
+header#sbr-header{background-color: transparent;border-bottom: 0px solid rgba(255, 255, 255, 0.25);}
+.logos-strip.flex-container {flex-wrap: wrap;}  
+.logos-strip .logo{width: 24.333%;min-height: 89px;display: flex;align-items: flex-end;}
+.home .the-process-container-mbt .box-one-mbt .vc_single_image-wrapper img {
+
+}
+.the-process-container-mbt .box-tow-mbt .vc_single_image-wrapper img{
+/*    width: 135px;
+    height: 162px;*/
+    margin-top: 0px;
+}
+
+
+
+.sbr-header-mbt .navbar-nav > li > a {
+    font-size: 13px;
+
+}
+
+.product-night-guards .the-process-container-mbt .wpb_single_image {
+    max-height: 220px;
+    min-height: 220px;
+}
+
+
+
+
+}
+
+
+@media (min-width: 1500px) {
+    #home-page-top-banner-section{
+        background-size: cover;
+        background-position: top left;
+        height: 767px;
+
+    }
+
+
+.container {
+    width: 1420px;
+    margin-left: auto;
+margin-right: auto;
+}
+
+#product-selection-standard .product-selection-image-wrap {
+    min-height: 230px;
+}
+.reasons-caripro-section .box-one-mbt img {height: 110px;}
+
+
+
+
+    #causes-tooth-sensitivity-wrap
+        {
+            text-align:center;
+            margin-left:50px;
+            height:500px;
+        }
+            #causes-tooth-sensitivity-wrap img
+            {
+                max-width:820px;
+            }
+            #graphic-causes-teeth-sensitivity-mobile
+            {
+                display:none;
+            }
+            #graphic-causes-teeth-sensitivity-desktop
+            {
+                display:inline;
+            }
+
+            #causes-text-wrap
+            {
+                display:block;
+            }
+                .graphic-text-header
+                {
+                    text-align:left;
+                    font-family:Montserrat;
+                    font-weight:bold;
+                    font-size:21px;
+                    line-height:1.0em;
+                    color:#b8b8dc;
+
+                }
+                .graphic-text-main
+                {
+                    font-size:1em;
+                    text-align:left;
+                    padding-top:5px;
+                }
+
+                #micro-fractures-text
+                {
+                    width:300px;
+                    height:150px;
+                    margin-top:-500px;
+                    margin-left:215px;
+                    text-align:left;
+                }
+                #thin-enamel-text
+                {
+                    width:300px;
+                    height:150px;
+                    margin-top:50px;
+                    margin-left:265px;
+                    text-align:left;
+                }
+                #tooth-dehydration-text
+                {
+                    width:300px;
+                    height:150px;
+                    margin-top:10px;
+                    margin-left:315px;
+                    text-align:left;
+                }
+
+
+#the-process-image-1 img {
+    width: 340px;
+    height: 262px;
+}
+#the-process-image-2 img {
+    width: 205px;
+    height: 245px;
+    margin-top: 10px;
+}
+#the-process-image-3 img {
+    width: 270px;
+    height: 127px;
+
+}
+
+
+#easy-to-use-image-1 img {
+    width: 43px;
+    height: 250px;
+    margin-top: 10px;
+}
+
+#easy-to-use-image-2 img {
+    width: 221px;
+    height: 160px;
+    margin-top: 70px;
+}
+
+#easy-to-use-image-3 img {
+    width: 180px;
+    height: 180px;
+    margin-top: 60px;
+}
+
+
+.teeth-whitening-gel-mbt .product-selection-description b {
+    font-size: 1em;
+}
+
+.tray-creation-process-container #the-process-image-1 img{
+    width: 210px;
+    height: 201px;
+}
+
+
+.desensitizing-gel-multiple-sec .box-one-mbt .vc_single_image-wrapper img{
+    width: 43px;
+    height: 250px;
+}
+
+
+
+.desensitizing-gel-multiple-sec .box-two-mbt .vc_single_image-wrapper img{
+    width: 221px;
+    height: 160px;
+}
+
+.desensitizing-gel-multiple-sec .box-three-mbt .vc_single_image-wrapper img{
+    width: 180px;
+    height: 180px;
+}
+
+
+.product-electric-toothbrush #the-reasons-image-1 img {
+    height: 110px;
+}
+.product-electric-toothbrush  #the-reasons-image-2 img {
+       max-width: 70%;
+}
+.product-electric-toothbrush  #the-reasons-image-3 img {
+    margin: auto;
+    max-width: 80%;
+}
+
+
+.product-night-guards .page-background-banner{    background-position: left top; background-color: #f3f3f8; background-repeat: no-repeat;}
+
+
+
+
+.sbr-header-mbt .navbar-nav > li > a {
+    font-size: 14px;
+    color: #565759;
+    font-weight: normal;
+    letter-spacing: 0.09em;
+}
+.sbr-header-mbt .navbar-expand-lg,.wrapper-mbt {
+    max-width: 1420px;
+padding-right: 15px;
+padding-left: 15px;    
+margin-left: auto; margin-right: auto;
+}
+
+.home .logos-strip .logo{
+width: 16.66666667%;    
+text-align: center;
+}
+
+
+.home .logos-container-mbt h2{ margin-top: 14px; }
+
+
+.product-teeth-whitening-trays h1.full-larger-heading{font-size: 2.6em; margin-top: 10px;}
+.cm-head h4{font-family: Montserrat; margin-top: 18px;}
+.product-teeth-whitening-trays .logos-container-mbt h2{ font-size: 28px;font-weight: 700; margin-top: 10px; }
+
+
+.section-header-content-grey, .section-header-content-grey-large {
+    color: #565759;
+        font-family: "Montserrat";
+
+}
+#best-brush-heading {
+       margin-top: 19rem;
+        text-align: center;
+}
+.product-water-flosser #best-brush-section{    background-position: 0px top;}
+
+.water-flosser-three-reasons #the-reasons-image-1 img {
+    height: 165px;max-width: 100%;
+}
+
+.water-flosser-three-reasons  #the-reasons-image-2 img {
+    max-width: 70%;
+    max-width: 280px;
+}
+
+
+.product-teeth-whitening-gel .cnt-custom-height img {
+    width: 120px;
+    height: 120px;
+}
+.product-teeth-whitening-gel #vegan-image-wrap img {
+    width: 100px;
+    height: 113px;
+}
+
+.product-sensitive-teeth-gel #vegan-image-wrap img {width: 100px;height: 113px;}
+
+.product-electric-toothbrush #the-reasons-image-2 img{max-width: 195px; margin-left: -12px;}
+
+
+/****plaque-highterier-page*****/
+.body-plaque-highlighter  ul.background-graphic {
+    padding-left: 80px;
+    padding-top: 10px;
+}
+.body-plaque-highlighter ul.background-graphic li {
+    font-size: 30px;
+}
+
+.body-plaque-highlighter .product-selection-image-wrap {
+    min-height: 230px;
+}
+
+.body-plaque-highlighter  #product-process-section{ margin-top: 80px; }
+.body-plaque-highlighter-kids #product-process-section {margin-top: 0px;}
+.body-dental-probiotics-kids #product-image-section {
+    min-height: 790px;
+    padding-top: 48px;
+}
+
+.body-dental-probiotics-adults #product-image-section{
+    min-height: 878px;
+}
+
+.body-dental-probiotics-adults ul.background-graphic li {
+    font-size: 30px;
+}
+.woocommerce-lost-password .post-content.no-vc{
+    margin-top: 50px;
+}
+
+}
+/*ends 1500*/
+
+
+@media (min-width: 1700px){
+    #home-page-top-banner-section{
+        background-size: cover;
+        background-position: top left;
+        height: 882px;        
+    }
+
+
+}
+
+
+
+/*Ipad Only*/
+
+@media (min-width: 950px) and (max-width: 1260px) {
+
+.logos-strip.flex-container {flex-wrap: wrap;}
+
+
+
+
+}
+
+
+@media all and (device-width: 768px) and (device-height: 1024px){
+
+    .large-logoes-mbt .logos-strip .logo img {
+        max-width: 130px;
+    }
+
+    .logos-strip .logo{
+    margin-left: 0px;
+    margin-right: 0px;
+width: 21.333%;
+    min-height: 89px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    .logos-container-mbt h2{
+            margin-bottom: 1px;
+    }
+    .package-stle h4 br{ display:none; }
+    .product-selection-description-text p{
+    font-size: 1.2em;
+    text-align: center;        
+    }
+    .row {
+        padding-left:0px;
+        padding-right:0px;        
+    }
+
+    .product-electric-toothbrush .electric-toothbrush-mbt .logos-strip .logo {margin-left: 1vw;margin-right: 1vw;}
+
+
+/*    plaque hight lighter tag*/
+.ti-widget.ti-goog .ti-widget-container{ display: none !important; }
+.body-plaque-highlighter .plaque-right-column h2.product-header-sub{     margin-top: 0rem; }
+.body-plaque-highlighter #fresh-take-text {
+    font-size: 2.4em;
+}    
+.body-plaque-highlighter  ul.background-graphic li {
+line-height: 40px;
+    font-size: 22px;
+    background-size: 40px;
+    padding-left: 60px;
+    background-position: top left;
+
+}
+.body-plaque-highlighter ul.background-graphic {
+    padding-left: 20px;
+}
+
+.body-plaque-highlighter .row-boots  .btn{ min-width: auto; }
+.body-plaque-highlighter  .plaque-highlighters-warranty-section img {
+    max-width: 69px;
+}
+.body-plaque-highlighter  #product-process-section h2{     margin-top: 0px; }
+.plaque-page-product-section .widget_text p br{ display: none; }
+.home-section-top .buttons-group {
+    display: block;
+    max-width: 490px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.home-section-top .buttons-group a{
+    max-width: 100%;
+}
+.dropdown-plaque-hightlighterr > .wpb_wrapper .drop-down-home-nav{   max-width: 490px;}
+.home-section-top .buttons-group a{    margin-left: 0;
+    margin-right: 0;}
+    #whats-included-section .col-md-6.whats-included-right-column.animated table{ width: 100%;}
+.product-water-flosser{}
+.product-water-flosser .the-process-container-mbt {
+    padding-top: 46px;
+}
+.product-water-flosser div#product-selection-standard .col-md-8 {
+    margin-left: auto;
+    margin-right: auto;
+}
+.product-water-flosser  #whats-included-section .col-md-6.whats-included-right-column.animated table{ max-width: 100%;}
+.product-water-flosser #best-brush-heading{
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.product-water-flosser  .the-process-container-mbt .wpb_single_image{
+    max-height: 200px;
+    min-height: 200px;
+
+}
+.product-water-flosser  .reasons-caripro-section .box-one-mbt img
+,.product-water-flosser  .water-flosser-three-reasons #the-reasons-image-2 img
+,.product-water-flosser .water-flosser-three-reasons div#the-reasons-image-3 img
+{    width: 100%;
+    height: auto;}
+
+
+    td.product-name.product-column .show-mobile {
+        display: block !important;
+    }
+    
+
+
+}
+
+
+
+
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
+
+.the-process-container-mbt .table-contentcnt, .the-process-container-mbt .text-block-mbt {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.row.wpb_row.vc_inner.row-fluid.max_width {
+    padding-left: 0; padding-right: 0;
+}
+.the-process-title {
+    font-size: 17px;
+}  
+
+.the-process-container-mbt .text-block-mbt {
+
+    min-height: 102px;
+}
+.subscribe-newsletter{ 
+    padding-left: 0px;
+    padding-right: 0px;
+ }
+
+footer#footer .footer-mbt-tp {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.row.footer-row.footer-mbt-tp .small-12.medium-6.columns{
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 30%;
+    max-width: 30%;    
+}
+
+.row.footer-row.footer-mbt-tp .small-12.medium-6.columns:nth-child(2){
+    flex: 0 0 24%;
+    max-width: 24%;    
+}
+.row.footer-row.footer-mbt-tp .small-12.medium-6.columns:nth-child(3){
+    flex: 0 0 24%;
+    max-width: 24%;    
+}
+.row.footer-row.footer-mbt-tp .small-12.medium-6.columns:nth-child(4){
+    flex: 0 0 21%;
+    max-width: 21%;
+}
+.subfooter{padding: 27px 2rem 18px;}
+.subfooter.style1.light.subfooter-full-width-on .row.subfooter-row .small-12.medium-6.columns.text-center.medium-text-left.bbbbnnn{
+    flex: 0 0 70%;
+    max-width: 70%;    
+}
+.subfooter.style1.light.subfooter-full-width-on .row.subfooter-row .small-12.medium-6.columns.text-center.medium-text-right{
+    flex: 0 0 30%;
+    max-width: 30%;    
+}
+
+
+#footer-base-logo-wrap img {
+    max-width: 100%;
+}
+
+.product-electric-toothbrush .product-selection-title{
+    padding: 30px 6px;
+    margin-top: -54px;    
+}
+.product-electric-toothbrush  .product-selection-image-wrap {
+    min-height: 148px;
+}
+    .product-night-guards .the-process-container-mbt .text-block-mbt{ min-height: 0; }
+    .hours-text{     font-size: 28px;
+    line-height: 28px; min-width: 59px !important; }
+
+
+    .body-plaque-highlighter-kids .plaque-left-column > .vc_column-inner{
+        display:flex;
+        align-items: center;
+    }
+    .body-plaque-highlighter-kids  div#product-image-section {
+        padding-top: 3rem;
+    }
+    
+
+        
+/******************** Retainer Cleaning Tablets 1 *************/
+
+.body-retainer-cleaning-tablets .plaque-right-column h2.product-header-sub{
+    margin-top: 2rem;
+}
+
+.body-retainer-cleaning-tablets .section-header-teal{
+    font-size: 3em;
+}
+
+.body-retainer-cleaning-tablets .plaque-page-product-section .widget_text p{
+    font-size: 14px;
+}
+.body-retainer-cleaning-tablets .plaque-page-product-section .vc_single_image-wrapper img{
+    max-width: 114%; 
+}
+
+.body-retainer-cleaning-tablets ul.background-graphic{
+    margin-left: 0;
+    padding-left: 0;
+}
+.body-retainer-cleaning-tablets ul.background-graphic li{
+    font-size: 18px;
+    padding-left: 75px;
+    line-height: 30px;
+    min-height: 71px;
+    background-position: left top;
+}
+.body-retainer-cleaning-tablets .smilePageIconSection h2{
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.body-retainer-cleaning-tablets .boxSecBox p{
+    font-size: 14px;  
+}
+
+
+
+
+
+}
+@media all and (device-width: 1024px) and (device-height: 768px) and (orientation:landscape) {
+
+
+}
+
+
+
+@media(max-width:1024px){
+.product-electric-toothbrush #best-brush-section .wpb_column.columns.medium-12.thb-dark-column.small-12::before {
+    content: "";
+    background-image: url(../images/pattern-transparent-white-85.png);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+    .package-includes-mbt .columns.medium-6,.product-electric-toothbrush  #best-brush-section  .wpb_column.columns.medium-4.thb-dark-column.small-12{
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;        
+    }
+.package-includes-mbt .wpb_wrapper .medium-6 .wpb_wrapper .vc_wp_text.wpb_content_element {
+    max-width: 100%;
+}
+
+#solid-color-with-text-section-maintext {
+    color: #fff;
+    font-size: 19px;
+}    
+
+#solid-color-with-text-section-subtext {
+    font-size: 14px;
+    padding-top: 10px;
+}
+
+.full-width-row.logos-container-mbt {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.br-remove br{ display: none; }
+.fnt34 {
+    font-size: 30px;
+}
+
+.product-selection-image-wrap {
+    min-height: 90px;
+}
+.product-selection-box {
+    padding: 10px;
+}    
+.what-inner-box-width-ajust .medium-6{
+-webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;    
+}
+
+.what-inner-box>.vc_column-inner>.wpb_wrapper, .lp-row-row .vc_column-inner .wpb_wrapper .wpb_row .wpb_column .vc_column-inner .wpb_wrapper {
+
+    justify-content: initial;
+}
+.lp-row-row .whats-included-image-cell {
+    min-width: 95px;
+    text-align: center;
+}
+
+.whats-included-text-cell {
+    padding-left: 40px;
+}
+#best-brush-section{ position: relative; }
+#best-brush-section .thb-dark-column:after{    content: " ";position: relative;
+    background-image:url(../images/pattern-transparent-white-85.png)
+
+}
+
+.vc_wp_text.wpb_content_element.warrabty-text-container {
+    max-width: 95%;
+}
+
+#footer-newsletter-title{
+    line-height: 24px;    padding-left: 15px;
+}
+.product-electric-toothbrush #best-brush-section h2 { margin-top: 120px; }
+.product-electric-toothbrush #best-brush-section h2 br{ display: none; }
+.product-electric-toothbrush .content-accordion .left-column,.product-electric-toothbrush .content-accordion .right-column
+,.product-water-flosser .content-accordion .left-column,.product-water-flosser .content-accordion .right-column
+{
+    flex: 0 0 100%;
+   max-width: 600px;
+    padding-right: 0px;
+    padding-left: 0;
+    zoom: 0.7;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.product-electric-toothbrush .content-accordion .left-colum-heading
+,.product-water-flosser .content-accordion .left-colum-heading
+{ text-align: center !important; }
+
+.product-electric-toothbrush .the-process-container-mbt .wpb_single_image {
+    max-height: 150px;
+    min-height: 150px;
+}    
+.product-toothbrush-heads .row.listing-promise-mbt {
+    padding-top: 10px;
+}
+.product-toothbrush-heads  .logos-container-mbt h2{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.product-toothbrush-heads .product-selection-title{    margin-top: -56px;}
+.ult_modal.ult-small {
+    width: 95%;
+}
+.product-night-guards .night-guides-top-sec-left.wpb_column.columns.medium-6.thb-dark-column.small-12 {
+    display: none;
+}
+.product-night-guards .night-guides-top-sec-option.wpb_column.columns.medium-6.thb-dark-column.small-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.product-night-guards .product-selection-title{    margin-top: -36px; font-size: 18px;     padding: 22px 7px;}
+.product-night-guards  .vc-custom-backround {
+    max-height: 840px;
+}
+
+#wrapper-package-includes-mbt-modified .row.wpb_row.vc_inner.row-fluid.max_width{ border-top: 0px solid #c3c5c9; }
+.product-night-guards  .the-process-container-mbt .heading-content-mbt {
+    margin-bottom: 0px;
+}
+.product-night-guards   .the-process-container-mbt .heading-content-mbt h2, .product-night-guards  .our-customers-speak-for-us h2{
+        font-size: 2.4em;
+}
+
+section.contact-bttm .col-sm-6.col-md-3.icon-gradient.sep-top-sm{
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;    
+}
+
+.articles-page a.btn.btn-primary.btn-large{padding: 10px 14px;}
+.post-detail .post-gallery-detail {
+
+    min-height: 0;
+    padding-top: 48px;
+}
+.product-water-flosser #best-brush-section .medium-6{ 
+
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+ }
+
+/* dental probiotics kids */
+ .body-dental-probiotics-kids .logos-container-mbt h2 {font-size: 30px;}
+.body-dental-probiotics-kids ul.background-graphic li{    font-size: 20px;}
+.body-dental-probiotics-kids div#we-ship-worldwide-text br{ display: none;}
+.body-dental-probiotics-kids div#we-ship-worldwide-text{font-size: 28px;}
+.body-dental-probiotics-kids .section-heading-smile {
+    font-size: 30px;
+}
+.body-dental-probiotics-kids #product-specification-section .thb_image_link.wp-caption .thb-image-inner {
+    max-width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.body-dental-probiotics-kids .bacteria-strip{    margin-top: -14px;}
+.body-dental-probiotics-kids .max-970{    max-width: 690px;}
+.body-dental-probiotics-kids .fnt-60 {
+    font-size: 36px;
+    line-height: 1.1;
+}
+.body-dental-probiotics-kids .fnt-28{
+    font-size: 18px;
+    margin-top: 38px;    
+}
+.body-dental-probiotics-kids .plaque-highlighters-warranty-section .full-width-image-mbt img{ max-width:100%;}
+
+/****** enamel-armour */
+.body-enamel-armour-page .backgeria-section-block h3 {
+    font-size: 34px;
+}
+.body-dental-probiotics-adults .backgeria-section-block h1, .body-dental-probiotics-adults .backgeria-section-block h2 {
+    font-size: 34px;
+    line-height: 1.2;
+}
+.body-enamel-armour-page .backgeria-section-block .caripro-top .tm-symbal{
+    top: 3px;
+    font-weight: normal;
+    right: -10px;  
+}
+.body-enamel-armour-page #process-section-scroll h2.teal{
+    font-size: 32px; 
+}
+.body-enamel-armour-page .the-process-container-mbt .box-three-mbt .vc_single_image-wrapper img
+,.body-enamel-armour-page .the-process-container-mbt .box-tow-mbt .vc_single_image-wrapper img
+{
+    max-width: 100%;
+}
+.body-enamel-armour-page .the-process-container-mbt .box-three-mbt .vc_single_image-wrapper img{
+    max-width: 170px;
+}
+.body-enamel-armour-page .the-process-container-mbt .box-one-mbt .vc_single_image-wrapper img{
+    max-width: 175px;
+}
+
+.body-enamel-armour-page  .the-process-title {
+    font-size: 22px;
+}
+
+.body-enamel-armour-page .the-process-container-mbt {
+    padding-top: 30px;
+}
+.body-enamel-armour-page .the-process-container-mbt .heading-content-mbt {
+    margin-bottom: 0px;
+}
+
+
+}
+
+@media(max-width:767px)
+    {
+        td#couponRowDescriptionCell h5{font-size: 16px;}
+        .woocommerce-checkout .table .product-column a{
+            font-size: 16px;
+        }
+
+        .body-dental-probiotics-adults  ul.background-graphic li {
+            background-position: top left;
+            font-size: 16px;
+            padding-left: 32px;
+            line-height: 27px;
+            margin-top: 0px;
+            color: #fff;
+            background-size: 24px;
+            text-align: left;
+            max-width: 338px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .body-dental-probiotics-adults  .wpb_single_image.vc_align_right {
+            text-align: center;
+        }
+
+        .body-dental-probiotics-kids .section-ceontent-top h4 {
+            font-size: 28px;
+        }            
+
+        .body-dental-probiotics-kids .section-ceontent-top p {
+            font-size: 18px;
+            padding-left: 0rem;
+            padding-right: 0rem;
+        }
+        .backgeria-section-block h3{
+            font-size: 30px;
+        }
+        .backgeria-section-block p {
+            font-size: 20px;
+        } 
+        .backgeria-section-block .vc_column-inner {
+            padding: 20px 15px;
+        }
+
+        .backgeria-section-block h1, .backgeria-section-block h2 {
+            font-size: 32px;
+        }        
+        .backgeria-section-block h6{
+            font-size: 22px;
+            color: #1a4664;
+            margin-top: 38px;            
+        }
+        .body-dental-probiotics-adults .healthy-population-bottom-text {
+            width: 100%;
+        }
+        .body-dental-probiotics-adults .fortiflying-your-child-head h5 p, .body-dental-probiotics-adults .fortiflying-your-child-head h5 {
+            font-size: 20px;
+        }
+        .body-dental-probiotics-adults .logo-veg{
+            margin-left: 6px;
+            margin-right: 6px;
+            max-width: 52px;          
+        }
+        .body-dental-probiotics-adults .benefits-with-logo span{    font-size: 9px;}
+        .backgeria-section-block br {
+            display: none;
+        }
+        .body-dental-probiotics-adults #fresh-take-text{
+            font-size: 36px; 
+        }
+        .body-dental-probiotics-adults .plaque-right-column h2.product-header-sub {
+            margin-top: 6rem;
+        }
+        
+        .body-dental-probiotics-kids h2.product-header-sub.mt-8rem.uppercase {
+            margin-top: 6rem !important;
+        }
+
+        header#sbr-header {
+            display: none;
+        }
+        .hidden-mobile {
+            display: none;
+        }        
+        #causes-tooth-sensitivity-wrap
+        {
+            padding-right:0px;
+            clear:both;
+            padding-left:15px;
+            padding-right:15px;
+            text-align:right;
+        }
+            #causes-tooth-sensitivity-wrap img
+            {
+                max-width:830px;
+                width:100%;
+                margin-right:-20px;
+            }
+            #graphic-causes-teeth-sensitivity-mobile
+            {
+                display:inline;
+            }
+            #graphic-causes-teeth-sensitivity-desktop
+            {
+                display:none;
+            }
+            #causes-text-wrap
+            {
+                display:none;
+            }
+.product-toothbrush-heads  .logos-container-mbt h2{
+    width: 100%;
+ }
+.products-boxes .medium-6{
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 100%; 
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.the-process-container-mbt .medium-4.small-12{
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;    
+}
+.product-electric-toothbrush #best-brush-section h2 {
+    margin-top: 50px;
+}
+.product-electric-toothbrush #best-brush-section p br{ display: none; }
+
+.warranty-section-product h3 {
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.fnt34 {
+    font-size: 24px;
+}
+div#product-toothbrush-heads {
+    margin: 0;
+}
+.feelthe-difference h4 {
+     font-size: 18px;
+    line-height: 28px;
+}
+#product-selection-night-guards .product-selection-box{margin-bottom: 50px;}
+div#product-selection-night-guards > .col-md-4:last-child .product-selection-box{margin-bottom: 0px;}
+div#process-section-scroll h2 {
+    margin-bottom: 40px;
+}
+.product-box-stars{ margin-top: 0px; }
+.row.wpb_row.row-fluid.year-wrannanty-container {
+    padding-top: 30px;
+}
+.secondary-area-mbt, .user-login{     min-height: 45px; }
+.home-section-top .sep-top-5x.wpb_column.columns.medium-12.thb-dark-column.small-12 {
+    padding-bottom: 0rem;
+}
+
+
+.product-water-flosser #best-brush-heading {
+    color: #555759;
+    font-size: 2em;
+    font-family: "Montserrat";
+    font-weight: bold;
+    margin-top: 170px;
+    text-shadow: none;
+    line-height: 1.2em;
+}
+
+
+.full-width-row.logos-container-mbt{
+    padding-bottom: 30px;
+}
+
+.m-fnt-28{ font-size: 28px; line-height: 30px;} 
+
+.header.fixed{border-bottom: 1px solid rgba(0, 0, 0, 0.1);}
+
+.product-sensitive-teeth-gel #causes-tooth-sensitivity-wrap{ padding: 0; }
+.product-electric-toothbrush #best-brush-section .wpb_column.columns.medium-12.thb-dark-column.small-12::before{
+    background-image:none;
+}
+
+.product-electric-toothbrush .content-accordion .left-column, .product-electric-toothbrush .content-accordion .right-column, .product-water-flosser .content-accordion .left-column, .product-water-flosser .content-accordion .right-column{
+        zoom: 0.9;
+}
+.postid-427575 .see-full-technical-specification-cont .see-full-technical-specification{
+    line-height: 20px;
+}
+.warranty-section-product h3 {
+    font-size: 30px;
+}   
+
+.postid-427576 .logos-container-mbt h2 {
+    font-size: 26px;
+}
+
+#product-toothbrush-heads .product-selection-image-wrap {
+    min-height: 0;
+}
+.product-water-flosser .section-header-content-grey-large{
+    max-width: 100%;
+}
+.product-water-flosser .section-header-content-grey-large{
+        font-size: 1.3em;
+}
+.product-water-flosser #whats-included-section .col-md-6.whats-included-left-column
+,.product-water-flosser #whats-included-section  .col-lg-10.text-center
+ {
+    padding: 0;
+}
+
+.product-water-flosser  .whats-included-image-cell-mbt img {
+    max-width: 100px;
+        padding-top: 20px;
+    padding-bottom: 20px;
+}
+.water-flosser-page-bottom-sec .col-lg-10.text-center ul li {
+    font-size: 14px;
+}
+
+.product-water-flosser  .mob-flex {
+    display: flex;
+    align-items: center;
+}
+.product-water-flosser .whats-included-image-cell {
+    padding-right: 10px;
+}
+
+
+/*plaque highter page*/
+
+.plaque-page-product-section {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0px;    
+
+}
+
+.plaque-left-column { order: 2; }
+.plaque-right-column { order: 1; }
+.ti-widget.ti-goog{    display: none !important;}
+.body-plaque-highlighter .plaque-right-column h2.product-header-sub {
+    margin-top: 0rem;
+}    
+.body-plaque-highlighter .plaque-right-column h2.product-header-sub{    font-size: 2em;}
+.body-plaque-highlighter #fresh-take-text {
+    font-size: 2.6em;
+}
+.body-plaque-highlighter .logos-container-mbt h2{font-size: 1.4em;}
+.body-plaque-highlighter .logos-strip .glucan-logo img {
+    max-width: 90px;
+}
+.body-plaque-highlighter .logos-strip .glucan-logo{    min-width: 110px;}
+.body-plaque-highlighter ul.background-graphic{ padding-left: 0; margin-top: 10px; }
+.body-plaque-highlighter ul.background-graphic li {
+    background-position: top left;
+    font-size: 16px;
+    padding-left: 32px;
+    line-height: 27px;
+    margin-top: 8px;
+    color: #555759;
+    background-size: 24px;
+    text-align: left;
+    max-width: 338px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.plaque-hight-lighter-tag {
+    max-width: 177px;
+}
+
+.mobile-adjust-layout .mob-order2 {
+    order: 2;
+}
+.mobile-adjust-layout .wpb_row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.body-plaque-highlighter  .mobile-adjust-layout  .wpb_single_image.vc_align_right {
+    text-align: center;
+}
+.body-plaque-highlighter  .mobile-adjust-layout  .wpb_single_image.vc_align_right img{
+    max-width: 177px;
+}
+
+.product-plaque-highlighters-adults-contianer h2, .body-plaque-highlighter .the-process-container-mbt .heading-content-mbt h2{
+    line-height: 1;
+    font-size: 28px;
+
+}
+
+.product-plaque-highlighters-adults-contianer h5{
+font-size: 1.2em;
+
+}
+
+.body-plaque-highlighter .product-selection-price-wrap button {
+    margin-top: 10px;
+}
+
+#home-page-the-results-section .txt-detl-mbt {
+    color: #fff;
+    margin-left: 0%;
+    margin-right: 0%;
+    font-size: 1em;
+}
+
+#home-page-the-results-section{height: auto;    padding-bottom: 0px;padding-top: 30px;}
+.body-plaque-highlighter  .the-process-container-mbt .heading-content-mbt h2{ margin-top: 0px; }
+
+.body-plaque-highlighter #light-color-with-text-image-section {
+    padding-top: 30px;
+
+}
+.body-plaque-highlighter .product-selection-box{
+        margin-top: 20px;
+}
+#home-page-the-results-section .flex-child-content{padding-left: 0;padding-right: 0;}
+.body-plaque-highlighter .our-customers-speak-for-us .wpb_single_image.vc_align_center{    margin-bottom: 0px;}
+.body-plaque-highlighter .the-process-container-mbt .vc_single_image-wrapper img, .body-plaque-highlighter .the-process-container-mbt .box-tow-mbt .vc_single_image-wrapper img
+.body-plaque-highlighter .the-process-title.process-title-1, .body-plaque-highlighter .the-process-title.process-title-2{      font-size: 22px;}
+.plaque-highlighters-warranty-section.year-wrannanty-container .icon-tick-large img {
+    max-width: 69px;
+}
+.body-plaque-highlighter .plaque-highlighters-warranty-section .section-header p {
+    font-size: 30px;
+    line-height: 38px;
+}
+.body-plaque-highlighter .vc_wp_text.wpb_content_element.warrabty-text-container {
+    max-width: 95%;
+}
+.body-plaque-highlighter .vc_wp_text.wpb_content_element.warrabty-text-containe p {
+    font-size: 16px;
+}
+.body-plaque-highlighter .no-strings-attached{ font-size:24px; }
+.plaque-page-product-section .widget_text p br {
+    display: none;
+}
+.body-plaque-highlighter .plaque-page-product-section {
+    margin-top: 0px;
+}
+
+.home-section-top .buttons-group a {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.dropdown-plaque-hightlighterr .drop-down-home-nav a{font-size: 12px;}
+.dropdown-plaque-hightlighterr > .wpb_wrapper .drop-down-home-nav{position: relative;}
+div#user-login-wrapper{position: absolute;    width: 100%;}
+#side-cart .side-panel-content .widget_shopping_cart .widget_shopping_cart_content{    overflow: auto;}
+#side-cart .side-panel-content{    padding-bottom: 137px;}
+.admin-bar .side-panel{height: calc(100% - 0px);}
+.woocommerce-checkout #wrapper ul.payment_methods li div.sv-wc-payment-gateway-card-icons{ float: none;;}
+.woocommerce-checkout ul.payment_methods li div.sv-wc-payment-gateway-card-icons{    margin-left: 0px;}
+.woocommerce-checkout .wc-authorize-net-cim-credit-card-new-payment-method-form .form-row:nth-child(odd){    padding-right: 0px;}
+.woocommerce-checkout .wc-authorize-net-cim-credit-card-new-payment-method-form .form-row {
+    margin-bottom: 1rem!important;
+}
+.woocommerce-checkout .wc_payment_methods .wc_payment_method img{
+    margin-left: 4px;
+    max-height: 30px;
+}
+#footer-newsletter-title{padding-left: 0px;}
+.woocommerce-checkout .shop_table.woocommerce-checkout-review-order-table tfoot tr td,.woocommerce-checkout .cart-collaterals .shop_table th, .shop_table.woocommerce-checkout-review-order-table th{    text-align: center;}
+.woocommerce-checkout p#billing_email_field {
+    margin-bottom: 0;
+}
+
+.woocommerce-checkout a.showhideordercomment {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.woocommerce-checkout  .payment-method-option p.form-row.woocommerce-validated label {
+    margin-left: 0px !important;
+}
+
+
+/**** dental probiotics page kids */
+.body-dental-probiotics-kids #light-color-with-text-image-section .medium-4 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.body-dental-probiotics-kids #light-color-with-text-image-section .medium-8 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.body-dental-probiotics-kids div#we-ship-worldwide-text br{ display: none;}
+.body-dental-probiotics-kids div#we-ship-worldwide-text {
+    font-size: 18px;
+}
+.body-dental-probiotics-kids #product-specification .section-header {
+    font-size: 36px;
+}
+.body-dental-probiotics-kids .section-heading-smile {
+    font-size: 26px;
+}
+.body-dental-probiotics-kids .healthy-population-bacteria {
+    padding: 2rem 1rem !important;
+}    
+
+.body-dental-probiotics-kids .healthy-population-bacteria-heading-small, .body-dental-probiotics-kids .section-description-heading h4 {
+    font-size: 18px;
+}    
+.body-dental-probiotics-kids .fnt-60 {
+    font-size: 26px;
+    line-height: 1.1;
+}
+.body-dental-probiotics-kids .fnt-28 {
+    font-size: 18px;
+    margin-top: 26px;
+}
+.body-dental-probiotics-kids .logo-veg {
+    margin-left: 10px;
+    margin-right: 10px;
+    max-width: 45px;
+}
+.benefits-with-logo span {
+    font-size: 10px;
+    letter-spacing: 1px;
+}
+.body-dental-probiotics-kids .benefits-with-logo span{
+    margin-top: 6px;
+    font-size: 10px;
+    letter-spacing: 1px;
+
+}
+.body-dental-probiotics-kids div#product-image-section {
+    padding-bottom: 2rem;
+}
+
+.stacks-section .backgeria-section-block:nth-child(1){    padding-right: 0px;}
+.stacks-section .backgeria-section-block:nth-child(2){    padding-left: 0px;}
+
+.order-review-full .left-container {
+    float: none;
+    width: 100%;
+}
+.order-review-full .right-container {
+    float: none;
+    width: 100%;
+}
+
+p#purchasing_as_giftset_field {
+    float: none;
+    width: 100%;
+}
+
+.woocommerce-shipping-fields .woocommerce-additional-fields {
+    float: none;
+    width: 100%;
+}
+.row.shipping-method {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#customer_details {
+    margin-bottom: 0px;
+}
+
+h3#order_review_heading {
+    margin-top: 10px !important;
+}
+
+.woocommerce-checkout-payment .wc_payment_methods .wc_payment_method .payment_box {
+    text-align: left;
+}
+
+
+
+.woocommerce-order-pay .post-content.no-vc {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0rem;
+    border: 1px solid #60616361;
+    padding: 8px;
+}
+
+
+.probiotics-page-top-left{ display:none;}
+.probiotics-page-top-right {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.product-electric-toothbrush #technical-specs-wrap{
+    padding-bottom: 15px;
+}
+
+.ewd-ufaq-faq-title-text{
+    text-align: left;
+}
+.product-night-guards a.ewd-ufaq-post-margin h4{
+    font-size: 16px;
+}
+.product-night-guards .ewd-ufaq-faq-body {
+    padding: 10px 25px;
+    padding-left: 42px;
+    text-align: left;
+    padding-right: 0;
+}
+.product-night-guards a.ewd-ufaq-post-margin h4 {
+    top: 0px;
+}
+.product-night-guards .ewd-ufaq-post-margin.ewd-ufaq-faq-post p {
+    line-height: 24px;
+    font-size: 14px;
+}
+
+#quick_cart{ 
+    margin-left: 0px;
+    margin-right: 22px;    
+
+}
+
+.woocommerce-checkout.woocommerce-page #quick_cart{ 
+    margin-right: 34px;    
+
+}
+header .user-login a{
+    font-size: 24px;
+}
+header .user-login{
+max-width: 18px;
+width: 18px;
+position: absolute;
+right: 13px;
+display: inline-block;
+top: 3px;
+
+}
+
+.secondary-area-mbt:hover, .secondary-area-mbt:hover+.user-login{
+    border-top: 0px solid #3c98cc;    
+}
+
+.woocommerce-checkout.woocommerce-page .header-spacer {
+    display: none;
+}
+.woocommerce-checkout.woocommerce-page #wrapper div[role="main"]{
+    margin-top: 80px;
+    position: relative;
+    z-index: 445;    
+}
+
+#contact-page .submit-button .form-group input{
+    min-width: 0;
+    max-width: 96%;
+    font-size: 16px;    
+    width: 90%;    
+}
+
+#contact-page .submit-button .form-group{
+    max-width: 100%;
+    width: 100%;
+
+}
+#contact-page.smilebrilliant-page-content .medium-6,#contact-page.smilebrilliant-page-content .medium-8 {
+    width: 100%;
+}
+#contact-page.smilebrilliant-page-content textarea {
+    min-height: 120px;
+}
+.page-template-contact-us .icon-box h6 {
+    font-size: 14px;
+
+}
+.page-template-contact-us  .icon-box-content a{
+    word-break: break-all;
+}
+
+.js-product-electric-toothbrush  .geha-replacement-brush-heads {
+    max-width: 90%;
+     margin-top: 0rem;
+}
+
+.small-12.columns.custom-spacing-around .mobile-toggle-holder{}
+
+.secondary-area .mobile-toggle-holder.style1{
+    opacity: 0;
+}
+.small-12.columns.custom-spacing-around>.mobile-toggle-holder.style1{
+    width: 30px;
+    height: 30px;    
+}
+.mobile-toggle-holder .mobile-toggle span{
+    width: 20px;
+}
+.js-product-teeth-whitening-trays .overlay-fade{ display:none;}
+.js-product-teeth-whitening-trays .overlay-fade.ult-open{ display:block;}
+
+
+.product-teeth-whitening-trays #non-sensitive .product-selection-table-wrap td.product-selection-table-cell-1-image {width: 183px;}
+.product-teeth-whitening-trays #non-sensitive .product-selection-table-wrap td.product-selection-table-cell-plus {width: 6px;}
+.product-teeth-whitening-trays #non-sensitive .product-selection-table-wrap td.product-selection-table-cell-2-image {width: 152px;}
+
+
+.product-teeth-whitening-trays #sensitive .product-selection-table-wrap td.product-selection-table-cell-1-image {width: 134px;}
+.product-teeth-whitening-trays #sensitive .product-selection-table-wrap td.product-selection-table-cell-plus {width: 6px;}
+.product-teeth-whitening-trays #sensitive .product-selection-table-wrap td.product-selection-table-cell-2-image {width: 116px;}
+
+html.htmlTagjsProductTeethWhiteningTrays {
+    overflow: inherit !important;
+}
+
+
+
+/******************** Retainer Cleaning Tablets 2 *************/
+.body-retainer-cleaning-tablets .plaque-right-column h2.product-header-sub{
+    margin-top: 2rem;
+}
+.body-retainer-cleaning-tablets .smilePageIconSection h2{
+    font-size: 26px;
+}
+
+.boxSecBox {
+max-width: 50%;
+}
+.body-retainer-cleaning-tablets .boxSecBox p{    font-size: 14px;margin-bottom: 14px;}
+.body-retainer-cleaning-tablets .smilePageIconSection h2{
+margin-bottom: 30px; 
+}
+.body-retainer-cleaning-tablets ul.background-graphic li {
+background-position: top left;
+font-size: 22px;
+padding-left: 46px;
+line-height: 32px;
+margin-top: 0px;
+background-size: contain;
+text-align: left;
+max-width: 338px;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 10px;
+background-size: 38px;
+min-height: 48px;
+}
+.tickIconWithText .wpb_wrapper .wpb_text_column{
+margin-bottom: 0px;
+}
+
+.body-retainer-cleaning-tablets ul.background-graphic {
+padding-left: 0;
+}
+.mob-order3 {
+order: 3;
+}
+
+.mobile-width-small figure {
+max-width: 150px !important;
+}
+
+.body-retainer-cleaning-tablets .the-process-container-mbt .heading-content-mbt p {
+font-size: 20px;
+}
+
+.body-retainer-cleaning-tablets .the-process-container-mbt .heading-content-mbt {
+margin-bottom: 0px;
+}
+
+.body-retainer-cleaning-tablets .order-the-system-cnt button {
+padding-left: 8px;
+text-align: center;
+padding-right: 8px;
+}
+.body-retainer-cleaning-tablets button.how-it-work-text{
+font-size: 18px;
+}
+.body-retainer-cleaning-tablets .plaque-page-product-section .vc_single_image-wrapper img {
+    max-width: 100%;
+}
+
+.body-retainer-cleaning-tablets .plaque-left-column{
+    padding-bottom: 29px;
+}
+.body-retainer-cleaning-tablets .the-process-container-mbt .medium-4.small-12{
+    margin-bottom: 50px;
+}
+
+div#gehaBrushHeadPromoModal{
+    padding-top: 40px;
+    /* margin-left: 10px;
+    margin-right: 10px;     */
+    
+}
+
+div#gehaBrushHeadPromoModal .modal-dialog, div#gehaBrushHeadPromoModal .modal-content{
+    width: 96%;    margin-top: 0rem;
+}
+
+
+#gehaBrushHeadPromoModal .extra-brush-head~hr {
+    margin-top: 15px !important;
+    margin-bottom: 10px !important;
+}
+
+#gehaBrushHeadPromoModal .modal-body h1 {
+    font-size: 20px !important;
+}
+
+#gehaBrushHeadPromoModal  .extra-tooths-brush p{
+    margin-top: 4px !important;
+    margin-bottom: 4px !important;    
+}
+
+#RetainingCleaningPromoModal .modal-dialog{
+    margin-top: 4rem;
+}
+#RetainingCleaningPromoModal  .modal-content {
+    width: 98%;
+    max-width: 98%;
+}
+
+/* Enamel Armour*/
+div#product-image-section-banner {
+    padding-top: 0px;
+}
+
+.body-enamel-armour-page  .backgeria-section-block h1,.body-enamel-armour-page  .backgeria-section-block h2{
+    font-size: 26px;
+}
+
+.body-enamel-armour-page .backgeria-section-block.text-center.wpb_column.columns.medium-12.thb-dark-column.small-12 {
+    padding: 0;
+}
+.body-enamel-armour-page .backgeria-section-block .caripro-top .tm-symbal{
+    top: 0px;
+}
+.body-enamel-armour-page .backgeria-section-block h3 {
+    font-size: 40px;
+}
+.body-enamel-armour-page .btn-primary-light-green{
+    letter-spacing: 0; 
+}
+.body-enamel-armour-page .the-process-container-mbt .box-one-mbt .vc_single_image-wrapper img {
+    max-width: 200px;
+}
+.body-enamel-armour-page .the-process-container-mbt .box-tow-mbt .vc_single_image-wrapper img {
+    max-width: 235px;
+}
+.body-enamel-armour-page .caripro-top .tm-symbal{
+    top: -7px;
+}
+
+.body-enamel-armour-page #process-section-scroll .btn-primary-light-green{
+    font-size: 16px;
+    padding: 12px 12px;
+}
+.body-enamel-armour-page .backgeria-section-block h1{
+    margin-bottom: 12px; 
+}
+.body-enamel-armour-page .backgeria-section-block .caripro-top .tm-symbal{right: auto;}
+.body-enamel-armour-page .probiotics-page-top-left{
+    display: block;
+}
+.body-enamel-armour-page .the-process-container-mbt .box-three-mbt .vc_single_image-wrapper img
+,.body-enamel-armour-page .the-process-container-mbt .box-tow-mbt .vc_single_image-wrapper img
+,.body-enamel-armour-page .the-process-container-mbt .box-one-mbt .vc_single_image-wrapper img
+{
+    max-width: 100%;
+}
+
+
+/* New Checkout Feb */
+.checkoutFormWrapper .checkoutFormLeft {
+    width: 100% !important;
+}
+
+.checkoutFormWrapper div#checkoutCartParent {
+    display: block !important;
+}
+.hidden_mobile_mbt,.checkoutFormRight,.wfacp-payment-dec:not(.mobileNotificationMbt){
+    display: none !important; 
+}
+button#place_order {
+    display: none !important; 
+}
+button#place_order_mobile {
+    display: block;
+    width: 100%;
+    margin-left: -15px;
+    font-size: 18px;
+    background: #3c98cc;
+}
+
+.checkoutFormWrapper .checkoutFormLeft{
+    margin-bottom: 0px;
+}
+.wfacp_collapsible_order_summary_wrap.wfacp_mobile {
+    margin-bottom: 0 !important;
+}
+.checkoutFormWrapper .checkoutFormLeft .small-12.large-8.columns{
+    padding-left: 6px;
+    padding-right: 6px;
+}
+.checkoutFormWrapper  p#apo_address_field{
+    text-align: left;
+}
+
+body .wfacp_main_form.woocommerce #wfacp_checkout_form p.form-row{
+    text-align: left;
+}
+.checkoutFormWrapper  .small-12.large-8.columns {
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+#wfacp-e-form .wfacp_main_form p#ship-to-different-address-checkbox-2_field label {
+    font-size: 14px !important;
+}
+a.mbt-toggle-hidden {
+    font-size: 16px !important;
+}
+
+#wfacp-e-form p#shipping_city_field {
+    margin-bottom: 20px !important;
+}
+#mobile-menu.style2{
+    z-index: 1245;
+}
+
+.checkoutFormWrapper .wfacp_internal_form_wrap.wfacp-comm-title {
+
+    margin-left: -15px !important;
+    margin-right: -15px !important;
+    margin-top: -20px !important;
+    padding: 15px 20px !important;
+    margin-bottom: 20px !important;
+
+
+}
+
+.checkoutFormWrapper .wfacp_mb_cart_accordian.clearfix {
+    background: #3c98cc !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    margin-top: 0px !important;
+    border-radius: 4px 4px 0 0 !important;
+}
+.checkoutFormWrapper .wfacp_show_price_wrap span {
+    color: #fff !important;
+}
+
+#wfacp-e-form .wfacp_mb_cart_accordian a img{
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+}
+.checkoutFormWrapper  .wfacp_show_icon_wrap{
+    background-size: 0 !important;
+    padding-left: 8px !important;
+}
+
+.checkoutFormWrapper .wfacp_show_icon_wrap span {
+    color: #fff !important;
+}
+
+.checkoutFormWrapper  .wfacp_show_icon_wrap span {
+    color: #fff !important;
+    font-size: 16px !important;
+    font-family: "Roboto", Sans-serif !important;
+    font-weight: 500 !important;
+}
+.wfacp_show_icon_wrap a span{ min-width: 160px;}
+.checkoutFormWrapperParent .elementor-widget-wrap.elementor-element-populated {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.checkoutFormWrapper .wfacp_internal_form_wrap.wfacp-comm-title, .checkoutFormWrapper .wfacp-section.wfacp_payment .wfacp_section_title {
+     margin-left: -15px !important;
+    margin-right: -15px !important;
+    margin-top: -21px !important;
+    padding: 10px 20px !important;
+    border-radius: 4px 4px 0 0 !important;
+    margin-bottom: 25px !important;
+}
+#wfacp-e-form .wfacp_main_form .wfacp-comm-title h4 {
+    color: #737373;
+    font-size: 12px !important;
+    text-align: left;
+}
+.checkoutFormWrapper .wfacp-section.wfacp_payment h2.wfacp_section_heading.wfacp_section_title{
+    margin-left: -16px !important;
+    margin-right: -16px !important;
+    padding: 10px 15px !important;
+}
+
+.wfacp_collapsible_order_summary_wrap.wfacp_mobile {
+    margin-bottom: 30px !important;
+}
+.woocommerce-checkout #wrapper ul.payment_methods li div.sv-wc-payment-gateway-card-icons {
+    max-width: 28px;
+    display: flex;
+}
+br.brHFA {
+    display: none;
+}
+
+
+.paymentMethodNfa {
+    margin-left: 0px;
+    max-width: 100%;
+}
+
+body #wfacp-e-form .wfacp_form_cart .wfacp-coupon-page .woocommerce-error{
+    text-align: left;
+}
+.payment-thodInner {
+    margin-left: 0px;
+    max-width: 227px;
+}
+.paymentMethodNfa {
+    margin-left: 6px;
+}
+
+.paymentMethodNfa span.spacerText {
+    display: none;
+}
+
+
+
+#wfacp-e-form {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  #wfacp-e-form {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #wfacp-e-form  .wfacp-form.wfacp-inside,#wfacp-e-form  .wfacp_collapsible_order_summary_wrap.wfacp_mobile {
+    order: 1;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  #wfacp-e-form  .wfacp_collapsible_order_summary_wrap.wfacp_mobile{
+    order: 2;
+    margin-bottom: 0 !important;
+  }
+      .woocommerce-checkout.logged-in #wfacp-e-form .wfacp_main_form.woocommerce select[name="shipping_address_id"]{
+        margin-left: 0px;
+        margin-right:0px;
+        width: 100%;
+      }
+
+      .logged-in-userHeader {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    body.woocommerce-checkout #wfacp-e-form .logged-in-userHeader a.user-logout-link{
+        transform: translateY(0%);
+    }
+    #wfacp-e-form .wfacp_main_form.woocommerce .wfacp-form-control-wrapper {
+        margin-bottom: 20px;
+        padding: 0 0px;
+    }
+
+    #scroll_to_top .thb-animated-arrow.circular{
+        background: rgb(0 0 0 / 29%);
+        border: 0;
+        width: 47px;
+        height: 47px;
+        border-radius: 50px;
+    }
+    #scroll_to_top .thb-animated-arrow.circular svg {
+        width: 42px;
+    }
+
+    }
+
+/*only for Iphone 5*/
+@media screen and (device-aspect-ratio: 40/71) {
+
+.smile-fearlessly-mbt h1 {
+    font-size: 38px;
+    line-height: 42px;
+
+}
+.logos-container-mbt h2{
+        font-size: 1.6em;
+}
+.product-box-large-title {
+    font-size: 20px;
+}
+#the-process-image-1 img {
+    max-width: 100%;
+  }
+  
+ .btn, div#wcContent .btn{padding: 10px 10px;font-size: 16px;}   
+.product-header-primary {
+    font-size: 26px;
+}
+
+.fnt34 {
+    font-size: 26px;
+}
+
+
+
+}
+
+
+
+
